@@ -1,0 +1,155 @@
+{
+  "navbar": {
+    "about": "About",
+    "services": "Treatments & Pricing",
+    "whoIsItFor": "Who is it for?",
+    "whatIsShiatsu": "Shiatsu",
+    "practicalInfo": "Practical Info",
+    "contact": "Contact",
+    "bookNow": "Book an Appointment"
+  },
+  "homepage": {
+    "practitionerName": "Shiatsu Guyane",
+    "heroTitle": "Nathalie JEAN",
+    "heroSubtitle": "Rediscover your serenity with a personalized therapeutic approach.",
+    "scrollDown": "Scroll Down"
+  },
+  "aboutIntro": {
+  "heading": "Welcome, I'm Nathalie JEAN",
+  "paragraph": "Passionate about manual therapies and energetic balance, my mission is to guide you on the path to well-being. I use a gentle and attentive approach to help you release tension and rediscover your vitality.",
+  "cta": "Learn More About Me"
+  },
+  "benefitsSection": {
+    "heading": "The Key Benefits of Shiatsu",
+    "cards": [
+        {
+          "title": "Stress & Anxiety",
+          "description": "To soothe the nervous system, reduce mental load, and find a state of deep, lasting calm."
+        },
+        {
+          "title": "Physical Pain",
+          "description": "To effectively relieve back pain, muscle tension, migraines, and joint discomfort."
+        },
+        {
+          "title": "Balance & Vitality",
+          "description": "To improve sleep, boost digestion, and recharge the body with vital energy for overall wellness."
+        },
+        {
+          "title": "Maternity Support",
+          "description": "To support women during pregnancy and postpartum by relieving common ailments and promoting recovery."
+        },
+        {
+          "title": "Digestive Issues",
+          "description": "To harmonize digestive functions, reduce bloating, and improve transit naturally."
+        },
+        {
+          "title": "Immune Support",
+          "description": "To strengthen the body's natural defenses, prevent seasonal illnesses, and increase overall resilience."
+        }
+      ],
+      "cta": "Learn More About The Benefits"
+  },
+  "whatIsShiatsuSection": {
+    "heading": "What is Shiatsu?",
+    "paragraph": "Shiatsu is a manual therapy of Japanese origin that uses finger and palm pressure across the entire body. It aims to restore the circulation of vital energy, or 'Qi', to soothe ailments, revitalize the body, and calm the mind.",
+    "cta": "Discover the Practice in Detail"
+  },
+  "whoIsItForSection": {
+    "heading": "Support for Everyone",
+    "testimonials": [
+      {
+        "quote": "To manage daily stress, improve sleep, and rediscover a state of general well-being.",
+        "name": "Adults",
+        "designation": "Balance & Vitality",
+        "src": "/images/audience-adults.jpg"
+      },
+      {
+        "quote": "To maintain joint flexibility, relieve chronic pain, and preserve mobility.",
+        "name": "Seniors",
+        "designation": "Mobility & Comfort",
+        "src": "/images/audience-seniors.jpg"
+      },
+      {
+        "quote": "To relieve pregnancy-related discomfort (back pain, heavy legs) and serenely prepare for childbirth.",
+        "name": "Pregnant Women",
+        "designation": "Serenity & Preparation",
+        "src": "/images/audience-pregnant.jpg"
+      },
+      {
+        "quote": "To optimize recovery, prevent injuries, and improve physical and mental performance.",
+        "name": "Athletes",
+        "designation": "Performance & Recovery",
+        "src": "/images/audience-athletes.jpg"
+      },
+      {
+        "quote": "To help manage stress related to studies and exams, and to improve concentration.",
+        "name": "Teenagers",
+        "designation": "Focus & Confidence",
+        "src": "/images/audience-teenagers.jpg"
+      },
+      {
+        "quote": "To reduce workplace stress, prevent burnout, and improve employee well-being.",
+        "name": "Companies",
+        "designation": "Workplace Wellness",
+        "src": "/images/audience-companies.jpg"
+      },
+      {
+        "quote": "To soothe crying, relieve colic, and promote peaceful sleep from the very first months.",
+        "name": "Babies",
+        "designation": "Gentleness & Soothing",
+        "src": "/images/audience-babies.jpg"
+      }
+    ],
+    "cta": "See the Benefits for Each Profile"
+  },
+  "testimonialsSection": {
+  "heading": "What My Clients Say",
+  "googleHeading": "Recent Reviews on Google",
+  "resalibHeading": "Our Clients on Resalib",
+   "summary": {
+    "satisfaction": "of our clients are satisfied",
+    "googleLabel": "Google Rating",
+    "resalibLabel": "Resalib Rating",
+    "overallLabel": "Overall Rating",
+    "googleAverage": "4.8",
+    "resalibAverage": "4.9"
+  },
+  "staticReviews": [
+      {
+        "author_name": "Alex A.",
+        "rating": 5,
+        "text": "To try it is to love it.",
+        "date": "2025-07-05"
+      },
+      {
+        "author_name": "Camille R.",
+        "rating": 5,
+        "text": "I saw Nathalie for Shiatsu sessions for almost 2 years and I warmly recommend her. Her experience is undeniable, but it's also her personality that will make you come back! A wonderful encounter and a definite sense of well-being after leaving the sessions. Thank you, Nathalie!",
+        "date": "2025-07-05"
+      },
+      {
+        "author_name": "Hélène M.",
+        "rating": 5,
+        "text": "Excellent practitioner, experienced and very attentive. Bravo!",
+        "date": "2025-07-01"
+      },
+      {
+        "author_name": "Nathalie É.",
+        "rating": 5,
+        "text": "Very dynamic, effective, attentive, and gives great advice. I recommend her.",
+        "date": "2025-04-27"
+      },
+      {
+        "author_name": "Virginie D.",
+        "rating": 5,
+        "text": "A warm welcome and attentive listening, you feel confident from the very first minutes. A sense of well-being felt from the first appointment. Thank you so much, Nathalie!",
+        "date": "2025-04-25"
+      }
+    ]
+  },
+  "ctaSection": {
+    "heading": "Ready to rediscover your well-being?",
+    "subheading": "Book your personalized Shiatsu session and start your journey to serenity today.",
+    "button": "Book an Appointment"
+  }
+}

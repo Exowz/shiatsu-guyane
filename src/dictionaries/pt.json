@@ -1,0 +1,155 @@
+{
+  "navbar": {
+    "about": "Sobre",
+    "services": "Tratamentos e Preços",
+    "whoIsItFor": "Para quem?",
+    "whatIsShiatsu": "Shiatsu",
+    "practicalInfo": "Informações Práticas",
+    "contact": "Contato",
+    "bookNow": "Agendar Consulta"
+  },
+  "homepage": {
+    "practitionerName": "Shiatsu Guyane",
+    "heroTitle": "Nathalie JEAN",
+    "heroSubtitle": "Redescubra sua serenidade através de uma abordagem terapêutica personalizada.",
+    "scrollDown": "Rolar para baixo"
+  },
+  "aboutIntro": {
+    "heading": "Bem-vindos, eu sou Nathalie JEAN",
+    "paragraph": "Apaixonada por terapias manuais e equilíbrio energético, minha missão é acompanhá-los no caminho do bem-estar. Utilizo uma abordagem suave e atenta para ajudá-los a liberar tensões e reencontrar sua vitalidade.",
+    "cta": "Conheça minha trajetória"
+  },
+  "benefitsSection": {
+    "heading": "Os Principais Benefícios do Shiatsu",
+    "cards": [
+      {
+        "title": "Estresse e Ansiedade",
+        "description": "Para acalmar o sistema nervoso, reduzir a carga mental e encontrar um estado de calma profunda e duradoura."
+      },
+      {
+        "title": "Dores Físicas",
+        "description": "Para aliviar efetivamente dores nas costas, tensões musculares, enxaquecas e dores articulares."
+      },
+      {
+        "title": "Equilíbrio e Vitalidade",
+        "description": "Para melhorar o sono, estimular a digestão e recarregar o corpo com energia vital para um bem-estar global."
+      },
+      {
+        "title": "Acompanhamento de Maternidade",
+        "description": "Para apoiar mulheres durante a gravidez e pós-parto, aliviando desconfortos comuns e favorecendo a recuperação."
+      },
+      {
+        "title": "Distúrbios Digestivos",
+        "description": "Para harmonizar as funções digestivas, reduzir inchaços e melhorar o trânsito intestinal de forma natural."
+      },
+      {
+        "title": "Suporte Imunológico",
+        "description": "Para fortalecer as defesas naturais do organismo, prevenir doenças sazonais e aumentar a resistência do corpo."
+      }
+    ],
+    "cta": "Saiba mais sobre os benefícios"
+  },
+  "whatIsShiatsuSection": {
+    "heading": "O que é Shiatsu?",
+    "paragraph": "O Shiatsu é uma terapia manual de origem japonesa que utiliza pressões dos dedos e palmas das mãos em todo o corpo. Visa restabelecer a circulação da energia vital, o 'Qi', para aliviar males, revitalizar o corpo e acalmar a mente.",
+    "cta": "Saiba mais sobre o Shiatsu"
+  },
+  "whoIsItForSection": {
+    "heading": "Acompanhamento Para Todos",
+    "testimonials": [
+      {
+        "quote": "Para gerenciar o estresse diário, melhorar o sono e reencontrar um estado de bem-estar geral.",
+        "name": "Adultos",
+        "designation": "Equilíbrio e Vitalidade",
+        "src": "/images/audience-adults.jpg"
+      },
+      {
+        "quote": "Para manter a flexibilidade articular, aliviar dores crônicas e preservar a mobilidade.",
+        "name": "Idosos",
+        "designation": "Mobilidade e Conforto",
+        "src": "/images/audience-seniors.jpg"
+      },
+      {
+        "quote": "Para aliviar os desconfortos da gravidez (costas, pernas pesadas) e se preparar serenamente para o parto.",
+        "name": "Gestantes",
+        "designation": "Serenidade e Preparação",
+        "src": "/images/audience-pregnant.jpg"
+      },
+      {
+        "quote": "Para otimizar a recuperação, prevenir lesões e melhorar o desempenho físico e mental.",
+        "name": "Atletas",
+        "designation": "Performance e Recuperação",
+        "src": "/images/audience-athletes.jpg"
+      },
+      {
+        "quote": "Para ajudar no gerenciamento do estresse relacionado aos estudos e exames, melhorando a concentração.",
+        "name": "Adolescentes",
+        "designation": "Concentração e Confiança",
+        "src": "/images/audience-teenagers.jpg"
+      },
+      {
+        "quote": "Para reduzir o estresse no trabalho, prevenir o burnout e melhorar o bem-estar dos colaboradores.",
+        "name": "Empresas",
+        "designation": "Bem-estar no Trabalho",
+        "src": "/images/audience-companies.jpg"
+      },
+      {
+        "quote": "Para acalmar o choro, aliviar cólicas e favorecer um sono tranquilo desde os primeiros meses.",
+        "name": "Bebês",
+        "designation": "Suavidade e Tranquilidade",
+        "src": "/images/audience-babies.jpg"
+      }
+    ],
+    "cta": "Ver os benefícios para cada perfil"
+  },
+  "testimonialsSection": {
+    "heading": "O Que Dizem Meus Clientes",
+    "googleHeading": "Avaliações recentes no Google",
+    "resalibHeading": "Nossos clientes no Resalib",
+    "summary": {
+      "satisfaction": "dos nossos clientes estão satisfeitos",
+      "googleLabel": "Nota Google",
+      "resalibLabel": "Nota Resalib",
+      "overallLabel": "Nota Geral",
+      "googleAverage": "4.8",
+      "resalibAverage": "4.9"
+    },
+    "staticReviews": [
+      {
+        "author_name": "Alex A.",
+        "rating": 5,
+        "text": "Experimentar é adotar.",
+        "date": "2025-07-05"
+      },
+      {
+        "author_name": "Camille R.",
+        "rating": 5,
+        "text": "Consultei Nathalie para sessões de Shiatsu por quase 2 anos e a recomendo calorosamente. Sua experiência é inegável, mas também é sua personalidade que fará você voltar! Um belo encontro e um bem-estar certo ao sair das sessões. Obrigada Nathalie!",
+        "date": "2025-07-05"
+      },
+      {
+        "author_name": "Hélène M.",
+        "rating": 5,
+        "text": "Excelente terapeuta, experiente e muito atenta. Parabéns!",
+        "date": "2025-07-01"
+      },
+      {
+        "author_name": "Nathalie É.",
+        "rating": 5,
+        "text": "Muito dinâmica, eficaz, atenta e dá ótimos conselhos, eu a recomendo.",
+        "date": "2025-04-27"
+      },
+      {
+        "author_name": "Virginie D.",
+        "rating": 5,
+        "text": "Uma recepção calorosa e uma escuta atenciosa, nos sentimos confiantes desde os primeiros minutos. Um bem-estar sentido desde a primeira consulta. Muito obrigada Nathalie!",
+        "date": "2025-04-25"
+      }
+    ]
+  },
+  "ctaSection": {
+    "heading": "Pronto para redescobrir seu bem-estar?",
+    "subheading": "Agende sua sessão personalizada de Shiatsu e comece sua jornada rumo à serenidade hoje mesmo.",
+    "button": "Agendar Consulta"
+  }
+}

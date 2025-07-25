@@ -1,26 +1,181 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@custom-variant dark (&:is(.dark *));
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
 }
 
-@media (prefers-color-scheme: dark) {
+/* === NATURAL PALETTE STARTS HERE === */
+:root {
+  --radius: 0.5rem;
+  
+  /* Light Theme - Natural Colors */
+  --background: 39 32% 96%;        /* #F8F5F0 - Fond naturel (ivoire sable clair) */
+  --foreground: 0 0% 24%;          /* #3C3C3C - Texte (gris-brun anthracite) */
+
+  --card: 39 32% 96%;              /* Same as background */
+  --card-foreground: 0 0% 24%;
+
+  --popover: 39 32% 96%;
+  --popover-foreground: 0 0% 24%;
+
+  /* Primary uses Terre cuite for buttons/important elements */
+  --primary: 13 45% 60%;           /* #C76C4D - Terre cuite (rouge-brun naturel) */
+  --primary-foreground: 39 32% 96%;
+
+  /* Secondary uses a lighter version of background */
+  --secondary: 39 20% 92%;         /* Lighter version of background */
+  --secondary-foreground: 0 0% 24%;
+
+  --muted: 39 20% 92%;
+  --muted-foreground: 0 0% 45%;    /* Lighter text */
+
+  /* Accent uses Maracuja for highlights */
+  --accent: 40 95% 57%;            /* #F4A12E - Maracuja (jaune doré/pulpe orangée) */
+  --accent-foreground: 0 0% 24%;
+
+  --destructive: 0 84% 60%;        /* Standard red for errors */
+  
+  --border: 39 15% 85%;            /* Subtle border */
+  --input: 39 15% 85%;
+  --ring: 40 95% 57%;              /* Maracuja for focus rings */
+
+  /* Sidebar colors */
+  --sidebar: 39 32% 96%;
+  --sidebar-foreground: 0 0% 24%;
+  --sidebar-primary: 13 45% 60%;
+  --sidebar-primary-foreground: 39 32% 96%;
+  --sidebar-accent: 40 95% 57%;
+  --sidebar-accent-foreground: 0 0% 24%;
+  --sidebar-border: 39 15% 85%;
+  --sidebar-ring: 40 95% 57%;
+
+  /* Chart colors using your palette */
+  --chart-1: 40 95% 57%;           /* Maracuja */
+  --chart-2: 13 45% 60%;           /* Terre cuite */
+  --chart-3: 75 28% 64%;           /* #7D9D76 - Jardin (vert feuillage doux) */
+  --chart-4: 39 32% 96%;           /* Fond naturel */
+  --chart-5: 0 0% 24%;             /* Texte */
+}
+
+.dark {
+  /* Dark Theme - Using deeper, muted versions */
+  --background: 0 0% 24%;          /* #3C3C3C - Using your text color as dark bg */
+  --foreground: 39 32% 96%;        /* #F8F5F0 - Light text on dark */
+
+  --card: 0 0% 20%;                /* Slightly lighter than background */
+  --card-foreground: 39 32% 96%;
+
+  --popover: 0 0% 20%;
+  --popover-foreground: 39 32% 96%;
+
+  --primary: 40 95% 57%;           /* Maracuja stands out well in dark */
+  --primary-foreground: 0 0% 24%;
+
+  --secondary: 0 0% 30%;           /* Lighter gray */
+  --secondary-foreground: 39 32% 96%;
+
+  --muted: 0 0% 30%;
+  --muted-foreground: 39 20% 75%;  /* Muted light text */
+  
+  --accent: 13 45% 60%;            /* Terre cuite for dark theme accent */
+  --accent-foreground: 39 32% 96%;
+
+  --destructive: 0 63% 31%;        /* Darker red for dark theme */
+
+  --border: 0 0% 35%;              /* Visible border in dark */
+  --input: 0 0% 35%;
+  --ring: 40 95% 57%;              /* Bright Maracuja for focus */
+
+  /* Dark sidebar */
+  --sidebar: 0 0% 20%;
+  --sidebar-foreground: 39 32% 96%;
+  --sidebar-primary: 40 95% 57%;
+  --sidebar-primary-foreground: 0 0% 24%;
+  --sidebar-accent: 13 45% 60%;
+  --sidebar-accent-foreground: 39 32% 96%;
+  --sidebar-border: 0 0% 35%;
+  --sidebar-ring: 40 95% 57%;
+
+  /* Dark chart colors */
+  --chart-1: 40 95% 57%;           /* Maracuja */
+  --chart-2: 13 45% 60%;           /* Terre cuite */
+  --chart-3: 75 28% 64%;           /* Jardin green */
+  --chart-4: 39 32% 96%;           /* Light accent */
+  --chart-5: 0 0% 60%;             /* Medium gray */
+}
+/* === NATURAL PALETTE ENDS HERE === */
+
+@layer base {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --color-primary: 244 196 48;      /* Maracuja Gold */
+    --color-secondary: 226 114 91;    /* Clay Terracotta */
+    --color-tertiary: 122 132 113;    /* Garden Sage */
+    --color-background: 255 248 231;  /* Warm Cream */
+    --color-surface: 249 247 244;     /* Card backgrounds */
+    --color-text: 44 44 44;           /* Deep Charcoal */
+    --color-text-secondary: 107 114 128; /* Medium Gray */
+    --color-accent: 204 85 0;         /* Burnt Orange */
+    --color-muted: 168 181 160;       /* Soft Sage */
   }
-}
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  .dark {
+    --color-primary: 255 215 0;       /* Golden Glow */
+    --color-secondary: 210 105 30;    /* Warm Terracotta */
+    --color-tertiary: 156 175 136;    /* Sage Mist */
+    --color-background: 31 31 31;     /* Rich Charcoal */
+    --color-surface: 45 45 45;        /* Card backgrounds */
+    --color-text: 248 248 248;        /* Warm White */
+    --color-text-secondary: 209 213 219; /* Light Gray */
+    --color-accent: 255 107 53;       /* Bright Orange */
+    --color-muted: 156 175 136;       /* Lighter Sage */
+  }
+
+  * {
+    @apply border-border outline-ring/50;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background-color: rgb(var(--color-background));
+    color: rgb(var(--color-text));
+  }
 }

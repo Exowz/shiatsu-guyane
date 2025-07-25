@@ -1,0 +1,157 @@
+{
+  "navbar": {
+    "about": "À Propos",
+    "services": "Soins & Tarifs",
+    "whoIsItFor": "Pour qui ?",
+    "whatIsShiatsu": "Le Shiatsu",
+    "practicalInfo": "Infos pratiques",
+    "contact": "Contact",
+    "bookNow": "Prendre rendez-vous"
+  },
+  "homepage": {
+    "practitionerName": "Shiatsu Guyane",
+    "heroTitle": "Nathalie JEAN",
+    "heroSubtitle": "Retrouvez votre sérénité grâce à une approche thérapeutique personnalisée.",
+    "scrollDown": "Défiler vers le bas"
+  },
+  "aboutIntro": {
+  "heading": "Bienvenue, je suis Nathalie JEAN",
+  "paragraph": "Passionnée par les thérapies manuelles et l'équilibre énergétique, ma mission est de vous accompagner sur le chemin du bien-être. J'utilise une approche douce et à l'écoute pour vous aider à relâcher les tensions et à retrouver votre vitalité.",
+  "cta": "Découvrir mon parcours"
+  },
+  "benefitsSection": {
+  "heading": "Les Bienfaits Clés du Shiatsu",
+  "cards": [
+      {
+        "title": "Stress & Anxiété",
+        "description": "Pour apaiser le système nerveux, réduire la charge mentale et retrouver un état de calme profond et durable."
+      },
+      {
+        "title": "Douleurs Physiques",
+        "description": "Pour soulager efficacement les maux de dos, les tensions musculaires, les migraines et les douleurs articulaires."
+      },
+      {
+        "title": "Équilibre & Vitalité",
+        "description": "Pour améliorer le sommeil, stimuler la digestion et recharger le corps en énergie vitale pour un bien-être global."
+      },
+      {
+        "title": "Accompagnement Maternité",
+        "description": "Pour soutenir les femmes pendant la grossesse et en post-partum, en soulageant les maux courants et en favorisant la récupération."
+      },
+      {
+        "title": "Troubles Digestifs",
+        "description": "Pour harmoniser les fonctions digestives, réduire les ballonnements et améliorer le transit de manière naturelle."
+      },
+      {
+        "title": "Soutien Immunitaire",
+        "description": "Pour renforcer les défenses naturelles de l'organisme, prévenir les maux saisonniers et augmenter la résilience du corps."
+      }
+    ],
+    "cta": "En savoir plus sur les bienfaits"
+  },
+  "whatIsShiatsuSection": {
+    "heading": "Qu'est-ce que le Shiatsu ?",
+    "paragraph": "Le Shiatsu est une thérapie manuelle d'origine japonaise qui utilise des pressions des doigts et des paumes sur l'ensemble du corps. Il vise à rétablir la circulation de l'énergie vitale, le 'Qi', pour apaiser les maux, revitaliser le corps et calmer l'esprit.",
+    "cta": "En savoir plus sur le Shiatsu"
+  },
+  "whoIsItForSection": {
+    "heading": "Un Accompagnement Pour Tous",
+    "testimonials": [
+      {
+        "quote": "Pour gérer le stress quotidien, améliorer le sommeil et retrouver un état de bien-être général.",
+        "name": "Les Adultes",
+        "designation": "Équilibre & Vitalité",
+        "src": "/images/audience-adults.jpg"
+      },
+      {
+        "quote": "Pour maintenir la souplesse articulaire, soulager les douleurs chroniques et préserver la mobilité.",
+        "name": "Les Seniors",
+        "designation": "Mobilité & Confort",
+        "src": "/images/audience-seniors.jpg"
+      },
+      {
+        "quote": "Pour soulager les maux de la grossesse (dos, jambes lourdes) et se préparer sereinement à l'accouchement.",
+        "name": "Les Femmes Enceintes",
+        "designation": "Sérénité & Préparation",
+        "src": "/images/audience-pregnant.jpg"
+      },
+      {
+        "quote": "Pour optimiser la récupération, prévenir les blessures et améliorer les performances physiques et mentales.",
+        "name": "Les Sportifs",
+        "designation": "Performance & Récupération",
+        "src": "/images/audience-athletes.jpg"
+      },
+      {
+        "quote": "Pour aider à la gestion du stress lié aux études, aux examens et améliorer la concentration.",
+        "name": "Les Adolescents",
+        "designation": "Concentration & Confiance",
+        "src": "/images/audience-teenagers.jpg"
+      },
+      {
+        "quote": "Pour réduire le stress au travail, prévenir le burn-out et améliorer le bien-être des collaborateurs.",
+        "name": "Les Entreprises",
+        "designation": "Bien-être au Travail",
+        "src": "/images/audience-companies.jpg"
+      },
+      {
+        "quote": "Pour apaiser les pleurs, soulager les coliques et favoriser un sommeil paisible dès les premiers mois.",
+        "name": "Les Bébés",
+        "designation": "Douceur & Apaisement",
+        "src": "/images/audience-babies.jpg"
+      }
+    ],
+    "cta": "Voir les bienfaits pour chaque profil"
+  },
+  "testimonialsSection": {
+  "heading": "Ce Que Disent Mes Clients",
+  "googleHeading": "Avis récents sur Google",
+  "resalibHeading": "Nos clients sur Resalib",
+
+  "summary": {
+    "satisfaction": "de nos clients sont satisfaits",
+    "googleLabel": "Note Google",
+    "resalibLabel": "Note Resalib",
+    "overallLabel": "Note Globale",
+    "googleAverage": "4.8",
+    "resalibAverage": "4.9"
+  },
+
+  "staticReviews": [
+      {
+        "author_name": "Alex A.",
+        "rating": 5,
+        "text": "Essayer c’est l’adopter.",
+        "date": "2025-07-05"
+      },
+      {
+        "author_name": "Camille R.",
+        "rating": 5,
+        "text": "J'ai vu Nathalie pour des séances de Shiatsu pendant presque 2 ans et je la recommande chaudement. Son expérience est indéniable mais c'est également sa personnalité qui vous fera revenir! Une belle rencontre et un mieux être certain en sortant des séances. Merci Nathalie!",
+        "date": "2025-07-05"
+      },
+      {
+        "author_name": "Hélène M.",
+        "rating": 5,
+        "text": "Excellente praticienne, expérimentée et très à l’écoute. Bravo",
+        "date": "2025-07-01"
+      },
+      {
+        "author_name": "Nathalie É.",
+        "rating": 5,
+        "text": "Très dynamique, efficace, à l'écoute et de très bons conseils, je la recommande",
+        "date": "2025-04-27"
+      },
+      {
+        "author_name": "Virginie D.",
+        "rating": 5,
+        "text": "Un accueil chaleureux et une écoute bienveillante, on se sent en confiance dès les premières minutes. Un bien être ressenti des le premier rdv. Merci beaucoup Nathalie!",
+        "date": "2025-04-25"
+      }
+    ]
+  },
+  "ctaSection": {
+    "heading": "Prêt à retrouver votre bien-être ?",
+    "subheading": "Réservez votre séance de Shiatsu personnalisée et commencez votre voyage vers la sérénité dès aujourd'hui.",
+    "button": "Prendre rendez-vous"
+  }
+}
