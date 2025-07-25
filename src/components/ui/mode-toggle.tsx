@@ -1,8 +1,7 @@
 import { motion } from "framer-motion";
-import { Dispatch, SetStateAction, useState } from "react";
+import { Dispatch, SetStateAction, useState, useEffect } from "react";
 import { FiMoon, FiSun } from "react-icons/fi";
 import { useTheme } from "next-themes";
-import { useEffect } from "react";
 
 const TOGGLE_CLASSES =
   "text-base font-medium flex items-center gap-2 px-4 py-3 transition-colors relative z-10";
@@ -60,13 +59,17 @@ export const ModeToggle = () => {
   const { theme, setTheme } = useTheme();
   const [selected, setSelected] = useState<ToggleOptionsType>("light");
 
+  // Only sync theme to selected state, don't create loop
   useEffect(() => {
     if (theme) setSelected(theme as ToggleOptionsType);
   }, [theme]);
 
-  useEffect(() => {
-    setTheme(selected);
-  }, [selected, setTheme]);
+  // Handle theme change through custom setter to avoid loop
+  const handleThemeChange: Dispatch<SetStateAction<ToggleOptionsType>> = (value) => {
+    const newTheme = typeof value === 'function' ? value(selected) : value;
+    setSelected(newTheme);
+    setTheme(newTheme);
+  };
 
-  return <SliderToggle selected={selected} setSelected={setSelected} />;
+  return <SliderToggle selected={selected} setSelected={handleThemeChange} />;
 };

@@ -2,11 +2,26 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import { Button } from '@/components/ui/button';
 import Image from 'next/image';
+import { NavbarSocialButton } from '@/components/ui/NavbarSocialButton';
+import { NavbarLanguageButton } from '@/components/ui/NavbarLanguageButton';
+import { NavbarModeToggle } from '@/components/ui/NavbarModeToggle';
+import type { Locale } from '@/lib/i18n-config';
 
-export const Navbar = ({ dictionary, lang }: { dictionary: any; lang: string }) => {
+type OpenDrawer = 'social' | 'language' | null;
+
+export const Navbar = ({ dictionary, lang }: { dictionary: any; lang: Locale }) => {
   const [isScrolled, setIsScrolled] = useState(false);
+  const [openDrawer, setOpenDrawer] = useState<OpenDrawer>(null);
+  const pathname = usePathname();
+  
+  // Check if we're on the homepage
+  const isHomepage = pathname === `/${lang}` || pathname === '/';
+  
+  // Determine if navbar should be in "scrolled" state
+  const shouldShowScrolledState = !isHomepage || isScrolled;
 
   useEffect(() => {
     const handleScroll = () => {
@@ -19,6 +34,28 @@ export const Navbar = ({ dictionary, lang }: { dictionary: any; lang: string }) 
     };
   }, []);
 
+  // Close all drawers when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      const target = event.target as Element;
+      if (!target.closest('.navbar-drawer')) {
+        setOpenDrawer(null);
+      }
+    };
+    if (openDrawer) {
+      document.addEventListener('mousedown', handleClickOutside);
+    }
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [openDrawer]);
+
+  // Drawer management functions
+  const handleDrawerToggle = (drawer: 'social' | 'language') => {
+    setOpenDrawer(prev => prev === drawer ? null : drawer);
+  };
+
+
   const navLinks = [
     { href: '/about', label: dictionary.navbar.about },
     { href: '/le-shiatsu', label: dictionary.navbar.whatIsShiatsu },
@@ -28,45 +65,59 @@ export const Navbar = ({ dictionary, lang }: { dictionary: any; lang: string }) 
     { href: '/contact', label: dictionary.navbar.contact },
   ];
 
+
   return (
     <header className="fixed top-0 left-0 w-full z-50">
       <nav className="px-6 py-4 flex justify-between items-center">
-        {/* Logo - The wrapping div with flex-1 has been removed */}
+        {/* Logo */}
         <Link
           href={`/${lang}`}
-          className={`p-1 rounded-full transition-all duration-300 ${
-            isScrolled
-              // Scrolled State: A subtle hover to slightly change the solid background
-              ? 'backdrop-blur-md shadow-md hover:opacity-90'
-              // Unscrolled State: The glass effect with a hover highlight
-              : 'backdrop-blur-md hover:opacity-80'
+          className={`p-3 rounded-full transition-all duration-300 backdrop-blur-md ${
+            shouldShowScrolledState
+              ? 'shadow-md hover:opacity-90'
+              : 'hover:opacity-80'
           }`}
           style={{
-            backgroundColor: isScrolled 
+            backgroundColor: shouldShowScrolledState 
               ? 'rgba(var(--color-surface), 0.95)' 
               : 'rgba(var(--color-background), 0.1)'
           }}
         >
           <Image
-          src="/logo.png" 
-          alt="Shiatsu Guyane Logo"
-          width={55} // IMPORTANT: Change to your logo's actual width
-          height={55}  // IMPORTANT: Change to your logo's actual height
-          priority    // Helps load the logo faster
+            src="/logo.png" 
+            alt="Shiatsu Guyane Logo"
+            width={55}
+            height={55}
+            priority
           />
         </Link>
-        
 
-        {/* Desktop Navigation with glassmorphism */}
-        {/* I noticed you removed the isScrolled logic here, which is fine! */}
-        {/* This style will now be static. */}
-        <div className={`flex items-center space-x-4 px-4 py-2 rounded-full transition-all duration-300 ${
-          isScrolled 
+        {/* Center Section - Show floating buttons when scrolled or on non-homepage */}
+        {shouldShowScrolledState && (
+          <div className="flex items-center space-x-3">
+            <NavbarSocialButton 
+              isScrolled={shouldShowScrolledState} 
+              isOpen={openDrawer === 'social'}
+              onToggle={() => handleDrawerToggle('social')}
+            />
+            <NavbarLanguageButton 
+              lang={lang} 
+              isScrolled={shouldShowScrolledState}
+              isOpen={openDrawer === 'language'}
+              onToggle={() => handleDrawerToggle('language')}
+            />
+            <NavbarModeToggle isScrolled={shouldShowScrolledState} />
+          </div>
+        )}
+
+        {/* Desktop Navigation - Keep original */}
+        <div className={`hidden lg:flex items-center space-x-4 px-4 py-2 rounded-full transition-all duration-300 ${
+          shouldShowScrolledState 
             ? 'backdrop-blur-md shadow-md'
             : 'backdrop-blur-md'
         }`}
         style={{
-          backgroundColor: isScrolled 
+          backgroundColor: shouldShowScrolledState 
             ? 'rgba(var(--color-surface), 0.95)' 
             : 'rgba(var(--color-background), 0.1)'
         }}>
@@ -75,10 +126,8 @@ export const Navbar = ({ dictionary, lang }: { dictionary: any; lang: string }) 
               key={link.href}
               href={`/${lang}${link.href}`}
               className={
-                isScrolled
-                  // Scrolled State: Simple, high-contrast hover
-                  ? 'text-sm font-medium transition-all duration-300 px-2 py-1 rounded-full text-white hover:text-white/80 hover:bg-white/10'
-                  // Unscrolled State: Glass effect
+                shouldShowScrolledState
+                  ? 'text-sm font-medium transition-all duration-300 px-2 py-1 rounded-full text-[rgb(var(--color-text))] hover:text-[rgb(var(--color-text))] hover:bg-[rgba(var(--color-primary),0.1)]'
                   : 'text-sm bg-transparent border-0 font-medium transition-all duration-300 px-2 py-1 rounded-full relative overflow-hidden text-white/90 hover:text-white hover:bg-white/10'
               }
             >
@@ -87,14 +136,13 @@ export const Navbar = ({ dictionary, lang }: { dictionary: any; lang: string }) 
           ))}
           <Button 
             asChild 
-            // The button's style also changes to be high-contrast
-            className={`text-sm transition-all duration-300 px-3 py-1 rounded-full font-semibold text-white ${
-              isScrolled
-                ? 'hover:opacity-90' // Solid primary button
-                : 'hover:opacity-80' // Glass effect
+            className={`text-sm transition-all duration-300 px-3 py-1 rounded-full font-semibold ${
+              shouldShowScrolledState
+                ? 'text-white hover:opacity-90'
+                : 'text-white hover:opacity-80'
             }`}
             style={{
-              backgroundColor: isScrolled 
+              backgroundColor: shouldShowScrolledState 
                 ? 'rgb(var(--color-primary))' 
                 : 'rgba(var(--color-background), 0.1)'
             }}

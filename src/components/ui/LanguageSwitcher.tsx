@@ -13,7 +13,7 @@ const languages = {
   pt: { name: 'Português', flag: '🇧🇷', code: 'BR' }
 };
 
-export const LanguageSwitcher = ({ lang }: { lang: Locale }) => {
+export const LanguageSwitcher = ({ lang, lightMode = false }: { lang: Locale; lightMode?: boolean }) => {
   const [open, setOpen] = useState(false);
   const pathname = usePathname();
 
@@ -32,9 +32,13 @@ export const LanguageSwitcher = ({ lang }: { lang: Locale }) => {
     <motion.div animate={open ? "open" : "closed"} className="relative">
       <button
         onClick={() => setOpen((pv) => !pv)}
-        className="flex items-center gap-2 px-4 py-3 h-12 rounded-full transition-color backdrop-blur-md hover:opacity-80 text-white text-base"
+        className={`flex items-center gap-2 px-4 py-3 h-12 rounded-full transition-color backdrop-blur-md hover:opacity-80 text-base ${
+          lightMode ? 'text-gray-700' : 'text-white'
+        }`}
         style={{ 
-          backgroundColor: 'rgba(var(--color-background), 0.1)'
+          backgroundColor: lightMode 
+            ? 'rgba(var(--color-primary), 0.1)' 
+            : 'rgba(var(--color-background), 0.1)'
         }}
       >
         <FiGlobe />
@@ -54,7 +58,9 @@ export const LanguageSwitcher = ({ lang }: { lang: Locale }) => {
             <Link key={code} href={newPath} onClick={() => setOpen(false)}>
               <motion.li
                 variants={itemVariants}
-                className="flex items-center justify-between w-full p-2 text-xs font-medium whitespace-nowrap rounded-lg transition-colors cursor-pointer text-white hover:bg-white/10"
+                className={`flex items-center justify-between w-full p-2 text-xs font-medium whitespace-nowrap rounded-lg transition-colors cursor-pointer ${
+                  lightMode ? 'text-gray-700 hover:bg-gray-100/50' : 'text-white hover:bg-white/10'
+                }`}
                 style={{ 
                   backgroundColor: 'transparent' 
                 }}
