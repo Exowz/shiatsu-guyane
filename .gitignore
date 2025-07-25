@@ -1,41 +1,294 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# dependencies
+# ==========================================
+# DEPENDENCIES
+# ==========================================
+
+# Node.js dependencies
 /node_modules
 /.pnp
 .pnp.*
+
+# Package manager files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+.npmrc
+.yarnrc*
+
+# Yarn 2+
 .yarn/*
 !.yarn/patches
 !.yarn/plugins
 !.yarn/releases
 !.yarn/versions
 
-# testing
-/coverage
+# ==========================================
+# NEXT.JS SPECIFIC
+# ==========================================
 
-# next.js
+# Next.js build outputs
 /.next/
 /out/
+/.swc/
 
-# production
+# Next.js cache
+.next
+out
+
+# Static exports
+/dist/
+
+# Next.js trace files
+.trace
+
+# ==========================================
+# BUILD & PRODUCTION
+# ==========================================
+
+# Production builds
 /build
+/dist
+*.tgz
 
-# misc
-.DS_Store
-*.pem
+# Storybook build outputs
+storybook-static
 
-# debug
+# ==========================================
+# TESTING
+# ==========================================
+
+# Test coverage
+/coverage
+/.nyc_output
+/junit.xml
+
+# Jest
+/coverage/
+.jest-cache
+
+# Playwright
+test-results/
+playwright-report/
+playwright/.cache/
+
+# ==========================================
+# ENVIRONMENT & CONFIG
+# ==========================================
+
+# Environment variables
+.env*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Local configuration
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# ==========================================
+# LOGGING & DEBUG
+# ==========================================
+
+# Debug logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
+lerna-debug.log*
 
-# env files (can opt-in for committing if needed)
-.env*
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
 
-# vercel
-.vercel
+# ==========================================
+# TYPESCRIPT
+# ==========================================
 
-# typescript
+# TypeScript build info
 *.tsbuildinfo
 next-env.d.ts
+.tscache/
+
+# ==========================================
+# STYLING & ASSETS
+# ==========================================
+
+# PostCSS/Tailwind CSS
+.postcssrc*
+
+# Asset working files
+*.sketch
+*.fig
+*.psd
+*.ai
+*.indd
+*.fla
+*.swf
+
+# Image optimization
+.vercel/output/
+public/images/generated/
+
+# ==========================================
+# DEPLOYMENT
+# ==========================================
+
+# Vercel
+.vercel
+.vercel.json
+
+# Netlify
+.netlify/
+.netlify.toml
+
+# AWS
+.aws/
+
+# Docker
+.dockerignore
+Dockerfile.local
+
+# ==========================================
+# SYSTEM FILES
+# ==========================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+# ==========================================
+# CERTIFICATES & SECURITY
+# ==========================================
+
+# SSL certificates
+*.pem
+*.key
+*.crt
+*.cert
+
+# Security files
+.htaccess
+.htpasswd
+
+# ==========================================
+# TEMPORARY & CACHE FILES
+# ==========================================
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+.parcel-cache/
+.turbo/
+
+# Editor temps
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store*
+Icon?
+
+# ==========================================
+# PROJECT SPECIFIC
+# ==========================================
+
+# Claude AI assistant files (keep CLAUDE.md but ignore others)
+.claude/
+claude-cache/
+
+# Local development
+/local/
+/temp/
+/scratch/
+
+# Backup files
+*.backup
+*.bak
+*.orig
+
+# Documentation builds
+/docs/build/
+
+# Component library builds
+/storybook-static/
+
+# Performance monitoring
+/lighthouse/
+/.lighthouseci/
+
+# ==========================================
+# INTERNATIONALIZATION
+# ==========================================
+
+# Translation cache (keep actual translation files)
+.i18n-cache/
+translations-temp/
+
+# ==========================================
+# ANALYTICS & MONITORING
+# ==========================================
+
+# Bundle analyzer
+/.next/analyze/
+/analyze/
+
+# Performance reports
+/performance/
+/lighthouse-results/
+
+# Sentry
+.sentryclirc
+
+# ==========================================
+# MISC TOOLS & UTILITIES
+# ==========================================
+
+# Husky (Git hooks)
+.husky/_/
+
+# ESLint cache
+.eslintcache
+
+# Prettier cache
+.prettiercache
+
+# Stylelint cache
+.stylelintcache
+
+# Local Netlify folder
+.netlify
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
