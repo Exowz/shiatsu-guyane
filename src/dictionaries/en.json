@@ -151,5 +151,161 @@
     "heading": "Ready to rediscover your well-being?",
     "subheading": "Book your personalized Shiatsu session and start your journey to serenity today.",
     "button": "Book an Appointment"
+  },
+  "shiatsuPage": {
+    "title": "Shiatsu: A Detailed Approach to Japanese Manual Therapy",
+    "subtitle": "Shiatsu (指圧), literally 'finger pressure', is an ancient practice officially recognized in Japan, which has conquered the world through its effectiveness and holistic philosophy.",
+    "general": {
+      "definition": {
+        "heading": "Definition and Origin",
+        "p1": "Shiatsu consists of applying rhythmic pressure throughout the body for the purpose of bodily rebalancing and improving or maintaining health. This manual technique mainly uses the thumbs and palms of the hands, but also sometimes the elbows or knees to exert pressure on precise points (tsubos) located along energy meridians."
+      },
+      "history": {
+        "heading": "Historical Roots",
+        "p1": "The origins of shiatsu date back to the introduction of Chinese medicine (Kampo) to Japan between the 7th and 9th centuries, notably the Tui Na technique. Over the centuries, Japanese practitioners developed their own approach, giving birth to anma massage. The term 'shiatsu' itself was chosen in 1919 by Tenpeki Tamaï, but it is Tokujiro Namikoshi (1905-2000) who is considered the inventor of modern shiatsu, thanks to his founding experience where he healed his mother's rheumatism through finger pressure."
+      },
+      "principles": {
+        "heading": "Fundamental Principles: The Philosophy of Ki",
+        "p1": "Shiatsu considers the human being in their physical, psychological and mental totality. It is based on the concept of circulation of vital energy (called Qi in Chinese and Ki in Japanese) through energy channels called meridians. According to this philosophy, any imbalance results from a blockage in this energy circulation."
+      },
+      "objectives": {
+        "heading": "Therapeutic Objectives",
+        "points": [
+          "Release and regulate vital energy",
+          "Avoid dysfunctions related to internal imbalances",
+          "Reduce tensions installed in the body",
+          "Stimulate the body's natural defenses",
+          "Activate the parasympathetic nervous system for recovery and well-being"
+        ]
+      },
+      "techniques": {
+        "heading": "Techniques and Practice",
+        "p1": "The practitioner uses various pressure techniques. The most frequent is ordinary pressure: applied gently on a point then released gradually for 3 to 5 seconds. Modern shiatsu also integrates stretches, joint mobilizations, and vibrations as needed.",
+        "p2": "Breathing plays a crucial role. The practitioner and receiver synchronize their breathing to facilitate relaxation and fluidity of movements, encouraging a harmonious flow of Ki."
+      }
+    },
+    "schools": {
+      "heading": "The Three Founding Schools of Modern Shiatsu",
+      "items": [
+        {
+          "title": "Namikoshi School",
+          "description": "The Original Shiatsu, Scientific and Therapeutic",
+          "src": "/images/school-namikoshi.jpg",
+          "content": [
+            {
+              "heading": "Founder and History",
+              "text": "Tokujiro Namikoshi (1905-2000) is universally recognized as the father of modern shiatsu. His revolutionary approach emerged from a significant personal experience during his childhood. At age 7, after the family moved to Hokkaido island, his mother developed severe joint rheumatism due to the harsh climate change. Young Tokujiro empirically discovered that 'pressure' with his fingers was more beneficial than traditional friction for relieving her. His mother's health improved considerably, and she lived to 88 years old."
+            },
+            {
+              "heading": "Institutional Development",
+              "text": "In 1925, Namikoshi opened his first clinic. The decisive turning point came in 1955 when he obtained the official license from the Japanese Ministry of Health for his school. This governmental recognition gave shiatsu medical legitimacy, reinforced by the celebrity of illustrious patients like Marilyn Monroe and Mohamed Ali."
+            },
+            {
+              "heading": "Philosophy and Technical Approach",
+              "text": "Namikoshi shiatsu is distinguished by its rigorous anatomical and physiological approach, in compliance with modern Western medicine. It favors the study of the physical structure of the body rather than traditional Chinese energy concepts."
+            },
+            {
+              "heading": "Seven Therapeutic Effects",
+              "text": "Tokujiro Namikoshi enumerates seven therapeutic effects of shiatsu that stimulate the proper functioning of the organism:",
+              "list": [
+                "Harmonization of the nervous system",
+                "Activation of viscero-cutaneous reflexes",
+                "Improvement of arterial circulation",
+                "Skeletal correction",
+                "Deep relaxation",
+                "Stimulation of natural defenses",
+                "Homeostatic balance"
+              ]
+            },
+            {
+              "heading": "Pressure Method",
+              "text": "Namikoshi shiatsu exclusively uses fingers and palms of the hands. Pressures are applied according to three fundamental principles:",
+              "list": [
+                "Pressures perpendicular to the receiver's body",
+                "Maintaining pressures for 3 to 5 seconds",
+                "Total concentration of the practitioner"
+              ]
+            },
+            {
+              "heading": "Rigorous Protocols",
+              "text": "The Namikoshi school teaches standardized katas (forms) that allow systematic application of techniques. These protocols include key elements of chiropractic, harmoniously integrated into manual practice."
+            }
+          ]
+        },
+        {
+          "title": "Masunaga School",
+          "description": "Zen Shiatsu and the Psychosomatic Dimension",
+          "src": "/images/school-masunaga.jpg",
+          "content": [
+            {
+              "heading": "Founder and Theoretical Innovation",
+              "text": "Shizuto Masunaga (1925-1981) revolutionized shiatsu by reintegrating traditional Eastern roots. A psychology graduate from Kyoto University, Masunaga brought an unprecedented psychosomatic dimension to the practice. Initially a student of Namikoshi, he founded the Iokaï school in 1960 and developed his own system he called 'Zen Shiatsu'."
+            },
+            {
+              "heading": "Major Conceptual Innovations",
+              "text": "Masunaga's most significant contribution lies in the development of meridians extended throughout the body. With his background in psychology, he developed a unique psychosomatic approach, considering emotional imbalances as primary factors.",
+              "listTitle": "Integration of Traditional Chinese Medicine:",
+              "list": [
+                "Energy meridians (keiraku)",
+                "The theory of five elements (gogyō)",
+                "Yin-yang concepts",
+                "Acupuncture points (tsubo)",
+                "Taoist philosophy"
+              ]
+            },
+            {
+              "heading": "Zen Shiatsu Techniques and Philosophy",
+              "text": "Masunaga distinguishes two types of touch: Shokushin (technical and professional) and Setsushin (warm and empathetic). Setsushin constitutes the essence of Zen Shiatsu, involving a deep connection between practitioner and receiver.",
+              "listTitle": "Zen Shiatsu emphasizes:",
+              "list": [
+                "A meditative approach during the session",
+                "Development of the practitioner's intuition",
+                "Energy listening rather than mechanical application",
+                "Integration of spiritual aspects in care"
+              ]
+            },
+            {
+              "heading": "Sophisticated Energy Diagnosis",
+              "text": "Masunaga developed complex pathological charts to identify energy imbalances. This approach integrates observation of Chinese pulses, tongue examination and abdominal palpation (hara)."
+            }
+          ]
+        },
+        {
+          "title": "Seiki School",
+          "description": "The Art of Energy Accompaniment",
+          "src": "/images/school-seiki.jpg",
+          "content": [
+            {
+              "heading": "Founder and Training",
+              "text": "Akinobu Kishi (1949-2012) represents the ultimate synthesis of shiatsu traditions. Trained in both Namikoshi and Iokaï (Masunaga) schools, he assisted Masunaga for ten years. This dual training gave him unique mastery. At 29, he experienced a consciousness transformation that gave birth to Seiki Soho."
+            },
+            {
+              "heading": "Philosophy of Seiki Soho",
+              "text": "The term 'Seiki Soho' means 'accompaniment of vital energy'. This approach is based on major philosophical concepts:",
+              "list": [
+                "Shintoism: connection with the spirits of nature.",
+                "Wei Wu Wei: Taoist principle of 'doing by not-doing', acting without effort.",
+                "Mushin: empty state of mind, free from ego, without expectation."
+              ]
+            },
+            {
+              "heading": "Approach and Techniques",
+              "text": "Seiki is defined as 'minimalist bodywork'. The fundamental technical principle is Gyooki, 'breathing with the hands'.",
+              "list": [
+                "A delicate touch like a butterfly on a flower.",
+                "A respiratory connection between practitioner and receiver.",
+                "Energy listening rather than active intervention.",
+                "Ki-Do-Ma: the right action, at the right time, in the right place."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "sessionFlow": {
+      "heading": "Session Process",
+      "p1": "A session generally lasts between 1 hour and 1h30. It always begins with an exchange to identify imbalances and tensions.",
+      "p2": "Shiatsu is practiced clothed in flexible and comfortable attire, traditionally on a futon placed on the floor. After the session, it is common to feel deep relaxation, a sensation of lightness or sometimes slight fatigue, testifying to the energy work performed."
+    }
   }
 }
