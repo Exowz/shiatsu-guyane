@@ -9,8 +9,9 @@ import type { Locale } from '@/lib/i18n-config';
 
 const languages = {
   fr: { name: 'Français', flag: '🇫🇷', code: 'FR' },
-  en: { name: 'English', flag: '🇺🇸', code: 'US' },
-  pt: { name: 'Português', flag: '🇧🇷', code: 'BR' }
+  en: { name: 'English', flag: '🇬🇧', code: 'GB' },
+  'pt-BR': { name: 'Português', flag: '🇧🇷', code: 'BR' },
+  es: { name: 'Español', flag: '🇪🇸', code: 'ES' }
 };
 
 export const LanguageSwitcher = ({ lang, lightMode = false }: { lang: Locale; lightMode?: boolean }) => {
@@ -26,7 +27,9 @@ export const LanguageSwitcher = ({ lang, lightMode = false }: { lang: Locale; li
     return '/';
   };
   
-  const otherLanguages = Object.entries(languages).filter(([code]) => code !== lang);
+  // Ensure current language exists in languages object, fallback to 'fr' if not
+  const currentLang = languages[lang] ? lang : 'fr';
+  const otherLanguages = Object.entries(languages).filter(([code]) => code !== currentLang);
 
   return (
     <motion.div animate={open ? "open" : "closed"} className="relative">
@@ -42,8 +45,8 @@ export const LanguageSwitcher = ({ lang, lightMode = false }: { lang: Locale; li
         }}
       >
         <FiGlobe />
-        <span className="text-xs font-medium">{languages[lang].code}</span>
-        <span className="text-sm">{languages[lang].flag}</span>
+        <span className="text-xs font-medium">{languages[lang]?.code || 'N/A'}</span>
+        <span className="text-sm">{languages[lang]?.flag || '🌐'}</span>
       </button>
 
       <motion.ul

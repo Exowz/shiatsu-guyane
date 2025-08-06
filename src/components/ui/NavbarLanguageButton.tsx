@@ -8,8 +8,9 @@ import type { Locale } from '@/lib/i18n-config';
 
 const languages = {
   fr: { name: 'Français', flag: '🇫🇷', code: 'FR' },
-  en: { name: 'English', flag: '🇺🇸', code: 'US' },
-  pt: { name: 'Português', flag: '🇧🇷', code: 'BR' }
+  en: { name: 'English', flag: '🇬🇧', code: 'GB' },
+  'pt-BR': { name: 'Português', flag: '🇧🇷', code: 'BR' },
+  es: { name: 'Español', flag: '🇪🇸', code: 'ES' }
 };
 
 interface NavbarLanguageButtonProps {
@@ -31,7 +32,9 @@ export const NavbarLanguageButton = ({ lang, isScrolled, isOpen, onToggle }: Nav
     return '/';
   };
   
-  const otherLanguages = Object.entries(languages).filter(([code]) => code !== lang);
+  // Ensure current language exists in languages object, fallback to 'fr' if not
+  const currentLang = languages[lang] ? lang : 'fr';
+  const otherLanguages = Object.entries(languages).filter(([code]) => code !== currentLang);
 
   const getButtonClasses = () => 
     `p-3 rounded-full transition-all duration-300 backdrop-blur-md ${
@@ -74,10 +77,10 @@ export const NavbarLanguageButton = ({ lang, isScrolled, isOpen, onToggle }: Nav
           }`}
         >
           <div className="flex items-center gap-2">
-            <span>{languages[lang].flag}</span>
-            <span>{languages[lang].name}</span>
+            <span>{languages[currentLang]?.flag || '🌐'}</span>
+            <span>{languages[currentLang]?.name || 'Unknown'}</span>
           </div>
-          <span className="text-xs opacity-70">{languages[lang].code}</span>
+          <span className="text-xs opacity-70">{languages[currentLang]?.code || 'N/A'}</span>
         </motion.li>
         
         {/* Divider */}

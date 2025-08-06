@@ -1,0 +1,1018 @@
+{
+  "navbar": {
+    "about": "Sobre",
+    "services": "Serviços e Preços",
+    "whoIsItFor": "Para Quem?",
+    "whatIsShiatsu": "O Shiatsu",
+    "practicalInfo": "Informações Práticas",
+    "contact": "Contato",
+    "bookNow": "Agende uma consulta"
+  },
+  "homepage": {
+    "practitionerName": "Shiatsu Guiana",
+    "heroTitle": "Nathalie JEAN",
+    "heroSubtitle": "Redescubra sua serenidade com uma abordagem terapêutica personalizada.",
+    "scrollDown": "Role para baixo"
+  },
+  "aboutIntro": {
+    "heading": "Bem-vinda, eu sou Nathalie JEAN",
+    "paragraph": "Apaixonada por terapias manuais e equilíbrio energético, minha missão é acompanhá-la no caminho do bem-estar. Utilizo uma abordagem suave e atenciosa para ajudá-la a liberar tensões e reencontrar sua vitalidade.",
+    "cta": "Descubra minha jornada"
+  },
+  "benefitsSection": {
+    "heading": "Os Principais Benefícios do Shiatsu",
+    "cards": [
+      {
+        "title": "Estresse e Ansiedade",
+        "description": "Para acalmar o sistema nervoso, reduzir a carga mental e reencontrar um estado de calma profundo e duradouro."
+      },
+      {
+        "title": "Dores Físicas",
+        "description": "Para aliviar eficazmente dores nas costas, tensões musculares, enxaquecas e dores articulares."
+      },
+      {
+        "title": "Equilíbrio e Vitalidade",
+        "description": "Para mejorar o sono, estimular a digestão e recarregar o corpo com energia vital para um bem-estar geral."
+      },
+      {
+        "title": "Apoio à Maternidade",
+        "description": "Para apoiar as mulheres durante a gravidez e no pós-parto, aliviando os desconfortos comuns e promovendo a recuperação."
+      },
+      {
+        "title": "Problemas Digestivos",
+        "description": "Para harmonizar as funções digestivas, reduzir o inchaço e mejorar o trânsito intestinal de forma natural."
+      },
+      {
+        "title": "Suporte Imunológico",
+        "description": "Para fortalecer as defesas naturais do organismo, prevenir doenças sazonais e aumentar a resiliência do corpo."
+      }
+    ],
+    "cta": "Saiba mais sobre os benefícios"
+  },
+  "whatIsShiatsuSection": {
+    "heading": "O que é Shiatsu?",
+    "paragraph": "O Shiatsu é uma terapia manual de origem japonesa que utiliza a pressão dos dedos e das palmas das mãos em todo o corpo. O objetivo é restabelecer a circulação da energia vital, o 'Qi', para aliviar dores, revitalizar o corpo e acalmar a mente.",
+    "cta": "Saiba mais sobre o Shiatsu"
+  },
+  "whoIsItForSection": {
+    "heading": "Um Acompanhamento Para Todos",
+    "testimonials": [
+      {
+        "quote": "Para gerenciar o estresse diário, mejorar o sono e reencontrar um estado de bem-estar geral.",
+        "name": "Adultos",
+        "designation": "Equilíbrio & Vitalidade",
+        "src": "/images/audience-adults.jpg"
+      },
+      {
+        "quote": "Para manter a flexibilidade articular, aliviar dores crônicas e preservar a mobilidade.",
+        "name": "Idosos",
+        "designation": "Mobilidade & Conforto",
+        "src": "/images/audience-seniors.jpg"
+      },
+      {
+        "quote": "Para aliviar os desconfortos da gravidez (dores nas costas, pernas pesadas) e se preparar serenamente para o parto.",
+        "name": "Gestantes",
+        "designation": "Serenidade & Preparação",
+        "src": "/images/audience-pregnant.jpg"
+      },
+      {
+        "quote": "Para otimizar a recuperação, prevenir lesões e mejorar o desempenho físico e mental.",
+        "name": "Atletas",
+        "designation": "Performance & Recuperação",
+        "src": "/images/audience-athletes.jpg"
+      },
+      {
+        "quote": "Para ajudar no gerenciamento do estresse relacionado aos estudos, exames e mejorar a concentração.",
+        "name": "Adolescentes",
+        "designation": "Foco & Confiança",
+        "src": "/images/audience-teenagers.jpg"
+      },
+      {
+        "quote": "Para reduzir o estresse no trabalho, prevenir o burnout e mejorar o bem-estar dos colaboradores.",
+        "name": "Empresas",
+        "designation": "Bem-estar no Trabalho",
+        "src": "/images/audience-companies.jpg"
+      },
+      {
+        "quote": "Para acalmar o choro, aliviar cólicas e promover um sono tranquilo desde os primeiros meses.",
+        "name": "Bebês",
+        "designation": "Suavidade & Acalento",
+        "src": "/images/audience-babies.jpg"
+      }
+    ],
+    "cta": "Veja os benefícios para cada perfil"
+  },
+  "testimonialsSection": {
+    "heading": "O Que Meus Clientes Dizem",
+    "googleHeading": "Avaliações recentes no Google",
+    "resalibHeading": "Nossos clientes no Resalib",
+    "summary": {
+      "satisfaction": "dos nossos clientes estão satisfeitos",
+      "googleLabel": "Nota Google",
+      "resalibLabel": "Nota Resalib",
+      "overallLabel": "Nota Geral",
+      "googleAverage": "4.8",
+      "resalibAverage": "4.9"
+    },
+    "staticReviews": [
+      {
+        "author_name": "Alex A.",
+        "rating": 5,
+        "text": "Experimentar é se apaixonar.",
+        "date": "2025-07-05"
+      },
+      {
+        "author_name": "Camille R.",
+        "rating": 5,
+        "text": "Fiz sessões de Shiatsu com a Nathalie por quase 2 anos e a recomendo fortemente. Sua experiência é inegável, mas é também sua personalidade que fará você voltar! Um belo encontro e um bem-estar certo ao sair das sessões. Obrigada, Nathalie!",
+        "date": "2025-07-05"
+      },
+      {
+        "author_name": "Hélène M.",
+        "rating": 5,
+        "text": "Excelente profissional, experiente e muito atenciosa. Bravo!",
+        "date": "2025-07-01"
+      },
+      {
+        "author_name": "Nathalie É.",
+        "rating": 5,
+        "text": "Muito dinâmica, eficaz, atenciosa e com ótimos conselhos, eu a recomendo.",
+        "date": "2025-04-27"
+      },
+      {
+        "author_name": "Virginie D.",
+        "rating": 5,
+        "text": "Uma recepção calorosa e uma escuta atenta, nos sentimos em confiança desde os primeiros minutos. Um bem-estar sentido desde a primeira consulta. Muito obrigada, Nathalie!",
+        "date": "2025-04-25"
+      }
+    ]
+  },
+  "ctaSection": {
+    "heading": "Pronta para reencontrar seu bem-estar?",
+    "subheading": "Agende sua sessão de Shiatsu personalizada e comece sua jornada para a serenidade hoje mesmo.",
+    "button": "Agendar uma consulta",
+    "badge": "Sua Jornada Começa Aqui",
+    "trustElements": {
+      "personalizedConsultation": "Consulta personalizada",
+      "certifiedPractitioner": "Profissional certificada",
+      "kindApproach": "Abordagem gentil"
+    },
+    "bookingSection": {
+      "title": "Agende Sua Sessão",
+      "description": "Agende sua consulta diretamente online e comece sua jornada para um bem-estar duradouro.",
+      "reassurance": "Agendamento simples e seguro"
+    },
+    "secondaryButtons": {
+      "question": "Tem uma pergunta?",
+      "pricing": "Ver os preços"
+    },
+    "quote": {
+      "text": "Toda jornada para o bem-estar começa com um único passo. Confie na sua intuição e ofereça a si mesma o momento de cuidado que você merece.",
+      "attribution": "— Nathalie Jean, Profissional de Shiatsu Certificada"
+    }
+  },
+  "shiatsuPage": {
+    "title": "Shiatsu: Uma Abordagem Detalhada da Terapia Manual Japonesa",
+    "subtitle": "O shiatsu (指圧), literalmente 'pressão dos dedos', é uma prática milenar oficialmente reconhecida no Japão, que conquistou o mundo por sua eficácia e filosofia holística.",
+    "general": {
+      "definition": {
+        "heading": "Definição e Origem",
+        "p1": "O shiatsu consiste na aplicação de pressões rítmicas em todo o corpo com o objetivo de reequilibrar o organismo e mejorar ou manter a saúde. Esta técnica manual utiliza principalmente os polegares e as palmas das mãos, mas por vezes também os cotovelos ou joelhos, para exercer pressão em pontos específicos (tsubos) localizados ao longo dos meridianos de energia."
+      },
+      "history": {
+        "heading": "Raízes Históricas",
+        "p1": "As origens do shiatsu remontam à introdução da medicina chinesa (Kampo) no Japão entre os séculos VII e IX, nomeadamente a técnica Tui Na. Ao longo dos séculos, os praticantes japoneses desenvolveram a sua própria abordagem, dando origem à massagem anma. O termo 'shiatsu' foi escolhido em 1919 por Tenpeki Tamaï, mas é Tokujiro Namikoshi (1905-2000) quem é considerado o inventor do shiatsu moderno, graças à sua experiência fundamental de curar o reumatismo da sua mãe com a pressão dos dedos."
+      },
+      "principles": {
+        "heading": "Princípios Fundamentais: A Filosofia do Ki",
+        "p1": "O shiatsu considera o ser humano na sua totalidade física, psíquica e mental. Baseia-se no conceito da circulação da energia vital (chamada Qi em chinês e Ki em japonês) através de canais energéticos chamados meridianos. Segundo esta filosofia, qualquer desequilíbrio resulta de um bloqueio nesta circulação energética."
+      },
+      "objectives": {
+        "heading": "Objetivos Terapêuticos",
+        "points": [
+          "Liberar e regular a energia vital",
+          "Evitar disfunções ligadas a desequilíbrios internos",
+          "Reduzir as tensões instaladas no corpo",
+          "Estimular as defesas naturais do organismo",
+          "Ativar o sistema nervoso parassimpático para a recuperação e o bem-estar"
+        ]
+      },
+      "techniques": {
+        "heading": "Técnicas e Prática",
+        "p1": "O praticante utiliza diversas técnicas de pressão. A mais comum é a pressão ordinária: aplicada suavemente num ponto e depois libertada gradualmente durante 3 a 5 segundos. O shiatsu moderno também incorpora alongamentos, mobilizações articulares e vibrações, conforme necessário.",
+        "p2": "A respiração desempenha um papel crucial. O praticante e o receptor sincronizam as suas respirações para facilitar o relaxamento e a fluidez dos movimentos, promovendo um fluxo harmonioso do Ki."
+      }
+    },
+    "schools": {
+      "heading": "As Três Escolas Fundadoras do Shiatsu Moderno",
+      "items": [
+        {
+          "title": "Escola Namikoshi",
+          "description": "O Shiatsu Original, Científico e Terapêutico",
+          "src": "/images/school-namikoshi.png",
+          "content": [
+            {
+              "heading": "Fundador e História",
+              "text": "Tokujiro Namikoshi (1905-2000) é universalmente reconhecido como o pai do shiatsu moderno. A sua abordagem revolucionária surgiu de uma experiência pessoal: aos 7 anos, descobriu empiricamente que a 'pressão' era mais benéfica do que a fricção para aliviar o reumatismo da sua mãe. Em 1955, a sua escola obteve a licença oficial do Ministério da Saúde japonês."
+            },
+            {
+              "heading": "Desenvolvimento Institucional",
+              "text": "Em 1925, Namikoshi abriu a sua primeira clínica. O ponto de viragem ocorreu em 1955, quando obteve a licença oficial do Ministério da Saúde japonês para a sua escola. Este reconhecimento governamental conferiu ao shiatsu legitimidade médica, reforçada pela fama de pacientes ilustres como Marilyn Monroe e Mohamed Ali."
+            },
+            {
+              "heading": "Filosofia e Abordagem Técnica",
+              "text": "O shiatsu Namikoshi distingue-se pela sua abordagem anatómica e fisiológica rigorosa, em linha com a medicina ocidental moderna. Privilegia o estudo da estrutura física do corpo em detrimento dos conceitos energéticos tradicionais chineses."
+            },
+            {
+              "heading": "Sete Efeitos Terapêuticos",
+              "text": "Tokujiro Namikoshi lista sete efeitos terapêuticos do shiatsu que estimulam o bom funcionamento do corpo:",
+              "list": [
+                "Harmonização do sistema nervoso",
+                "Ativação dos reflexos víscero-cutâneos",
+                "Melhora da circulação arterial",
+                "Correção do esqueleto",
+                "Relaxamento profundo",
+                "Estimulação das defesas naturais",
+                "Equilíbrio homeostático"
+              ]
+            },
+            {
+              "heading": "Método de Pressão",
+              "text": "O shiatsu Namikoshi utiliza exclusivamente os dedos e as palmas das mãos. As pressões são realizadas segundo três princípios fundamentais:",
+              "list": [
+                "Pressões perpendiculares ao corpo do receptor",
+                "Manutenção das pressões por 3 a 5 segundos",
+                "Concentração total do praticante"
+              ]
+            },
+            {
+              "heading": "Protocolos Rigorosos",
+              "text": "A escola Namikoshi ensina katas (formas) padronizados que permitem a aplicação sistemática das técnicas. Estes protocolos incluem elementos-chave da quiropraxia, integrados harmoniosamente na prática manual."
+            }
+          ]
+        },
+        {
+          "title": "Escola Masunaga",
+          "description": "Zen Shiatsu e a Dimensão Psicossomática",
+          "src": "/images/school-masunaga.png",
+          "content": [
+            {
+              "heading": "Fundador e Inovação Teórica",
+              "text": "Shizuto Masunaga (1925-1981) revolucionou o shiatsu ao reintegrar as raízes tradicionais orientais. Formado em psicologia, trouxe uma dimensão psicossomática sem precedentes à prática. Antigo aluno de Namikoshi, fundou a escola Iokaï em 1960 e desenvolveu o seu próprio sistema, que apelidou de 'Zen Shiatsu'."
+            },
+            {
+              "heading": "Inovações Conceptuais",
+              "text": "A contribuição mais significativa de Masunaga reside no desenvolvimento de meridianos estendidos por todo o corpo. Com a sua formação em psicologia, desenvolveu uma abordagem psicossomática única, considerando os desequilíbrios emocionais como fatores primordiais.",
+              "listTitle": "Integração da Medicina Tradicional Chinesa:",
+              "list": [
+                "Meridianos de energia (keiraku)",
+                "A teoria dos cinco elementos (gogyō)",
+                "Conceitos de yin-yang",
+                "Pontos de acupuntura (tsubo)",
+                "Filosofia taoísta"
+              ]
+            },
+            {
+              "heading": "Técnicas e Filosofia do Zen Shiatsu",
+              "text": "Masunaga distingue dois tipos de toque: Shokushin (técnico e profissional) e Setsushin (caloroso e empático). O Setsushin é a essência do Zen Shiatsu, envolvendo uma profunda ligação entre praticante e receptor.",
+              "listTitle": "O Zen Shiatsu privilegia:",
+              "list": [
+                "Uma abordagem meditativa durante a sessão",
+                "O desenvolvimento da intuição do praticante",
+                "A escuta energética em vez da aplicação mecânica",
+                "A integração de aspetos espirituais no tratamento"
+              ]
+            },
+            {
+              "heading": "Diagnóstico Energético Sofisticado",
+              "text": "Masunaga desenvolveu quadros patológicos complexos para identificar desequilíbrios energéticos específicos. Esta abordagem diagnóstica inclui a observação dos pulsos chineses, o exame da língua e a palpação abdominal (hara)."
+            }
+          ]
+        },
+        {
+          "title": "Escola Seiki",
+          "description": "A Arte do Acompanhamento Energético",
+          "src": "/images/school-seiki.png",
+          "content": [
+            {
+              "heading": "Fundador e Formação",
+              "text": "Akinobu Kishi (1949-2012) representa a síntese última das tradições do shiatsu. Formado nas escolas Namikoshi e Iokaï (Masunaga), foi assistente de Masunaga durante dez anos. Esta formação dupla conferiu-lhe um domínio único. Aos 29 anos, viveu uma profunda transformação de consciência que deu origem ao Seiki Soho."
+            },
+            {
+              "heading": "Filosofia do Seiki Soho",
+              "text": "O termo 'Seiki Soho' significa 'acompanhamento da energia vital'. Esta abordagem baseia-se em importantes conceitos filosóficos:",
+              "list": [
+                "Xintoísmo: ligação com os espíritos da natureza.",
+                "Wei Wu Wei: princípio taoísta de 'fazer pelo não-fazer', agir sem esforço.",
+                "Mushin: estado de mente vazia, livre do ego, sem expectativas."
+              ]
+            },
+            {
+              "heading": "Abordagem e Técnicas",
+              "text": "O Seiki é definido como 'trabalho corporal minimalista'. O princípio técnico fundamental é o Gyooki, 'respirar com as mãos'.",
+              "list": [
+                "Um toque delicado como uma borboleta numa flor.",
+                "Uma ligação respiratória entre praticante e receptor.",
+                "A escuta energética em vez da intervenção ativa.",
+                "Ki-Do-Ma: a ação certa, no momento certo, no lugar certo."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "sessionFlow": {
+      "heading": "Como Decorre uma Sessão",
+      "p1": "Uma sessão dura geralmente entre 1 hora e 1h30. Começa sempre com uma conversa para identificar desequilíbrios e tensões.",
+      "p2": "O shiatsu é praticado com roupa confortável e flexível, tradicionalmente num futon no chão. Após a sessão, é comum sentir um profundo relaxamento, uma sensação de leveza ou, por vezes, um ligeiro cansaço, sinal de que o corpo trabalhou e libertou tensões."
+    }
+  },
+  "pourQuiPage": {
+    "title": "Para Quem é o Shiatsu?",
+    "subtitle": "Uma prática holística que se adapta a todas as idades e condições físicas, oferecendo benefícios específicos para cada necessidade.",
+    "cards": [
+      {
+        "title": "Empresas",
+        "description": "Shiatsu para a Qualidade de Vida no Trabalho (QVT)",
+        "src": "/images/audience-companies.jpg",
+        "content": [
+          {
+            "heading": "Contexto e Desafios",
+            "text": "O mundo profissional moderno gera níveis consideráveis de stress. 24% dos trabalhadores franceses estão em hiperestresse, um grande risco para a sua saúde (burnout, depressão, distúrbios do sono). O shiatsu enquadra-se perfeitamente nas iniciativas de QVT e RSE."
+          },
+          {
+            "heading": "Benefícios Específicos",
+            "list": [
+              "Redução do stress e das tensões.",
+              "Prevenção de Lesões Músculo-Esqueléticas (LME).",
+              "Melhora da produtividade e do bem-estar dos colaboradores.",
+              "Prevenção de Riscos Psicossociais (RPS)."
+            ]
+          },
+          {
+            "heading": "Modalidades Práticas",
+            "list": [
+              "Sessões curtas de 15 a 20 minutos em cadeira.",
+              "Praticado com roupa e sem óleo.",
+              "Requer apenas um espaço tranquilo de 4-5 m²."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Adultos",
+        "description": "Apoio Abrangente para o Bem-estar Diário",
+        "src": "/images/audience-adults.jpg",
+        "content": [
+          {
+            "heading": "Principais Aplicações",
+            "text": "Para os adultos, o shiatsu aborda os desafios da vida moderna atuando em múltiplos níveis para acalmar o corpo, restaurar a vitalidade e fortalecer o sistema imunitário."
+          },
+          {
+            "heading": "Benefícios Preventivos e Curativos",
+            "list": [
+              "Gestão do stress, fadiga e ansiedade.",
+              "Alívio de dores nas costas, musculares e articulares.",
+              "Melhora da circulação sanguínea e linfática.",
+              "Melhora significativa da qualidade do sono."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Idosos",
+        "description": "Manutenção da Vitalidade e Autonomia",
+        "src": "/images/audience-seniors.jpg",
+        "content": [
+          {
+            "heading": "Adaptações Específicas",
+            "text": "O shiatsu para idosos requer adaptações técnicas especiais, com pressões mais suaves e movimentos adaptados à condição de cada um (cadeira, cama, etc.)."
+          },
+          {
+            "heading": "Principais Benefícios",
+            "list": [
+              "Alívio de dores crónicas (artrose, reumatismo).",
+              "Melhora da mobilidade, equilíbrio e redução da rigidez.",
+              "Apoio psicológico, redução da ansiedade e melhora do sono.",
+              "Acompanhamento suave para oferecer conforto e presença."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Adolescentes",
+        "description": "Apoio Durante as Transformações",
+        "src": "/images/audience-teenagers.jpg",
+        "content": [
+          {
+            "heading": "Especificidades da Adolescência",
+            "text": "A adolescência é um período de intensa transformação. O shiatsu oferece um excelente apoio para acalmar, recentrar e dar segurança aos jovens."
+          },
+          {
+            "heading": "Benefícios para o Comportamento e Bem-estar",
+            "list": [
+              "Gestão das emoções e do stress, especialmente durante os exames.",
+              "Melhora da autoconfiança e do sentimento de segurança.",
+              "Ajuda na concentração e prevenção do esgotamento académico.",
+              "Promove a abertura, a comunicação e melhora o sono."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Gestantes",
+        "description": "Apoio Suave para a Maternidade",
+        "src": "/images/audience-pregnant.jpg",
+        "content": [
+          {
+            "heading": "Adaptações por Trimestre",
+            "text": "O shiatsu é especificamente adaptado a cada fase da gravidez, com sessões direcionadas para aliviar náuseas no primeiro trimestre, dores nas costas no segundo, e preparar o corpo para o parto no terceiro."
+          },
+          {
+            "heading": "Benefícios Maternos",
+            "list": [
+              "Alívio dos desconfortos da gravidez: dores lombares, pernas pesadas, náuseas.",
+              "Apoio emocional, redução da ansiedade e ligação com o bebé.",
+              "Preparação para o parto ao relaxar a pélvis.",
+              "É sempre recomendada uma opinião médica prévia."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Bebês",
+        "description": "Contato Suave desde o Nascimento",
+        "src": "/images/audience-babies.jpg",
+        "content": [
+          {
+            "heading": "Técnicas Adaptadas",
+            "text": "O shiatsu para bebés utiliza movimentos muito suaves e leves em sessões curtas (5 a 20 minutos) para um desenvolvimento harmonioso. Os pais também podem aprender técnicas simples para acalmar os seus filhos."
+          },
+          {
+            "heading": "Benefícios para os Bebês",
+            "list": [
+              "Melhora dos distúrbios do sono e redução da agitação.",
+              "Apoio digestivo eficaz contra cólicas e regurgitação.",
+              "Fortalecimento do sistema imunitário.",
+              "Contribuição para o equilíbrio e desenvolvimento do corpo."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Atletas",
+        "description": "Otimização do Desempenho e da Recuperação",
+        "src": "/images/audience-athletes.jpg",
+        "content": [
+          {
+            "heading": "Preparação e Recuperação",
+            "text": "O shiatsu oferece um apoio abrangente para atletas de todos os níveis, seja na preparação para uma competição ou na aceleração da recuperação pós-esforço."
+          },
+          {
+            "heading": "Benefícios Específicos",
+            "list": [
+              "Melhora do desempenho através de uma mejor oxigenação muscular.",
+              "Prevenção de lesões através do relaxamento muscular.",
+              "Aceleração da recuperação ao promover a eliminação de toxinas.",
+              "Redução do stress competitivo e melhora da concentração."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "pricingPage": {
+    "title": "Tratamentos e Preços",
+    "subtitle": "Cada sessão é um convite para reencontrar a harmonia e o bem-estar. Descubra os tratamentos que ofereço.",
+    "priceRange": "Os preços das sessões individuais variam de 75€ a 105€. \nAlguns planos de saúde podem cobrir a consulta.",
+    "individualSessions": {
+      "heading": "Sessões Individuais",
+      "sessions": [
+        {
+          "name": "Primeira sessão de Shiatsu",
+          "description": "Uma sessão completa que inclui uma avaliação energética para um apoio personalizado."
+        },
+        {
+          "name": "Sessão de Acompanhamento",
+          "description": "Uma sessão de acompanhamento para continuar o trabalho energético e aprofundar os benefícios."
+        },
+        {
+          "name": "Reflexologia Podal",
+          "description": "Estimulação dos pontos reflexos dos pés para aliviar as tensões em todo o corpo."
+        },
+        {
+          "name": "Massagens de Bem-Estar",
+          "description": "Um momento de profundo relaxamento para libertar a tensão muscular e acalmar a mente."
+        },
+        {
+          "name": "Sessão de Sofrologia",
+          "description": "Técnicas de relaxamento e visualização para gerir o stress e as emoções."
+        },
+        {
+          "name": "Sessão de Litoterapia",
+          "description": "A utilização de pedras e cristais para harmonizar as energias do corpo."
+        },
+        {
+          "name": "Sessão para Crianças / Bebês",
+          "description": "Apoio suave e adaptado para os mais novos, desde bebés a adolescentes."
+        }
+      ]
+    },
+    "packages": {
+      "heading": "Pacotes e Vales-Presente",
+      "description": "Poupe mais com os nossos pacotes e vales-presente cuidadosamente concebidos. Ideal para apoio contínuo ou como presentes significativos para os seus entes queridos.",
+      "items": [
+        {
+          "name": "Pacote de 5 Sessões",
+          "price": "400€",
+          "description": "Apoio regular para um trabalho aprofundado e resultados duradouros."
+        },
+        {
+          "name": "Pacote de 10 Sessões",
+          "price": "775€",
+          "description": "O compromisso ideal para a transformação e manutenção do seu equilíbrio a longo prazo."
+        },
+        {
+          "name": "Vale-Presente",
+          "price": "Personalizável",
+          "description": "Ofereça um momento único de bem-estar aos seus entes queridos. Válido para todos os serviços."
+        }
+      ]
+    },
+    "otherServices": {
+      "heading": "Serviços Corporativos",
+      "intro": "O bem-estar físico e mental no trabalho é um motor de desempenho. Desenvolvo sessões individuais ou de grupo adaptadas às necessidades dos seus colaboradores para gerir o stress, renovar o dinamismo e mejorar a coesão.",
+      "workshops": [
+        {
+          "title": "Workshop através do Corpo",
+          "price": "18,00€ por pessoa",
+          "duration": "1h a 1h30",
+          "items": [
+            {
+              "name": "DO-IN (Automassagem em Grupo)",
+              "description": "Utilizando exercícios energéticos simples (alongamentos, pressão, fricção), o Do In ajuda a mejorar a mobilidade articular, a afastar o stress e a recuperar o dinamismo."
+            },
+            {
+              "name": "ALONGAMENTOS ZEN (Makko Ho)",
+              "description": "Ideal para restabelecer o contacto com o corpo, combater o stress e relaxar sem esforço. Cada postura, mantida por 6 respirações profundas, proporciona relaxamento e desapego."
+            },
+            {
+              "name": "Iniciação ao Relaxamento das Mãos",
+              "description": "Uma massagem que proporciona um relaxamento imediato para aliviar o stress e suavizar as articulações, ao mesmo tempo que estimula a circulação sanguínea e o bem-estar geral."
+            }
+          ]
+        },
+        {
+          "title": "Workshop através da Voz",
+          "price": "18,00€ por pessoa",
+          "duration": "1h a 1h30",
+          "items": [
+            {
+              "name": "Sofrologia",
+              "description": "Esta prática suave e acessível ajuda a fortalecer a autoconfiança e a mejorar a gestão do stress através de técnicas de visualização e respiração, reduzindo a tensão muscular."
+            },
+            {
+              "name": "Respiração Controlada",
+              "description": "Exercícios de respiração, com ou sem visualização, que fornecem ferramentas diárias reutilizáveis para gerir emoções, mejorar a concentração e aliviar dores."
+            },
+            {
+              "name": "Meditação e Relaxamento",
+              "description": "Acessíveis a todos, estas disciplinas ajudam a libertar tensões, a establecer um estado de calma e podem ser integradas nas agendas mais preenchidas para um benefício imediato."
+            }
+          ]
+        },
+        {
+          "title": "Workshop através da Informação",
+          "price": "15,00€ por pessoa",
+          "duration": "1h a 1h30",
+          "items": [
+            {
+              "name": "Conferência Participativa",
+              "description": "Explore ferramentas para uma abordagem holística da saúde, desde a teoria dos 5 elementos ao relógio circadiano, para comprender mejor como os fenómenos naturais influenciam o corpo."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "practicalInfoPage": {
+    "title": "Informações Práticas",
+    "subtitle": "Tudo o que você precisa saber para se preparar para a sua sessão e aproveitar ao máximo os seus benefícios.",
+    "sessionFlow": {
+      "heading": "Como Decorre uma Sessão Típica",
+      "steps": [
+        {
+          "name": "A Conversa",
+          "description": "Começamos com uma conversa confidencial para entender as suas expectativas e fazer uma avaliação energética."
+        },
+        {
+          "name": "O Tratamento de Shiatsu",
+          "description": "O tratamento é realizado com roupa, num futon confortável no chão. Aplico pressões e alongamentos em todo o corpo."
+        },
+        {
+          "name": "O Encerramento",
+          "description": "Concluímos com uma breve conversa sobre as suas sensações, e posso oferecer conselhos personalizados para o seu dia a dia."
+        }
+      ]
+    },
+    "recommendations": {
+      "heading": "Como se Preparar?",
+      "points": [
+        {
+          "name": "Vestuário Confortável",
+          "description": "Use roupas macias e confortáveis (calças de moletom, leggings, camiseta larga) para permitir liberdade de movimento."
+        },
+        {
+          "name": "Refeição Leve",
+          "description": "Evite fazer uma refeição pesada pouco antes da sessão para maior conforto."
+        },
+        {
+          "name": "Após a Sessão",
+          "description": "Planeje um período de calma após o tratamento. Hidrate-se bem para ajudar o seu corpo a eliminar toxinas."
+        }
+      ]
+    },
+    "location": {
+      "heading": "O Consultório",
+      "address": "12 Clos des Hippocampes, 97354 Rémire-Montjoly, Guiana Francesa",
+      "cta": "Ver no Google Maps"
+    }
+  },
+  "contactPage": {
+    "title": "Entre em Contato",
+    "subtitle": "Para qualquer dúvida ou para agendar uma consulta, sinta-se à vontade para preencher o formulário abaixo.",
+    "labels": {
+      "firstname": "Nome",
+      "lastname": "Sobrenome",
+      "email": "E-mail",
+      "message": "Sua mensagem"
+    },
+    "placeholders": {
+      "firstname": "Nathalie",
+      "lastname": "JEAN",
+      "email": "nathalie.jean@email.com",
+      "message": "Olá, gostaria de agendar uma consulta para uma sessão de Shiatsu..."
+    },
+    "button": "Enviar →",
+    "form": {
+      "submitting": "Enviando...",
+      "success": {
+        "title": "Mensagem enviada com sucesso!",
+        "description": "Obrigado pela sua mensagem. Entraremos em contato o mais breve possível.",
+        "sendAnother": "Enviar outra mensagem"
+      },
+      "privacy": {
+        "title": "Privacidade garantida",
+        "description": "As suas informações pessoais estão protegidas e serão usadas apenas para lhe responder. Respeitamos a sua privacidade e nunca partilhamos os seus dados."
+      }
+    },
+    "enhanced": {
+      "badge": "Vamos Conversar",
+      "quickInfo": {
+        "rapidResponse": "Resposta rápida",
+        "personalizedExchange": "Troca personalizada",
+        "maxTime": "24h máximo"
+      },
+      "leftColumn": {
+        "badge": "Comece a Conversa",
+        "title": "Seu Bem-estar Começa Aqui",
+        "description": "Cada pergunta merece uma resposta personalizada. Sinta-se à vontade para partilhar as suas preocupações, os seus objetivos ou simplesmente a sua curiosidade sobre os meus serviços.",
+        "benefits": {
+          "freeConsultation": "Consulta gratuita de 15 minutos",
+          "personalizedAdvice": "Aconselhamento personalizado de acordo com as suas necessidades",
+          "kindApproach": "Abordagem gentil e profissional"
+        },
+        "otherContact": {
+          "title": "Outras formas de contato",
+          "phone": "+594 (0)6 94 00 70 97",
+          "email": "nathalie.jean@shiatsu-guyane.com",
+          "office": "Consultório"
+        }
+      },
+      "rightColumn": {
+        "formTitle": "Envie-nos uma mensagem",
+        "formSubtitle": "Entrarei em contato o mais breve possível"
+      }
+    }
+  },
+  "components": {
+    "testimonials": {
+      "badge": "Depoimentos de Clientes",
+      "description": "Descubra as experiências autênticas dos meus clientes e a sua jornada para um mejor bem-estar através do Shiatsu.",
+      "quickInfo": {
+        "verifiedReviews": "Avaliações verificadas",
+        "satisfiedClients": "Clientes satisfeitos",
+        "authenticExperiences": "Experiências autênticas"
+      },
+      "loading": "Carregando avaliações do Google...",
+      "verifiedBadge": "Avaliação verificada",
+      "wellbeingMessage": "O seu bem-estar é importante para nós",
+      "footerDescription": "Cada depoimento reflete o nosso compromisso em acompanhá-lo na sua jornada para um bem-estar duradouro e autêntico. Junte-se a esta comunidade de pessoas que escolheram o Shiatsu para transformar a sua qualidade de vida."
+    },
+    "benefits": {
+      "badge": "Benefícios do Shiatsu",
+      "quickInfo": {
+        "physicalWellbeing": "Bem-estar físico",
+        "emotionalBalance": "Equilíbrio emocional",
+        "vitalEnergy": "Energia vital"
+      },
+      "description": "Descubra como o Shiatsu pode transformar o seu bem-estar físico, emocional e energético através de uma abordagem holística e natural.",
+      "ctaTitle": "Aprofunde os Seus Conhecimentos",
+      "ctaDescription": "Explore em detalhe a filosofia, as técnicas e a história do Shiatsu para comprender mejor os seus benefícios excecionais.",
+      "traditionMessage": "Descubra uma tradição milenar ao serviço do seu bem-estar",
+      "cards": {
+        "vitality": {
+          "title": "Vitalidade",
+          "description": "Recupere a sua energia"
+        },
+        "relief": {
+          "title": "Alívio",
+          "description": "Acalme as suas tensões"
+        },
+        "balance": {
+          "title": "Equilíbrio",
+          "description": "Harmonize o seu ser"
+        },
+        "prevention": {
+          "title": "Prevenção",
+          "description": "Preserve a sua saúde"
+        }
+      }
+    },
+    "aboutIntro": {
+      "badge": "Sua Profissional",
+      "certifiedBadge": "Profissional Certificada",
+      "experience": {
+        "years": "+15 anos",
+        "label": "de experiência"
+      },
+      "qualities": {
+        "personalizedApproach": {
+          "title": "Abordagem personalizada",
+          "description": "Adaptada às suas necessidades"
+        },
+        "compassionateListening": {
+          "title": "Escuta compassiva",
+          "description": "Um acompanhamento humano"
+        }
+      },
+      "additionalCta": "Descubra a minha jornada e a minha paixão pelo bem-estar",
+      "imageAlt": "Foto de Nathalie Jean, profissional de Shiatsu"
+    },
+    "whatIsShiatsu": {
+      "badge": "Arte Tradicional",
+      "qualities": {
+        "energeticBalance": {
+          "title": "Equilíbrio energético",
+          "description": "Harmonização do corpo"
+        },
+        "holisticApproach": {
+          "title": "Abordagem holística",
+          "description": "Corpo, mente, emoção"
+        }
+      },
+      "tradition": "Tradição japonesa milenar",
+      "shiatsuMeaning": {
+        "title": "Shiatsu",
+        "description": "指圧 • Pressão dos dedos"
+      },
+      "vitalEnergy": "Energia vital",
+      "imageAlt": "Pessoa a receber um tratamento de Shiatsu"
+    },
+    "whoIsItFor": {
+      "badge": "Para Quem?",
+      "quickInfo": {
+        "allAges": "Todas as idades",
+        "allNeeds": "Todas as necessidades",
+        "personalizedApproach": "Abordagem personalizada"
+      },
+      "description": "Descubra como o Shiatsu o pode apoiar, qualquer que seja a sua jornada ou as suas necessidades.",
+      "findProfileTitle": "Encontre o Seu Perfil",
+      "findProfileDescription": "Explore os diferentes perfis e descubra como o Shiatsu o pode apoiar na sua jornada de bem-estar.",
+      "uniqueMessage": "Cada pessoa é única, o seu apoio também",
+      "cards": {
+        "globalWellbeing": {
+          "title": "Bem-estar global",
+          "description": "Corpo, mente e emoções"
+        },
+        "tailored": {
+          "title": "À medida",
+          "description": "Adaptado às suas necessidades"
+        },
+        "forEveryone": {
+          "title": "Para todos",
+          "description": "Inclusivo и atencioso"
+        }
+      }
+    },
+    "footer": {
+      "practitioner": {
+        "name": "Nathalie Jean",
+        "description": "Profissional de Shiatsu Certificada",
+        "longDescription": "Apoio personalizado para um bem-estar duradouro através da arte tradicional japonesa do Shiatsu. Uma abordagem holística que harmoniza corpo, mente e energia vital.",
+        "certification": "Certificada FFST",
+        "experience": "+15 anos de experiência",
+        "membershipFFST": "Membro da Federação Francesa de Shiatsu Tradicional"
+      },
+      "contact": {
+        "title": "Contato",
+        "office": {
+          "title": "Consultório",
+          "address": "12 Clos des Hippocampes, 97354 Rémire-Montjoly, Guiana Francesa",
+          "schedule": "Seg-Sex 9h-18h"
+        },
+        "email": {
+          "address": "nathalie.jean@shiatsu-guyane.com",
+          "responseTime": "Resposta em 24h"
+        }
+      },
+      "schedule": {
+        "title": "Horário de Funcionamento",
+        "weekdays": {
+          "label": "Seg - Sex",
+          "hours": "9:00 - 18:00"
+        },
+        "saturday": {
+          "label": "Sábado",
+          "hours": "9:00 - 14:00"
+        },
+        "sunday": {
+          "label": "Domingo",
+          "hours": "Fechado"
+        }
+      },
+      "navigation": {
+        "title": "Navegação",
+        "home": "Início"
+      },
+      "legal": {
+        "mentions": "Avisos legais",
+        "privacy": "Política de privacidade",
+        "terms": "Termos e Condições"
+      },
+      "backToTop": "Voltar ao topo",
+      "copyright": "© 2025 Nathalie Jean - Profissional de Shiatsu. Todos os direitos reservados."
+    },
+    "hero": {
+      "socialLabels": {
+        "whatsapp": "Contactar pelo WhatsApp",
+        "instagram": "Seguir no Instagram",
+        "facebook": "Seguir no Facebook"
+      },
+      "videoNotSupported": "O seu navegador não suporta vídeos."
+    },
+    "reviews": {
+      "verifiedReview": "Avaliação verificada"
+    },
+    "navbar": {
+      "socialLabels": {
+        "whatsapp": "WhatsApp",
+        "instagram": "Instagram",
+        "facebook": "Facebook"
+      }
+    }
+  },
+  "pages": {
+    "practicalInfo": {
+      "badge": "Guia Prático",
+      "quickNav": {
+        "flow": "Fluxo",
+        "recommendations": "Recomendações",
+        "location": "Localização"
+      },
+      "sessionFlow": {
+        "badge": "Fluxo da Sessão",
+        "description": "Descubra como decorre uma sessão para se preparar mejor para esta experiência de bem-estar."
+      },
+      "recommendations": {
+        "badge": "Conselhos Personalizados",
+        "description": "Siga estas simples recomendações para desfrutar plenamente da sua sessão e otimizar os benefícios do seu tratamento."
+      },
+      "location": {
+        "badge": "Localização",
+        "address": "Endereço"
+      }
+    },
+    "leShiatsu": {
+      "badge": "Arte Tradicional Japonesa",
+      "foundations": "Fundações",
+      "philosophyPractice": "Filosofia e Prática",
+      "methodsTechniques": "Métodos e Técnicas",
+      "schoolsTraditions": "Escolas e Tradições",
+      "imageAlt": "Prática de Shiatsu",
+      "schoolsDescription": "Descubra as diferentes abordagens e tradições que enriquecem a prática do Shiatsu."
+    },
+    "pourQui": {
+      "badge": "Descubra a Sua Jornada",
+      "loading": "A carregar...",
+      "exploreBelow": "Explore abaixo",
+      "personalizedProfiles": "Perfis Personalizados",
+      "findIdealSupport": "Encontre o Seu Apoio Ideal",
+      "notFindProfile": "Não encontra o seu perfil?",
+      "personalizedConsultation": "Consulta Personalizada",
+      "contactUs": "Contacte-me",
+      "introDescription": "Cada pessoa é única, e a sua jornada de bem-estar também deve ser. Descubra como os nossos serviços se adaptam às suas necessidades específicas.",
+      "personalizedDescription": "Cada situação é particular. Contacte-nos para um apoio personalizado que responda exatamente às suas necessidades e objetivos.",
+      "personalizedConsultationSection": {
+        "description": "Cada situação é particular. Contacte-me para um apoio",
+        "title": "Consulta Personalizada",
+        "cta": "Contacte-me"
+      }
+    },
+    "servicesPricing": {
+      "badge": "Serviços Profissionais de Bem-Estar",
+      "quickInfo": {
+        "flexibleScheduling": "Horários Flexíveis",
+        "expertGuidance": "Orientação Especializada",
+        "personalizedApproach": "Abordagem Personalizada"
+      },
+      "individualServices": "Serviços Individuais",
+      "valuePackages": "Pacotes Vantajosos",
+      "mostPopular": "O Mais Popular",
+      "bestValue": "Melhor Valor",
+      "corporateSolutions": "Soluções Corporativas",
+      "learnMore": "Saber Mais",
+      "packageBenefits": {
+        "flexibleScheduling": "Opções de horários flexíveis",
+        "priorityBooking": "Reserva prioritária disponível",
+        "transferable": "Transferível para membros da família"
+      },
+      "getStarted": "Começar",
+      "workshops": {
+        "description": "Formação completa concebida para o sucesso da sua equipa",
+        "priceLabel": "Preço",
+        "durationLabel": "Duração"
+      }
+    }
+  },
+  "metadata": {
+    "title": "Shiatsu Guiana - Cura Holística",
+    "description": "Consulta de Shiatsu na Guiana para gestão do stress, dor e reequilíbrio energético."
+  },
+  "aboutPage": {
+    "title": "Sobre Nathalie JEAN",
+    "subtitle": "A minha jornada é uma convergência entre uma paixão pelas relações humanas e uma profunda crença nas capacidades de autocura do corpo.",
+    "intro": {
+      "heading": "Minha Filosofia",
+      "p1": "Acredito firmemente que cada indivíduo possui dentro de si os recursos necessários para reencontrar o seu equilíbrio. O meu papel é acompanhá-lo com gentileza, ser uma facilitadora no seu caminho para o bem-estar.",
+      "p2": "A minha abordagem é holística: considera a pessoa em todas as suas dimensões – física, emocional e espiritual. Cada sessão é um espaço de escuta e respeito, inteiramente personalizado para responder às suas necessidades únicas."
+    },
+    "timeline": {
+      "heading": "Percurso e Formações Principais",
+      "events": [
+        {
+          "year": "2021",
+          "title": "Certificação em Shiatsu Tradicional",
+          "description": "Obtenção da minha certificação após 3 anos de formação intensiva, marcando o início da minha prática profissional."
+        },
+        {
+          "year": "2022",
+          "title": "Especialização em Acompanhamento de Maternidade",
+          "description": "Formação complementar para acompanhar mulheres grávidas e no pós-parto com técnicas de Shiatsu adaptadas."
+        },
+        {
+          "year": "2023",
+          "title": "Abertura do Consultório em Remire-Montjoly",
+          "description": "Criação de um espaço dedicado ao bem-estar e à serenidade para acolher os meus clientes na Guiana."
+        },
+        {
+          "year": "2024",
+          "title": "Formação em Sofrologia e Do-In",
+          "description": "Adição de novas competências para oferecer um apoio ainda mais completo, incluindo técnicas de relaxamento и automassagem."
+        }
+      ]
+    }
+  },
+  "signupDemo": {
+    "title": "Bem-vindo à Aceternity",
+    "subtitle": "Faça login na Aceternity se puder, porque ainda não temos um fluxo de login",
+    "fields": {
+      "firstName": "Nome",
+      "lastName": "Sobrenome",
+      "email": "Endereço de e-mail",
+      "password": "Senha",
+      "twitterPassword": "Sua senha do twitter"
+    },
+    "placeholders": {
+      "firstName": "João",
+      "lastName": "Silva",
+      "email": "joao.silva@exemplo.com",
+      "password": "••••••••"
+    },
+    "buttons": {
+      "signUp": "Inscrever-se →",
+      "github": "GitHub",
+      "google": "Google",
+      "onlyFans": "OnlyFans"
+    }
+  },
+  "uiDemo": {
+    "dropdown": {
+      "postActions": "Ações da publicação",
+      "edit": "Editar",
+      "duplicate": "Duplicar",
+      "share": "Partilhar",
+      "remove": "Remover"
+    }
+  }
+}

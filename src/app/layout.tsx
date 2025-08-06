@@ -15,10 +15,14 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata = {
-  title: 'Shiatsu Guyane - Guérison Holistique',
-  description: 'Cabinet de Shiatsu en Guyane pour la gestion du stress, des douleurs et le rééquilibrage énergétique.',
-};
+export async function generateMetadata() {
+  // For now, we'll use French as default since this is the root layout
+  // In a more advanced setup, you could detect language from headers
+  return {
+    title: 'Shiatsu Guyane - Guérison Holistique',
+    description: 'Cabinet de Shiatsu en Guyane pour la gestion du stress, des douleurs et le rééquilibrage énergétique.',
+  };
+}
 
 export default function RootLayout({
   children,

@@ -9,7 +9,21 @@ import { motion } from "framer-motion";
 import { Dispatch, SetStateAction, useState } from "react";
 import { IconType } from "react-icons";
 
-const StaggeredDropDown = () => {
+interface StaggeredDropDownProps {
+  dictionary: {
+    uiDemo: {
+      dropdown: {
+        postActions: string;
+        edit: string;
+        duplicate: string;
+        share: string;
+        remove: string;
+      };
+    };
+  };
+}
+
+const StaggeredDropDown = ({ dictionary }: StaggeredDropDownProps) => {
   const [open, setOpen] = useState(false);
   return (
     <div className="p-8 pb-56 flex items-center justify-center bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 relative">
@@ -21,7 +35,7 @@ const StaggeredDropDown = () => {
           onClick={() => setOpen((pv) => !pv)}
           className="flex items-center gap-2 px-4 py-2.5 rounded-lg backdrop-blur-md bg-white/10 border border-white/20 shadow-lg shadow-black/10 hover:bg-white/20 transition-all duration-200 text-slate-700"
         >
-          <span className="font-medium text-sm">Post actions</span>
+          <span className="font-medium text-sm">{dictionary.uiDemo.dropdown.postActions}</span>
           <motion.span variants={iconVariants}>
             <FiChevronDown />
           </motion.span>
@@ -32,10 +46,10 @@ const StaggeredDropDown = () => {
           style={{ originY: "top", translateX: "-50%" }}
           className="flex flex-col gap-1 p-2 rounded-xl backdrop-blur-md bg-white/10 border border-white/20 shadow-xl shadow-black/10 absolute top-[120%] left-[50%] w-48 overflow-hidden"
         >
-          <Option setOpen={setOpen} Icon={FiEdit} text="Edit" />
-          <Option setOpen={setOpen} Icon={FiPlusSquare} text="Duplicate" />
-          <Option setOpen={setOpen} Icon={FiShare} text="Share" />
-          <Option setOpen={setOpen} Icon={FiTrash} text="Remove" />
+          <Option setOpen={setOpen} Icon={FiEdit} text={dictionary.uiDemo.dropdown.edit} />
+          <Option setOpen={setOpen} Icon={FiPlusSquare} text={dictionary.uiDemo.dropdown.duplicate} />
+          <Option setOpen={setOpen} Icon={FiShare} text={dictionary.uiDemo.dropdown.share} />
+          <Option setOpen={setOpen} Icon={FiTrash} text={dictionary.uiDemo.dropdown.remove} />
         </motion.ul>
       </motion.div>
     </div>

@@ -147,9 +147,9 @@ export const Navbar = ({ dictionary, lang }: { dictionary: any; lang: Locale }) 
                 : 'rgba(var(--color-background), 0.1)'
             }}
           >
-            <Link href={`/${lang}/contact`}>
-              {dictionary.navbar.bookNow}
-            </Link>
+            <a href="https://www.resalib.fr/praticien/64776-nathalie-jean-praticien-shiatsu-remire-montjoly#newrdvmodal" target="_blank" rel="noopener noreferrer">
+              {dictionary.ctaSection.button}
+            </a>
           </Button>
         </div>
       </nav>

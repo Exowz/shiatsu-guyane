@@ -11,6 +11,6 @@ export const RATING_SOURCES = {
   RESALIB: "resalib",
 } as const;
 
-export const SUPPORTED_LOCALES = ["fr", "en", "pt"] as const;
+export const SUPPORTED_LOCALES = ["fr", "en", "pt-BR", "es"] as const;
 
 export const DEFAULT_LOCALE = "fr" as const;

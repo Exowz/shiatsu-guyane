@@ -1,27 +1,35 @@
 'use client';
 
 import Image from "next/image";
-import { Quote, Star } from "lucide-react";
+import { Quote, Star, User, Calendar } from "lucide-react";
 import { formatDistanceToNow } from 'date-fns';
 import { fr, enUS, ptBR } from 'date-fns/locale';
 import type { Locale } from '@/lib/i18n-config';
 
-// A helper component to render the star ratings visually
-const StarRating = ({ rating }: { rating: number }) => {
+// Enhanced star rating component with natural colors
+const StarRating = ({ rating, source }: { rating: number; source: string }) => {
   const totalStars = 5;
+  const isGoogle = source === 'google';
+  
   return (
     <div className="flex gap-1">
       {[...Array(totalStars)].map((_, index) => (
         <Star
           key={index}
-          className={`w-5 h-5 ${index < rating ? 'text-amber-400 fill-amber-400' : 'text-gray-300 dark:text-gray-600'}`}
+          className={`w-4 h-4 transition-colors duration-200 ${
+            index < rating 
+              ? isGoogle 
+                ? 'text-[rgb(var(--color-primary))] fill-[rgb(var(--color-primary))]' 
+                : 'text-[rgb(var(--color-secondary))] fill-[rgb(var(--color-secondary))]'
+              : 'text-[rgb(var(--color-text-secondary))]/30'
+          }`}
         />
       ))}
     </div>
   );
 };
 
-// The main component for a single review card
+// Enhanced review card with sophisticated styling
 export const ReviewCard = ({ review, lang }: { review: any; lang: Locale }) => {
   const isGoogle = review.source === 'google';
   let timeDescription = review.relative_time_description;
@@ -39,24 +47,76 @@ export const ReviewCard = ({ review, lang }: { review: any; lang: Locale }) => {
   }
 
   return (
-    // 'h-full flex flex-col' ensures all cards in a row are the same height
-    <div className="relative w-[350px] flex-shrink-0 rounded-xl bg-slate-100 dark:bg-slate-800 p-6 h-full flex flex-col">
-      <div className="flex justify-between items-start mb-4">
-        <div className="flex items-center gap-2">
+    <div className="relative w-[380px] flex-shrink-0 h-full flex flex-col group">
+      {/* Enhanced card with glassmorphism */}
+      <div className="bg-card/70 backdrop-blur-md rounded-3xl p-8 h-full flex flex-col shadow-lg hover:shadow-xl transition-all duration-300 hover:transform hover:scale-[1.02] border border-[rgb(var(--color-primary))]/10">
+        
+        {/* Gradient overlay based on source */}
+        <div className={`absolute inset-0 rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
+          isGoogle 
+            ? 'bg-gradient-to-br from-[rgb(var(--color-primary))]/5 to-[rgb(var(--color-secondary))]/3' 
+            : 'bg-gradient-to-br from-[rgb(var(--color-secondary))]/5 to-[rgb(var(--color-tertiary))]/3'
+        }`}></div>
 
-          <span className="font-semibold dark:text-white">{review.author_name}</span>
+        {/* Header section */}
+        <div className="flex justify-between items-start mb-6 relative z-10">
+          <div className="flex items-center gap-3">
+            {/* Enhanced avatar */}
+            <div className={`w-12 h-12 rounded-2xl flex items-center justify-center shadow-lg ${
+              isGoogle 
+                ? 'bg-gradient-to-br from-[rgb(var(--color-primary))] to-[rgb(var(--color-secondary))]' 
+                : 'bg-gradient-to-br from-[rgb(var(--color-secondary))] to-[rgb(var(--color-tertiary))]'
+            }`}>
+              <User className="w-6 h-6 text-white" />
+            </div>
+            
+            <div>
+              <span className="font-bold text-card-foreground text-lg">{review.author_name}</span>
+              {/* Source badge */}
+            </div>
+          </div>
+          
+          {/* Rating and time section */}
+          <div className="text-right flex-shrink-0">
+            <StarRating rating={review.rating} source={review.source} />
+            {timeDescription && (
+              <div className="flex items-center gap-1 mt-2 text-xs text-[rgb(var(--color-text-secondary))]">
+                <Calendar className="w-3 h-3" />
+                <span>{timeDescription}</span>
+              </div>
+            )}
+          </div>
         </div>
-        <div className="text-right flex-shrink-0">
-          <StarRating rating={review.rating} />
-          {timeDescription && (
-            <p className="text-xs text-gray-500 dark:text-slate-400 mt-1">{timeDescription}</p>
-          )}
+
+        {/* Quote icon */}
+        <div className="relative z-10 mb-4">
+          <Quote className={`w-8 h-8 opacity-20 ${
+            isGoogle ? 'text-[rgb(var(--color-primary))]' : 'text-[rgb(var(--color-secondary))]'
+          }`} />
+        </div>
+        
+        {/* Review content */}
+        <blockquote className="text-[rgb(var(--color-text-secondary))] text-base leading-relaxed flex-grow relative z-10 italic">
+          "{review.text}"
+        </blockquote>
+
+        {/* Bottom decoration */}
+        <div className="mt-6 pt-4 border-t border-[rgb(var(--color-primary))]/10 relative z-10">
+          <div className="flex items-center justify-between">
+            <div className={`flex items-center gap-2 text-xs font-medium ${
+              isGoogle ? 'text-[rgb(var(--color-primary))]' : 'text-[rgb(var(--color-secondary))]'
+            }`}>
+              <Star className="w-3 h-3" />
+              <span>Avis vérifié</span>
+            </div>
+            
+            {/* Rating display */}
+            <div className="text-sm font-bold text-[rgb(var(--color-text))]">
+              {review.rating}/5
+            </div>
+          </div>
         </div>
       </div>
-      {/* 'flex-grow' pushes the footer to the bottom */}
-      <blockquote className="text-gray-600 dark:text-slate-300 italic text-sm leading-relaxed flex-grow">
-        “{review.text}”
-      </blockquote>
     </div>
   );
 };

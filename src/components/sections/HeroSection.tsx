@@ -17,7 +17,7 @@ export const HeroSection = ({ dictionary, lang }: { dictionary: Dictionary; lang
         className="absolute top-0 left-0 w-full h-full object-cover z-[-1]" // <-- Simplified classes
       >
         <source src="/videos/hero-video.mp4" type="video/mp4" />
-        Votre navigateur ne supporte pas les vidéos.
+        {dictionary.components.hero.videoNotSupported}
       </video>
 
       {/* Dark Overlay for better text readability */}
@@ -32,7 +32,9 @@ export const HeroSection = ({ dictionary, lang }: { dictionary: Dictionary; lang
           {dictionary.homepage.heroSubtitle}
         </p>
         <Button asChild size="lg" className="mt-8 font-semibold transition-all backdrop-blur-md duration-300 px-6 py-3 rounded-full hover:opacity-90 text-white" style={{ backgroundColor: 'rgba(var(--color-primary), 0.9)' }}>
-          <Link href={`/${lang}/contact`}>{dictionary.navbar.bookNow}</Link>
+          <a href="https://www.resalib.fr/praticien/64776-nathalie-jean-praticien-shiatsu-remire-montjoly#newrdvmodal" target="_blank" rel="noopener noreferrer">
+            {dictionary.ctaSection.button}
+          </a>
         </Button>
       </div>
            <div className="absolute top-1/2 left-12 -translate-y-1/2 hidden lg:flex flex-col items-center gap-4 ">
@@ -53,7 +55,7 @@ export const HeroSection = ({ dictionary, lang }: { dictionary: Dictionary; lang
         </span>
         <div className="h-24 w-px mt-4 bg-white/50"></div>
       </div>
-      <HeroActions lang={lang} />
+      <HeroActions lang={lang} dictionary={dictionary} />
     </section>
   );
 };
