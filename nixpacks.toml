@@ -1,0 +1,14 @@
+# Nixpacks configuration for Next.js Shiatsu Guyane website
+[variables]
+NODE_VERSION = "22"
+NPM_CONFIG_PRODUCTION = "false"
+
+[phases.install]
+cmds = ["npm ci"]
+
+[phases.build]
+dependsOn = ["install"]
+cmds = ["npm run build"]
+
+[start]
+cmd = "npm start"
