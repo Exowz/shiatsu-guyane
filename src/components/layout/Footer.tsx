@@ -2,10 +2,12 @@
 
 import Link from 'next/link';
 import { MapPin, Phone, Mail, Clock, Heart, Leaf, Star, ArrowUp } from 'lucide-react';
+import { HealthcareDisclaimer } from '@/components/ui/HealthcareDisclaimer';
+import type { Dictionary, Locale } from '@/types/dictionary';
 
 interface FooterProps {
-  dictionary: any;
-  lang: string;
+  dictionary: Dictionary;
+  lang: Locale;
 }
 
 export const Footer = ({ dictionary, lang }: FooterProps) => {
@@ -51,7 +53,7 @@ export const Footer = ({ dictionary, lang }: FooterProps) => {
                 </div>
                 <div className="flex items-center gap-2 bg-card/50 backdrop-blur-sm px-4 py-2 rounded-full shadow-lg">
                   <Star className="w-4 h-4 text-[rgb(var(--color-primary))]" />
-                  <span className="text-sm font-medium text-[rgb(var(--color-text-secondary))]">{dictionary.components.footer.practitioner.certification2}</span>
+                  <span className="text-sm font-medium text-[rgb(var(--color-text-secondary))]">{dictionary.components.footer.practitioner.certification}</span>
                 </div>
                 <div className="flex items-center gap-2 bg-card/50 backdrop-blur-sm px-4 py-2 rounded-full shadow-lg">
                   <Heart className="w-4 h-4 text-[rgb(var(--color-secondary))]" />
@@ -182,6 +184,11 @@ export const Footer = ({ dictionary, lang }: FooterProps) => {
               </div>
             </div>
           </div>
+        </div>
+
+        {/* Healthcare Disclaimer Section */}
+        <div className="container mx-auto px-6 py-8">
+          <HealthcareDisclaimer dictionary={dictionary} lang={lang} variant="footer" />
         </div>
 
         {/* Bottom Section */}

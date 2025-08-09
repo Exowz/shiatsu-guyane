@@ -5,9 +5,10 @@ import { Quote, Star, User, Calendar } from "lucide-react";
 import { formatDistanceToNow } from 'date-fns';
 import { fr, enUS, ptBR } from 'date-fns/locale';
 import type { Locale } from '@/lib/i18n-config';
+import type { Dictionary } from '@/types/dictionary';
 
 // Enhanced star rating component with natural colors
-const StarRating = ({ rating, source }: { rating: number; source: string }) => {
+const StarRating = ({ rating, source }: { rating: number; source?: string }) => {
   const totalStars = 5;
   const isGoogle = source === 'google';
   
@@ -30,7 +31,7 @@ const StarRating = ({ rating, source }: { rating: number; source: string }) => {
 };
 
 // Enhanced review card with sophisticated styling
-export const ReviewCard = ({ review, lang }: { review: any; lang: Locale }) => {
+export const ReviewCard = ({ review, lang }: { review: { author_name: string; rating: number; text: string; date?: string; source?: string; relative_time_description?: string }; lang: Locale }) => {
   const isGoogle = review.source === 'google';
   let timeDescription = review.relative_time_description;
 
@@ -97,7 +98,7 @@ export const ReviewCard = ({ review, lang }: { review: any; lang: Locale }) => {
         
         {/* Review content */}
         <blockquote className="text-[rgb(var(--color-text-secondary))] text-base leading-relaxed flex-grow relative z-10 italic">
-          "{review.text}"
+          &quot;{review.text}&quot;
         </blockquote>
 
         {/* Bottom decoration */}

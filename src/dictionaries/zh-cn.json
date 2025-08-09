@@ -1,0 +1,1321 @@
+{
+  "navbar": {
+    "about": "关于我们",
+    "services": "服务与价格",
+    "whoIsItFor": "适用人群",
+    "whatIsShiatsu": "指压疗法",
+    "practicalInfo": "实用信息",
+    "contact": "联系方式",
+    "bookNow": "预约"
+  },
+  "homepage": {
+    "practitionerName": "圭亚那指压疗法",
+    "heroTitle": "Nathalie JEAN",
+    "heroSubtitle": "通过个性化的治疗方法，重新找回您的宁静。",
+    "scrollDown": "向下滚动"
+  },
+  "aboutIntro": {
+    "heading": "欢迎，我是Nathalie JEAN",
+    "paragraph": "我热衷于手法治疗和能量平衡，我的使命是陪伴您走上健康之路。我采用温和而专注的方法，帮助您释放紧张，重拾活力。",
+    "cta": "了解我的历程"
+  },
+  "benefitsSection": {
+    "heading": "指压疗法的主要益处",
+    "cards": [
+      {
+        "title": "压力与焦虑",
+        "description": "舒缓神经系统，减轻精神负担，找回深度持久的平静状态。"
+      },
+      {
+        "title": "身体疼痛",
+        "description": "有效缓解背痛、肌肉紧张、偏头痛和关节疼痛。"
+      },
+      {
+        "title": "平衡与活力",
+        "description": "改善睡眠，促进消化，为身体补充生命能量，实现整体健康。"
+      },
+      {
+        "title": "孕期支持",
+        "description": "在孕期和产后为女性提供支持，缓解常见不适，促进恢复。"
+      },
+      {
+        "title": "消化系统问题",
+        "description": "协调消化功能，减少腹胀，自然改善肠道蠕动。"
+      },
+      {
+        "title": "免疫支持",
+        "description": "增强身体的自然防御能力，预防季节性疾病，提高身体抵抗力。"
+      }
+    ],
+    "cta": "了解更多益处"
+  },
+  "whatIsShiatsuSection": {
+    "heading": "什么是“指压”？",
+    "paragraph": "指压是一种源自日本的手法疗法，通过对全身施加手指和手掌的压力来恢复“气”的循环，从而缓解病痛，恢复身体活力，平静心灵。",
+    "cta": "了解更多关于指压的信息"
+  },
+  "whoIsItForSection": {
+    "heading": "为所有人提供支持",
+    "testimonials": [
+      {
+        "quote": "用于管理日常压力，改善睡眠，重获整体幸福感。",
+        "name": "成人",
+        "designation": "平衡与活力",
+        "src": "/images/audience-adults.jpg"
+      },
+      {
+        "quote": "用于维持关节灵活性，缓解慢性疼痛并保持活动能力。",
+        "name": "老年人",
+        "designation": "活动与舒适",
+        "src": "/images/audience-seniors.jpg"
+      },
+      {
+        "quote": "用于缓解怀孕期间的不适（背痛、腿部沉重感），并为分娩做准备。",
+        "name": "孕妇",
+        "designation": "宁静与准备",
+        "src": "/images/audience-pregnant.jpg"
+      },
+      {
+        "quote": "用于优化恢复，预防伤害并提高身心表现。",
+        "name": "运动员",
+        "designation": "表现与恢复",
+        "src": "/images/audience-athletes.jpg"
+      },
+      {
+        "quote": "用于帮助管理与学习和考试相关的压力，并提高注意力。",
+        "name": "青少年",
+        "designation": "专注与自信",
+        "src": "/images/audience-teenagers.jpg"
+      },
+      {
+        "quote": "用于减轻工作场所的压力，预防职业倦怠并改善员工福祉。",
+        "name": "企业",
+        "designation": "工作场所健康",
+        "src": "/images/audience-companies.jpg"
+      },
+      {
+        "quote": "用于安抚哭闹，缓解绞痛并促进从最初几个月开始的安宁睡眠。",
+        "name": "婴儿",
+        "designation": "温柔与舒缓",
+        "src": "/images/audience-babies.jpg"
+      }
+    ],
+    "cta": "查看每个群体的益处"
+  },
+  "testimonialsSection": {
+    "heading": "客户评价",
+    "googleHeading": "Google近期评价",
+    "resalibHeading": "Resalib客户评价",
+    "summary": {
+      "satisfaction": "的客户表示满意",
+      "googleLabel": "Google评分",
+      "resalibLabel": "Resalib评分",
+      "overallLabel": "综合评分",
+      "googleAverage": "4.8",
+      "resalibAverage": "4.9"
+    },
+    "staticReviews": [
+      {
+        "author_name": "Alex A.",
+        "rating": 5,
+        "text": "一试便知。",
+        "date": "2025-07-05"
+      },
+      {
+        "author_name": "Camille R.",
+        "rating": 5,
+        "text": "我找Nathalie做指压按摩快两年了，我强烈推荐她。她的经验是毋庸置疑的，但她的个性也会让你想再来！这是一次美好的相遇，每次疗程后都感觉更好。谢谢你，Nathalie！",
+        "date": "2025-07-05"
+      },
+      {
+        "author_name": "Hélène M.",
+        "rating": 5,
+        "text": "优秀的从业者，经验丰富，非常细心。太棒了！",
+        "date": "2025-07-01"
+      },
+      {
+        "author_name": "Nathalie É.",
+        "rating": 5,
+        "text": "非常有活力，效率高，善于倾听，建议也很好，我推荐她。",
+        "date": "2025-04-27"
+      },
+      {
+        "author_name": "Virginie D.",
+        "rating": 5,
+        "text": "热情的接待和亲切的倾听，从一开始就让人感到放心。第一次预约就感觉很好。非常感谢你，Nathalie！",
+        "date": "2025-04-25"
+      }
+    ]
+  },
+  "ctaSection": {
+    "heading": "准备好重获健康了吗？",
+    "subheading": "立即预订您的个性化指压按摩疗程，开始您的宁静之旅。",
+    "button": "预约",
+    "badge": "您的旅程从这里开始",
+    "trustElements": {
+      "personalizedConsultation": "个性化咨询",
+      "certifiedPractitioner": "认证从业者",
+      "kindApproach": "亲切的方法"
+    },
+    "bookingSection": {
+      "title": "预订您的疗程",
+      "description": "直接在线预约，开始您的持久健康之旅。",
+      "reassurance": "预订简单安全"
+    },
+    "secondaryButtons": {
+      "question": "有疑问吗？",
+      "pricing": "查看价格"
+    },
+    "quote": {
+      "text": "每一次通往健康的旅程都始于第一步。相信您的直觉，给自己一个应得的关爱时刻。",
+      "attribution": "— Nathalie Jean，认证指压按摩师"
+    }
+  },
+  "shiatsuPage": {
+    "title": "指压：日本手法治疗详解",
+    "subtitle": "指压（指圧），字面意思是“手指按压”，是一门古老的技艺，自1955年起在日本得到官方承认，因其有效性和整体哲学而风靡全球。",
+    "general": {
+      "definition": {
+        "heading": "定义与起源",
+        "p1": "指压疗法包括对全身进行有节奏的按压，旨在重新平衡身体，改善或维持健康。这种手法主要使用拇指和手掌，但有时也使用肘部或膝盖，对沿着能量经络的特定穴位（Tsubos）施加压力。"
+      },
+      "history": {
+        "heading": "历史渊源",
+        "p1": "指压的起源可以追溯到7至9世纪中医（汉方）传入日本，尤其是推拿技术。几个世纪以来，日本的执业医师发展出了自己的方法，从而产生了按摩。 “指压”一词本身是1919年由玉井天碧选择的，但现代指压的发明者被认为是德治郎浪越（1905-2000），这要归功于他用手指按压治愈母亲风湿病的开创性经验。"
+      },
+      "principles": {
+        "heading": "基本原则：气的哲学",
+        "p1": "指压疗法从身体、心理和精神的整体角度看待人类。它基于生命能量（中文称为“气”，日文称为“Ki”）通过称为经络的能量通道循环的概念。根据这种哲学，任何不平衡都源于这种循环的阻塞。"
+      },
+      "objectives": {
+        "heading": "治疗目标",
+        "points": [
+          "释放和调节生命能量",
+          "避免与内失衡相关的功能障碍",
+          "减少身体内积累的紧张",
+          "刺激身体的自然防御机制",
+          "激活副交感神经系统以促进恢复和健康"
+        ]
+      },
+      "techniques": {
+        "heading": "技术与实践",
+        "p1": "从业者使用各种按压技术。最常见的是普通按压：轻轻地施加在一个点上，然后在3到5秒内逐渐释放。现代指压还根据需要结合了伸展、关节活动和振动。",
+        "p2": "呼吸起着至关重要的作用。从业者和接受者同步呼吸，以促进放松和动作的流畅性，从而促进“气”的和谐流动。"
+      }
+    },
+    "schools": {
+      "heading": "现代指压的三大创始流派",
+      "items": [
+        {
+          "title": "浪越 escuela",
+          "description": "原始、科学和治疗性指压",
+          "src": "/images/school-namikoshi.png",
+          "content": [
+            {
+              "heading": "创始人和历史",
+              "text": "浪越德治郎（1905-2000）被公认为现代指压之父。他的革命性方法源于一次个人经历：7岁时，他凭经验发现“按压”比摩擦更能缓解母亲的风湿病。1955年，他的学校获得了日本厚生省的官方许可。"
+            },
+            {
+              "heading": "机构发展",
+              "text": "1925年，浪越开设了他的第一家诊所。转折点发生在1955年，当时他的学校获得了日本厚生省的官方许可。这项政府认可为指压疗法赋予了医学合法性，玛丽莲·梦露和穆罕默德·阿里等著名患者的声誉更是加强了这一点。"
+            },
+            {
+              "heading": "理念与技术方法",
+              "text": "浪越指压以其严谨的解剖学和生理学方法而著称，符合现代西医。它优先研究身体的物理结构，而不是传统的中国能量概念。"
+            },
+            {
+              "heading": "七种治疗效果",
+              "text": "浪越德治郎列举了指压疗法刺激身体正常运作的七种治疗效果：",
+              "list": [
+                "协调神经系统",
+                "激活内脏-皮肤反射",
+                "改善动脉循环",
+                "矫正骨骼",
+                "深度放松",
+                "刺激自然防御",
+                "稳态平衡"
+              ]
+            },
+            {
+              "heading": "按压方法",
+              "text": "浪越指压只使用手指和手掌。按压遵循三个基本原则：",
+              "list": [
+                "垂直于接受者身体的按压",
+                "保持按压3至5秒",
+                "从业者完全专注"
+              ]
+            },
+            {
+              "heading": "严格的规程",
+              "text": "浪越学校教授标准化的“型”（形式），以实现技术的系统应用。这些规程包含整脊疗法的关键元素，和谐地融入到手法实践中。"
+            }
+          ]
+        },
+        {
+          "title": "增永 escuela",
+          "description": "禅指压与身心维度",
+          "src": "/images/school-masunaga.png",
+          "content": [
+            {
+              "heading": "创始人和理论创新",
+              "text": "增永静人（1925-1981）通过重新整合传统东方根源，彻底改变了指压疗法。他拥有心理学学位，为实践带来了前所未有的身心维度。他曾是浪越的学生，于1960年创立了Iokaï学校，并发展了自己的体系，命名为“禅指压”。"
+            },
+            {
+              "heading": "重大概念创新",
+              "text": "增永最重要的贡献在于将经络扩展到全身。凭借其心理学背景，他发展出一种独特的心理生理学方法，将情绪失衡视为主要因素。",
+              "listTitle": "中医药的融合：",
+              "list": [
+                "能量经络（keiraku）",
+                "五行理论（gogyō）",
+                "阴阳概念",
+                "穴位（tsubo）",
+                "道家哲学"
+              ]
+            },
+            {
+              "heading": "禅宗指压的技术与哲学",
+              "text": "增永区分了两种触摸：触诊（技术性和专业性）和切诊（温暖和共情）。切诊是禅宗指压的精髓，它涉及到从业者和接受者之间的深刻联系。",
+              "listTitle": "禅宗指压强调：",
+              "list": [
+                "疗程中的冥想方法",
+                "从业者直觉的发展",
+                "能量倾听而非机械应用",
+                "将精神层面融入治疗"
+              ]
+            },
+            {
+              "heading": "精密的能量诊断",
+              "text": "增永开发了复杂的病理图表，用于识别特定的能量失衡。这种诊断方法包括观察中医脉象、舌诊和腹部触诊（腹诊）。"
+            }
+          ]
+        },
+        {
+          "title": "清气 escuela",
+          "description": "能量陪伴的艺术",
+          "src": "/images/school-seiki.png",
+          "content": [
+            {
+              "heading": "创始人和培训",
+              "text": "岸信介（1949-2012）代表了指压传统的终极综合。他曾在浪越和Iokaï（增永）学校接受培训，并担任增永的助手十年。这种双重培训使他掌握了独特的技能。29岁时，他经历了一次深刻的意识转变，从而诞生了清气疗法。"
+            },
+            {
+              "heading": "清气疗法的哲学",
+              "text": "“清气疗法”一词意为“生命能量的陪伴”。这种方法基于重要的哲学概念：",
+              "list": [
+                "神道教：与自然神灵的联系。",
+                "无为：道家的“无为而治”原则，即毫不费力地行动。",
+                "无心：一种空灵的心态，没有自我，没有期望。"
+              ]
+            },
+            {
+              "heading": "方法与技巧",
+              "text": "清气被定义为“极简身体功法”。其基本技术原理是“行气”，即“用手呼吸”。",
+              "list": [
+                "像蝴蝶落在花上一样轻柔的触摸。",
+                "从业者与接受者之间的呼吸联系。",
+                "能量倾听而非主动干预。",
+                "机度间：在正确的时间、正确的地点采取正确的行动。"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "sessionFlow": {
+      "heading": "疗程如何进行",
+      "p1": "一次疗程通常持续1小时到1.5小时。它总是以一次讨论开始，以确定不平衡和紧张点。",
+      "p2": "指压疗法是在穿着舒适、有弹性的衣服的情况下进行的，传统上是在地板上的蒲团上。疗程后，通常会感到深度放松、轻松，有时会感到轻微疲劳，这表明身体已经工作并释放了紧张。"
+    }
+  },
+  "pourQuiPage": {
+    "title": "指压适合谁？",
+    "subtitle": "一种适应所有年龄和身体状况的整体实践，为每种需求提供特定的好处。",
+    "cards": [
+      {
+        "title": "公司",
+        "description": "为工作生活质量（QWL）服务的指压",
+        "src": "/images/audience-companies.jpg",
+        "content": [
+          {
+            "heading": "背景与挑战",
+            "text": "现代职业世界产生了相当大的压力。24%的法国员工处于高度紧张状态，这对他们的健康构成了重大风险（职业倦怠、抑郁、睡眠障碍）。指压疗法完全符合QWL和CSR倡议。"
+          },
+          {
+            "heading": "具体好处",
+            "list": [
+              "减轻压力和紧张。",
+              "预防肌肉骨骼疾病（MSDs）。",
+              "提高生产力和员工福祉。",
+              "预防社会心理风险（PSRs）。"
+            ]
+          },
+          {
+            "heading": "实际安排",
+            "list": [
+              "每次15至20分钟的短时椅子按摩。",
+              "穿着衣服，不使用精油。",
+              "只需要一个4-5平方米的安静空间。"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "成人",
+        "description": "全面支持日常健康",
+        "src": "/images/audience-adults.jpg",
+        "content": [
+          {
+            "heading": "主要应用",
+            "text": "对于成年人来说，指压疗法通过在多个层面上发挥作用，来应对现代生活的挑战，以舒缓身体，恢复活力，并增强免疫系统。"
+          },
+          {
+            "heading": "预防和治疗益处",
+            "list": [
+              "管理压力、疲劳和焦虑。",
+              "缓解背部、肌肉和关节疼痛。",
+              "改善血液和淋巴循环。",
+              "显著改善睡眠质量。"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "老年人",
+        "description": "维持活力与自主",
+        "src": "/images/audience-seniors.jpg",
+        "content": [
+          {
+            "heading": "具体调整",
+            "text": "老年人指压需要特殊的技术调整，采用更轻柔的按压和适合每个人状况的动作（扶手椅、床等）。"
+          },
+          {
+            "heading": "主要好处",
+            "list": [
+              "缓解慢性疼痛（骨关节炎、风湿病）。",
+              "提高活动能力、平衡感和减少僵硬。",
+              "心理支持、减轻焦虑和改善睡眠。",
+              "温柔的陪伴，提供舒适和存在感。"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "青少年",
+        "description": "转型期间的支持",
+        "src": "/images/audience-teenagers.jpg",
+        "content": [
+          {
+            "heading": "青春期的特殊性",
+            "text": "青春期是一个剧烈转变的时期。指压疗法为年轻人提供出色的支持，帮助他们平静、重新集中和获得安全感。"
+          },
+          {
+            "heading": "对行为和福祉的好处",
+            "list": [
+              "管理情绪和压力，尤其是在考试期间。",
+              "提高自信心和安全感。",
+              "帮助集中注意力和预防学业倦怠。",
+              "促进开放、沟通和改善睡眠。"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "孕妇",
+        "description": "孕期温柔呵护",
+        "src": "/images/audience-pregnant.jpg",
+        "content": [
+          {
+            "heading": "按孕期调整",
+            "text": "指压疗法根据怀孕的每个阶段进行专门调整，针对性地进行疗程，以缓解第一孕期的恶心，第二孕期的背痛，并在第三孕期为分娩做准备。"
+          },
+          {
+            "heading": "孕期益处",
+            "list": [
+              "缓解怀孕不适：腰痛、腿部沉重、恶心。",
+              "情绪支持、减轻焦虑和与宝宝建立联系。",
+              "通过放松盆骨为分娩做准备。",
+              "始终建议事先咨询医生。"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "婴儿",
+        "description": "从出生开始的温柔接触",
+        "src": "/images/audience-babies.jpg",
+        "content": [
+          {
+            "heading": "调整技巧",
+            "text": "婴儿指压疗法在短时间内（5至20分钟）采用非常轻柔的抚摸和动作，以促进和谐发展。父母也可以学习简单的技巧来安抚孩子。"
+          },
+          {
+            "heading": "对婴儿的好处",
+            "list": [
+              "改善睡眠障碍和减少烦躁。",
+              "有效缓解绞痛和反流的消化支持。",
+              "增强免疫系统。",
+              "促进身体的平衡和发展。"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "运动员",
+        "description": "优化表现与恢复",
+        "src": "/images/audience-athletes.jpg",
+        "content": [
+          {
+            "heading": "准备与恢复",
+            "text": "指压疗法为各级别运动员提供全面的支持，无论是为比赛做准备，还是加速赛后恢复。"
+          },
+          {
+            "heading": "具体好处",
+            "list": [
+              "通过改善肌肉氧合来提高表现。",
+              "通过肌肉放松来预防受伤。",
+              "通过促进毒素排出来加速恢复。",
+              "减轻比赛压力和提高注意力。"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "pricingPage": {
+    "title": "治疗与价格",
+    "subtitle": "每次疗程都是一次重新发现和谐与幸福的邀请。发现我提供的治疗。",
+    "priceRange": "单次疗程的价格从75欧元到105欧元不等。\\n部分保险计划可能涵盖咨询费用。",
+    "individualSessions": {
+      "heading": "个人疗程",
+      "sessions": [
+        {
+          "name": "首次指压疗程",
+          "description": "一次完整的疗程，包括能量评估，以提供个性化支持。"
+        },
+        {
+          "name": "后续疗程",
+          "description": "一次后续疗程，以继续能量工作并深化益处。"
+        },
+        {
+          "name": "足底反射疗法",
+          "description": "刺激足部反射点，以舒缓全身紧张。"
+        },
+        {
+          "name": "健康按摩",
+          "description": "一次深度放松的时刻，以释放肌肉紧张并平静心灵。"
+        },
+        {
+          "name": "身心疗法",
+          "description": "放松和想象技巧，以管理压力和情绪。"
+        },
+        {
+          "name": "石疗",
+          "description": "使用石头和水晶来协调身体的能量。"
+        },
+        {
+          "name": "儿童/婴儿疗程",
+          "description": "为从婴儿到青少年的年轻人提供温柔和适应性的支持。"
+        }
+      ]
+    },
+    "packages": {
+      "heading": "套餐和礼品券",
+      "description": "通过我们精心设计的套餐和礼品券节省更多。非常适合持续支持或作为送给亲人的有意义的礼物。",
+      "items": [
+        {
+          "name": "5次疗程套餐",
+          "price": "400欧元",
+          "description": "定期支持，进行深入工作，效果持久。"
+        },
+        {
+          "name": "10次疗程套餐",
+          "price": "775欧元",
+          "description": "实现转型和长期维持平衡的理想承诺。"
+        },
+        {
+          "name": "礼品券",
+          "price": "可定制",
+          "description": "为您的亲人提供一个独特的幸福时刻。适用于所有服务。"
+        }
+      ]
+    },
+    "otherServices": {
+      "heading": "企业服务",
+      "intro": "工作中的身心健康是绩效的驱动力。我为满足您员工的需求，量身定制个人或团体课程，以管理压力、恢复活力和增进凝聚力。",
+      "workshops": [
+        {
+          "title": "身体工作坊",
+          "price": "每人18.00欧元",
+          "duration": "1小时至1.5小时",
+          "items": [
+            {
+              "name": "道引（团体自我按摩）",
+              "description": "通过简单的能量练习（伸展、按压、摩擦），道引有助于提高关节灵活性，消除压力，恢复活力。"
+            },
+            {
+              "name": "禅宗伸展（真向法）",
+              "description": "非常适合与身体重新建立联系，对抗压力，轻松放松。每个姿势保持6次深呼吸，带来放松和释放。"
+            },
+            {
+              "name": "手部放松入门",
+              "description": "一种能立即带来放松的按摩，既能缓解压力，又能软化关节，同时还能刺激血液循环和整体健康。"
+            }
+          ]
+        },
+        {
+          "title": "声音工作坊",
+          "price": "每人18.00欧元",
+          "duration": "1小时至1.5小时",
+          "items": [
+            {
+              "name": "身心学",
+              "description": "这种温和易学的练习有助于增强自信，通过想象和呼吸技巧改善压力管理，从而减少肌肉紧张。"
+            },
+            {
+              "name": "控制呼吸",
+              "description": "有无想象的呼吸练习，为管理情绪、提高注意力和缓解疼痛提供了可重复使用的日常工具。"
+            },
+            {
+              "name": "冥想与放松",
+              "description": "人人皆宜，这些练习有助于释放紧张，建立平静状态，并且可以融入最繁忙的日程中，立即见效。"
+            }
+          ]
+        },
+        {
+          "title": "信息工作坊",
+          "price": "每人15.00欧元",
+          "duration": "1小时至1.5小时",
+          "items": [
+            {
+              "name": "参与式会议",
+              "description": "探索整体健康方法工具，从五行理论到生物钟，以更好地了解自然现象如何影响身体。"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "practicalInfoPage": {
+    "title": "实用信息",
+    "subtitle": "准备疗程和充分享受其益处所需的一切信息。",
+    "sessionFlow": {
+      "heading": "典型疗程流程",
+      "steps": [
+        {
+          "name": "对话",
+          "description": "我们首先进行一次保密的讨论，以了解您的期望并进行能量评估。"
+        },
+        {
+          "name": "指压治疗",
+          "description": "治疗是在穿着整齐的情况下，在地板上舒适的蒲团上进行的。我对整个身体施加压力和伸展。"
+        },
+        {
+          "name": "汇报",
+          "description": "我们以一次简短的讨论结束，讨论您的感受，我可以为您的日常生活提供个性化建议。"
+        }
+      ]
+    },
+    "recommendations": {
+      "heading": "如何准备？",
+      "points": [
+        {
+          "name": "舒适的着装",
+          "description": "穿着柔软、舒适的衣物（运动裤、紧身裤、宽松的T恤），以便活动自如。"
+        },
+        {
+          "name": "便餐",
+          "description": "为获得更大的舒适度，请避免在疗程前吃大餐。"
+        },
+        {
+          "name": "疗程后",
+          "description": "治疗后安排一些安静的时间。多喝水以帮助身体排毒。"
+        }
+      ]
+    },
+    "location": {
+      "heading": "诊所",
+      "address": "12 Clos des Hippocampes, 97354 Rémire-Montjoly, French Guiana",
+      "cta": "在谷歌地图上查看"
+    }
+  },
+  "contactPage": {
+    "title": "联系我",
+    "subtitle": "如有任何问题或预约，请随时填写以下表格。",
+    "labels": {
+      "firstname": "名字",
+      "lastname": "姓氏",
+      "email": "邮箱",
+      "message": "您的留言"
+    },
+    "placeholders": {
+      "firstname": "Nathalie",
+      "lastname": "JEAN",
+      "email": "nathalie.jean@email.com",
+      "message": "您好，我想预约一次指压疗程..."
+    },
+    "button": "发送 →",
+    "form": {
+      "submitting": "发送中...",
+      "success": {
+        "title": "消息发送成功！",
+        "description": "感谢您的留言。我们将尽快回复您。",
+        "sendAnother": "发送另一条消息"
+      },
+      "privacy": {
+        "title": "保证隐私",
+        "description": "您的个人信息将受到保护，仅用于回复您。我们尊重您的隐私，绝不分享您的数据。"
+      }
+    },
+    "enhanced": {
+      "badge": "保持联系",
+      "quickInfo": {
+        "rapidResponse": "快速响应",
+        "personalizedExchange": "个性化交流",
+        "maxTime": "最多24小时"
+      },
+      "leftColumn": {
+        "badge": "开始对话",
+        "title": "您的健康从这里开始",
+        "description": "每个问题都值得一个个性化的答案。请随时分享您的疑虑、目标，或者只是对我的服务的好奇心。",
+        "benefits": {
+          "freeConsultation": "15分钟免费咨询",
+          "personalizedAdvice": "根据您的需求提供个性化建议",
+          "kindApproach": "亲切专业的态度"
+        },
+        "otherContact": {
+          "title": "其他联系方式",
+          "phone": "+594 (0)6 94 00 70 97",
+          "email": "nathalie.jean@shiatsu-guyane.com",
+          "office": "咨询室"
+        }
+      },
+      "rightColumn": {
+        "formTitle": "给我们留言",
+        "formSubtitle": "我会尽快回复您"
+      }
+    }
+  },
+  "components": {
+    "certificationGallery": {
+      "diplomaCount": {
+        "single": "证书",
+        "plural": "证书"
+      },
+      "viewAllButton": "点击查看所有证书（{{count}}）",
+      "zoomHint": "点击放大",
+      "certifications": {
+        "shiatsuProfessionnel": {
+          "title": "专业指压",
+          "organization": "André Nahum学校",
+          "year": "2006",
+          "details": "完整培训 - 芳香疗法与指压"
+        },
+        "ohashiatsuAdvanced": {
+          "title": "高级大桥指压®项目",
+          "organization": "The Ohashi Institute",
+          "year": "2008",
+          "details": "高级国际认证"
+        },
+        "ohashiatsuInstructor": {
+          "title": "认证大桥指压®导师",
+          "organization": "The Ohashi Institute",
+          "year": "2012",
+          "details": "教学资格"
+        },
+        "seikiShiatsu": {
+          "title": "清气指压",
+          "organization": "Seiki Meridian Shiatsu International",
+          "year": "2022-2024",
+          "details": "83小时与大师Tzvika Calisar学习"
+        },
+        "sophrologie": {
+          "title": "认证身心治疗师",
+          "organization": "巴黎身心学学院",
+          "year": "2023",
+          "details": "RNCP 5级 - 代码NSF 330p"
+        },
+        "formationsSpecialisees": {
+          "title": "专业培训",
+          "organization": "继续教育",
+          "year": "2022-2024",
+          "details": "型与专项治疗"
+        }
+      }
+    },
+    "testimonials": {
+      "badge": "客户感言",
+      "description": "发现我的客户的真实体验，以及他们通过指压疗法走向更健康幸福的旅程。",
+      "quickInfo": {
+        "verifiedReviews": "已验证的评论",
+        "satisfiedClients": "满意的客户",
+        "authenticExperiences": "真实的体验"
+      },
+      "loading": "正在加载Google评论...",
+      "verifiedBadge": "已验证的评论",
+      "wellbeingMessage": "您的健康对我们很重要",
+      "footerDescription": "每一份感言都反映了我们致力于陪伴您走上持久、真实的健康之旅的承诺。加入这个选择指压疗法来改变生活质量的社区吧。"
+    },
+    "benefits": {
+      "badge": "指压疗法的好处",
+      "quickInfo": {
+        "physicalWellbeing": "身体健康",
+        "emotionalBalance": "情绪平衡",
+        "vitalEnergy": "生命能量"
+      },
+      "description": "探索指压疗法如何通过一种全面而自然的方法，改变您的身体、情绪和能量健康。",
+      "ctaTitle": "深化您的知识",
+      "ctaDescription": "详细探索指压疗法的哲学、技术和历史，以更好地了解其卓越的好处。",
+      "traditionMessage": "探索一种为您的健康服务的古老传统",
+      "cards": {
+        "vitality": {
+          "title": "活力",
+          "description": "恢复您的能量"
+        },
+        "relief": {
+          "title": "缓解",
+          "description": "舒缓您的紧张"
+        },
+        "balance": {
+          "title": "平衡",
+          "description": "协调您的身心"
+        },
+        "prevention": {
+          "title": "预防",
+          "description": "保护您的健康"
+        }
+      }
+    },
+    "aboutIntro": {
+      "badge": "您的从业者",
+      "certifiedBadge": "认证从业者",
+      "experience": {
+        "years": "15年以上",
+        "label": "的经验"
+      },
+      "qualities": {
+        "personalizedApproach": {
+          "title": "个性化方法",
+          "description": "根据您的需求量身定制"
+        },
+        "compassionateListening": {
+          "title": "富有同情心的倾听",
+          "description": "一种人性化的方法"
+        }
+      },
+      "additionalCta": "发现我的旅程和我对健康的热情",
+      "imageAlt": "Nathalie Jean，指压从业者的照片"
+    },
+    "whatIsShiatsu": {
+      "badge": "传统艺术",
+      "qualities": {
+        "energeticBalance": {
+          "title": "能量平衡",
+          "description": "身体协调"
+        },
+        "holisticApproach": {
+          "title": "整体方法",
+          "description": "身体、心灵、情感"
+        }
+      },
+      "tradition": "古老的日本传统",
+      "shiatsuMeaning": {
+        "title": "指压",
+        "description": "指圧 • 手指按压"
+      },
+      "vitalEnergy": "生命能量",
+      "imageAlt": "接受指压治疗的人"
+    },
+    "whoIsItFor": {
+      "badge": "为谁？",
+      "quickInfo": {
+        "allAges": "所有年龄段",
+        "allNeeds": "所有需求",
+        "personalizedApproach": "个性化方法"
+      },
+      "description": "探索指压疗法如何支持您，无论您的旅程或需求如何。",
+      "findProfileTitle": "找到您的个人资料",
+      "findProfileDescription": "探索不同的个人资料，发现指压疗法如何支持您的健康之旅。",
+      "uniqueMessage": "每个人都是独一无二的，您的支持也是如此",
+      "cards": {
+        "globalWellbeing": {
+          "title": "全球健康",
+          "description": "身体、心灵和情感"
+        },
+        "tailored": {
+          "title": "量身定制",
+          "description": "根据您的需求进行调整"
+        },
+        "forEveryone": {
+          "title": "为每个人",
+          "description": "包容和关怀"
+        }
+      }
+    },
+    "footer": {
+      "practitioner": {
+        "name": "Nathalie Jean",
+        "description": "认证指压从业者",
+        "longDescription": "通过传统的日本指压艺术，提供个性化的支持，实现持久的健康。一种协调身体、心灵和生命能量的整体方法。",
+        "certification": "RNCP认证的身心治疗师",
+        "certification2": "认证的大桥指压®导师",
+        "experience": "18年以上的经验",
+        "membershipFFST": "法国传统指压联合会成员"
+      },
+      "contact": {
+        "title": "联系方式",
+        "office": {
+          "title": "办公室",
+          "address": "12 Clos des Hippocampes, 97354 Rémire-Montjoly, French Guiana",
+          "schedule": "周一至周五 上午9点至下午6点"
+        },
+        "email": {
+          "address": "nathalie.jean@shiatsu-guyane.com",
+          "responseTime": "24小时内回复"
+        }
+      },
+      "schedule": {
+        "title": "营业时间",
+        "weekdays": {
+          "label": "周一至周五",
+          "hours": "上午9:00 - 下午6:00"
+        },
+        "saturday": {
+          "label": "周六",
+          "hours": "上午9:00 - 下午2:00"
+        },
+        "sunday": {
+          "label": "周日",
+          "hours": "休息"
+        }
+      },
+      "navigation": {
+        "title": "导航",
+        "home": "首页"
+      },
+      "legal": {
+        "mentions": "法律声明",
+        "privacy": "隐私政策",
+        "terms": "条款和条件"
+      },
+      "backToTop": "返回顶部",
+      "copyright": "© 2025 Nathalie Jean - 指压从业者。保留所有权利。"
+    },
+    "hero": {
+      "socialLabels": {
+        "whatsapp": "在WhatsApp上联系",
+        "instagram": "在Instagram上关注",
+        "facebook": "在Facebook上关注"
+      },
+      "videoNotSupported": "您的浏览器不支持视频。",
+      "wellbeingBadge": "真正的健康",
+      "discover": "发现",
+      "credentials": {
+        "certifiedInstructor": "认证导师",
+        "experience": "18年以上经验",
+        "certifiedSophrologist": "RNCP身心治疗师"
+      }
+    },
+    "reviews": {
+      "verifiedReview": "已验证的评论"
+    },
+    "navbar": {
+      "socialLabels": {
+        "whatsapp": "WhatsApp",
+        "instagram": "Instagram",
+        "facebook": "Facebook"
+      }
+    }
+  },
+  "pages": {
+    "practicalInfo": {
+      "badge": "实用指南",
+      "quickNav": {
+        "flow": "流程",
+        "recommendations": "建议",
+        "location": "位置"
+      },
+      "sessionFlow": {
+        "badge": "疗程流程",
+        "description": "探索疗程如何进行，以便最好地为这次健康体验做准备。"
+      },
+      "recommendations": {
+        "badge": "个性化建议",
+        "description": "遵循这些简单的建议，充分享受您的疗程并优化治疗效果。"
+      },
+      "location": {
+        "badge": "位置",
+        "address": "地址"
+      }
+    },
+    "leShiatsu": {
+      "badge": "传统日本艺术",
+      "foundations": "基础",
+      "philosophyPractice": "哲学与实践",
+      "methodsTechniques": "方法与技巧",
+      "schoolsTraditions": "流派与传统",
+      "imageAlt": "指压实践",
+      "schoolsDescription": "探索丰富指压实践的不同方法和传统。"
+    },
+    "pourQui": {
+      "badge": "发现您的旅程",
+      "loading": "加载中...",
+      "exploreBelow": "向下探索",
+      "personalizedProfiles": "个性化档案",
+      "findIdealSupport": "找到您的理想支持",
+      "notFindProfile": "找不到您的档案？",
+      "personalizedConsultation": "个性化咨询",
+      "contactUs": "联系我",
+      "introDescription": "每个人都是独一无二的，您的健康之旅也应如此。探索我们的服务如何适应您的具体需求。",
+      "personalizedDescription": "每种情况都是独特的。请联系我们，获取完全满足您需求和目标的个性化支持。",
+      "personalizedConsultationSection": {
+        "description": "每种情况都是独特的。请联系我以获取支持",
+        "title": "个性化咨询",
+        "cta": "联系我"
+      }
+    },
+    "servicesPricing": {
+      "badge": "专业健康服务",
+      "quickInfo": {
+        "flexibleScheduling": "灵活的日程安排",
+        "expertGuidance": "专家指导",
+        "personalizedApproach": "个性化方法"
+      },
+      "individualServices": "个人服务",
+      "valuePackages": "超值套餐",
+      "mostPopular": "最受欢迎",
+      "bestValue": "最佳价值",
+      "corporateSolutions": "企业解决方案",
+      "learnMore": "了解更多",
+      "packageBenefits": {
+        "flexibleScheduling": "灵活的日程安排选项",
+        "priorityBooking": "可优先预订",
+        "transferable": "可转让给家庭成员"
+      },
+      "getStarted": "开始",
+      "workshops": {
+        "description": "为您的团队成功设计的全面培训",
+        "priceLabel": "价格",
+        "durationLabel": "时长"
+      }
+    }
+  },
+  "metadata": {
+    "title": "指压圭亚那 - 整体治疗",
+    "description": "圭亚那的指压实践，用于压力和疼痛管理以及能量重新平衡。"
+  },
+  "aboutPage": {
+    "title": "关于Nathalie JEAN",
+    "subtitle": "我的旅程是人类联系的热情与对身体自我修复能力的深刻信念的融合。",
+    "intro": {
+      "heading": "我的哲学",
+      "p1": "我坚信每个人内心都拥有恢复平衡的资源。我的角色是友善地引导您，成为您走向健康的促进者。",
+      "p2": "我的方法是整体的：它考虑了个人的所有维度——身体、情感和精神。每次疗程都是一个倾听和尊重的空间，完全个性化以满足您的独特需求。"
+    },
+    "timeline": {
+      "heading": "关键旅程与培训",
+      "events": [
+        {
+          "year": "2021",
+          "title": "传统指压认证",
+          "description": "经过3年的强化培训，获得认证，标志着我专业实践的开始。"
+        },
+        {
+          "year": "2022",
+          "title": "孕期支持专业化",
+          "description": "为支持孕期和产后妇女提供适应性指压技术的额外培训。"
+        },
+        {
+          "year": "2023",
+          "title": "在Remire-Montjoly开设诊所",
+          "description": "在圭亚那为我的客户创建一个致力于健康和宁静的空间。"
+        },
+        {
+          "year": "2024",
+          "title": "身心疗法与道引培训",
+          "description": "增加了新技能，以提供更全面的支持，包括放松和自我按摩技巧。"
+        }
+      ]
+    },
+    "hardcodedStrings": {
+      "badges": {
+        "myJourney": "我的旅程",
+        "myStory": "我的故事",
+        "professionalPath": "职业道路",
+        "recognitions": "证书与认可"
+      },
+      "credentials": {
+        "ohashiatsuInstructor": "认证大桥指压®导师",
+        "experience": "18年以上经验",
+        "certifiedSophrologist": "认证RNCP身心治疗师",
+        "practitionerTitle": "认证指压从业者"
+      },
+      "values": {
+        "kindness": "善良",
+        "kindnessDesc": "深度倾听与尊重",
+        "excellence": "卓越",
+        "excellenceDesc": "持续培训",
+        "humanApproach": "人性化方法",
+        "humanApproachDesc": "每个人都是独一无二的，值得个性化的关注",
+        "durableResults": "持久效果",
+        "durableResultsDesc": "为最佳健康设计的持久解决方案",
+        "continuousInnovation": "持续创新",
+        "continuousInnovationDesc": "整合最新技术以实现最大效果"
+      },
+      "mission": {
+        "title": "我的使命",
+        "quote": "通过协调身体、心灵和生命能量，陪伴每个人走向持久的健康。指压不仅仅是一种技术，它是一种深刻改变人生的生活艺术。"
+      },
+      "certifications": {
+        "sectionTitle": "卓越认证",
+        "sectionDesc": "保证治疗质量的证书和培训"
+      },
+      "navigation": {
+        "discoverMyStory": "发现我的故事",
+        "discoverSteps": "发现塑造我指压专长和热情的关键步骤。"
+      }
+    }
+  },
+  "signupDemo": {
+    "title": "欢迎来到Aceternity",
+    "subtitle": "如果可以，请登录Aceternity，因为我们还没有登录流程",
+    "fields": {
+      "firstName": "名字",
+      "lastName": "姓氏",
+      "email": "邮箱地址",
+      "password": "密码",
+      "twitterPassword": "您的twitter密码"
+    },
+    "placeholders": {
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "john.doe@example.com",
+      "password": "••••••••"
+    },
+    "buttons": {
+      "signUp": "注册 →",
+      "github": "GitHub",
+      "google": "Google",
+      "onlyFans": "OnlyFans"
+    }
+  },
+  "uiDemo": {
+    "dropdown": {
+      "postActions": "帖子操作",
+      "edit": "编辑",
+      "duplicate": "复制",
+      "share": "分享",
+      "remove": "移除"
+    }
+  },
+  "legal": {
+    "privacyPolicy": {
+      "badge": "隐私政策",
+      "title": "个人数据保护",
+      "subtitle": "本政策说明我们如何根据GDPR和法国法规收集、使用和保护您的个人数据。",
+      "lastUpdated": "更新时间：2025年1月",
+      "controller": {
+        "title": "数据控制者",
+        "name": "Nathalie JEAN - 指压从业者",
+        "description": "FFST认证从业者，法国传统指压联合会成员",
+        "contact": {
+          "email": "联系邮箱",
+          "phone": "电话"
+        }
+      },
+      "dataCollection": {
+        "title": "收集的数据",
+        "personalData": {
+          "title": "个人数据（联系表格）",
+          "types": [
+            "姓名",
+            "电子邮件地址",
+            "消息和具体需求",
+            "语言偏好",
+            "联系日期和时间"
+          ]
+        },
+        "automaticData": {
+          "title": "技术数据（自动收集）",
+          "types": [
+            "IP地址（48小时后匿名化）",
+            "浏览器类型和版本",
+            "操作系统",
+            "访问页面和持续时间",
+            "访问来源"
+          ]
+        }
+      },
+      "legalBasis": {
+        "title": "处理的法律依据",
+        "basisLabel": "法律依据",
+        "purposes": [
+          {
+            "purpose": "处理联系请求",
+            "basis": "合法利益",
+            "description": "为了回答您的问题并安排治疗预约"
+          },
+          {
+            "purpose": "服务改进",
+            "basis": "合法利益",
+            "description": "为了根据您的需求调整我们的服务并改善用户体验"
+          },
+          {
+            "purpose": "法规遵守",
+            "basis": "法律义务",
+            "description": "遵守FFST义务和健康法规"
+          },
+          {
+            "purpose": "个性化沟通",
+            "basis": "同意",
+            "description": "发送有关我们服务的信息（可随时取消订阅）"
+          }
+        ]
+      },
+      "yourRights": {
+        "title": "您的GDPR权利",
+        "description": "根据GDPR，您对您的个人数据享有以下权利：",
+        "rights": [
+          {
+            "name": "访问权",
+            "description": "获取与您相关的数据副本"
+          },
+          {
+            "name": "更正权",
+            "description": "更正不准确或不完整的数据"
+          },
+          {
+            "name": "删除权",
+            "description": "请求删除您的数据"
+          },
+          {
+            "name": "反对权",
+            "description": "反对处理您的数据"
+          },
+          {
+            "name": "数据可携带权",
+            "description": "以结构化格式检索您的数据"
+          },
+          {
+            "name": "限制权",
+            "description": "限制对您数据的处理"
+          }
+        ],
+        "contact": {
+          "title": "行使您的权利",
+          "description": "通过电子邮件或电话联系我们。保证在30天内回复。"
+        }
+      },
+      "dataSecurity": {
+        "title": "数据安全",
+        "description": "我们实施适当的技术和组织措施来保护您的数据：",
+        "measures": [
+          "所有通信的SSL/TLS加密",
+          "具有自动备份的安全托管",
+          "基于需要知道的数据访问限制",
+          "安全事件监控和检测",
+          "数据保护定期培训",
+          "安全审计和系统更新"
+        ]
+      },
+      "cookies": {
+        "title": "Cookie政策",
+        "description": "我们的网站使用cookie来改善您的浏览体验：",
+        "duration": "持续时间",
+        "types": [
+          {
+            "name": "技术Cookie",
+            "description": "网站运行必需的（导航、安全）",
+            "duration": "会话"
+          },
+          {
+            "name": "偏好Cookie",
+            "description": "记住您的选择（语言、深色/浅色主题）",
+            "duration": "1年"
+          },
+          {
+            "name": "分析Cookie",
+            "description": "了解网站使用情况（页面浏览、停留时间）",
+            "duration": "2年"
+          },
+          {
+            "name": "性能Cookie",
+            "description": "优化性能和加载时间",
+            "duration": "6个月"
+          }
+        ]
+      },
+      "contact": {
+        "title": "联系我们",
+        "email": "电子邮箱地址",
+        "phone": "电话",
+        "cnil": {
+          "title": "CNIL投诉",
+          "description": "如果您认为您的权利未得到尊重，您也可以向CNIL提出投诉。"
+        }
+      }
+    },
+    "cookieConsent": {
+      "title": "我们使用Cookie 🍪",
+      "description": "我们使用cookie来改善您的浏览体验、分析网站使用情况并为您提供个性化内容。您的隐私对我们很重要。",
+      "essentialCookies": {
+        "title": "必要Cookie",
+        "description": "网站运行必需的（导航、安全、会话）"
+      },
+      "analyticsCookies": {
+        "title": "分析Cookie",
+        "description": "帮助我们了解您如何使用我们的网站（页面浏览、停留时间）"
+      },
+      "performanceCookies": {
+        "title": "性能Cookie",
+        "description": "优化网站性能和加载速度"
+      },
+      "preferencesCookies": {
+        "title": "偏好Cookie",
+        "description": "记住您的个人选择（语言、主题、显示偏好）"
+      },
+      "acceptAll": "全部接受",
+      "acceptSelected": "接受选择",
+      "rejectNonEssential": "拒绝非必要",
+      "customize": "自定义",
+      "privacyPolicy": "隐私政策",
+      "moreInfo": "如需更多信息，请查阅我们的"
+    },
+    "healthcareDisclaimer": {
+      "title": "重要治疗声明",
+      "subtitle": "法规和专业义务信息",
+      "disclaimers": {
+        "notMedicalAdvice": {
+          "title": "非医疗替代",
+          "description": "指压是一种健康实践，不能替代医疗诊断或治疗。如有健康问题，请咨询您的主治医师。"
+        },
+        "ffstCertification": {
+          "title": "官方FFST认证",
+          "description": "FFST认证从业者（500+小时培训）符合欧洲标准。法国传统指压联合会的活跃成员。"
+        },
+        "emergencyContact": {
+          "title": "医疗急救",
+          "description": "紧急情况下，请立即拨打15（SAMU）、18（消防队）或前往医院急诊科。"
+        },
+        "dataProtection": {
+          "title": "健康数据保护",
+          "description": "您的所有个人信息和健康数据均严格按照GDPR和职业保密规定受到保护。"
+        }
+      },
+      "credentials": {
+        "title": "已验证的专业资格",
+        "items": [
+          "✓ FFST认证（法国传统指压联合会）",
+          "✓ 500+小时理论和实践培训验证",
+          "✓ 解剖学、生理学和能量学继续教育",
+          "✓ 遵守并签署FFST道德规范",
+          "✓ 有效的职业责任保险",
+          "✓ FFST专业注册成员（可验证）"
+        ]
+      },
+      "contact": "⚠️ 重要提醒：对于您正在进行的医疗治疗的任何问题，请咨询您的主治医师或专科医生。"
+    }
+  },
+  "common": {
+    "backToHome": "返回首页"
+  }
+}

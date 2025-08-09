@@ -2,6 +2,7 @@
 
 import { getDictionary } from '@/lib/dictionary';
 import { Locale } from '@/lib/i18n-config';
+import { Dictionary } from '@/types/dictionary';
 import { CtaSection } from '@/components/sections/CtaSection';
 import { Check, Clock, MapPin, Shirt, Utensils, Info, ArrowRight, Navigation, Calendar, Heart } from 'lucide-react';
 
@@ -81,7 +82,7 @@ export default async function PracticalInfoPage(props: { params: Promise<{ lang:
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-            {t.sessionFlow.steps.map((step: any, index: number) => (
+            {t.sessionFlow.steps.map((step: { name: string; description: string }, index: number) => (
               <div 
                 key={step.name} 
                 className="group relative bg-card/70 backdrop-blur-md p-8 rounded-3xl hover:bg-card/90 transition-all duration-500 hover:transform hover:scale-[1.02] shadow-lg hover:shadow-xl"
@@ -136,7 +137,7 @@ export default async function PracticalInfoPage(props: { params: Promise<{ lang:
           
           {/* Right column - Enhanced recommendation cards */}
           <div className="xl:col-span-3 space-y-6">
-            {t.recommendations.points.map((point: any, index: number) => (
+            {t.recommendations.points.map((point: { name: string; description: string }, index: number) => (
               <div 
                 key={point.name} 
                 className="group bg-card/70 backdrop-blur-md p-8 rounded-2xl hover:bg-card/90 transition-all duration-300 shadow-lg hover:shadow-xl"

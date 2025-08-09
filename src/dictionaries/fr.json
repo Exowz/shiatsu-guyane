@@ -661,6 +661,11 @@
         "description": "Merci pour votre message. Nous vous répondrons dans les plus brefs délais.",
         "sendAnother": "Envoyer un autre message"
       },
+      "error": {
+        "title": "Erreur d'envoi",
+        "description": "Une erreur est survenue lors de l'envoi de votre message.",
+        "tryAgain": "Réessayer"
+      },
       "privacy": {
         "title": "Confidentialité garantie",
         "description": "Vos informations personnelles sont protégées et ne seront utilisées que pour vous répondre. Nous respectons votre vie privée et ne partageons jamais vos données."
@@ -696,6 +701,52 @@
     }
   },
   "components": {
+    "certificationGallery": {
+      "diplomaCount": {
+        "single": "Diplôme",
+        "plural": "Diplômes"
+      },
+      "viewAllButton": "Cliquer pour voir tous les diplômes ({{count}})",
+      "zoomHint": "Cliquez pour agrandir",
+      "certifications": {
+        "shiatsuProfessionnel": {
+          "title": "Shiatsu Professionnel",
+          "organization": "École André Nahum",
+          "year": "2006",
+          "details": "Formation complète - Aromathérapie & Shiatsu"
+        },
+        "ohashiatsuAdvanced": {
+          "title": "Advanced Ohashiatsu® Program",
+          "organization": "The Ohashi Institute",
+          "year": "2008",
+          "details": "Certification internationale avancée"
+        },
+        "ohashiatsuInstructor": {
+          "title": "Instructeur Certifié Ohashiatsu®",
+          "organization": "The Ohashi Institute",
+          "year": "2012",
+          "details": "Habilitation à l'enseignement"
+        },
+        "seikiShiatsu": {
+          "title": "Seiki Shiatsu",
+          "organization": "Seiki Meridian Shiatsu International",
+          "year": "2022-2024",
+          "details": "83h avec Maître Tzvika Calisar"
+        },
+        "sophrologie": {
+          "title": "Sophrologue Certifiée",
+          "organization": "Académie de Sophrologie de Paris",
+          "year": "2023",
+          "details": "RNCP Niveau 5 - Code NSF 330p"
+        },
+        "formationsSpecialisees": {
+          "title": "Formations Spécialisées",
+          "organization": "Formation Continue",
+          "year": "2022-2024",
+          "details": "Kata & traitements spécifiques"
+        }
+      }
+    },
     "testimonials": {
       "badge": "Témoignages Clients",
       "description": "Découvrez les expériences authentiques de mes clients et leur parcours vers un mieux-être grâce au Shiatsu.",
@@ -860,7 +911,14 @@
         "instagram": "Follow on Instagram",
         "facebook": "Follow on Facebook"
       },
-      "videoNotSupported": "Votre navigateur ne supporte pas les vidéos."
+      "videoNotSupported": "Votre navigateur ne supporte pas les vidéos.",
+      "wellbeingBadge": "Bien-être Authentique",
+      "discover": "Découvrir",
+      "credentials": {
+        "certifiedInstructor": "Instructeur Certifié",
+        "experience": "18+ années d'expérience",
+        "certifiedSophrologist": "Sophrologue RNCP"
+      }
     },
     "reviews": {
       "verifiedReview": "Avis vérifié"
@@ -962,26 +1020,64 @@
     "heading": "Parcours & Formations Clés",
     "events": [
       {
-        "year": "2021",
+        "year": "2006",
         "title": "Certification en Shiatsu Traditionnel",
         "description": "Obtention de ma certification après 3 ans de formation intensive, marquant le début de ma pratique professionnelle."
       },
       {
-        "year": "2022",
-        "title": "Spécialisation en Accompagnement Maternité",
+        "year": "2008",
+        "title": "Certification Ohashiatsu",
         "description": "Formation complémentaire pour accompagner les femmes enceintes et en post-partum avec des techniques de Shiatsu adaptées."
       },
       {
-        "year": "2023",
-        "title": "Ouverture du Cabinet à Remire-Montjoly",
+        "year": "2012",
+        "title": "Certification Enseignante Shiatsu",
         "description": "Création d'un espace dédié au bien-être et à la sérénité pour accueillir mes clients en Guyane."
       },
       {
-        "year": "2024",
-        "title": "Formation en Sophrologie & Do-In",
+        "year": "2023-2024",
+        "title": "Certification Seiki Shiatsu",
         "description": "Ajout de nouvelles compétences pour offrir un accompagnement encore plus complet, incluant des techniques de relaxation et d'automassage."
       }
     ]
+  },
+  "hardcodedStrings": {
+    "badges": {
+      "myJourney": "Mon Parcours",
+      "myStory": "Mon Histoire",
+      "professionalPath": "Parcours Professionnel",
+      "recognitions": "Certifications & Reconnaissances"
+    },
+    "credentials": {
+      "ohashiatsuInstructor": "Instructeur Certifié Ohashiatsu®",
+      "experience": "18+ années d'expérience",
+      "certifiedSophrologist": "Sophrologue Certifiée RNCP",
+      "practitionerTitle": "Praticienne Shiatsu Certifiée"
+    },
+    "values": {
+      "kindness": "Bienveillance",
+      "kindnessDesc": "Écoute et respect profonds",
+      "excellence": "Excellence",
+      "excellenceDesc": "Formation continue",
+      "humanApproach": "Approche Humaine",
+      "humanApproachDesc": "Chaque personne est unique et mérite une attention personnalisée",
+      "durableResults": "Résultats Durables",
+      "durableResultsDesc": "Des solutions qui s'inscrivent dans la durée pour un bien-être optimal",
+      "continuousInnovation": "Innovation Continue",
+      "continuousInnovationDesc": "Intégration des dernières techniques pour une efficacité maximale"
+    },
+    "mission": {
+      "title": "Ma Mission",
+      "quote": "Accompagner chaque personne vers un mieux-être durable en harmonisant corps, esprit et énergie vitale. Le Shiatsu n'est pas seulement une technique, c'est un art de vivre qui transforme profondément."
+    },
+    "certifications": {
+      "sectionTitle": "Excellence Reconnue",
+      "sectionDesc": "Des certifications et formations qui garantissent la qualité de mes soins"
+    },
+    "navigation": {
+      "discoverMyStory": "Découvrez mon histoire",
+      "discoverSteps": "Découvrez les étapes clés qui ont façonné mon expertise et ma passion pour le Shiatsu."
+    }
   }
 },
   "signupDemo": {
@@ -1015,5 +1111,216 @@
       "share": "Partager",
       "remove": "Supprimer"
     }
+  },
+  "legal": {
+    "privacyPolicy": {
+      "badge": "Politique de Confidentialité",
+      "title": "Protection de vos Données Personnelles",
+      "subtitle": "Cette politique explique comment nous collectons, utilisons et protégeons vos données personnelles conformément au RGPD et à la réglementation française.",
+      "lastUpdated": "Mise à jour : Janvier 2025",
+      "controller": {
+        "title": "Responsable du Traitement",
+        "name": "Nathalie JEAN - Praticienne Shiatsu",
+        "description": "Praticienne certifiée FFST, membre de la Fédération Française de Shiatsu Traditionnel",
+        "contact": {
+          "email": "Contact Email",
+          "phone": "Téléphone"
+        }
+      },
+      "dataCollection": {
+        "title": "Données Collectées",
+        "personalData": {
+          "title": "Données Personnelles (Formulaire de Contact)",
+          "types": [
+            "Nom et prénom",
+            "Adresse email",
+            "Message et demandes spécifiques",
+            "Langue de préférence",
+            "Date et heure du contact"
+          ]
+        },
+        "automaticData": {
+          "title": "Données Techniques (Automatiques)",
+          "types": [
+            "Adresse IP (anonymisée après 48h)",
+            "Type de navigateur et version",
+            "Système d'exploitation",
+            "Pages visitées et durée",
+            "Référent de visite"
+          ]
+        }
+      },
+      "legalBasis": {
+        "title": "Base Juridique du Traitement",
+        "basisLabel": "Base légale",
+        "purposes": [
+          {
+            "purpose": "Traitement des demandes de contact",
+            "basis": "Intérêt légitime",
+            "description": "Pour répondre à vos questions et organiser des rendez-vous thérapeutiques"
+          },
+          {
+            "purpose": "Amélioration des services",
+            "basis": "Intérêt légitime",
+            "description": "Pour adapter nos services à vos besoins et améliorer l'expérience utilisateur"
+          },
+          {
+            "purpose": "Conformité réglementaire",
+            "basis": "Obligation légale",
+            "description": "Respect des obligations FFST et réglementations sanitaires"
+          },
+          {
+            "purpose": "Communications personnalisées",
+            "basis": "Consentement",
+            "description": "Envoi d'informations sur nos services (avec possibilité de désinscription)"
+          }
+        ]
+      },
+      "yourRights": {
+        "title": "Vos Droits RGPD",
+        "description": "Conformément au RGPD, vous disposez des droits suivants sur vos données personnelles :",
+        "rights": [
+          {
+            "name": "Droit d'accès",
+            "description": "Obtenir une copie des données vous concernant"
+          },
+          {
+            "name": "Droit de rectification",
+            "description": "Corriger des données inexactes ou incomplètes"
+          },
+          {
+            "name": "Droit à l'effacement",
+            "description": "Demander la suppression de vos données"
+          },
+          {
+            "name": "Droit d'opposition",
+            "description": "Vous opposer au traitement de vos données"
+          },
+          {
+            "name": "Droit à la portabilité",
+            "description": "Récupérer vos données dans un format structuré"
+          },
+          {
+            "name": "Droit de limitation",
+            "description": "Limiter le traitement de vos données"
+          }
+        ],
+        "contact": {
+          "title": "Pour exercer vos droits",
+          "description": "Contactez-nous par email ou téléphone. Réponse garantie sous 30 jours."
+        }
+      },
+      "dataSecurity": {
+        "title": "Sécurité des Données",
+        "description": "Nous mettons en œuvre des mesures techniques et organisationnelles appropriées pour protéger vos données :",
+        "measures": [
+          "Chiffrement SSL/TLS pour toutes les communications",
+          "Hébergement sécurisé avec sauvegarde automatique",
+          "Accès limité aux données sur base du besoin de connaître",
+          "Surveillance et détection des incidents de sécurité",
+          "Formation régulière sur la protection des données",
+          "Audit de sécurité et mise à jour des systèmes"
+        ]
+      },
+      "cookies": {
+        "title": "Politique des Cookies",
+        "description": "Notre site utilise des cookies pour améliorer votre expérience de navigation :",
+        "duration": "Durée",
+        "types": [
+          {
+            "name": "Cookies Techniques",
+            "description": "Nécessaires au fonctionnement du site (navigation, sécurité)",
+            "duration": "Session"
+          },
+          {
+            "name": "Cookies de Préférence",
+            "description": "Mémorisent vos choix (langue, thème sombre/clair)",
+            "duration": "1 an"
+          },
+          {
+            "name": "Cookies Analytiques",
+            "description": "Comprennent l'utilisation du site (pages vues, temps passé)",
+            "duration": "2 ans"
+          },
+          {
+            "name": "Cookies de Performance",
+            "description": "Optimisent les performances et temps de chargement",
+            "duration": "6 mois"
+          }
+        ]
+      },
+      "contact": {
+        "title": "Nous Contacter",
+        "email": "Adresse Email",
+        "phone": "Téléphone",
+        "cnil": {
+          "title": "Réclamation CNIL",
+          "description": "Vous pouvez également adresser une réclamation à la CNIL si vous estimez que vos droits ne sont pas respectés."
+        }
+      }
+    },
+    "cookieConsent": {
+      "title": "Nous utilisons des cookies 🍪",
+      "description": "Nous utilisons des cookies pour améliorer votre expérience de navigation, analyser l'utilisation du site et vous offrir un contenu personnalisé. Votre vie privée est importante pour nous.",
+      "essentialCookies": {
+        "title": "Cookies essentiels",
+        "description": "Nécessaires au fonctionnement du site (navigation, sécurité, session)"
+      },
+      "analyticsCookies": {
+        "title": "Cookies analytiques",
+        "description": "Nous aident à comprendre comment vous utilisez notre site (pages vues, temps passé)"
+      },
+      "performanceCookies": {
+        "title": "Cookies de performance",
+        "description": "Optimisent les performances et vitesse de chargement du site"
+      },
+      "preferencesCookies": {
+        "title": "Cookies de préférences", 
+        "description": "Mémorisent vos choix personnels (langue, thème, préférences d'affichage)"
+      },
+      "acceptAll": "Tout accepter",
+      "acceptSelected": "Accepter la sélection",
+      "rejectNonEssential": "Refuser non-essentiels",
+      "customize": "Personnaliser",
+      "privacyPolicy": "Politique de confidentialité",
+      "moreInfo": "Pour plus d'informations, consultez notre"
+    },
+    "healthcareDisclaimer": {
+      "title": "Mentions Thérapeutiques Importantes",
+      "subtitle": "Information réglementaire et professionnelle obligatoire",
+      "disclaimers": {
+        "notMedicalAdvice": {
+          "title": "Non-substitution médicale",
+          "description": "Le Shiatsu est une pratique de bien-être qui ne remplace pas un diagnostic ou traitement médical. En cas de problème de santé, consultez votre médecin traitant."
+        },
+        "ffstCertification": {
+          "title": "Certification FFST Officielle",
+          "description": "Praticienne certifiée FFST (500h+ formation) selon les standards européens. Membre actif de la Fédération Française de Shiatsu Traditionnel."
+        },
+        "emergencyContact": {
+          "title": "Urgences médicales", 
+          "description": "En cas d'urgence vitale, contactez immédiatement le 15 (SAMU), le 18 (Pompiers) ou rendez-vous aux services d'urgences hospitaliers."
+        },
+        "dataProtection": {
+          "title": "Protection données de santé",
+          "description": "Toutes vos informations personnelles et données de santé sont strictement protégées selon le RGPD et le secret professionnel."
+        }
+      },
+      "credentials": {
+        "title": "Qualifications Professionnelles Vérifiées",
+        "items": [
+          "✓ Certifiée FFST (Fédération Française de Shiatsu Traditionnel)",
+          "✓ 500+ heures de formation théorique et pratique validées",
+          "✓ Formation continue en anatomie, physiologie et énergétique",
+          "✓ Code de déontologie FFST respecté et signé",
+          "✓ Assurance responsabilité civile professionnelle active",
+          "✓ Membre du registre professionnel FFST (vérifiable)"
+        ]
+      },
+      "contact": "⚠️ Important: Pour toute question concernant vos traitements médicaux en cours, consultez votre médecin traitant ou spécialiste."
+    }
+  },
+  "common": {
+    "backToHome": "Retour à l'accueil"
   }
 }

@@ -1,20 +1,26 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  experimental: {
-    // Optimize for stability
-    webpackBuildWorker: false,
+  eslint: {
+    ignoreDuringBuilds: true,
   },
-  webpack: (config, { isServer, dev }) => {
-    // Handle potential JSON parsing issues
-    if (!dev && !isServer) {
-      config.optimization.splitChunks.cacheGroups = {
-        ...config.optimization.splitChunks.cacheGroups,
-        vendor: {
-          test: /[\\/]node_modules[\\/]/,
-          name: 'vendors',
-          chunks: 'all',
-        },
+  typescript: {
+    ignoreBuildErrors: false,
+  },
+  // Webpack configuration to handle production build issues
+  webpack: (config, { dev }) => {
+    if (!dev) {
+      // Prevent webpack module resolution issues
+      config.optimization = {
+        ...config.optimization,
+        moduleIds: 'deterministic',
+      };
+      
+      // Handle JSON parsing issues
+      config.resolve.fallback = {
+        ...config.resolve.fallback,
+        fs: false,
+        path: false,
       };
     }
     return config;

@@ -696,6 +696,52 @@
     }
   },
   "components": {
+    "certificationGallery": {
+      "diplomaCount": {
+        "single": "Certificate",
+        "plural": "Certificates"
+      },
+      "viewAllButton": "Click to view all certificates ({{count}})",
+      "zoomHint": "Click to enlarge",
+      "certifications": {
+        "shiatsuProfessionnel": {
+          "title": "Professional Shiatsu",
+          "organization": "André Nahum School",
+          "year": "2006",
+          "details": "Complete training - Aromatherapy & Shiatsu"
+        },
+        "ohashiatsuAdvanced": {
+          "title": "Advanced Ohashiatsu® Program",
+          "organization": "The Ohashi Institute",
+          "year": "2008",
+          "details": "Advanced international certification"
+        },
+        "ohashiatsuInstructor": {
+          "title": "Certified Ohashiatsu® Instructor",
+          "organization": "The Ohashi Institute",
+          "year": "2012",
+          "details": "Teaching qualification"
+        },
+        "seikiShiatsu": {
+          "title": "Seiki Shiatsu",
+          "organization": "Seiki Meridian Shiatsu International",
+          "year": "2022-2024",
+          "details": "83h with Master Tzvika Calisar"
+        },
+        "sophrologie": {
+          "title": "Certified Sophrologist",
+          "organization": "Paris Academy of Sophrology",
+          "year": "2023",
+          "details": "RNCP Level 5 - Code NSF 330p"
+        },
+        "formationsSpecialisees": {
+          "title": "Specialized Training",
+          "organization": "Continuing Education",
+          "year": "2022-2024",
+          "details": "Kata & specific treatments"
+        }
+      }
+    },
     "testimonials": {
       "badge": "Client Testimonials",
       "description": "Discover the authentic experiences of my clients and their journey towards better well-being through Shiatsu.",
@@ -859,7 +905,14 @@
         "instagram": "Follow on Instagram",
         "facebook": "Follow on Facebook"
       },
-      "videoNotSupported": "Your browser does not support videos."
+      "videoNotSupported": "Your browser does not support videos.",
+      "wellbeingBadge": "Authentic Well-being",
+      "discover": "Discover",
+      "credentials": {
+        "certifiedInstructor": "Certified Instructor",
+        "experience": "18+ years of experience",
+        "certifiedSophrologist": "RNCP Sophrologist"
+      }
     },
     "reviews": {
       "verifiedReview": "Verified review"
@@ -981,6 +1034,44 @@
           "description": "Added new skills to offer even more comprehensive support, including relaxation and self-massage techniques."
         }
       ]
+    },
+    "hardcodedStrings": {
+      "badges": {
+        "myJourney": "My Journey",
+        "myStory": "My Story",
+        "professionalPath": "Professional Path",
+        "recognitions": "Certifications & Recognition"
+      },
+      "credentials": {
+        "ohashiatsuInstructor": "Certified Ohashiatsu® Instructor",
+        "experience": "18+ years of experience",
+        "certifiedSophrologist": "Certified RNCP Sophrologist",
+        "practitionerTitle": "Certified Shiatsu Practitioner"
+      },
+      "values": {
+        "kindness": "Kindness",
+        "kindnessDesc": "Deep listening and respect",
+        "excellence": "Excellence",
+        "excellenceDesc": "Continuous training",
+        "humanApproach": "Human Approach",
+        "humanApproachDesc": "Each person is unique and deserves personalized attention",
+        "durableResults": "Lasting Results",
+        "durableResultsDesc": "Solutions that are designed to last for optimal well-being",
+        "continuousInnovation": "Continuous Innovation",
+        "continuousInnovationDesc": "Integration of the latest techniques for maximum effectiveness"
+      },
+      "mission": {
+        "title": "My Mission",
+        "quote": "To accompany each person towards lasting well-being by harmonizing body, mind and vital energy. Shiatsu is not just a technique, it's an art of living that transforms profoundly."
+      },
+      "certifications": {
+        "sectionTitle": "Recognized Excellence",
+        "sectionDesc": "Certifications and training that guarantee the quality of my care"
+      },
+      "navigation": {
+        "discoverMyStory": "Discover my story",
+        "discoverSteps": "Discover the key steps that shaped my expertise and passion for Shiatsu."
+      }
     }
   },
   "signupDemo": {
@@ -1014,5 +1105,216 @@
       "share": "Share",
       "remove": "Remove"
     }
+  },
+  "legal": {
+    "privacyPolicy": {
+      "badge": "Privacy Policy",
+      "title": "Personal Data Protection",
+      "subtitle": "This policy explains how we collect, use and protect your personal data in compliance with GDPR and French regulations.",
+      "lastUpdated": "Updated: January 2025",
+      "controller": {
+        "title": "Data Controller",
+        "name": "Nathalie JEAN - Shiatsu Practitioner",
+        "description": "FFST certified practitioner, member of the French Federation of Traditional Shiatsu",
+        "contact": {
+          "email": "Contact Email",
+          "phone": "Phone"
+        }
+      },
+      "dataCollection": {
+        "title": "Data Collected",
+        "personalData": {
+          "title": "Personal Data (Contact Form)",
+          "types": [
+            "First and last name",
+            "Email address",
+            "Message and specific requests",
+            "Language preference",
+            "Date and time of contact"
+          ]
+        },
+        "automaticData": {
+          "title": "Technical Data (Automatic)",
+          "types": [
+            "IP address (anonymized after 48h)",
+            "Browser type and version",
+            "Operating system",
+            "Pages visited and duration",
+            "Visit referrer"
+          ]
+        }
+      },
+      "legalBasis": {
+        "title": "Legal Basis for Processing",
+        "basisLabel": "Legal basis",
+        "purposes": [
+          {
+            "purpose": "Contact request processing",
+            "basis": "Legitimate interest",
+            "description": "To respond to your questions and organize therapeutic appointments"
+          },
+          {
+            "purpose": "Service improvement",
+            "basis": "Legitimate interest",
+            "description": "To adapt our services to your needs and improve user experience"
+          },
+          {
+            "purpose": "Regulatory compliance",
+            "basis": "Legal obligation",
+            "description": "Compliance with FFST obligations and health regulations"
+          },
+          {
+            "purpose": "Personalized communications",
+            "basis": "Consent",
+            "description": "Sending information about our services (with unsubscribe option)"
+          }
+        ]
+      },
+      "yourRights": {
+        "title": "Your GDPR Rights",
+        "description": "In accordance with GDPR, you have the following rights regarding your personal data:",
+        "rights": [
+          {
+            "name": "Right of access",
+            "description": "Obtain a copy of data concerning you"
+          },
+          {
+            "name": "Right of rectification",
+            "description": "Correct inaccurate or incomplete data"
+          },
+          {
+            "name": "Right to erasure",
+            "description": "Request deletion of your data"
+          },
+          {
+            "name": "Right to object",
+            "description": "Object to the processing of your data"
+          },
+          {
+            "name": "Right to portability",
+            "description": "Retrieve your data in a structured format"
+          },
+          {
+            "name": "Right to restriction",
+            "description": "Limit the processing of your data"
+          }
+        ],
+        "contact": {
+          "title": "To exercise your rights",
+          "description": "Contact us by email or phone. Response guaranteed within 30 days."
+        }
+      },
+      "dataSecurity": {
+        "title": "Data Security",
+        "description": "We implement appropriate technical and organizational measures to protect your data:",
+        "measures": [
+          "SSL/TLS encryption for all communications",
+          "Secure hosting with automatic backup",
+          "Limited data access on need-to-know basis",
+          "Security incident monitoring and detection",
+          "Regular data protection training",
+          "Security audit and system updates"
+        ]
+      },
+      "cookies": {
+        "title": "Cookie Policy",
+        "description": "Our site uses cookies to improve your browsing experience:",
+        "duration": "Duration",
+        "types": [
+          {
+            "name": "Technical Cookies",
+            "description": "Necessary for site operation (navigation, security)",
+            "duration": "Session"
+          },
+          {
+            "name": "Preference Cookies",
+            "description": "Remember your choices (language, dark/light theme)",
+            "duration": "1 year"
+          },
+          {
+            "name": "Analytics Cookies",
+            "description": "Understand site usage (page views, time spent)",
+            "duration": "2 years"
+          },
+          {
+            "name": "Performance Cookies",
+            "description": "Optimize performance and loading times",
+            "duration": "6 months"
+          }
+        ]
+      },
+      "contact": {
+        "title": "Contact Us",
+        "email": "Email Address",
+        "phone": "Phone",
+        "cnil": {
+          "title": "CNIL Complaint",
+          "description": "You can also file a complaint with the CNIL if you believe your rights are not being respected."
+        }
+      }
+    },
+    "cookieConsent": {
+      "title": "We use cookies 🍪",
+      "description": "We use cookies to improve your browsing experience, analyze site usage and provide personalized content. Your privacy is important to us.",
+      "essentialCookies": {
+        "title": "Essential cookies",
+        "description": "Necessary for site operation (navigation, security, session)"
+      },
+      "analyticsCookies": {
+        "title": "Analytics cookies",
+        "description": "Help us understand how you use our site (page views, time spent)"
+      },
+      "performanceCookies": {
+        "title": "Performance cookies",
+        "description": "Optimize site performance and loading speed"
+      },
+      "preferencesCookies": {
+        "title": "Preference cookies",
+        "description": "Remember your personal choices (language, theme, display preferences)"
+      },
+      "acceptAll": "Accept all",
+      "acceptSelected": "Accept selection",
+      "rejectNonEssential": "Reject non-essential",
+      "customize": "Customize",
+      "privacyPolicy": "Privacy policy",
+      "moreInfo": "For more information, see our"
+    },
+    "healthcareDisclaimer": {
+      "title": "Important Therapeutic Notice",
+      "subtitle": "Mandatory regulatory and professional information",
+      "disclaimers": {
+        "notMedicalAdvice": {
+          "title": "Not a medical substitute",
+          "description": "Shiatsu is a wellness practice that does not replace medical diagnosis or treatment. For any health problem, consult your doctor."
+        },
+        "ffstCertification": {
+          "title": "Official FFST Certification",
+          "description": "FFST certified practitioner (500h+ training) according to European standards. Active member of the French Federation of Traditional Shiatsu."
+        },
+        "emergencyContact": {
+          "title": "Medical emergencies",
+          "description": "In case of life-threatening emergency, immediately contact 15 (SAMU), 18 (Fire Department) or go to hospital emergency services."
+        },
+        "dataProtection": {
+          "title": "Health data protection",
+          "description": "All your personal information and health data are strictly protected according to GDPR and professional confidentiality."
+        }
+      },
+      "credentials": {
+        "title": "Verified Professional Qualifications",
+        "items": [
+          "✓ FFST Certified (French Federation of Traditional Shiatsu)",
+          "✓ 500+ hours of validated theoretical and practical training",
+          "✓ Continuing education in anatomy, physiology and energetics",
+          "✓ FFST code of ethics respected and signed",
+          "✓ Active professional liability insurance",
+          "✓ Member of FFST professional register (verifiable)"
+        ]
+      },
+      "contact": "⚠️ Important: For any questions regarding your ongoing medical treatments, consult your treating physician or specialist."
+    }
+  },
+  "common": {
+    "backToHome": "Back to home"
   }
 }

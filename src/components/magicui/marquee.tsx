@@ -2,6 +2,7 @@
 
 import { cn } from "@/lib/utils";
 import React, { useState } from "react";
+import type { Dictionary } from '@/types/dictionary';
 
 interface MarqueeProps extends React.ComponentPropsWithoutRef<"div"> {
   className?: string;
@@ -9,7 +10,6 @@ interface MarqueeProps extends React.ComponentPropsWithoutRef<"div"> {
   pauseOnHover?: boolean;
   children?: React.ReactNode;
   vertical?: boolean;
-  [key: string]: any;
 }
 
 export function Marquee({
@@ -55,7 +55,7 @@ export function Marquee({
   };
 
   // Enhanced scrolling animation with smoother timing
-  const scrollingStyle: React.CSSProperties = {
+  const scrollingStyle: React.CSSProperties & { [key: string]: any } = {
     '--gap': '1.5rem',
     '--duration': '45s', // Slightly slower for better readability
     display: 'grid',

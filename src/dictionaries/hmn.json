@@ -1,0 +1,1192 @@
+{
+  "navbar": {
+    "about": "Hais Txog Kuv",
+    "services": "Kev Pab & Nqi",
+    "whoIsItFor": "Rau Leej Twg?",
+    "whatIsShiatsu": "Shiatsu",
+    "practicalInfo": "Cov Ntaub Ntawv Tseem Ceeb",
+    "contact": "Hu Rau Kuv",
+    "bookNow": "Book Ib Lub Sij Hawm"
+  },
+  "homepage": {
+    "practitionerName": "Shiatsu Guyane",
+    "heroTitle": "Nathalie JEAN",
+    "heroSubtitle": "Rov nrhiav koj lub siab tus nrog txoj kev kho mob uas tsim rau koj.",
+    "scrollDown": "Scroll Cia"
+  },
+  "aboutIntro": {
+    "heading": "Nyob zoo, Kuv yog Nathalie JEAN",
+    "paragraph": "Kuv mob siab rau kev kho mob nrog tes thiab kev sib npaug zog. Kuv lub hom phiaj yog coj koj mus rau txoj kev noj qab nyob zoo. Kuv siv txoj kev maj mam thiab mloog zoo los pab koj tshem tawm kev ntxhov siab thiab rov muaj zog.",
+    "cta": "Tshawb nrhiav kuv txoj kev taug"
+  },
+  "benefitsSection": {
+    "heading": "Cov txiaj ntsig tseem ceeb ntawm Shiatsu",
+    "cards": [
+      {
+        "title": "Kev Nyuaj Siab & Kev Ntxhov Siab",
+        "description": "Txhawm rau ua kom lub paj hlwb zoo, txo qis kev xav hauv siab thiab rov qab mus rau lub xeev ntawm kev thaj yeeb nyab xeeb thiab ruaj khov."
+      },
+      {
+        "title": "Kev Mob Lub Cev",
+        "description": "Txhawm rau txo qhov mob nraub qaum, nqaij ntshiv, mob taub hau thiab mob pob qij txha kom zoo."
+      },
+      {
+        "title": "Kev Sib Npaug Zog & Zog",
+        "description": "Txhawm rau txhim kho kev pw tsaug zog, txhawb kev zom zaub mov thiab rov ua kom lub cev muaj zog rau kev noj qab haus huv tag nrho."
+      },
+      {
+        "title": "Kev Pab Thaum Cev Xeeb Tub",
+        "description": "Txhawm rau txhawb nqa cov poj niam thaum cev xeeb tub thiab tom qab yug me nyuam los ntawm kev txo qis cov mob me me thiab txhawb kev rov zoo."
+      },
+      {
+        "title": "Teeb Meem Kev Noj Qab Haus Huv",
+        "description": "Txhawm rau ua kom cov haujlwm zom zaub mov zoo, txo qis plab hnyuv thiab txhim kho kev hla dhau los ntawm txoj kev."
+      },
+      {
+        "title": "Kev Txhawb Zog",
+        "description": "Txhawm rau txhawb nqa lub cev tiv thaiv kab mob, tiv thaiv cov kab mob raws caij nyoog thiab ua kom lub cev muaj zog."
+      }
+    ],
+    "cta": "Kawm paub ntau ntxiv txog cov txiaj ntsig"
+  },
+  "whatIsShiatsuSection": {
+    "heading": "Shiatsu yog dab tsi?",
+    "paragraph": "Shiatsu yog ib txoj kev kho mob nrog tes los ntawm Nyiv Pooj uas siv cov ntiv tes thiab xib teg ntawm lub cev. Nws lub hom phiaj yog txhawm rau rov kho qhov kev khiav ntawm lub zog tseem ceeb, 'Qi', txhawm rau txo qis cov mob, ua kom lub cev rov muaj zog thiab ua kom lub siab tus.",
+    "cta": "Kawm paub ntau ntxiv txog Shiatsu"
+  },
+  "whoIsItForSection": {
+    "heading": "Kev Pab Rau Txhua Tus",
+    "testimonials": [
+      {
+        "quote": "Txhawm rau tswj hwm kev ntxhov siab txhua hnub, txhim kho kev pw tsaug zog thiab rov qab mus rau lub xeev ntawm kev noj qab haus huv tag nrho.",
+        "name": "Cov Neeg Loj",
+        "designation": "Kev Sib Npaug Zog & Zog",
+        "src": "/images/audience-adults.jpg"
+      },
+      {
+        "quote": "Txhawm rau tswj hwm pob qij txha, txo qhov mob ntev thiab tswj kev txav mus los.",
+        "name": "Cov Neeg Laus",
+        "designation": "Kev Txav Mus Los & Kev Yooj Yim",
+        "src": "/images/audience-seniors.jpg"
+      },
+      {
+        "quote": "Txhawm rau txo qhov mob ntawm cev xeeb tub (mob nraub qaum, txhais ceg hnyav) thiab npaj siab rau kev yug me nyuam.",
+        "name": "Cov Poj Niam Cev Xeeb Tub",
+        "designation": "Kev Thaj Yeeb & Kev Npaj Siab",
+        "src": "/images/audience-pregnant.jpg"
+      },
+      {
+        "quote": "Txhawm rau txhim kho kev rov zoo, tiv thaiv kev raug mob thiab txhim kho kev ua tau zoo ntawm lub cev thiab lub siab.",
+        "name": "Cov Neeg Ua Si",
+        "designation": "Kev Ua Tau Zoo & Kev Rov Zoo",
+        "src": "/images/audience-athletes.jpg"
+      },
+      {
+        "quote": "Txhawm rau pab tswj hwm kev ntxhov siab ntsig txog kev kawm, kev xeem thiab txhim kho kev mloog zoo.",
+        "name": "Cov Hluas",
+        "designation": "Kev Mloog Zoo & Kev Ntseeg Siab",
+        "src": "/images/audience-teenagers.jpg"
+      },
+      {
+        "quote": "Txhawm rau txo qis kev ntxhov siab hauv chaw ua haujlwm, tiv thaiv kev kub ntxhov thiab txhim kho kev noj qab haus huv ntawm cov neeg ua haujlwm.",
+        "name": "Cov Tuam Txhab",
+        "designation": "Kev Noj Qab Haus Huv Hauv Chaw Ua Haujlwm",
+        "src": "/images/audience-companies.jpg"
+      },
+      {
+        "quote": "Txhawm rau txo qhov quaj, txo qhov mob plab thiab txhawb kev pw tsaug zog zoo txij li thawj lub hlis.",
+        "name": "Cov Me Nyuam Mos",
+        "designation": "Kev Mob Siab & Kev Nplij Siab",
+        "src": "/images/audience-babies.jpg"
+      }
+    ],
+    "cta": "Saib cov txiaj ntsig rau txhua hom"
+  },
+  "testimonialsSection": {
+    "heading": "Cov Neeg Siv Khoom Hais Li Cas",
+    "googleHeading": "Cov tswv yim tshiab ntawm Google",
+    "resalibHeading": "Peb cov neeg siv khoom ntawm Resalib",
+    "summary": {
+      "satisfaction": "ntawm peb cov neeg siv khoom txaus siab",
+      "googleLabel": "Google Ntsuas",
+      "resalibLabel": "Resalib Ntsuas",
+      "overallLabel": "Zuag Qhia Tag Nrho",
+      "googleAverage": "4.8",
+      "resalibAverage": "4.9"
+    },
+    "staticReviews": [
+      {
+        "author_name": "Alex A.",
+        "rating": 5,
+        "text": "Sim nws yog hlub nws.",
+        "date": "2025-07-05"
+      },
+      {
+        "author_name": "Camille R.",
+        "rating": 5,
+        "text": "Kuv tau mus ntsib Nathalie rau Shiatsu kev kho mob yuav luag 2 xyoos thiab kuv pom zoo rau nws. Nws qhov kev paub dhau los yog qhov tseeb tab sis nws tus kheej yog qhov yuav ua rau koj rov qab los! Ib qho kev sib ntsib zoo thiab kev noj qab haus huv zoo tom qab tawm ntawm kev kho mob. Ua tsaug Nathalie!",
+        "date": "2025-07-05"
+      },
+      {
+        "author_name": "Hélène M.",
+        "rating": 5,
+        "text": "Tus kws kho mob zoo, muaj kev paub dhau los thiab mloog zoo. Zoo heev!",
+        "date": "2025-07-01"
+      },
+      {
+        "author_name": "Nathalie É.",
+        "rating": 5,
+        "text": "Muaj zog, ua tau zoo, mloog zoo thiab muab tswv yim zoo, kuv pom zoo rau nws.",
+        "date": "2025-04-27"
+      },
+      {
+        "author_name": "Virginie D.",
+        "rating": 5,
+        "text": "Ib qho kev tos txais sov siab thiab mloog zoo, koj xav tias muaj kev ntseeg siab txij li thawj feeb. Ib qho kev noj qab haus huv zoo los ntawm thawj zaug mus ntsib. Ua tsaug ntau Nathalie!",
+        "date": "2025-04-25"
+      }
+    ]
+  },
+  "ctaSection": {
+    "heading": "Npaj siab rov qab los rau koj txoj kev noj qab nyob zoo?",
+    "subheading": "Book koj tus kheej Shiatsu kev kho mob thiab pib koj txoj kev mus rau kev thaj yeeb hnub no.",
+    "button": "Book ib lub sij hawm",
+    "badge": "Koj Txoj Kev Mus Pib Ntawm No",
+    "trustElements": {
+      "personalizedConsultation": "Kev sab laj tus kheej",
+      "certifiedPractitioner": "Tus kws kho mob muaj ntawv pov thawj",
+      "kindApproach": "Kev mus kom ze"
+    },
+    "bookingSection": {
+      "title": "Book Koj Lub Sij Hawm",
+      "description": "Book koj lub sij hawm ncaj qha hauv online thiab pib koj txoj kev mus rau kev noj qab nyob zoo ntev.",
+      "reassurance": "Kev booking yooj yim thiab muaj kev nyab xeeb"
+    },
+    "secondaryButtons": {
+      "question": "Muaj lus nug?",
+      "pricing": "Saib nqi"
+    },
+    "quote": {
+      "text": "Txhua txoj kev mus rau kev noj qab nyob zoo pib nrog ib kauj ruam. Cia siab rau koj lub siab thiab muab koj tus kheej lub sij hawm saib xyuas koj tsim nyog.",
+      "attribution": "— Nathalie Jean, Tus Kws Kho Mob Shiatsu Muaj Ntawv Pov Thawj"
+    }
+  },
+  "shiatsuPage": {
+    "title": "Shiatsu: Ib Txoj Kev Qhia Kom Paub Txog Kev Kho Mob Nrog Tes Ntawm Nyiv Pooj",
+    "subtitle": "Shiatsu (指圧), lus txhais tias 'ntiv tes siab', yog ib txoj kev coj ua qub uas tau lees paub hauv Nyiv Pooj, uas tau kov yeej lub ntiaj teb nrog nws txoj kev ua tau zoo thiab kev xav dav.",
+    "general": {
+      "definition": {
+        "heading": "Lub Ntsiab Lus thiab Keeb Kwm",
+        "p1": "Shiatsu suav nrog kev siv lub zog ntawm lub cev kom sib npaug ntawm lub cev thiab txhim kho lossis tswj kev noj qab haus huv. Cov txheej txheem no feem ntau siv cov ntiv tes xoo thiab xib teg, tab sis qee zaum kuj siv cov luj tshib lossis hauv caug, txhawm rau siv lub zog rau cov ntsiab lus tshwj xeeb (tsubos) nyob rau hauv cov kab hluav taws xob."
+      },
+      "history": {
+        "heading": "Keeb Kwm",
+        "p1": "Keeb kwm ntawm Shiatsu rov qab mus rau kev qhia txog tshuaj suav (Kampo) hauv Nyiv Pooj thaum xyoo pua 7 thiab 9, tshwj xeeb tshaj yog cov txheej txheem Tui Na. Tau ntau pua xyoo, cov kws kho mob Nyiv Pooj tau tsim lawv tus kheej txoj hauv kev, ua rau muaj kev zaws anma. Lo lus 'shiatsu' nws tus kheej tau raug xaiv los ntawm Tenpeki Tamaï xyoo 1919, tab sis nws yog Tokujiro Namikoshi (1905-2000) uas suav hais tias yog tus tsim ntawm shiatsu niaj hnub, ua tsaug rau nws qhov kev paub dhau los ntawm kev kho nws niam mob rheumatism nrog ntiv tes siab."
+      },
+      "principles": {
+        "heading": "Cov Cai Tseem Ceeb: Lub Tswv Yim ntawm Ki",
+        "p1": "Shiatsu xav txog tib neeg hauv nws lub cev, lub siab thiab lub hlwb tag nrho. Nws yog raws li lub tswv yim ntawm kev khiav ntawm lub zog tseem ceeb (hu ua Qi hauv Suav teb thiab Ki hauv Nyiv Pooj) los ntawm cov kab hluav taws xob hu ua meridians. Raws li lub tswv yim no, txhua qhov tsis sib npaug yog los ntawm kev thaiv hauv qhov kev khiav no."
+      },
+      "objectives": {
+        "heading": "Cov Hom Phiaj Kho Mob",
+        "points": [
+          "Tso thiab tswj lub zog tseem ceeb",
+          "Tiv thaiv kev ua haujlwm tsis zoo ntsig txog kev tsis sib npaug sab hauv",
+          "Txo qis kev ntxhov siab hauv lub cev",
+          "Txhawb nqa lub cev tiv thaiv kab mob",
+          "Ua kom lub paj hlwb parasympathetic ua haujlwm rau kev rov zoo thiab kev noj qab haus huv"
+        ]
+      },
+      "techniques": {
+        "heading": "Cov Txheej Txheem thiab Kev Coj Ua",
+        "p1": "Tus kws kho mob siv ntau yam txheej txheem siab. Qhov ntau tshaj plaws yog qhov qub siab: siv maj mam rau ib qho chaw ces maj mam tso tawm rau 3 mus rau 5 feeb. Cov shiatsu niaj hnub kuj suav nrog kev ncab, kev txav pob qij txha, thiab kev co, raws li xav tau.",
+        "p2": "Kev ua pa yog qhov tseem ceeb. Tus kws kho mob thiab tus neeg txais kev pab sib txuas lawv cov pa ua pa kom yooj yim rau kev so thiab kev txav mus los, txhawb kom muaj kev sib haum xeeb ntawm Ki."
+      }
+    },
+    "schools": {
+      "heading": "Peb Lub Tsev Kawm Ntawv Tsim Ntawm Shiatsu Niaj Hnub",
+      "items": [
+        {
+          "title": "Tsev Kawm Ntawv Namikoshi",
+          "description": "Tus Thawj, Kev Tshawb Fawb, thiab Kev Kho Mob Shiatsu",
+          "src": "/images/school-namikoshi.png",
+          "content": [
+            {
+              "heading": "Tus Tsim thiab Keeb Kwm",
+              "text": "Tokujiro Namikoshi (1905-2000) yog tus lees paub thoob ntiaj teb tias yog leej txiv ntawm shiatsu niaj hnub. Nws txoj kev hloov pauv tau tshwm sim los ntawm kev paub tus kheej: thaum muaj hnub nyoog 7 xyoos, nws tau pom tias 'siab' muaj txiaj ntsig zoo dua li kev sib txhuam los txo nws niam mob rheumatism. Xyoo 1955, nws lub tsev kawm ntawv tau txais daim ntawv tso cai los ntawm Ministry of Health Nyiv Pooj."
+            },
+            {
+              "heading": "Kev Txhim Kho",
+              "text": "Xyoo 1925, Namikoshi tau qhib nws thawj lub tsev kho mob. Qhov tseem ceeb tuaj txog xyoo 1955 thaum nws tau txais daim ntawv tso cai los ntawm Ministry of Health Nyiv Pooj rau nws lub tsev kawm ntawv. Qhov kev lees paub los ntawm tsoomfwv no tau muab shiatsu kev cai lij choj, ntxiv dag zog los ntawm cov neeg mob nto moo xws li Marilyn Monroe thiab Mohamed Ali."
+            },
+            {
+              "heading": "Lub Tswv Yim thiab Txheej Txheem",
+              "text": "Namikoshi shiatsu yog qhov txawv los ntawm nws txoj kev kho mob thiab lub cev nruj, ua raws li cov tshuaj Western niaj hnub. Nws nyiam kawm txog lub cev lub cev ntau dua li cov tswv yim suav zog qub."
+            },
+            {
+              "heading": "Xya Qhov Kev Kho Mob",
+              "text": "Tokujiro Namikoshi teev xya qhov kev kho mob ntawm shiatsu uas txhawb nqa lub cev ua haujlwm kom zoo:",
+              "list": [
+                "Kev sib haum xeeb ntawm lub paj hlwb",
+                "Kev ua kom lub paj hlwb ua haujlwm",
+                "Kev txhim kho cov hlab ntsha",
+                "Kev kho cov pob txha",
+                "Kev so kom txaus",
+                "Kev txhawb zog ntawm lub cev tiv thaiv kab mob",
+                "Kev sib npaug zog"
+              ]
+            },
+            {
+              "heading": "Txoj Kev Siab",
+              "text": "Namikoshi shiatsu tsuas yog siv cov ntiv tes thiab xib teg. Cov siab tau ua raws li peb lub hauv paus ntsiab lus:",
+              "list": [
+                "Cov siab ntsug rau tus neeg txais kev pab lub cev",
+                "Tuav cov siab rau 3 mus rau 5 feeb",
+                "Tus kws kho mob siab"
+              ]
+            },
+            {
+              "heading": "Cov Txheej Txheem Nruj",
+              "text": "Lub tsev kawm ntawv Namikoshi qhia cov katas (cov duab) uas tso cai rau kev siv cov txheej txheem. Cov txheej txheem no suav nrog cov ntsiab lus tseem ceeb ntawm chiropractic, ua ke zoo rau hauv kev coj ua."
+            }
+          ]
+        },
+        {
+          "title": "Tsev Kawm Ntawv Masunaga",
+          "description": "Zen Shiatsu thiab Lub Cev Hlwb",
+          "src": "/images/school-masunaga.png",
+          "content": [
+            {
+              "heading": "Tus Tsim thiab Kev Hloov Tshiab",
+              "text": "Shizuto Masunaga (1925-1981) tau hloov pauv shiatsu los ntawm kev rov ua kom cov hauv paus hniav sab hnub tuaj. Kawm tiav qib siab hauv kev puas siab puas ntsws, nws tau coj lub cev tsis tau pom dua rau kev coj ua. Ib tug qub tub kawm ntawv ntawm Namikoshi, nws tau tsim lub tsev kawm ntawv Iokaï xyoo 1960 thiab tsim nws tus kheej lub kaw lus, uas nws tau hu ua 'Zen Shiatsu'."
+            },
+            {
+              "heading": "Cov Tswv Yim Tshiab Loj",
+              "text": "Masunaga qhov kev pab cuam tseem ceeb tshaj plaws yog nyob rau hauv kev txhim kho cov meridians txuas ntxiv mus rau tag nrho lub cev. Nrog nws cov keeb kwm kev puas siab puas ntsws, nws tau tsim ib qho kev kho mob tshwj xeeb, xav txog kev tsis sib haum xeeb ntawm lub siab ua qhov tseem ceeb.",
+              "listTitle": "Kev Sib Koom Ua Ke ntawm Cov Tshuaj Suav:",
+              "list": [
+                "Cov kab hluav taws xob (keiraku)",
+                "Lub tswv yim ntawm tsib lub ntsiab (gogyō)",
+                "Cov tswv yim yin-yang",
+                "Cov ntsiab lus acupuncture (tsubo)",
+                "Lub tswv yim Taoist"
+              ]
+            },
+            {
+              "heading": "Cov Txheej Txheem thiab Lub Tswv Yim ntawm Zen Shiatsu",
+              "text": "Masunaga txawv ob hom kev kov: Shokushin (txheej txheem thiab kev tshaj lij) thiab Setsushin (sov thiab nkag siab). Setsushin yog lub ntsiab lus ntawm Zen Shiatsu, suav nrog kev sib txuas tob ntawm tus kws kho mob thiab tus neeg txais kev pab.",
+              "listTitle": "Zen Shiatsu nyiam:",
+              "list": [
+                "Kev xav thaum lub sij hawm kho",
+                "Kev txhim kho tus kws kho mob lub siab",
+                "Kev mloog lub zog es tsis yog siv lub tshuab",
+                "Kev sib koom ua ke ntawm sab ntsuj plig rau hauv kev kho mob"
+              ]
+            },
+            {
+              "heading": "Kev Ntsuam Xyuas Lub Zog",
+              "text": "Masunaga tau tsim cov kab kos mob nyuaj los txheeb xyuas qhov tsis sib haum xeeb ntawm lub zog. Qhov kev ntsuam xyuas no suav nrog kev soj ntsuam Suav cov mem tes, kuaj tus nplaig, thiab palpation plab (hara)."
+            }
+          ]
+        },
+        {
+          "title": "Tsev Kawm Ntawv Seiki",
+          "description": "Kev Ua Yeeb Yam ntawm Kev Pab Zog",
+          "src": "/images/school-seiki.png",
+          "content": [
+            {
+              "heading": "Tus Tsim thiab Kev Kawm",
+              "text": "Akinobu Kishi (1949-2012) sawv cev rau qhov kawg ntawm shiatsu kev coj noj coj ua. Kawm hauv Namikoshi thiab Iokaï (Masunaga) tsev kawm ntawv, nws tau pab Masunaga tau kaum xyoo. Qhov kev kawm ob no tau muab nws txoj kev paub tshwj xeeb. Thaum muaj hnub nyoog 29 xyoos, nws tau ntsib kev hloov pauv ntawm lub siab uas ua rau Seiki Soho."
+            },
+            {
+              "heading": "Lub Tswv Yim ntawm Seiki Soho",
+              "text": "Lo lus 'Seiki Soho' txhais tau tias 'kev pab ntawm lub zog tseem ceeb.' Qhov kev mus kom ze no yog raws li cov tswv yim loj:",
+              "list": [
+                "Shintoism: kev sib txuas nrog cov ntsuj plig ntawm ntuj.",
+                "Wei Wu Wei: Taoist lub hauv paus ntsiab lus ntawm 'ua los ntawm tsis ua,' ua yam tsis muaj zog.",
+                "Mushin: lub xeev ntawm lub siab khoob, tsis muaj ego, tsis muaj kev cia siab."
+              ]
+            },
+            {
+              "heading": "Kev Mus Kom Ze thiab Cov Txheej Txheem",
+              "text": "Seiki yog txhais tias yog 'kev ua haujlwm ntawm lub cev me me.' Lub hauv paus ntsiab lus ntawm kev ua haujlwm yog Gyooki, 'ua pa nrog tes.'",
+              "list": [
+                "Ib qho kev kov zoo li npauj npaim ntawm paj.",
+                "Kev sib txuas ntawm tus kws kho mob thiab tus neeg txais kev pab.",
+                "Kev mloog lub zog es tsis yog kev cuam tshuam.",
+                "Ki-Do-Ma: qhov yog, lub sij hawm yog, qhov chaw yog."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "sessionFlow": {
+      "heading": "Kev Kho Mob Mus Li Cas",
+      "p1": "Kev kho mob feem ntau kav ntev li 1 teev mus rau 1.5 teev. Nws yeej ib txwm pib nrog kev sib tham los txheeb xyuas qhov tsis sib haum xeeb thiab kev ntxhov siab.",
+      "p2": "Shiatsu yog ua nrog cov khaub ncaws xis nyob, yoog raws, feem ntau ntawm ib lub futon hauv pem teb. Tom qab kev kho mob, nws yog ib qho uas yuav hnov ​​zoo siab, lub teeb, lossis qee zaum nkees me ntsis, qhia tias lub cev tau ua haujlwm thiab tso tawm kev ntxhov siab."
+    }
+  },
+  "pourQuiPage": {
+    "title": "Shiatsu yog rau leej twg?",
+    "subtitle": "Ib qho kev coj ua uas haum rau txhua lub hnub nyoog thiab lub cev, muab cov txiaj ntsig tshwj xeeb rau txhua qhov kev xav tau.",
+    "cards": [
+      {
+        "title": "Cov Tuam Txhab",
+        "description": "Shiatsu rau Kev Noj Qab Haus Huv Hauv Chaw Ua Haujlwm (QWL)",
+        "src": "/images/audience-companies.jpg",
+        "content": [
+          {
+            "heading": "Cov ntsiab lus thiab cov teeb meem",
+            "text": "Lub ntiaj teb kev ua haujlwm niaj hnub tsim muaj kev ntxhov siab ntau. 24% ntawm cov neeg ua haujlwm Fab Kis yog nyob rau hauv kev ntxhov siab ntau, uas yog qhov txaus ntshai rau lawv txoj kev noj qab haus huv (kub ntxhov, kev nyuaj siab, kev pw tsaug zog). Shiatsu haum zoo rau QWL thiab CSR cov phiaj xwm."
+          },
+          {
+            "heading": "Cov txiaj ntsig tshwj xeeb",
+            "list": [
+              "Txo qis kev ntxhov siab thiab kev ntxhov siab.",
+              "Tiv thaiv kev mob pob txha (MSDs).",
+              "Txhim kho kev tsim khoom thiab kev noj qab haus huv ntawm cov neeg ua haujlwm.",
+              "Tiv thaiv kev pheej hmoo ntawm kev puas siab puas ntsws (PSRs)."
+            ]
+          },
+          {
+            "heading": "Cov txheej txheem siv tau",
+            "list": [
+              "Cov kev kho mob luv luv ntawm 15 mus rau 20 feeb ntawm ib lub rooj zaum.",
+              "Ua nrog cov khaub ncaws thiab tsis muaj roj.",
+              "Tsuas yog xav tau qhov chaw ntsiag to ntawm 4-5 m²."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Cov Neeg Loj",
+        "description": "Kev Pab Txhawb Kev Noj Qab Haus Huv Txhua Hnub",
+        "src": "/images/audience-adults.jpg",
+        "content": [
+          {
+            "heading": "Cov ntawv thov tseem ceeb",
+            "text": "Rau cov neeg laus, shiatsu teb rau cov teeb meem ntawm lub neej niaj hnub los ntawm kev ua haujlwm ntawm ntau qib los ua kom lub cev zoo, rov ua kom muaj zog, thiab txhawb nqa lub cev tiv thaiv kab mob."
+          },
+          {
+            "heading": "Cov txiaj ntsig tiv thaiv thiab kho mob",
+            "list": [
+              "Kev tswj hwm kev ntxhov siab, nkees, thiab ntxhov siab.",
+              "Txo qhov mob nraub qaum, nqaij ntshiv, thiab pob qij txha.",
+              "Txhim kho cov ntshav thiab lymphatic circulation.",
+              "Kev txhim kho kev pw tsaug zog zoo."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Cov Neeg Laus",
+        "description": "Tswj Kev Noj Qab Haus Huv thiab Kev ywj pheej",
+        "src": "/images/audience-seniors.jpg",
+        "content": [
+          {
+            "heading": "Cov kev hloov kho tshwj xeeb",
+            "text": "Shiatsu rau cov neeg laus xav tau cov txheej txheem tshwj xeeb, nrog cov siab mos thiab kev txav mus los uas haum rau txhua tus neeg mob (rooj zaum, txaj, thiab lwm yam)."
+          },
+          {
+            "heading": "Cov txiaj ntsig loj",
+            "list": [
+              "Txo qhov mob ntev (osteoarthritis, rheumatism).",
+              "Txhim kho kev txav mus los, sib npaug, thiab txo qis kev txhav.",
+              "Kev pab txhawb nqa kev puas siab puas ntsws, txo qis kev ntxhov siab, thiab txhim kho kev pw tsaug zog.",
+              "Kev pab txhawb nqa kom muaj kev nplij siab thiab nyob ntawd."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Cov Hluas",
+        "description": "Kev Pab Txhawb Thaum Hloov Pauv",
+        "src": "/images/audience-teenagers.jpg",
+        "content": [
+          {
+            "heading": "Cov yam ntxwv ntawm kev hluas",
+            "text": "Kev hluas yog ib lub sij hawm ntawm kev hloov pauv loj. Shiatsu muab kev pab txhawb nqa zoo los ua kom cov hluas zoo, rov ua kom zoo, thiab muaj kev nyab xeeb."
+          },
+          {
+            "heading": "Cov txiaj ntsig rau kev coj cwj pwm thiab kev noj qab haus huv",
+            "list": [
+              "Kev tswj hwm kev xav thiab kev ntxhov siab, tshwj xeeb tshaj yog thaum lub sij hawm xeem.",
+              "Txhim kho kev ntseeg siab thiab kev nyab xeeb.",
+              "Pab kom mloog zoo thiab tiv thaiv kev kawm ntawv kub ntxhov.",
+              "Txhawb kev qhib siab, kev sib txuas lus, thiab txhim kho kev pw tsaug zog."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Cov Poj Niam Cev Xeeb Tub",
+        "description": "Kev Pab Txhawb Kev Mob Siab Rau Niam",
+        "src": "/images/audience-pregnant.jpg",
+        "content": [
+          {
+            "heading": "Cov kev hloov kho los ntawm peb lub hlis",
+            "text": "Shiatsu yog tshwj xeeb rau txhua theem ntawm cev xeeb tub, nrog cov kev kho mob tsom rau kev txo qis xeev siab hauv thawj peb lub hlis, txo qhov mob nraub qaum hauv ob, thiab npaj lub cev rau kev yug me nyuam hauv peb."
+          },
+          {
+            "heading": "Cov txiaj ntsig rau niam",
+            "list": [
+              "Txo qhov mob ntawm cev xeeb tub: mob nraub qaum, txhais ceg hnyav, xeev siab.",
+              "Kev pab txhawb nqa kev xav, txo qis kev ntxhov siab, thiab kev sib txuas nrog tus menyuam.",
+              "Kev npaj rau kev yug me nyuam los ntawm kev so kom txaus ntawm lub plab.",
+              "Ib qho kev xav kho mob ua ntej yeej ib txwm pom zoo."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Cov Me Nyuam Mos",
+        "description": "Kev Sib Txuas Lus Zoo Txij Li Thaum Yug Los",
+        "src": "/images/audience-babies.jpg",
+        "content": [
+          {
+            "heading": "Cov txheej txheem hloov kho",
+            "text": "Shiatsu rau cov menyuam mos siv cov txheej txheem mos thiab txav mus los hauv cov kev kho mob luv luv (5 mus rau 20 feeb) rau kev loj hlob zoo. Cov niam txiv kuj tuaj yeem kawm cov txheej txheem yooj yim los ua kom lawv tus menyuam zoo."
+          },
+          {
+            "heading": "Cov txiaj ntsig rau cov menyuam mos",
+            "list": [
+              "Txhim kho kev pw tsaug zog thiab txo qis kev tsis taus.",
+              "Kev pab txhawb nqa kev zom zaub mov zoo rau cov mob plab thiab rov qab los.",
+              "Txhawb nqa lub cev tiv thaiv kab mob.",
+              "Pab txhawb lub cev sib npaug thiab kev loj hlob."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Cov Neeg Ua Si",
+        "description": "Txhim Kho Kev Ua Tau Zoo thiab Kev Rov Zoo",
+        "src": "/images/audience-athletes.jpg",
+        "content": [
+          {
+            "heading": "Kev npaj thiab rov zoo",
+            "text": "Shiatsu muab kev pab txhawb nqa rau cov neeg ncaws pob ntawm txhua qib, txawm tias yog npaj rau kev sib tw lossis txhawm rau ua kom rov zoo tom qab kev siv zog."
+          },
+          {
+            "heading": "Cov txiaj ntsig tshwj xeeb",
+            "list": [
+              "Txhim kho kev ua tau zoo los ntawm kev ua kom cov leeg muaj oxygen zoo dua.",
+              "Tiv thaiv kev raug mob los ntawm kev so kom txaus ntawm cov leeg.",
+              "Ua kom rov zoo sai dua los ntawm kev txhawb nqa kev tshem tawm cov co toxins.",
+              "Txo qis kev sib tw ntxhov siab thiab txhim kho kev mloog zoo."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "pricingPage": {
+    "title": "Kev Kho Mob & Nqi",
+    "subtitle": "Txhua qhov kev kho mob yog ib qho kev caw kom rov qab los rau kev sib haum xeeb thiab kev noj qab haus huv. Tshawb nrhiav cov kev kho mob uas kuv muab.",
+    "priceRange": "Cov nqi kho mob ib leeg txawv ntawm €75 txog €105. \nQee qhov kev pov hwm yuav them rau kev sab laj.",
+    "individualSessions": {
+      "heading": "Kev Kho Mob Ib Leeg",
+      "sessions": [
+        {
+          "name": "Thawj zaug Shiatsu Kev Kho Mob",
+          "description": "Ib qho kev kho mob tiav suav nrog kev ntsuam xyuas lub zog rau kev pab txhawb nqa tus kheej."
+        },
+        {
+          "name": "Kev Kho Mob Tom Qab",
+          "description": "Ib qho kev kho mob tom qab los txuas ntxiv ua haujlwm ntawm lub zog thiab ua kom cov txiaj ntsig tob zuj zus."
+        },
+        {
+          "name": "Plantar Reflexology",
+          "description": "Kev txhawb nqa cov ntsiab lus ntawm ko taw kom txo qis kev ntxhov siab thoob plaws lub cev."
+        },
+        {
+          "name": "Kev Zaws Mob Zoo",
+          "description": "Ib lub sij hawm ntawm kev so kom txaus los tso cov leeg nqaij thiab ua kom lub siab tus."
+        },
+        {
+          "name": "Kev Kho Mob Sophrology",
+          "description": "Kev so kom txaus thiab kev pom kev los tswj hwm kev ntxhov siab thiab kev xav."
+        },
+        {
+          "name": "Kev Kho Mob Lithotherapy",
+          "description": "Kev siv cov pob zeb thiab cov muaju los ua kom lub cev muaj zog."
+        },
+        {
+          "name": "Kev Kho Mob Me Nyuam / Me Nyuam Mos",
+          "description": "Kev pab txhawb nqa mos thiab hloov kho rau cov yau tshaj plaws, txij li cov menyuam mos mus txog cov hluas."
+        }
+      ]
+    },
+    "packages": {
+      "heading": "Cov Pob & Cov Ntawv Pov Thawj Khoom Plig",
+      "description": "Txuag ntau dua nrog peb cov pob thiab cov ntawv pov thawj khoom plig uas tsim los ua tib zoo. Zoo rau kev pab txhawb nqa lossis ua khoom plig rau koj cov neeg koj hlub.",
+      "items": [
+        {
+          "name": "Pob ntawm 5 Kev Kho Mob",
+          "price": "€400",
+          "description": "Kev pab txhawb nqa tsis tu ncua rau kev ua haujlwm tob thiab cov txiaj ntsig ntev."
+        },
+        {
+          "name": "Pob ntawm 10 Kev Kho Mob",
+          "price": "€775",
+          "description": "Qhov kev cog lus zoo tshaj plaws rau kev hloov pauv thiab kev saib xyuas koj qhov sib npaug mus ntev."
+        },
+        {
+          "name": "Ntawv Pov Thawj Khoom Plig",
+          "price": "Customizable",
+          "description": "Muab lub sij hawm tshwj xeeb rau koj cov neeg koj hlub. Siv tau rau txhua qhov kev pabcuam."
+        }
+      ]
+    },
+    "otherServices": {
+      "heading": "Kev Pab Cuam Hauv Tuam Txhab",
+      "intro": "Kev noj qab haus huv ntawm lub cev thiab lub siab hauv chaw ua haujlwm yog tus tsav tsheb ua haujlwm. Kuv tsim cov kev kho mob ib leeg lossis pab pawg uas haum rau koj cov neeg ua haujlwm xav tau los tswj hwm kev ntxhov siab, rov ua kom muaj zog, thiab txhim kho kev sib koom siab.",
+      "workshops": [
+        {
+          "title": "Rooj Sab Laj Los Ntawm Lub Cev",
+          "price": "€18.00 ib tus neeg",
+          "duration": "1h txog 1h30",
+          "items": [
+            {
+              "name": "DO-IN (Pab Pawg Zaws Tus Kheej)",
+              "description": "Siv cov kev qoj ib ce yooj yim (ncab, siab, sib txhuam), Do In pab txhim kho kev txav mus los, tshem tawm kev ntxhov siab, thiab rov ua kom muaj zog."
+            },
+            {
+              "name": "ZEN STRETCHES (Makko Ho)",
+              "description": "Zoo rau kev rov txuas nrog koj lub cev, tiv thaiv kev ntxhov siab, thiab so kom txaus yam tsis muaj kev ntxhov siab. Txhua txoj hauj lwm, tuav rau 6 lub pa tob tob, coj kev so thiab tso tawm."
+            },
+            {
+              "name": "Kev Taw Qhia rau Kev So Kom Txaus ntawm Tes",
+              "description": "Ib qho kev zaws uas coj kev so kom txaus tam sim ntawd los txo qis kev ntxhov siab thiab ua kom cov pob qij txha mos, thaum txhawb cov ntshav khiav thiab kev noj qab haus huv tag nrho."
+            }
+          ]
+        },
+        {
+          "title": "Rooj Sab Laj Los Ntawm Lub Suab",
+          "price": "€18.00 ib tus neeg",
+          "duration": "1h txog 1h30",
+          "items": [
+            {
+              "name": "Sophrology",
+              "description": "Qhov kev coj ua mos thiab nkag tau no pab txhawb kev ntseeg siab thiab txhim kho kev tswj hwm kev ntxhov siab los ntawm kev pom kev thiab kev ua pa, txo qis kev ntxhov siab."
+            },
+            {
+              "name": "Kev Ua Pa Tswj",
+              "description": "Cov kev qoj ib ce ua pa, nrog lossis tsis muaj kev pom, muab cov cuab yeej siv tau rov qab los tswj hwm kev xav, txhim kho kev mloog zoo, thiab txo qhov mob."
+            },
+            {
+              "name": "Kev Xav thiab Kev So",
+              "description": "Nkag tau rau txhua tus, cov kev qhuab qhia no pab tso cov kev ntxhov siab, tsim kom muaj kev thaj yeeb nyab xeeb, thiab tuaj yeem haum rau cov sij hawm tsis khoom tshaj plaws rau cov txiaj ntsig tam sim ntawd."
+            }
+          ]
+        },
+        {
+          "title": "Rooj Sab Laj Los Ntawm Cov Ntaub Ntawv",
+          "price": "€15.00 ib tus neeg",
+          "duration": "1h txog 1h30",
+          "items": [
+            {
+              "name": "Rooj Sab Laj Koom Tes",
+              "description": "Tshawb nrhiav cov cuab yeej rau kev noj qab haus huv tag nrho, los ntawm 5 lub ntsiab lus mus rau lub moos circadian, kom nkag siab zoo dua tias cov xwm txheej ntuj tsim muaj feem cuam tshuam rau lub cev."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "practicalInfoPage": {
+    "title": "Cov Ntaub Ntawv Tseem Ceeb",
+    "subtitle": "Txhua yam koj yuav tsum paub los npaj rau koj qhov kev kho mob thiab txaus siab rau nws cov txiaj ntsig.",
+    "sessionFlow": {
+      "heading": "Yuav Ua Li Cas Ib Leeg Kev Kho Mob",
+      "steps": [
+        {
+          "name": "Kev Sib Tham",
+          "description": "Peb pib nrog kev sib tham tsis pub lwm tus paub kom nkag siab koj qhov kev cia siab thiab ua qhov kev ntsuam xyuas lub zog."
+        },
+        {
+          "name": "Kev Kho Mob Shiatsu",
+          "description": "Kev kho mob yog ua tiav nrog cov khaub ncaws, ntawm ib lub futon xis nyob hauv pem teb. Kuv siv lub zog thiab ncab rau tag nrho lub cev."
+        },
+        {
+          "name": "Kev Sib Tham Tom Qab",
+          "description": "Peb xaus nrog kev sib tham luv luv txog koj txoj kev xav, thiab kuv tuaj yeem muab tswv yim rau koj rau koj lub neej txhua hnub."
+        }
+      ]
+    },
+    "recommendations": {
+      "heading": "Yuav Npaj Li Cas?",
+      "points": [
+        {
+          "name": "Cov Khaub Ncaws Xis Nyob",
+          "description": "Hnav cov khaub ncaws mos, xis nyob (ris tsho, leggings, lub tsho xoob) kom txav tau yooj yim."
+        },
+        {
+          "name": "Bữa Ăn Nhẹ",
+          "description": "Tránh ăn bữa ăn nặng ngay trước buổi tập để thoải mái hơn."
+        },
+        {
+          "name": "Tom Qab Kev Kho Mob",
+          "description": "Npaj sij hawm nyob ntsiag to tom qab kev kho mob. Haus dej kom ntau los pab koj lub cev tshem tawm cov co toxins."
+        }
+      ]
+    },
+    "location": {
+      "heading": "Lub Chaw Haujlwm",
+      "address": "12 Clos des Hippocampes, 97354 Rémire-Montjoly, French Guiana",
+      "cta": "Saib hauv Google Maps"
+    }
+  },
+  "contactPage": {
+    "title": "Hu Rau Kuv",
+    "subtitle": "Yog muaj lus nug lossis xav teem caij, thov sau daim foos hauv qab no.",
+    "labels": {
+      "firstname": "Lub npe",
+      "lastname": "Lub xeem",
+      "email": "Email",
+      "message": "Koj cov lus"
+    },
+    "placeholders": {
+      "firstname": "Nathalie",
+      "lastname": "JEAN",
+      "email": "nathalie.jean@email.com",
+      "message": "Nyob zoo, kuv xav teem caij mus kho mob Shiatsu..."
+    },
+    "button": "Xa →",
+    "form": {
+      "submitting": "Xa...",
+      "success": {
+        "title": "Lus xa tiav!",
+        "description": "Ua tsaug rau koj cov lus. Peb yuav teb koj sai li sai tau.",
+        "sendAnother": "Xa lwm cov lus"
+      },
+      "privacy": {
+        "title": "Kev ceev ntiag tug",
+        "description": "Koj cov ntaub ntawv tus kheej raug tiv thaiv thiab tsuas yog siv los teb koj. Peb hwm koj txoj cai ntiag tug thiab tsis qhia koj cov ntaub ntawv."
+      }
+    },
+    "enhanced": {
+      "badge": "Cia Peb Sib Txuas Lus",
+      "quickInfo": {
+        "rapidResponse": "Teb ceev",
+        "personalizedExchange": "Kev sib pauv tus kheej",
+        "maxTime": "24 teev ntau tshaj"
+      },
+      "leftColumn": {
+        "badge": "Cia Peb Pib Sib Tham",
+        "title": "Koj Kev Noj Qab Haus Huv Pib Ntawm No",
+        "description": "Txhua lo lus nug tsim nyog tau txais cov lus teb tus kheej. Thov qhia koj cov kev txhawj xeeb, koj lub hom phiaj, lossis tsuas yog koj qhov xav paub txog kuv cov kev pabcuam.",
+        "benefits": {
+          "freeConsultation": "15 feeb sab laj dawb",
+          "personalizedAdvice": "Tswv yim tus kheej raws li koj xav tau",
+          "kindApproach": "Kev mus kom ze thiab kev tshaj lij"
+        },
+        "otherContact": {
+          "title": "Lwm txoj kev hu",
+          "phone": "+594 (0)6 94 00 70 97",
+          "email": "nathalie.jean@shiatsu-guyane.com",
+          "office": "Chaw ua haujlwm"
+        }
+      },
+      "rightColumn": {
+        "formTitle": "Xa peb cov lus",
+        "formSubtitle": "Kuv yuav teb koj sai li sai tau"
+      }
+    }
+  },
+  "components": {
+    "certificationGallery": {
+      "diplomaCount": {
+        "single": "Ntawv Pov Thawj",
+        "plural": "Cov Ntawv Pov Thawj"
+      },
+      "viewAllButton": "Nyem saib tag nrho cov ntawv pov thawj ({{count}})",
+      "zoomHint": "Nyem kom loj dua",
+      "certifications": {
+        "shiatsuProfessionnel": {
+          "title": "Shiatsu Tshaj Lij",
+          "organization": "André Nahum Tsev Kawm Ntawv",
+          "year": "2006",
+          "details": "Kev kawm tiav - Aromatherapy & Shiatsu"
+        },
+        "ohashiatsuAdvanced": {
+          "title": "Advanced Ohashiatsu® Program",
+          "organization": "The Ohashi Institute",
+          "year": "2008",
+          "details": "Daim ntawv pov thawj thoob ntiaj teb siab heev"
+        },
+        "ohashiatsuInstructor": {
+          "title": "Certified Ohashiatsu® Instructor",
+          "organization": "The Ohashi Institute",
+          "year": "2012",
+          "details": "Kev tsim nyog qhia ntawv"
+        },
+        "seikiShiatsu": {
+          "title": "Seiki Shiatsu",
+          "organization": "Seiki Meridian Shiatsu International",
+          "year": "2022-2024",
+          "details": "83h nrog Master Tzvika Calisar"
+        },
+        "sophrologie": {
+          "title": "Certified Sophrologist",
+          "organization": "Paris Academy of Sophrology",
+          "year": "2023",
+          "details": "RNCP Level 5 - Code NSF 330p"
+        },
+        "formationsSpecialisees": {
+          "title": "Cov Kev Kawm Tshwj Xeeb",
+          "organization": "Kev Kawm Txuas Ntxiv",
+          "year": "2022-2024",
+          "details": "Kata & kev kho mob tshwj xeeb"
+        }
+      }
+    },
+    "testimonials": {
+      "badge": "Cov Neeg Siv Khoom Cov Lus Tim Khawv",
+      "description": "Tshawb nrhiav cov kev paub tiag tiag ntawm kuv cov neeg siv khoom thiab lawv txoj kev mus rau kev noj qab haus huv zoo dua los ntawm Shiatsu.",
+      "quickInfo": {
+        "verifiedReviews": "Cov tswv yim pov thawj",
+        "satisfiedClients": "Cov neeg siv khoom txaus siab",
+        "authenticExperiences": "Cov kev paub tiag tiag"
+      },
+      "loading": "Chaw thau khoom Google cov tswv yim...",
+      "verifiedBadge": "Cov tswv yim pov thawj",
+      "wellbeingMessage": "Koj txoj kev noj qab haus huv yog qhov tseem ceeb rau peb",
+      "footerDescription": "Txhua qhov lus tim khawv qhia txog peb txoj kev cog lus los pab koj ntawm koj txoj kev mus rau kev noj qab haus huv ntev thiab tiag. Koom nrog cov neeg uas tau xaiv Shiatsu los hloov lawv lub neej."
+    },
+    "benefits": {
+      "badge": "Cov Txiaj Ntsig ntawm Shiatsu",
+      "quickInfo": {
+        "physicalWellbeing": "Kev noj qab haus huv ntawm lub cev",
+        "emotionalBalance": "Kev sib npaug zog",
+        "vitalEnergy": "Lub zog tseem ceeb"
+      },
+      "description": "Tshawb nrhiav tias Shiatsu tuaj yeem hloov pauv koj lub cev, lub siab, thiab lub zog li cas los ntawm kev mus kom ze thiab ntuj tsim.",
+      "ctaTitle": "Ua Kom Koj Cov Kev Paub tob zuj zus",
+      "ctaDescription": "Tshawb nrhiav kom paub meej txog lub tswv yim, cov txheej txheem, thiab keeb kwm ntawm Shiatsu kom nkag siab zoo dua nws cov txiaj ntsig zoo.",
+      "traditionMessage": "Tshawb nrhiav kev coj noj coj ua qub ntawm kev pabcuam rau koj txoj kev noj qab haus huv",
+      "cards": {
+        "vitality": {
+          "title": "Lub Zog",
+          "description": "Rov qab los rau koj lub zog"
+        },
+        "relief": {
+          "title": "Kev Pab",
+          "description": "Txo koj cov kev ntxhov siab"
+        },
+        "balance": {
+          "title": "Kev Sib Npaug Zog",
+          "description": "Ua kom koj tus kheej sib haum xeeb"
+        },
+        "prevention": {
+          "title": "Kev Tiv Thaiv",
+          "description": "Tswj koj txoj kev noj qab haus huv"
+        }
+      }
+    },
+    "aboutIntro": {
+      "badge": "Koj Tus Kws Kho Mob",
+      "certifiedBadge": "Tus Kws Kho Mob Muaj Ntawv Pov Thawj",
+      "experience": {
+        "years": "15+ xyoo",
+        "label": "ntawm kev paub dhau los"
+      },
+      "qualities": {
+        "personalizedApproach": {
+          "title": "Kev mus kom ze tus kheej",
+          "description": "Hloov kho rau koj xav tau"
+        },
+        "compassionateListening": {
+          "title": "Kev mloog zoo",
+          "description": "Kev mus kom ze tib neeg"
+        }
+      },
+      "additionalCta": "Tshawb nrhiav kuv txoj kev mus thiab kuv txoj kev mob siab rau kev noj qab haus huv",
+      "imageAlt": "Duab ntawm Nathalie Jean, tus kws kho mob Shiatsu"
+    },
+    "whatIsShiatsu": {
+      "badge": "Kev Ua Yeeb Yam Qub",
+      "qualities": {
+        "energeticBalance": {
+          "title": "Kev sib npaug zog",
+          "description": "Kev sib haum xeeb ntawm lub cev"
+        },
+        "holisticApproach": {
+          "title": "Kev mus kom ze tag nrho",
+          "description": "Lub cev, lub siab, kev xav"
+        }
+      },
+      "tradition": "Kev coj noj coj ua Nyiv Pooj qub",
+      "shiatsuMeaning": {
+        "title": "Shiatsu",
+        "description": "指圧 • Ntiv tes siab"
+      },
+      "vitalEnergy": "Lub zog tseem ceeb",
+      "imageAlt": "Tus neeg tau txais kev kho mob Shiatsu"
+    },
+    "whoIsItFor": {
+      "badge": "Rau Leej Twg?",
+      "quickInfo": {
+        "allAges": "Txhua lub hnub nyoog",
+        "allNeeds": "Txhua qhov kev xav tau",
+        "personalizedApproach": "Kev mus kom ze tus kheej"
+      },
+      "description": "Tshawb nrhiav tias Shiatsu tuaj yeem pab koj li cas, txawm tias koj txoj kev mus lossis xav tau dab tsi.",
+      "findProfileTitle": "Nrhiav Koj Cov Ntaub Ntawv",
+      "findProfileDescription": "Tshawb nrhiav cov ntaub ntawv sib txawv thiab tshawb nrhiav tias Shiatsu tuaj yeem pab koj li cas ntawm koj txoj kev mus rau kev noj qab haus huv.",
+      "uniqueMessage": "Txhua tus neeg yog qhov tshwj xeeb, koj qhov kev pab txhawb nqa ib yam",
+      "cards": {
+        "globalWellbeing": {
+          "title": "Kev noj qab haus huv thoob ntiaj teb",
+          "description": "Lub cev, lub siab, thiab kev xav"
+        },
+        "tailored": {
+          "title": "Hloov kho",
+          "description": "Hloov kho rau koj xav tau"
+        },
+        "forEveryone": {
+          "title": "Rau txhua tus",
+          "description": "Suav nrog thiab saib xyuas"
+        }
+      }
+    },
+    "footer": {
+      "practitioner": {
+        "name": "Nathalie Jean",
+        "description": "Tus Kws Kho Mob Shiatsu Muaj Ntawv Pov Thawj",
+        "longDescription": "Kev pab txhawb nqa tus kheej rau kev noj qab haus huv ntev los ntawm kev ua yeeb yam Nyiv Pooj qub ntawm Shiatsu. Ib qho kev mus kom ze uas ua kom lub cev, lub siab, thiab lub zog tseem ceeb sib haum xeeb.",
+        "certification": "RNCP Certified Sophrologist",
+        "certification2": "Certified Ohashiatsu® Instructor",
+        "experience": "18+ xyoo ntawm kev paub dhau los",
+        "membershipFFST": "Tus tswv cuab ntawm Fab Kis Federation ntawm Tsoos Shiatsu"
+      },
+      "contact": {
+        "title": "Hu Rau Kuv",
+        "office": {
+          "title": "Chaw ua haujlwm",
+          "address": "12 Clos des Hippocampes, 97354 Rémire-Montjoly, French Guiana",
+          "schedule": "Monday-Friday 9am-6pm"
+        },
+        "email": {
+          "address": "nathalie.jean@shiatsu-guyane.com",
+          "responseTime": "Teb hauv 24 teev"
+        }
+      },
+      "schedule": {
+        "title": "Lub Sij Hawm Qhib",
+        "weekdays": {
+          "label": "Monday - Friday",
+          "hours": "9:00 AM - 6:00 PM"
+        },
+        "saturday": {
+          "label": "Hnub Xya",
+          "hours": "9:00 AM - 2:00 PM"
+        },
+        "sunday": {
+          "label": "Hnub Vas Xaum",
+          "hours": "Kaw"
+        }
+      },
+      "navigation": {
+        "title": "Kev Taw Qhia",
+        "home": "Tsev"
+      },
+      "legal": {
+        "mentions": "Cov ntawv ceeb toom raug cai",
+        "privacy": "Txoj cai ntiag tug",
+        "terms": "Cov ntsiab lus & tej yam kev mob"
+      },
+      "backToTop": "Rov qab mus rau saum",
+      "copyright": "© 2025 Nathalie Jean - Tus Kws Kho Mob Shiatsu. Txhua txoj cai."
+    },
+    "hero": {
+      "socialLabels": {
+        "whatsapp": "Hu rau WhatsApp",
+        "instagram": "Ua raws li Instagram",
+        "facebook": "Ua raws li Facebook"
+      },
+      "videoNotSupported": "Koj lub browser tsis txhawb cov yeeb yaj kiab.",
+      "wellbeingBadge": "Kev Noj Qab Haus Huv Tiag Tiag",
+      "discover": "Tshawb Nrhiav",
+      "credentials": {
+        "certifiedInstructor": "Tus Kws Qhia Muaj Ntawv Pov Thawj",
+        "experience": "18+ xyoo ntawm kev paub dhau los",
+        "certifiedSophrologist": "RNCP Sophrologist"
+      }
+    },
+    "reviews": {
+      "verifiedReview": "Cov tswv yim pov thawj"
+    },
+    "navbar": {
+      "socialLabels": {
+        "whatsapp": "WhatsApp",
+        "instagram": "Instagram",
+        "facebook": "Facebook"
+      }
+    }
+  },
+  "pages": {
+    "practicalInfo": {
+      "badge": "Cov Lus Qhia Tseem Ceeb",
+      "quickNav": {
+        "flow": "Ntws",
+        "recommendations": "Cov lus pom zoo",
+        "location": "Qhov chaw"
+      },
+      "sessionFlow": {
+        "badge": "Kev Kho Mob Ntws",
+        "description": "Tshawb nrhiav seb kev kho mob mus li cas kom npaj koj zoo tshaj plaws rau qhov kev paub no."
+      },
+      "recommendations": {
+        "badge": "Cov Lus Qhia Tus Kheej",
+        "description": "Ua raws li cov lus pom zoo yooj yim no kom txaus siab rau koj qhov kev kho mob thiab ua kom cov txiaj ntsig ntawm koj qhov kev kho mob zoo tshaj plaws."
+      },
+      "location": {
+        "badge": "Qhov chaw",
+        "address": "Chaw nyob"
+      }
+    },
+    "leShiatsu": {
+      "badge": "Kev Ua Yeeb Yam Qub Nyiv Pooj",
+      "foundations": "Cov hauv paus",
+      "philosophyPractice": "Lub tswv yim & Kev coj ua",
+      "methodsTechniques": "Cov txheej txheem & Cov txheej txheem",
+      "schoolsTraditions": "Tsev kawm ntawv & Kev coj noj coj ua",
+      "imageAlt": "Kev coj ua Shiatsu",
+      "schoolsDescription": "Tshawb nrhiav cov kev mus kom ze thiab kev coj noj coj ua uas ua rau kev coj ua ntawm Shiatsu nplua nuj."
+    },
+    "pourQui": {
+      "badge": "Tshawb Nrhiav Koj Txoj Kev Mus",
+      "loading": "Chaw thau khoom...",
+      "exploreBelow": "Tshawb nrhiav hauv qab no",
+      "personalizedProfiles": "Cov Ntaub Ntawv Tus Kheej",
+      "findIdealSupport": "Nrhiav Koj Qhov Kev Pab Txhawb Zoo Tshaj",
+      "notFindProfile": "Tsis pom koj cov ntaub ntawv?",
+      "personalizedConsultation": "Kev Sib Tham Tus Kheej",
+      "contactUs": "Hu Rau Kuv",
+      "introDescription": "Txhua tus neeg yog qhov tshwj xeeb, thiab koj txoj kev mus rau kev noj qab haus huv yuav tsum yog ib yam. Tshawb nrhiav seb peb cov kev pabcuam hloov li cas rau koj cov kev xav tau tshwj xeeb.",
+      "personalizedDescription": "Txhua qhov xwm txheej yog qhov tshwj xeeb. Hu rau peb rau kev pab txhawb nqa tus kheej uas ua tau raws li koj cov kev xav tau thiab lub hom phiaj.",
+      "personalizedConsultationSection": {
+        "description": "Txhua qhov xwm txheej yog qhov tshwj xeeb. Hu rau kuv rau kev pab txhawb nqa",
+        "title": "Kev Sib Tham Tus Kheej",
+        "cta": "Hu Rau Kuv"
+      }
+    },
+    "servicesPricing": {
+      "badge": "Kev Pab Cuam Kev Noj Qab Haus Huv",
+      "quickInfo": {
+        "flexibleScheduling": "Lub Sij Hawm Yooj Yim",
+        "expertGuidance": "Kev Qhia Tshwj Xeeb",
+        "personalizedApproach": "Kev Mus Kom Ze Tus Kheej"
+      },
+      "individualServices": "Kev Pab Cuam Ib Leeg",
+      "valuePackages": "Cov Pob Nqi",
+      "mostPopular": "Nrov Tshaj",
+      "bestValue": "Nqi Zoo Tshaj",
+      "corporateSolutions": "Cov Kev daws teeb meem rau tuam txhab",
+      "learnMore": "Kawm Ntau Ntxiv",
+      "packageBenefits": {
+        "flexibleScheduling": "Cov kev xaiv sij hawm yooj yim",
+        "priorityBooking": "Muaj kev booking ua ntej",
+        "transferable": "Hloov tau rau cov tswv cuab hauv tsev neeg"
+      },
+      "getStarted": "Pib",
+      "workshops": {
+        "description": "Kev kawm tiav uas tsim los rau koj pab neeg txoj kev vam meej",
+        "priceLabel": "Nqi",
+        "durationLabel": "Lub Sij Hawm"
+      }
+    }
+  },
+  "metadata": {
+    "title": "Shiatsu Guyane - Kev Kho Mob Tag Nrho",
+    "description": "Kev coj ua Shiatsu hauv Guyane rau kev tswj hwm kev ntxhov siab thiab mob thiab rov ua kom lub zog sib npaug."
+  },
+  "aboutPage": {
+    "title": "Hais Txog Nathalie JEAN",
+    "subtitle": "Kuv txoj kev taug yog kev sib tshuam ntawm kev mob siab rau kev sib raug zoo ntawm tib neeg thiab kev ntseeg tob rau lub cev lub zog kho tus kheej.",
+    "intro": {
+      "heading": "Kuv Lub Tswv Yim",
+      "p1": "Kuv ntseeg ruaj khov tias txhua tus neeg muaj cov peev txheej hauv lawv tus kheej kom rov qab los rau lawv qhov sib npaug. Kuv lub luag haujlwm yog coj koj nrog kev ua siab zoo, ua tus pab txhawb nqa ntawm koj txoj kev mus rau kev noj qab haus huv.",
+      "p2": "Kuv txoj kev mus kom ze yog tag nrho: nws xav txog tus neeg hauv txhua qhov ntev - lub cev, kev xav, thiab sab ntsuj plig. Txhua qhov kev kho mob yog qhov chaw mloog thiab hwm, tus kheej tag nrho kom tau raws li koj cov kev xav tau tshwj xeeb."
+    },
+    "timeline": {
+      "heading": "Kev Mus Los & Kev Kawm Tseem Ceeb",
+      "events": [
+        {
+          "year": "2021",
+          "title": "Daim Ntawv Pov Thawj hauv Tsoos Shiatsu",
+          "description": "Tau txais kuv daim ntawv pov thawj tom qab 3 xyoos ntawm kev kawm nruj, cim qhov pib ntawm kuv txoj haujlwm."
+        },
+        {
+          "year": "2022",
+          "title": "Kev Tshwj Xeeb hauv Kev Pab Txhawb Nqa Niam",
+          "description": "Kev kawm ntxiv los txhawb nqa cov poj niam cev xeeb tub thiab tom qab yug me nyuam nrog cov txheej txheem Shiatsu hloov kho."
+        },
+        {
+          "year": "2023",
+          "title": "Qhib Chaw Haujlwm hauv Remire-Montjoly",
+          "description": "Tsim ib qho chaw rau kev noj qab haus huv thiab kev thaj yeeb los tos txais kuv cov neeg siv khoom hauv Guyane."
+        },
+        {
+          "year": "2024",
+          "title": "Kev Kawm hauv Sophrology & Do-In",
+          "description": "Ntxiv cov txuj ci tshiab los muab kev pab txhawb nqa ntau dua, suav nrog kev so kom txaus thiab kev zaws tus kheej."
+        }
+      ]
+    },
+    "hardcodedStrings": {
+      "badges": {
+        "myJourney": "Kuv Txoj Kev Taug",
+        "myStory": "Kuv Zaj Dab Neeg",
+        "professionalPath": "Txoj Kev Ua Haujlwm",
+        "recognitions": "Cov Ntawv Pov Thawj & Kev Lees Paub"
+      },
+      "credentials": {
+        "ohashiatsuInstructor": "Certified Ohashiatsu® Instructor",
+        "experience": "18+ xyoo ntawm kev paub dhau los",
+        "certifiedSophrologist": "Certified RNCP Sophrologist",
+        "practitionerTitle": "Tus Kws Kho Mob Shiatsu Muaj Ntawv Pov Thawj"
+      },
+      "values": {
+        "kindness": "Kev Siab Zoo",
+        "kindnessDesc": "Kev mloog zoo thiab kev hwm",
+        "excellence": "Kev Zoo Tshaj Plaws",
+        "excellenceDesc": "Kev kawm tsis tu ncua",
+        "humanApproach": "Kev Mus Kom Ze Ntawm Tib Neeg",
+        "humanApproachDesc": "Txhua tus neeg yog tshwj xeeb thiab tsim nyog tau kev saib xyuas tus kheej",
+        "durableResults": "Cov Txiaj Ntsig Ruaj Khov",
+        "durableResultsDesc": "Cov kev daws teeb meem uas tsim los ntev rau kev noj qab haus huv zoo tshaj plaws",
+        "continuousInnovation": "Kev Tsim Kho Tsis Tu Ncua",
+        "continuousInnovationDesc": "Kev sib koom ua ke ntawm cov txheej txheem tshiab tshaj plaws rau kev ua tau zoo tshaj plaws"
+      },
+      "mission": {
+        "title": "Kuv Lub Hom Phiaj",
+        "quote": "Coj txhua tus neeg mus rau kev noj qab haus huv ntev los ntawm kev sib haum xeeb ntawm lub cev, lub siab, thiab lub zog tseem ceeb. Shiatsu tsis yog tsuas yog ib txoj kev xwb, nws yog kev ua neej uas hloov pauv kom tob."
+      },
+      "certifications": {
+        "sectionTitle": "Kev Zoo Tshaj Plaws Tau Lees Paub",
+        "sectionDesc": "Cov ntawv pov thawj thiab kev kawm uas lav qhov zoo ntawm kuv txoj kev kho mob"
+      },
+      "navigation": {
+        "discoverMyStory": "Tshawb nrhiav kuv zaj dab neeg",
+        "discoverSteps": "Tshawb nrhiav cov kauj ruam tseem ceeb uas tsim kuv txoj kev paub thiab kev hlub rau Shiatsu."
+      }
+    }
+  },
+  "signupDemo": {
+    "title": "Txais tos rau Aceternity",
+    "subtitle": "Nkag mus rau aceternity yog tias koj tuaj yeem ua tau vim peb tseem tsis tau muaj tus txheej txheem nkag",
+    "fields": {
+      "firstName": "Lub npe",
+      "lastName": "Lub xeem",
+      "email": "Email Chaw Nyob",
+      "password": "Lo lus zais",
+      "twitterPassword": "Koj lo lus zais twitter"
+    },
+    "placeholders": {
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "john.doe@example.com",
+      "password": "••••••••"
+    },
+    "buttons": {
+      "signUp": "Sau npe →",
+      "github": "GitHub",
+      "google": "Google",
+      "onlyFans": "OnlyFans"
+    }
+  },
+  "uiDemo": {
+    "dropdown": {
+      "postActions": "Cov haujlwm xa",
+      "edit": "Kho",
+      "duplicate": "Luam",
+      "share": "Qhia",
+      "remove": "Tshem tawm"
+    }
+  },
+  "legal": {
+    "privacyPolicy": {
+      "title": "Txoj Cai Ntiag Tug",
+      "lastUpdated": "Hloov tshiab kawg: {{date}}",
+      "sections": {
+        "introduction": {
+          "title": "Cov Lus Qhia",
+          "content": "Peb hwm koj txoj kev ntiag tug thiab cog lus los tiv thaiv koj cov ntaub ntawv ntawm tus kheej. Daim ntawv ceeb toom no piav qhia txog yuav ua li cas peb khaws, siv, thiab tiv thaiv koj cov ntaub ntawv thaum koj siv peb cov kev pabcuam kev noj qab haus huv."
+        },
+        "dataCollection": {
+          "title": "Cov Ntaub Ntawv Peb Khaws",
+          "content": "Peb khaws tsuas yog cov ntaub ntawv tsim nyog rau kev muab kev kho mob Shiatsu zoo:\n• Koj lub npe thiab tus lej xov tooj\n• Cov ntaub ntawv kho mob cuam tshuam rau koj txoj kev kho mob\n• Cov ntaub ntawv teem caij thiab kev nyiam\n• Cov lus tawm tswv yim thiab kev paub dhau los (yeem)"
+        },
+        "dataUse": {
+          "title": "Yuav Ua Li Cas Peb Siv Koj Cov Ntaub Ntawv",
+          "content": "Koj cov ntaub ntawv raug siv rau:\n• Muab kev kho mob tus kheej thiab kev sab laj\n• Teem caij thiab ua raws\n• Kev sib txuas lus txog koj txoj kev kho mob\n• Txhim kho peb cov kev pabcuam (nrog koj kev tso cai)\n• Ua raws li cov cai lij choj thiab kev tshaj lij"
+        },
+        "dataProtection": {
+          "title": "Kev Tiv Thaiv Cov Ntaub Ntawv",
+          "content": "Peb siv cov kev ntsuas kev nyab xeeb nruj los tiv thaiv koj cov ntaub ntawv:\n• Kev khaws cia ruaj ntseg thiab kev sib txuas lus encrypted\n• Kev nkag mus tsuas yog rau cov neeg ua haujlwm tso cai\n• Kev saib xyuas tsis tu ncua thiab kev ntsuas kev nyab xeeb\n• Ua raws li cov qauv kev kho mob European (GDPR)"
+        },
+        "yourRights": {
+          "title": "Koj Txoj Cai",
+          "content": "Koj muaj txoj cai:\n• Nkag mus rau koj cov ntaub ntawv ntawm tus kheej\n• Kho lossis rho tawm cov ntaub ntawv tsis raug\n• Txwv lossis tawm tsam kev ua cov ntaub ntawv\n• Cov ntaub ntawv portability\n• Tshem tawm koj cov ntaub ntawv (txoj cai 'kom hnov qab')\n• Tsis kam txais kev lag luam ncaj qha"
+        },
+        "contact": {
+          "title": "Hu Rau Peb",
+          "content": "Yog tias koj muaj lus nug txog peb txoj cai ntiag tug lossis xav siv koj txoj cai, thov hu rau peb ntawm:\n\nEmail: nathalie.jean@shiatsu-guyane.com\nXov tooj: +594 (0)6 94 00 70 97\nChaw nyob: 12 Clos des Hippocampes, 97354 Rémire-Montjoly, French Guiana"
+        }
+      }
+    },
+    "cookieConsent": {
+      "title": "Peb Siv Cookies",
+      "description": "Peb siv cov ncuav qab zib tsim nyog los ua kom koj txoj kev paub zoo dua ntawm lub vev xaib thiab txhim kho peb cov kev pabcuam. Cov ncuav qab zib no pab peb nkag siab txog kev siv lub vev xaib thiab ua kom muaj kev nyab xeeb.",
+      "essentialCookies": "Cov Ncuav Qab Zib Tseem Ceeb",
+      "essentialDescription": "Cov ncuav qab zib no yog qhov tsim nyog rau lub vev xaib ua haujlwm kom raug thiab tsis tuaj yeem kaw hauv peb cov kab ke.",
+      "performanceCookies": "Cov Ncuav Qab Zib Ua Haujlwm",
+      "performanceDescription": "Cov ncuav qab zib no pab peb nkag siab tias cov neeg siv sib cuam tshuam nrog lub vev xaib li cas los ntawm kev muab cov ntaub ntawv txog cov nplooj ntawv feem ntau mus xyuas.",
+      "buttons": {
+        "acceptAll": "Txais Tag Nrho",
+        "acceptSelected": "Txais Xaiv",
+        "rejectAll": "Tsis Txais Tag Nrho",
+        "settings": "Kev Teeb Tsa Cookie"
+      },
+      "learnMore": "Kawm ntxiv txog peb txoj cai ntiag tug"
+    },
+    "healthcareDisclaimer": {
+      "title": "Cov Lus Ceeb Toom Kev Noj Qab Haus Huv",
+      "importantNotice": "Lus Ceeb Toom Tseem Ceeb",
+      "content": [
+        {
+          "heading": "Txog Shiatsu Kev Kho Mob",
+          "text": "Shiatsu yog ib txoj kev kho mob ntuj tsim los ntawm Nyiv Pooj uas txhawb nqa kev noj qab haus huv thiab kev noj qab haus huv los ntawm kev siv lub zog maj mam thiab ncab. Nws tsis yog kev kho mob thiab tsis hloov cov kev kho mob tsoos."
+        },
+        {
+          "heading": "Kev Sab Laj Kho Mob",
+          "text": "Ua ntej pib Shiatsu kev kho mob, nws raug nquahu kom sab laj nrog koj tus kws kho mob, tshwj xeeb tshaj yog tias koj muaj:\n• Cov mob ntev lossis mob hnyav\n• Cev xeeb tub lossis mob plawv\n• Kev phais tsis ntev los no lossis kev raug mob\n• Kev noj tshuaj tsis tu ncua"
+        },
+        {
+          "heading": "Hwm Kev Coj Noj Coj Ua Hmoob",
+          "text": "Peb nkag siab thiab hwm cov kev coj noj coj ua Hmoob txog kev noj qab haus huv thiab kev kho mob. Shiatsu tuaj yeem ua kom zoo rau cov kev coj ua kho mob Hmoob thiab tsis hloov lawv. Peb txhawb kom sib tham qhib txog koj cov kev ntseeg kev noj qab haus huv."
+        },
+        {
+          "heading": "Cov Kev Txwv",
+          "text": "Shiatsu tsis haum rau qee qhov xwm txheej:\n• Mob kub siab lossis mob hnyav\n• Kab mob sib kis lossis mob\n• Cov teeb meem ntshav khov lossis siv cov tshuaj tiv thaiv ntshav khov\n• Mob qog noj ntshav hauv theem nquag (yuav tsum muaj kev tso cai kho mob)"
+        },
+        {
+          "heading": "Tom Qab Kho Mob",
+          "text": "Tom qab Shiatsu kev kho mob, koj yuav hnov:\n• Kev so thiab txo qis kev ntxhov siab\n• Txhim kho kev pw tsaug zog thiab kev noj qab haus huv\n• Tej zaum yuav muaj kev nkees me me lossis kev xav hloov pauv (ib txwm)\n• Qhov mob me me ntawm cov ntsiab lus siab (nyob ib ntus)"
+        },
+        {
+          "heading": "Koj Lub Luag Haujlwm",
+          "text": "Los ntawm kev tau txais Shiatsu kev kho mob, koj lees paub tias:\n• Koj tau muab cov ntaub ntawv kho mob tiag tiag thiab tiav\n• Koj nkag siab tias Shiatsu tsis yog kev kho mob\n• Koj yuav ceeb toom rau tus kws kho mob txog cov kev hloov pauv hauv koj txoj kev noj qab haus huv\n• Koj txaus siab rau txhua qhov kev pheej hmoo uas paub txog kev kho mob"
+        }
+      ],
+      "agreement": "Los ntawm kev siv peb cov kev pabcuam, koj lees paub tias koj tau nyeem, nkag siab, thiab pom zoo rau cov lus ceeb toom kev noj qab haus huv no.",
+      "contactForQuestions": "Yog tias koj muaj lus nug lossis kev txhawj xeeb, thov tsis txhob yig hu rau peb ua ntej koj qhov kev kho mob."
+    }
+  },
+  "common": {
+    "backToHome": "Rov qab mus tsev"
+  }
+}

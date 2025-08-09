@@ -1,18 +1,27 @@
-import { cache } from 'react'; // 1. Import 'cache' from React
+import { cache } from 'react';
 import type { Locale } from './i18n-config';
 import type { Dictionary } from '@/types/dictionary';
 
+// Use static imports to avoid webpack JSON parsing issues
+import enDict from '@/dictionaries/en.json';
+import frDict from '@/dictionaries/fr.json';
+import ptBRDict from '@/dictionaries/pt-BR.json';
+import esDict from '@/dictionaries/es.json';
+import zhCnDict from '@/dictionaries/zh-cn.json';
+import hmnDict from '@/dictionaries/hmn.json';
+
 const dictionaries = {
-  en: () => import('@/dictionaries/en.json').then((module) => module.default),
-  fr: () => import('@/dictionaries/fr.json').then((module) => module.default),
-  'pt-BR': () => import('@/dictionaries/pt-BR.json').then((module) => module.default),
-  es: () => import('@/dictionaries/es.json').then((module) => module.default),
+  en: enDict,
+  fr: frDict,
+  'pt-BR': ptBRDict,
+  es: esDict,
+  'zh-cn': zhCnDict,
+  hmn: hmnDict,
 };
 
-// 2. Wrap the entire function in the 'cache()' function
 export const getDictionary = cache(async (locale: Locale): Promise<Dictionary> => {
-  console.log("Requesting dictionary for locale:", locale); // You can leave this for now
+  console.log("Requesting dictionary for locale:", locale);
   
-  const loader = dictionaries[locale] || dictionaries.fr;
-  return loader() as Promise<Dictionary>;
+  const dictionary = dictionaries[locale] || dictionaries.fr;
+  return Promise.resolve(dictionary as Dictionary);
 });

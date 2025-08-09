@@ -130,7 +130,7 @@ export default async function ContactPage(props: { params: Promise<{ lang: Local
                     <p className="text-[rgb(var(--color-text-secondary))]">{dictionary.contactPage.enhanced.rightColumn.formSubtitle}</p>
                   </div>
                   
-                  <ContactForm dictionary={dictionary.contactPage} />
+                  <ContactForm dictionary={dictionary.contactPage} language={lang} />
                 </div>
               </div>
             </div>

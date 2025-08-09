@@ -696,6 +696,52 @@
     }
   },
   "components": {
+    "certificationGallery": {
+      "diplomaCount": {
+        "single": "Diploma",
+        "plural": "Diplomas"
+      },
+      "viewAllButton": "Clique para ver todos os diplomas ({{count}})",
+      "zoomHint": "Clique para ampliar",
+      "certifications": {
+        "shiatsuProfessionnel": {
+          "title": "Shiatsu Profissional",
+          "organization": "Escola André Nahum",
+          "year": "2006",
+          "details": "Formação completa - Aromaterapia e Shiatsu"
+        },
+        "ohashiatsuAdvanced": {
+          "title": "Programa Avançado Ohashiatsu®",
+          "organization": "The Ohashi Institute",
+          "year": "2008",
+          "details": "Certificação internacional avançada"
+        },
+        "ohashiatsuInstructor": {
+          "title": "Instrutor Certificado Ohashiatsu®",
+          "organization": "The Ohashi Institute",
+          "year": "2012",
+          "details": "Qualificação para ensino"
+        },
+        "seikiShiatsu": {
+          "title": "Seiki Shiatsu",
+          "organization": "Seiki Meridian Shiatsu International",
+          "year": "2022-2024",
+          "details": "83h com Mestre Tzvika Calisar"
+        },
+        "sophrologie": {
+          "title": "Sofrologista Certificada",
+          "organization": "Academia de Sofrologia de Paris",
+          "year": "2023",
+          "details": "RNCP Nível 5 - Código NSF 330p"
+        },
+        "formationsSpecialisees": {
+          "title": "Formações Especializadas",
+          "organization": "Formação Contínua",
+          "year": "2022-2024",
+          "details": "Kata e tratamentos específicos"
+        }
+      }
+    },
     "testimonials": {
       "badge": "Depoimentos de Clientes",
       "description": "Descubra as experiências autênticas dos meus clientes e a sua jornada para um mejor bem-estar através do Shiatsu.",
@@ -859,7 +905,14 @@
         "instagram": "Seguir no Instagram",
         "facebook": "Seguir no Facebook"
       },
-      "videoNotSupported": "O seu navegador não suporta vídeos."
+      "videoNotSupported": "O seu navegador não suporta vídeos.",
+      "wellbeingBadge": "Bem-estar Autêntico",
+      "discover": "Descobrir",
+      "credentials": {
+        "certifiedInstructor": "Instrutor Certificado",
+        "experience": "18+ anos de experiência",
+        "certifiedSophrologist": "Sofrologista RNCP"
+      }
     },
     "reviews": {
       "verifiedReview": "Avaliação verificada"
@@ -978,9 +1031,47 @@
         {
           "year": "2024",
           "title": "Formação em Sofrologia e Do-In",
-          "description": "Adição de novas competências para oferecer um apoio ainda mais completo, incluindo técnicas de relaxamento и automassagem."
+          "description": "Adição de novas competências para oferecer um apoio ainda mais completo, incluindo técnicas de relaxamento e automassagem."
         }
       ]
+    },
+    "hardcodedStrings": {
+      "badges": {
+        "myJourney": "Minha Jornada",
+        "myStory": "Minha História",
+        "professionalPath": "Percurso Profissional",
+        "recognitions": "Certificações e Reconhecimentos"
+      },
+      "credentials": {
+        "ohashiatsuInstructor": "Instrutor Certificado Ohashiatsu®",
+        "experience": "18+ anos de experiência",
+        "certifiedSophrologist": "Sofrologista Certificada RNCP",
+        "practitionerTitle": "Profissional Certificada de Shiatsu"
+      },
+      "values": {
+        "kindness": "Gentileza",
+        "kindnessDesc": "Escuta profunda e respeito",
+        "excellence": "Excelência",
+        "excellenceDesc": "Formação contínua",
+        "humanApproach": "Abordagem Humana",
+        "humanApproachDesc": "Cada pessoa é única e merece atenção personalizada",
+        "durableResults": "Resultados Duradouros",
+        "durableResultsDesc": "Soluções projetadas para durar para um bem-estar ideal",
+        "continuousInnovation": "Inovação Contínua",
+        "continuousInnovationDesc": "Integração das últimas técnicas para máxima eficácia"
+      },
+      "mission": {
+        "title": "Minha Missão",
+        "quote": "Acompanhar cada pessoa em direção a um bem-estar duradouro harmonizando corpo, mente e energia vital. O Shiatsu não é apenas uma técnica, é uma arte de viver que transforma profundamente."
+      },
+      "certifications": {
+        "sectionTitle": "Excelência Reconhecida",
+        "sectionDesc": "Certificações e formações que garantem a qualidade dos meus tratamentos"
+      },
+      "navigation": {
+        "discoverMyStory": "Descubra minha história",
+        "discoverSteps": "Descubra os passos-chave que moldaram minha experiência e paixão pelo Shiatsu."
+      }
     }
   },
   "signupDemo": {
@@ -1014,5 +1105,108 @@
       "share": "Partilhar",
       "remove": "Remover"
     }
+  },
+  "legal": {
+    "privacyPolicy": {
+      "title": "Política de Privacidade",
+      "lastUpdated": "Última atualização: {{date}}",
+      "introduction": {
+        "title": "Introdução",
+        "content": "A presente Política de Privacidade descreve como coletamos, usamos, armazenamos e protegemos suas informações pessoais quando você utiliza nossos serviços de Shiatsu e visita nosso site."
+      },
+      "dataCollection": {
+        "title": "Coleta de Dados",
+        "personalInfo": {
+          "subtitle": "Informações Pessoais",
+          "content": "Coletamos informações que você nos fornece diretamente, como nome, sobrenome, endereço de email, número de telefone e informações de saúde relevantes para o tratamento de Shiatsu."
+        },
+        "healthInfo": {
+          "subtitle": "Informações de Saúde",
+          "content": "Com seu consentimento expresso, coletamos informações sobre seu estado de saúde, histórico médico relevante e quaisquer condições específicas para personalizar seu tratamento de Shiatsu."
+        }
+      },
+      "dataUse": {
+        "title": "Uso dos Dados",
+        "content": "Utilizamos suas informações para: fornecer tratamentos personalizados de Shiatsu, agendar consultas, enviar lembretes de consultas, melhorar nossos serviços e cumprir obrigações legais."
+      },
+      "dataProtection": {
+        "title": "Proteção de Dados",
+        "content": "Implementamos medidas de segurança adequadas para proteger suas informações pessoais contra acesso não autorizado, alteração, divulgação ou destruição. Seus dados de saúde são tratados com confidencialidade absoluta."
+      },
+      "dataSharing": {
+        "title": "Compartilhamento de Dados",
+        "content": "Não vendemos, alugamos ou compartilhamos suas informações pessoais com terceiros, exceto quando exigido por lei ou com seu consentimento expresso."
+      },
+      "yourRights": {
+        "title": "Seus Direitos",
+        "content": "Você tem direito de acessar, corrigir, excluir ou portar seus dados pessoais. Para exercer esses direitos, entre em contato conosco através dos meios fornecidos."
+      },
+      "cookies": {
+        "title": "Cookies",
+        "content": "Nosso site utiliza cookies essenciais para seu funcionamento. Você pode configurar seu navegador para recusar cookies, mas isso pode afetar algumas funcionalidades."
+      },
+      "contact": {
+        "title": "Contato",
+        "content": "Para questões relacionadas à privacidade, entre em contato: nathalie.jean@shiatsu-guyane.com"
+      }
+    },
+    "cookieConsent": {
+      "title": "Política de Cookies",
+      "message": "Este site utiliza cookies essenciais para garantir seu bom funcionamento e oferecer a melhor experiência possível. Ao continuar navegando, você aceita o uso destes cookies.",
+      "acceptAll": "Aceitar Todos",
+      "acceptEssential": "Aceitar Apenas Essenciais",
+      "configure": "Configurar Cookies",
+      "learnMore": "Saiba Mais",
+      "essentialCookies": {
+        "title": "Cookies Essenciais",
+        "description": "Necessários para o funcionamento básico do site, incluindo navegação e acesso a áreas seguras."
+      },
+      "functionalCookies": {
+        "title": "Cookies Funcionais",
+        "description": "Melhoram a funcionalidade do site e personalizam sua experiência, como preferências de idioma."
+      },
+      "analyticsCookies": {
+        "title": "Cookies de Análise",
+        "description": "Nos ajudam a entender como os visitantes interagem com nosso site para melhorarmos continuamente."
+      }
+    },
+    "healthcareDisclaimer": {
+      "title": "Aviso Importante sobre Saúde",
+      "medicalDisclaimer": {
+        "title": "Natureza dos Serviços",
+        "content": "Os tratamentos de Shiatsu oferecidos por Nathalie Jean são práticas de bem-estar complementar e não substituem o diagnóstico, tratamento ou acompanhamento médico convencional. O Shiatsu não é um ato médico."
+      },
+      "professionalQualification": {
+        "title": "Qualificação Profissional",
+        "content": "Nathalie Jean é profissional certificada em Shiatsu, membro da Federação Francesa de Shiatsu Tradicional (FFST), com mais de 15 anos de experiência na prática desta arte terapêutica japonesa."
+      },
+      "healthConditions": {
+        "title": "Condições de Saúde",
+        "content": "Se você possui problemas de saúde, está grávida, toma medicamentos ou está em tratamento médico, é fundamental consultar seu médico antes de iniciar sessões de Shiatsu."
+      },
+      "contraindications": {
+        "title": "Contraindicações",
+        "content": "Certas condições podem contraindicar o Shiatsu: febre alta, inflamações agudas, feridas abertas, fraturas recentes, ou outras condições médicas específicas. Informe sempre seu estado de saúde."
+      },
+      "emergencies": {
+        "title": "Emergências Médicas",
+        "content": "Em caso de emergência médica, procure imediatamente assistência médica qualificada. O Shiatsu não substitui cuidados médicos de emergência."
+      },
+      "complementaryApproach": {
+        "title": "Abordagem Complementar",
+        "content": "O Shiatsu pode ser praticado como complemento aos tratamentos médicos convencionais, sempre com conhecimento e aprovação do seu médico responsável."
+      },
+      "individualResponsibility": {
+        "title": "Responsabilidade Individual",
+        "content": "Cada pessoa é responsável por informar honestamente sobre seu estado de saúde e seguir as recomendações médicas de seus profissionais de saúde."
+      },
+      "consent": {
+        "title": "Consentimento Informado",
+        "content": "Ao agendar uma consulta, você confirma estar ciente da natureza do Shiatsu e assume a responsabilidade por sua decisão de receber este tratamento complementar."
+      }
+    }
+  },
+  "common": {
+    "backToHome": "Voltar ao início"
   }
 }

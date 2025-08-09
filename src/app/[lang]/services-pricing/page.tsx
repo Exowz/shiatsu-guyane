@@ -2,6 +2,7 @@
 
 import { getDictionary } from '@/lib/dictionary';
 import { Locale } from '@/lib/i18n-config';
+import { Dictionary } from '@/types/dictionary';
 import { CtaSection } from '@/components/sections/CtaSection';
 import { Clock, Euro, Sparkles, Star, ArrowRight, Check, Award, Users, Target } from 'lucide-react';
 
@@ -74,7 +75,7 @@ export default async function PricingPage(props: { params: Promise<{ lang: Local
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 max-w-7xl mx-auto">
-            {t.individualSessions.sessions.map((session: any, index: number) => (
+            {t.individualSessions.sessions.map((session: { name: string; description: string }, index: number) => (
               <div 
                 key={session.name} 
                 className="group relative bg-card/70 backdrop-blur-md p-8 rounded-2xl hover:bg-card/90 transition-all duration-500 hover:transform hover:scale-[1.02] hover:shadow-2xl hover:shadow-[rgb(var(--color-primary))]/10 shadow-lg"
@@ -145,7 +146,7 @@ export default async function PricingPage(props: { params: Promise<{ lang: Local
             
             {/* Right column - Package cards */}
             <div className="xl:col-span-3 grid grid-cols-1 lg:grid-cols-2 gap-8">
-              {t.packages.items.map((item: any, index: number) => (
+              {t.packages.items.map((item: { name: string; price: string; description: string }, index: number) => (
                 <div 
                   key={item.name} 
                   className={`group relative bg-card/70 backdrop-blur-md p-8 rounded-3xl transition-all duration-500 hover:transform hover:scale-[1.02] hover:shadow-2xl shadow-lg ${
@@ -217,7 +218,7 @@ export default async function PricingPage(props: { params: Promise<{ lang: Local
           </div>
           
           <div className="space-y-20 max-w-7xl mx-auto">
-            {t.otherServices.workshops.map((workshop: any, workshopIndex: number) => (
+            {t.otherServices.workshops.map((workshop: { title: string; price: string; duration: string; items: Array<{ name: string; description: string }> }, workshopIndex: number) => (
               <div 
                 key={workshop.title} 
                 className="relative bg-secondary/20 backdrop-blur-xl rounded-3xl overflow-hidden hover:bg-secondary/30 transition-all duration-700 group shadow-xl hover:shadow-2xl"
@@ -257,7 +258,7 @@ export default async function PricingPage(props: { params: Promise<{ lang: Local
                   
                   {/* Workshop items */}
                   <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
-                    {workshop.items.map((item: any, itemIndex: number) => (
+                    {workshop.items.map((item: { name: string; description: string }, itemIndex: number) => (
                       <div 
                         key={item.name} 
                         className="bg-card/80 backdrop-blur-sm border border-border/40 p-8 rounded-2xl hover:bg-card/90 hover:border-[rgb(var(--color-primary))]/30 transition-all duration-300 group/item shadow-lg hover:shadow-xl"

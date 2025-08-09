@@ -4,7 +4,7 @@ import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { cn } from '@/lib/utils';
-import { Send, User, Mail, MessageSquare, CheckCircle } from 'lucide-react';
+import { Send, User, Mail, MessageSquare, CheckCircle, AlertCircle, Loader2 } from 'lucide-react';
 import { useState } from 'react';
 
 interface ContactFormProps {
@@ -29,28 +29,86 @@ interface ContactFormProps {
         description: string;
         sendAnother: string;
       };
+      error: {
+        title: string;
+        description: string;
+        tryAgain: string;
+      };
       privacy: {
         title: string;
         description: string;
       };
     };
   };
+  language?: string;
 }
 
-export function ContactForm({ dictionary: t }: ContactFormProps) {
+export function ContactForm({ dictionary: t, language = 'fr' }: ContactFormProps) {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+  const [formData, setFormData] = useState({
+    firstname: '',
+    lastname: '',
+    email: '',
+    message: ''
+  });
 
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    const { name, value } = e.target;
+    setFormData(prev => ({ ...prev, [name]: value }));
+    // Clear error when user starts typing
+    if (error) setError(null);
+  };
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setIsSubmitting(true);
+    setError(null);
     
-    // Simulate form submission
-    setTimeout(() => {
-      setIsSubmitting(false);
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          ...formData,
+          language
+        }),
+      });
+
+      // Check if response has JSON content type
+      const contentType = response.headers.get('content-type');
+      if (!contentType || !contentType.includes('application/json')) {
+        throw new Error(`Le serveur a renvoyé une réponse invalide (${response.status})`);
+      }
+
+      // Parse JSON with proper error handling
+      let data;
+      try {
+        data = await response.json();
+      } catch (jsonError) {
+        console.error('JSON parsing error:', jsonError);
+        throw new Error('Erreur de parsing de la réponse du serveur');
+      }
+
+      // Check response status after we have the data
+      if (!response.ok) {
+        const errorMessage = data?.error || `Erreur ${response.status}: ${response.statusText}`;
+        throw new Error(errorMessage);
+      }
+
+      // Success - data is guaranteed to be parsed correctly here
       setIsSubmitted(true);
-      console.log("Form submitted");
-    }, 1500);
+      setFormData({ firstname: '', lastname: '', email: '', message: '' });
+      
+    } catch (err) {
+      console.error('Contact form error:', err);
+      setError(err instanceof Error ? err.message : 'Une erreur est survenue lors de l\'envoi de votre message.');
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   if (isSubmitted) {
@@ -64,7 +122,10 @@ export function ContactForm({ dictionary: t }: ContactFormProps) {
           {t.form.success.description}
         </p>
         <button 
-          onClick={() => setIsSubmitted(false)}
+          onClick={() => {
+            setIsSubmitted(false);
+            setError(null);
+          }}
           className="inline-flex items-center gap-2 text-[rgb(var(--color-primary))] font-semibold hover:text-[rgb(var(--color-secondary))] transition-colors duration-300"
         >
           <Mail className="w-4 h-4" />
@@ -76,6 +137,28 @@ export function ContactForm({ dictionary: t }: ContactFormProps) {
 
   return (
     <div>
+      {/* Error display */}
+      {error && (
+        <div className="mb-6 p-4 bg-red-50 border border-red-200 rounded-xl">
+          <div className="flex items-start gap-3">
+            <div className="w-6 h-6 rounded-full bg-red-100 flex items-center justify-center flex-shrink-0 mt-0.5">
+              <AlertCircle className="w-4 h-4 text-red-600" />
+            </div>
+            <div>
+              <h4 className="font-semibold text-red-800 mb-1">{t.form.error?.title || 'Erreur'}</h4>
+              <p className="text-sm text-red-600 mb-2">{error}</p>
+              <button 
+                type="button"
+                onClick={() => setError(null)}
+                className="text-sm text-red-600 hover:text-red-700 font-medium"
+              >
+                {t.form.error?.tryAgain || 'Réessayer'}
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
       <form className="space-y-8" onSubmit={handleSubmit}>
         {/* Name fields with enhanced styling */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -87,11 +170,15 @@ export function ContactForm({ dictionary: t }: ContactFormProps) {
               {t.labels.firstname}
             </Label>
             <Input 
-              id="firstname" 
+              id="firstname"
+              name="firstname"
+              value={formData.firstname}
+              onChange={handleInputChange}
               placeholder={t.placeholders.firstname} 
               type="text" 
               className="h-12 text-base bg-card/80 text-card-foreground placeholder:text-muted-foreground"
               required
+              disabled={isSubmitting}
             />
           </EnhancedLabelInputContainer>
           
@@ -103,11 +190,15 @@ export function ContactForm({ dictionary: t }: ContactFormProps) {
               {t.labels.lastname}
             </Label>
             <Input 
-              id="lastname" 
+              id="lastname"
+              name="lastname"
+              value={formData.lastname}
+              onChange={handleInputChange}
               placeholder={t.placeholders.lastname} 
               type="text" 
               className="h-12 text-base bg-card/80 text-card-foreground placeholder:text-muted-foreground"
               required
+              disabled={isSubmitting}
             />
           </EnhancedLabelInputContainer>
         </div>
@@ -121,11 +212,15 @@ export function ContactForm({ dictionary: t }: ContactFormProps) {
             {t.labels.email}
           </Label>
           <Input 
-            id="email" 
+            id="email"
+            name="email"
+            value={formData.email}
+            onChange={handleInputChange}
             placeholder={t.placeholders.email} 
             type="email" 
             className="h-12 text-base bg-card/80 text-card-foreground placeholder:text-muted-foreground"
             required
+            disabled={isSubmitting}
           />
         </EnhancedLabelInputContainer>
 
@@ -139,9 +234,13 @@ export function ContactForm({ dictionary: t }: ContactFormProps) {
           </Label>
           <Textarea
             id="message"
+            name="message"
+            value={formData.message}
+            onChange={handleInputChange}
             placeholder={t.placeholders.message}
             className="min-h-32 text-base bg-card/80 text-card-foreground placeholder:text-muted-foreground resize-none"
             required
+            disabled={isSubmitting}
           />
         </EnhancedLabelInputContainer>
 
@@ -160,7 +259,7 @@ export function ContactForm({ dictionary: t }: ContactFormProps) {
             <div className="relative flex items-center justify-center gap-3">
               {isSubmitting ? (
                 <>
-                  <div className="w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin"></div>
+                  <Loader2 className="w-5 h-5 animate-spin" />
                   <span>{t.form.submitting}</span>
                 </>
               ) : (

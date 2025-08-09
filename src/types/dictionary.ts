@@ -1,4 +1,6 @@
 // Type definitions for dictionary structure
+export type Locale = "fr" | "en" | "es" | "pt-BR" | "zh-cn" | "hmn";
+
 export interface Dictionary {
   navbar: {
     about: string;
@@ -226,6 +228,11 @@ export interface Dictionary {
         description: string;
         sendAnother: string;
       };
+      error: {
+        title: string;
+        description: string;
+        tryAgain: string;
+      };
       privacy: {
         title: string;
         description: string;
@@ -261,6 +268,52 @@ export interface Dictionary {
     };
   };
   components: {
+    certificationGallery: {
+      diplomaCount: {
+        single: string;
+        plural: string;
+      };
+      viewAllButton: string;
+      zoomHint: string;
+      certifications: {
+        shiatsuProfessionnel: {
+          title: string;
+          organization: string;
+          year: string;
+          details: string;
+        };
+        ohashiatsuAdvanced: {
+          title: string;
+          organization: string;
+          year: string;
+          details: string;
+        };
+        ohashiatsuInstructor: {
+          title: string;
+          organization: string;
+          year: string;
+          details: string;
+        };
+        seikiShiatsu: {
+          title: string;
+          organization: string;
+          year: string;
+          details: string;
+        };
+        sophrologie: {
+          title: string;
+          organization: string;
+          year: string;
+          details: string;
+        };
+        formationsSpecialisees: {
+          title: string;
+          organization: string;
+          year: string;
+          details: string;
+        };
+      };
+    };
     testimonials: {
       badge: string;
       description: string;
@@ -425,6 +478,13 @@ export interface Dictionary {
         facebook: string;
       };
       videoNotSupported: string;
+      wellbeingBadge: string;
+      discover: string;
+      credentials: {
+        certifiedInstructor: string;
+        experience: string;
+        certifiedSophrologist: string;
+      };
     };
     reviews: {
       verifiedReview: string;
@@ -528,6 +588,44 @@ export interface Dictionary {
         description: string;
       }>;
     };
+    hardcodedStrings: {
+      badges: {
+        myJourney: string;
+        myStory: string;
+        professionalPath: string;
+        recognitions: string;
+      };
+      credentials: {
+        ohashiatsuInstructor: string;
+        experience: string;
+        certifiedSophrologist: string;
+        practitionerTitle: string;
+      };
+      values: {
+        kindness: string;
+        kindnessDesc: string;
+        excellence: string;
+        excellenceDesc: string;
+        humanApproach: string;
+        humanApproachDesc: string;
+        durableResults: string;
+        durableResultsDesc: string;
+        continuousInnovation: string;
+        continuousInnovationDesc: string;
+      };
+      mission: {
+        title: string;
+        quote: string;
+      };
+      certifications: {
+        sectionTitle: string;
+        sectionDesc: string;
+      };
+      navigation: {
+        discoverMyStory: string;
+        discoverSteps: string;
+      };
+    };
   };
   signupDemo: {
     title: string;
@@ -559,6 +657,89 @@ export interface Dictionary {
       duplicate: string;
       share: string;
       remove: string;
+    };
+  };
+  legal?: {
+    privacyPolicy?: {
+      badge?: string;
+      title?: string;
+      subtitle?: string;
+      lastUpdated?: string;
+      controller?: {
+        title?: string;
+        name?: string;
+        description?: string;
+        contact?: {
+          email?: string;
+          phone?: string;
+        };
+      };
+      dataCollection?: {
+        title?: string;
+        personalData?: {
+          title?: string;
+          types?: string[];
+        };
+        automaticData?: {
+          title?: string;
+          types?: string[];
+        };
+      };
+      legalBasis?: {
+        title?: string;
+        basisLabel?: string;
+        purposes?: Array<{
+          purpose: string;
+          basis: string;
+          description: string;
+        }>;
+      };
+      yourRights?: {
+        title?: string;
+        description?: string;
+        rights?: Array<{
+          name: string;
+          description: string;
+        }>;
+        contact?: {
+          title?: string;
+          description?: string;
+        };
+      };
+      dataSecurity?: {
+        title?: string;
+        description?: string;
+        measures?: string[];
+      };
+      cookies?: {
+        title?: string;
+        description?: string;
+        duration?: string;
+        types?: Array<{
+          name: string;
+          description: string;
+          duration: string;
+        }>;
+      };
+      contact?: {
+        title?: string;
+        email?: string;
+        phone?: string;
+        cnil?: {
+          title?: string;
+          description?: string;
+        };
+      };
+      sections?: Array<{
+        title: string;
+        content: string;
+      }>;
+    };
+  };
+  common?: {
+    buttons?: {
+      close?: string;
+      accept?: string;
     };
   };
 }

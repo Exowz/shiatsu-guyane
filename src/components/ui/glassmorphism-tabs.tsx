@@ -1,8 +1,9 @@
 "use client";
 import { useState } from "react";
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
 import { Heart } from "lucide-react";
+import type { Dictionary } from '@/types/dictionary';
 
 type TabData = {
   title: string;
@@ -17,7 +18,7 @@ interface GlassmorphismTabsProps {
   activeTabClassName?: string;
   tabClassName?: string;
   contentClassName?: string;
-  dictionary?: any;
+  dictionary?: Dictionary;
 }
 
 export const GlassmorphismTabs = ({
@@ -107,7 +108,7 @@ export const GlassmorphismTabs = ({
 };
 
 // Helper function to create tab data from card data
-export const createTabsFromCards = (cards: any[], dictionary?: any) => {
+export const createTabsFromCards = (cards: any[], dictionary?: Dictionary) => {
   const getIconForCard = (index: number) => {
     const icons = [
       <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" key={index}>
@@ -213,7 +214,7 @@ export const createTabsFromCards = (cards: any[], dictionary?: any) => {
         <div className="mt-8 text-center flex-shrink-0">
           <button className="inline-flex items-center gap-3 bg-gradient-to-r from-[rgb(var(--color-primary))] to-[rgb(var(--color-secondary))] text-white px-10 py-5 rounded-full font-bold text-lg hover:shadow-2xl transition-all duration-300 hover:transform hover:scale-105 shadow-lg">
             <Heart className="w-6 h-6" />
-            {dictionary?.pages?.pourQui?.learnMore || 'En savoir plus'}
+            {(dictionary as any)?.pages?.pourQui?.learnMore || 'En savoir plus'}
           </button>
         </div>
       </div>

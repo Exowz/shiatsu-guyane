@@ -1,15 +1,16 @@
 'use client';
 
 import { Star, TrendingUp, Award, Users } from "lucide-react";
+import type { Dictionary } from '@/types/dictionary';
 
 interface RatingSummaryProps {
-  dictionary: any;
+  dictionary: Dictionary;
 }
 
 export const RatingSummary = ({ dictionary }: RatingSummaryProps) => {
-  // Read the averages directly from the dictionary
-  const googleAvg = parseFloat(dictionary.summary.googleAverage);
-  const resalibAvg = parseFloat(dictionary.summary.resalibAverage);
+  // Read the averages directly from the dictionary testimonialsSection
+  const googleAvg = parseFloat(dictionary.testimonialsSection.summary.googleAverage);
+  const resalibAvg = parseFloat(dictionary.testimonialsSection.summary.resalibAverage);
   
   // Calculate the overall average from these two numbers
   const overallAvg = (googleAvg + resalibAvg) / 2;
@@ -26,7 +27,7 @@ export const RatingSummary = ({ dictionary }: RatingSummaryProps) => {
             <Star className="w-6 h-6 text-white" />
           </div>
           <span className="text-sm font-semibold text-[rgb(var(--color-text-secondary))] uppercase tracking-wide mb-2">
-            {dictionary.summary.googleLabel}
+            {dictionary.testimonialsSection.summary.googleLabel}
           </span>
           <div className="flex items-center gap-2">
             <Star className="w-5 h-5 text-[rgb(var(--color-primary))] fill-[rgb(var(--color-primary))]" />
@@ -46,7 +47,7 @@ export const RatingSummary = ({ dictionary }: RatingSummaryProps) => {
             <TrendingUp className="w-6 h-6 text-white" />
           </div>
           <span className="text-sm font-semibold text-[rgb(var(--color-text-secondary))] uppercase tracking-wide mb-2">
-            {dictionary.summary.resalibLabel}
+            {dictionary.testimonialsSection.summary.resalibLabel}
           </span>
           <div className="flex items-center gap-2">
             <Star className="w-5 h-5 text-[rgb(var(--color-secondary))] fill-[rgb(var(--color-secondary))]" />
@@ -66,7 +67,7 @@ export const RatingSummary = ({ dictionary }: RatingSummaryProps) => {
             <Award className="w-8 h-8 text-white" />
           </div>
           <span className="text-sm font-bold text-[rgb(var(--color-tertiary))] uppercase tracking-wide mb-2">
-            {dictionary.summary.overallLabel}
+            {dictionary.testimonialsSection.summary.overallLabel}
           </span>
           <div className="flex items-center gap-3">
             <Star className="w-7 h-7 text-[rgb(var(--color-tertiary))] fill-[rgb(var(--color-tertiary))]" />
@@ -85,7 +86,7 @@ export const RatingSummary = ({ dictionary }: RatingSummaryProps) => {
           </p>
         </div>
         <p className="text-[rgb(var(--color-text-secondary))] font-medium">
-          {dictionary.summary.satisfaction}
+          {dictionary.testimonialsSection.summary.satisfaction}
         </p>
       </div>
     </div>

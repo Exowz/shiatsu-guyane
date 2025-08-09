@@ -2,6 +2,7 @@
 
 import { Footer } from "@/components/layout/Footer";
 import { Navbar } from "@/components/layout/Navbar";
+import { CookieConsentBanner } from "@/components/ui/CookieConsentBanner";
 import { getDictionary } from "@/lib/dictionary";
 import { Locale } from "@/lib/i18n-config";
 
@@ -22,6 +23,7 @@ export default async function LangLayout(props: {
       </main>
 
       <Footer dictionary={dictionary} lang={lang} />
+      <CookieConsentBanner dictionary={dictionary} lang={lang} />
     </>
   );
 }
