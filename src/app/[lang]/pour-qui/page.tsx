@@ -1,51 +1,18 @@
-'use client'; // Cette page doit être un composant client pour que les cartes soient interactives
-
 import { getDictionary } from '@/lib/dictionary';
 import { i18n, Locale } from '@/lib/i18n-config';
-import type { Dictionary } from '@/types/dictionary';
 import { CtaSection } from '@/components/sections/CtaSection';
-import { PourQuiTabs } from '@/components/sections/PourQuiTabs'; // Import our new component
-import { useEffect, useState } from 'react';
+import { PourQuiTabs } from '@/components/sections/PourQuiTabs'; 
 import { Users, Heart, Target, ArrowDown } from 'lucide-react';
 
+export async function generateStaticParams() {
+  return i18n.locales.map((locale) => ({
+    lang: locale,
+  }));
+}
 
-// Nous devons récupérer les données dans un composant client en utilisant useEffect
-function PourQuiPage({ params }: { params: Promise<{ lang: Locale }> }) {
-  const [dictionary, setDictionary] = useState<Dictionary | null>(null);
-  const [lang, setLang] = useState<Locale | null>(null);
-  const [tabsHeight, setTabsHeight] = useState(1200); // Default fallback height
-
-  const handleTabsHeightChange = (height: number) => {
-    setTabsHeight(Math.max(height, 800)); // Ensure minimum height
-  };
-
-  useEffect(() => {
-    const fetchData = async () => {
-      const resolvedParams = await params;
-      setLang(resolvedParams.lang);
-      const dict = await getDictionary(resolvedParams.lang);
-      setDictionary(dict);
-    };
-    fetchData();
-  }, [params]);
-
-  // Affiche un message de chargement élégant pendant la récupération des textes
-  if (!dictionary || !lang) {
-    return (
-      <div className="min-h-screen bg-background flex justify-center items-center px-4">
-        <div className="text-center">
-          <div className="relative">
-            {/* Animated loading spinner with natural colors */}
-            <div className="w-12 h-12 sm:w-16 sm:h-16 rounded-full bg-gradient-to-r from-[rgb(var(--color-primary))] to-[rgb(var(--color-secondary))] animate-spin mx-auto mb-4">
-              <div className="w-8 h-8 sm:w-12 sm:h-12 rounded-full bg-background absolute top-2 left-2"></div>
-            </div>
-            <div className="absolute inset-0 w-12 h-12 sm:w-16 sm:h-16 rounded-full bg-[rgb(var(--color-primary))]/20 animate-ping mx-auto"></div>
-          </div>
-          <p className="text-[rgb(var(--color-text-secondary))] font-medium text-sm sm:text-base">{dictionary?.pages?.pourQui?.loading || 'Chargement...'}</p>
-        </div>
-      </div>
-    );
-  }
+export default async function PourQuiPage(props: { params: Promise<{ lang: Locale }> }) {
+  const { lang } = await props.params;
+  const dictionary = await getDictionary(lang);
 
   return (
     <div className="bg-background text-foreground relative overflow-hidden min-h-screen">
@@ -117,13 +84,10 @@ function PourQuiPage({ params }: { params: Promise<{ lang: Locale }> }) {
             {/* Subtle background for tabs section */}
             
             <div className="relative z-10 p-2 sm:p-4 lg:p-8">
-              <PourQuiTabs lang={lang} onHeightChange={handleTabsHeightChange} />
+              <PourQuiTabs lang={lang} />
             </div>
           </div>
         </div>
-        
-        {/* Dynamic spacer based on actual content height */}
-        <div style={{ height: `${tabsHeight}px` }}></div>
       </section>
 
       {/* 4. Mobile-Enhanced Additional Support Section */}
@@ -172,6 +136,3 @@ function PourQuiPage({ params }: { params: Promise<{ lang: Locale }> }) {
     </div>
   );
 }
-
-// Export as default
-export default PourQuiPage;
