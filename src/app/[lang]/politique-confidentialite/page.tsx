@@ -1,7 +1,14 @@
 import { getDictionary } from '@/lib/dictionary';
+import { i18n } from '@/lib/i18n-config';
 import { Locale, Dictionary } from '@/types/dictionary';
 import { ArrowLeft, Shield, Lock, Eye, Users, Database, Clock, Phone, Mail } from 'lucide-react';
 import Link from 'next/link';
+
+export async function generateStaticParams() {
+  return i18n.locales.map((locale) => ({
+    lang: locale,
+  }));
+}
 
 export default async function PrivacyPolicyPage({
   params,

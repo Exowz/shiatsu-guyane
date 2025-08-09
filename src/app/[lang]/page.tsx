@@ -7,7 +7,13 @@ import { WhatIsShiatsuSection } from '@/components/sections/WhatIsShiatsuSection
 import { WhoIsItForSection } from '@/components/sections/WhoIsItForSection';
 
 import { getDictionary } from '@/lib/dictionary';
-import { Locale } from '@/lib/i18n-config';
+import { i18n, Locale } from '@/lib/i18n-config';
+
+export async function generateStaticParams() {
+  return i18n.locales.map((locale) => ({
+    lang: locale,
+  }));
+}
 
 export default async function HomePage(props: { params: Promise<{ lang: Locale }> }) {
   const { lang } = await props.params;

@@ -1,10 +1,16 @@
 // src/app/[lang]/services-pricing/page.tsx
 
 import { getDictionary } from '@/lib/dictionary';
-import { Locale } from '@/lib/i18n-config';
+import { i18n, Locale } from '@/lib/i18n-config';
 import { Dictionary } from '@/types/dictionary';
 import { CtaSection } from '@/components/sections/CtaSection';
 import { Clock, Euro, Sparkles, Star, ArrowRight, Check, Award, Users, Target } from 'lucide-react';
+
+export async function generateStaticParams() {
+  return i18n.locales.map((locale) => ({
+    lang: locale,
+  }));
+}
 
 export default async function PricingPage(props: { params: Promise<{ lang: Locale }> }) {
   const { lang } = await props.params;

@@ -1,12 +1,13 @@
 'use client'; // Cette page doit être un composant client pour que les cartes soient interactives
 
 import { getDictionary } from '@/lib/dictionary';
-import { Locale } from '@/lib/i18n-config';
+import { i18n, Locale } from '@/lib/i18n-config';
 import type { Dictionary } from '@/types/dictionary';
 import { CtaSection } from '@/components/sections/CtaSection';
 import { PourQuiTabs } from '@/components/sections/PourQuiTabs'; // Import our new component
 import { useEffect, useState } from 'react';
 import { Users, Heart, Target, ArrowDown } from 'lucide-react';
+
 
 // Nous devons récupérer les données dans un composant client en utilisant useEffect
 function PourQuiPage({ params }: { params: Promise<{ lang: Locale }> }) {

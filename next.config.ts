@@ -16,7 +16,7 @@ const nextConfig: NextConfig = {
     optimizePackageImports: ['lucide-react', '@radix-ui/react-icons']
   },
   // Webpack configuration to handle production build issues
-  webpack: (config, { dev }) => {
+  webpack: (config: any, { dev, isServer }: { dev: boolean, isServer: boolean }) => {
     if (!dev) {
       // Prevent webpack module resolution issues
       config.optimization = {
@@ -31,6 +31,16 @@ const nextConfig: NextConfig = {
         path: false,
       };
     }
+    
+    // Exclude email components from client-side bundling
+    if (!isServer) {
+      config.resolve.alias = {
+        ...config.resolve.alias,
+        '@/components/emails/ClientConfirmationEmail': false,
+        '@/components/emails/PractitionerNotificationEmail': false,
+      };
+    }
+    
     return config;
   },
 };

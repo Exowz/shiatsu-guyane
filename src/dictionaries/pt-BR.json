@@ -1171,39 +1171,38 @@
       }
     },
     "healthcareDisclaimer": {
-      "title": "Aviso Importante sobre Saúde",
-      "medicalDisclaimer": {
-        "title": "Natureza dos Serviços",
-        "content": "Os tratamentos de Shiatsu oferecidos por Nathalie Jean são práticas de bem-estar complementar e não substituem o diagnóstico, tratamento ou acompanhamento médico convencional. O Shiatsu não é um ato médico."
+      "title": "Menções Terapêuticas Importantes",
+      "subtitle": "Informação regulamentária e profissional obrigatória",
+      "disclaimers": {
+        "notMedicalAdvice": {
+          "title": "Não-substituição médica",
+          "description": "O Shiatsu é uma prática de bem-estar que não substitui um diagnóstico ou tratamento médico. Em caso de problema de saúde, consulte seu médico."
+        },
+        "ffstCertification": {
+          "title": "Certificação FFST Oficial",
+          "description": "Profissional certificada FFST (500h+ de formação) segundo os padrões europeus. Membro ativa da Federação Francesa de Shiatsu Tradicional."
+        },
+        "emergencyContact": {
+          "title": "Emergências médicas",
+          "description": "Em caso de emergência vital, contacte imediatamente o 15 (SAMU), o 18 (Bombeiros) ou dirija-se aos serviços de urgências hospitalares."
+        },
+        "dataProtection": {
+          "title": "Proteção de dados de saúde",
+          "description": "Todas as suas informações pessoais e dados de saúde são estritamente protegidos de acordo com o RGPD e o segredo profissional."
+        }
       },
-      "professionalQualification": {
-        "title": "Qualificação Profissional",
-        "content": "Nathalie Jean é profissional certificada em Shiatsu, membro da Federação Francesa de Shiatsu Tradicional (FFST), com mais de 15 anos de experiência na prática desta arte terapêutica japonesa."
+      "credentials": {
+        "title": "Qualificações Profissionais Verificadas",
+        "items": [
+          "✓ Certificada FFST (Federação Francesa de Shiatsu Tradicional)",
+          "✓ 500+ horas de formação teórica e prática validadas",
+          "✓ Formação contínua em anatomia, fisiologia e energética",
+          "✓ Código de deontologia FFST respeitado e assinado",
+          "✓ Seguro de responsabilidade civil profissional ativo",
+          "✓ Membro do registo profissional FFST (verificável)"
+        ]
       },
-      "healthConditions": {
-        "title": "Condições de Saúde",
-        "content": "Se você possui problemas de saúde, está grávida, toma medicamentos ou está em tratamento médico, é fundamental consultar seu médico antes de iniciar sessões de Shiatsu."
-      },
-      "contraindications": {
-        "title": "Contraindicações",
-        "content": "Certas condições podem contraindicar o Shiatsu: febre alta, inflamações agudas, feridas abertas, fraturas recentes, ou outras condições médicas específicas. Informe sempre seu estado de saúde."
-      },
-      "emergencies": {
-        "title": "Emergências Médicas",
-        "content": "Em caso de emergência médica, procure imediatamente assistência médica qualificada. O Shiatsu não substitui cuidados médicos de emergência."
-      },
-      "complementaryApproach": {
-        "title": "Abordagem Complementar",
-        "content": "O Shiatsu pode ser praticado como complemento aos tratamentos médicos convencionais, sempre com conhecimento e aprovação do seu médico responsável."
-      },
-      "individualResponsibility": {
-        "title": "Responsabilidade Individual",
-        "content": "Cada pessoa é responsável por informar honestamente sobre seu estado de saúde e seguir as recomendações médicas de seus profissionais de saúde."
-      },
-      "consent": {
-        "title": "Consentimento Informado",
-        "content": "Ao agendar uma consulta, você confirma estar ciente da natureza do Shiatsu e assume a responsabilidade por sua decisão de receber este tratamento complementar."
-      }
+      "contact": "⚠️ Importante: Para qualquer questão sobre os seus tratamentos médicos em curso, consulte o seu médico ou especialista."
     }
   },
   "common": {

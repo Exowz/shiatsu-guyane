@@ -1184,48 +1184,38 @@
       }
     },
     "healthcareDisclaimer": {
-      "title": "Aviso Importante sobre Bienestar y Salud",
-      "content": {
-        "intro": "Los servicios de Shiatsu y bienestar ofrecidos por Nathalie JEAN están destinados a promover la relajación, reducir el estrés y apoyar el bienestar general.",
-        "notMedical": {
-          "title": "No es Tratamiento Médico",
-          "description": "El Shiatsu y las terapias complementarias ofrecidas no constituyen tratamiento médico, diagnóstico o prescripción médica. Estas prácticas no reemplazan la atención médica convencional."
+      "title": "Menciones Terapéuticas Importantes",
+      "subtitle": "Información reglamentaria y profesional obligatoria",
+      "disclaimers": {
+        "notMedicalAdvice": {
+          "title": "No-sustitución médica",
+          "description": "El Shiatsu es una práctica de bienestar que no sustituye un diagnóstico o tratamiento médico. En caso de problema de salud, consulte a su médico."
         },
-        "consultation": {
-          "title": "Consulta Médica Recomendada",
-          "description": "Se recomienda encarecidamente consultar con su médico antes de comenzar cualquier programa de bienestar, especialmente si:",
-          "conditions": [
-            "Está embarazada o amamantando",
-            "Tiene condiciones médicas preexistentes",
-            "Está tomando medicamentos",
-            "Ha tenido cirugías recientes",
-            "Experimenta dolor crónico o agudo"
-          ]
+        "ffstCertification": {
+          "title": "Certificación FFST Oficial",
+          "description": "Profesional certificada FFST (500h+ de formación) según los estándares europeos. Miembro activa de la Federación Francesa de Shiatsu Tradicional."
         },
-        "contraindications": {
-          "title": "Contraindicaciones",
-          "description": "El Shiatsu puede no ser apropiado en ciertos casos:",
-          "items": [
-            "Fiebre o infecciones activas",
-            "Lesiones graves o fracturas recientes",
-            "Condiciones cardiovasculares graves",
-            "Trombosis o problemas de coagulación",
-            "Cáncer sin autorización médica previa"
-          ]
+        "emergencyContact": {
+          "title": "Emergencias médicas",
+          "description": "En caso de emergencia vital, contacte inmediatamente al 15 (SAMU), al 18 (Bomberos) o diríjase a los servicios de urgencias hospitalarias."
         },
-        "responsability": {
-          "title": "Responsabilidad del Cliente",
-          "description": "Es responsabilidad del cliente informar al profesional sobre cualquier condición médica, lesión o medicamento que pueda afectar el tratamiento."
-        },
-        "emergencies": {
-          "title": "Emergencias Médicas",
-          "description": "En caso de emergencia médica, contacte inmediatamente a los servicios de emergencia (15 - SAMU) o acuda al centro médico más cercano."
-        },
-        "consent": {
-          "title": "Consentimiento Informado",
-          "description": "Al utilizar nuestros servicios, usted confirma que ha leído y comprendido este aviso y que ha informado sobre cualquier condición médica relevante."
+        "dataProtection": {
+          "title": "Protección de datos de salud",
+          "description": "Toda su información personal y datos de salud están estrictamente protegidos de acuerdo con el RGPD y el secreto profesional."
         }
-      }
+      },
+      "credentials": {
+        "title": "Cualificaciones Profesionales Verificadas",
+        "items": [
+          "✓ Certificada FFST (Federación Francesa de Shiatsu Tradicional)",
+          "✓ 500+ horas de formación teórica y práctica validadas",
+          "✓ Formación continua en anatomía, fisiología y energética",
+          "✓ Código de deontología FFST respetado y firmado",
+          "✓ Seguro de responsabilidad civil profesional activo",
+          "✓ Miembro del registro profesional FFST (verificable)"
+        ]
+      },
+      "contact": "⚠️ Importante: Para cualquier cuestión sobre sus tratamientos médicos en curso, consulte a su médico o especialista."
     }
   },
   "common": {

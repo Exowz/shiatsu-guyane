@@ -1,5 +1,11 @@
 import { getDictionary } from '@/lib/dictionary';
-import { Locale } from '@/lib/i18n-config';
+import { i18n, Locale } from '@/lib/i18n-config';
+
+export async function generateStaticParams() {
+  return i18n.locales.map((locale) => ({
+    lang: locale,
+  }));
+}
 import { ContactForm } from '@/components/ContactForm';
 import { Mail, MessageCircle, Send, Phone, MapPin, Clock } from 'lucide-react';
 

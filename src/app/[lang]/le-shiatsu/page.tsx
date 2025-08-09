@@ -1,9 +1,15 @@
 import { getDictionary } from '@/lib/dictionary';
-import { Locale } from '@/lib/i18n-config';
+import { i18n, Locale } from '@/lib/i18n-config';
 import { CtaSection } from '@/components/sections/CtaSection';
 import { Check, Sparkles, Heart, Leaf, Circle, Target, Star, BookOpen } from 'lucide-react';
 import Image from 'next/image';
 import { ExpandableCardGrid } from '@/components/ui/expandable-card-grid';
+
+export async function generateStaticParams() {
+  return i18n.locales.map((locale) => ({
+    lang: locale,
+  }));
+}
 
 export default async function ShiatsuPage(props: { params: Promise<{ lang: Locale }> }) {
   const { lang } = await props.params;

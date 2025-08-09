@@ -1154,36 +1154,38 @@
       "learnMore": "Kawm ntxiv txog peb txoj cai ntiag tug"
     },
     "healthcareDisclaimer": {
-      "title": "Cov Lus Ceeb Toom Kev Noj Qab Haus Huv",
-      "importantNotice": "Lus Ceeb Toom Tseem Ceeb",
-      "content": [
-        {
-          "heading": "Txog Shiatsu Kev Kho Mob",
-          "text": "Shiatsu yog ib txoj kev kho mob ntuj tsim los ntawm Nyiv Pooj uas txhawb nqa kev noj qab haus huv thiab kev noj qab haus huv los ntawm kev siv lub zog maj mam thiab ncab. Nws tsis yog kev kho mob thiab tsis hloov cov kev kho mob tsoos."
+      "title": "Cov Lus Ceeb Toom Tseem Ceeb Txog Kev Kho Mob",
+      "subtitle": "Cov ntaub ntawv kev cai lij choj thiab kev tshaj lij uas yuav tsum tau muaj",
+      "disclaimers": {
+        "notMedicalAdvice": {
+          "title": "Tsis hloov kev kho mob",
+          "description": "Shiatsu yog ib qho kev coj ua kev noj qab haus huv uas tsis hloov kev kuaj mob lossis kev kho mob. Yog tias muaj teeb meem kev noj qab haus huv, sab laj koj tus kws kho mob."
         },
-        {
-          "heading": "Kev Sab Laj Kho Mob",
-          "text": "Ua ntej pib Shiatsu kev kho mob, nws raug nquahu kom sab laj nrog koj tus kws kho mob, tshwj xeeb tshaj yog tias koj muaj:\n• Cov mob ntev lossis mob hnyav\n• Cev xeeb tub lossis mob plawv\n• Kev phais tsis ntev los no lossis kev raug mob\n• Kev noj tshuaj tsis tu ncua"
+        "ffstCertification": {
+          "title": "FFST Daim Ntawv Pov Thawj Raug Cai",
+          "description": "Tus kws tshaj lij FFST tau ntawv pov thawj (500h + kev kawm) raws li European tus qauv. Cov tswv cuab nquag ntawm Fab Kis Federation of Traditional Shiatsu."
         },
-        {
-          "heading": "Hwm Kev Coj Noj Coj Ua Hmoob",
-          "text": "Peb nkag siab thiab hwm cov kev coj noj coj ua Hmoob txog kev noj qab haus huv thiab kev kho mob. Shiatsu tuaj yeem ua kom zoo rau cov kev coj ua kho mob Hmoob thiab tsis hloov lawv. Peb txhawb kom sib tham qhib txog koj cov kev ntseeg kev noj qab haus huv."
+        "emergencyContact": {
+          "title": "Kev kho mob ceev",
+          "description": "Thaum muaj xwm txheej ceev, hu rau 15 (SAMU), 18 (Firefighters) tam sim ntawd lossis mus rau cov kev pabcuam kho mob hauv tsev kho mob."
         },
-        {
-          "heading": "Cov Kev Txwv",
-          "text": "Shiatsu tsis haum rau qee qhov xwm txheej:\n• Mob kub siab lossis mob hnyav\n• Kab mob sib kis lossis mob\n• Cov teeb meem ntshav khov lossis siv cov tshuaj tiv thaiv ntshav khov\n• Mob qog noj ntshav hauv theem nquag (yuav tsum muaj kev tso cai kho mob)"
-        },
-        {
-          "heading": "Tom Qab Kho Mob",
-          "text": "Tom qab Shiatsu kev kho mob, koj yuav hnov:\n• Kev so thiab txo qis kev ntxhov siab\n• Txhim kho kev pw tsaug zog thiab kev noj qab haus huv\n• Tej zaum yuav muaj kev nkees me me lossis kev xav hloov pauv (ib txwm)\n• Qhov mob me me ntawm cov ntsiab lus siab (nyob ib ntus)"
-        },
-        {
-          "heading": "Koj Lub Luag Haujlwm",
-          "text": "Los ntawm kev tau txais Shiatsu kev kho mob, koj lees paub tias:\n• Koj tau muab cov ntaub ntawv kho mob tiag tiag thiab tiav\n• Koj nkag siab tias Shiatsu tsis yog kev kho mob\n• Koj yuav ceeb toom rau tus kws kho mob txog cov kev hloov pauv hauv koj txoj kev noj qab haus huv\n• Koj txaus siab rau txhua qhov kev pheej hmoo uas paub txog kev kho mob"
+        "dataProtection": {
+          "title": "Kev tiv thaiv cov ntaub ntawv kev noj qab haus huv",
+          "description": "Tag nrho koj cov ntaub ntawv ntiag tug thiab cov ntaub ntawv kev noj qab haus huv raug tiv thaiv nruj me ntsis raws li GDPR thiab kev zais cia ntawm kev ua haujlwm."
         }
-      ],
-      "agreement": "Los ntawm kev siv peb cov kev pabcuam, koj lees paub tias koj tau nyeem, nkag siab, thiab pom zoo rau cov lus ceeb toom kev noj qab haus huv no.",
-      "contactForQuestions": "Yog tias koj muaj lus nug lossis kev txhawj xeeb, thov tsis txhob yig hu rau peb ua ntej koj qhov kev kho mob."
+      },
+      "credentials": {
+        "title": "Kev Tsim Nyog Ua Haujlwm Pov Thawj",
+        "items": [
+          "✓ FFST tau ntawv pov thawj (Fab Kis Federation of Traditional Shiatsu)",
+          "✓ 500+ teev ntawm kev kawm theoretical thiab xyaum validated",
+          "✓ Kev kawm txuas ntxiv hauv anatomy, physiology thiab energetics",
+          "✓ FFST code of deontology hwm thiab kos npe",
+          "✓ Kev tuav pov hwm lub luag haujlwm civil professional active",
+          "✓ Tus tswv cuab ntawm FFST cov ntaub ntawv tshaj lij (kuaj tau)"
+        ]
+      },
+      "contact": "⚠️ Tseem Ceeb: Rau txhua qhov lus nug txog koj cov kev kho mob tam sim no, sab laj koj tus kws kho mob lossis tus kws tshaj lij."
     }
   },
   "common": {

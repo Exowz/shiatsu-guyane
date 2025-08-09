@@ -1,5 +1,11 @@
 import { getDictionary } from '@/lib/dictionary';
-import { Locale } from '@/lib/i18n-config';
+import { i18n, Locale } from '@/lib/i18n-config';
+
+export async function generateStaticParams() {
+  return i18n.locales.map((locale) => ({
+    lang: locale,
+  }));
+}
 import { CtaSection } from '@/components/sections/CtaSection';
 import { Timeline } from '@/components/ui/timeline';
 import Image from 'next/image';
