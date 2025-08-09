@@ -1,5 +1,6 @@
 import { getDictionary } from '@/lib/dictionary';
 import { i18n, Locale } from '@/lib/i18n-config';
+import Link from 'next/link';
 import { CtaSection } from '@/components/sections/CtaSection';
 import { PourQuiTabs } from '@/components/sections/PourQuiTabs'; 
 import { Users, Heart, Target, ArrowDown } from 'lucide-react';
@@ -111,14 +112,14 @@ export default async function PourQuiPage(props: { params: Promise<{ lang: Local
                 
                 {/* Mobile-stacked buttons */}
                 <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
-                  <button className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-[rgb(var(--color-primary))] to-[rgb(var(--color-secondary))] text-white px-6 sm:px-8 py-3 rounded-full font-semibold hover:shadow-lg transition-all duration-300 hover:transform hover:scale-105 text-sm sm:text-base w-full sm:w-auto">
+                  <Link href={`/${lang}/contact`} className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-[rgb(var(--color-primary))] to-[rgb(var(--color-secondary))] text-white px-6 sm:px-8 py-3 rounded-full font-semibold hover:shadow-lg transition-all duration-300 hover:transform hover:scale-105 text-sm sm:text-base w-full sm:w-auto">
                     <Heart className="w-4 h-4" />
                     {dictionary.pages.pourQui.personalizedConsultation}
-                  </button>
-                  <button className="inline-flex items-center justify-center gap-2 bg-card/80 backdrop-blur-sm text-card-foreground px-6 sm:px-8 py-3 rounded-full font-semibold hover:bg-card/90 transition-all duration-300 shadow-lg text-sm sm:text-base w-full sm:w-auto">
+                  </Link>
+                  <Link href={`/${lang}/contact`} className="inline-flex items-center justify-center gap-2 bg-card/80 backdrop-blur-sm text-card-foreground px-6 sm:px-8 py-3 rounded-full font-semibold hover:bg-card/90 transition-all duration-300 shadow-lg text-sm sm:text-base w-full sm:w-auto">
                     <Users className="w-4 h-4" />
                     {dictionary.pages.pourQui.contactUs}
-                  </button>
+                  </Link>
                 </div>
               </div>
             </div>
