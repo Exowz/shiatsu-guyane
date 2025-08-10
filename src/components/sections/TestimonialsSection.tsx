@@ -14,7 +14,14 @@ export const TestimonialsSection = ({ dictionary, lang }: { dictionary: Dictiona
   const [isLoading, setIsLoading] = useState(true);
   
   // Get the static Resalib reviews directly from the dictionary
-  const resalibReviews = dictionary.testimonialsSection.staticReviews.map((r: any) => ({ ...r, source: 'resalib' }));
+  const resalibReviews = dictionary.testimonialsSection.staticReviews.map((r: Record<string, unknown>) => ({ 
+    author_name: (r.author_name as string) || '',
+    rating: (r.rating as number) || 5,
+    text: (r.text as string) || '',
+    date: r.date as string | undefined,
+    relative_time_description: r.relative_time_description as string | undefined,
+    source: 'resalib' 
+  }));
 
   // Fetch Google reviews when the component mounts or language changes
   useEffect(() => {
@@ -23,7 +30,7 @@ export const TestimonialsSection = ({ dictionary, lang }: { dictionary: Dictiona
       try {
         const response = await fetch(`/api/reviews?lang=${lang}`);
         const data = await response.json();
-        const formattedReviews = data.reviews?.map((r: any) => ({ 
+        const formattedReviews = data.reviews?.map((r: Record<string, unknown>) => ({ 
           ...r, 
           source: 'google',
         })) || [];

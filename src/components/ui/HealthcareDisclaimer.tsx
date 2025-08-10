@@ -15,7 +15,7 @@ export const HealthcareDisclaimer = ({
   lang, 
   variant = 'full' 
 }: HealthcareDisclaimerProps) => {
-  const t = (dictionary.legal as any)?.healthcareDisclaimer || {
+  const t = (dictionary.legal as Record<string, unknown>)?.healthcareDisclaimer as Record<string, unknown> || {
     title: "Mentions Thérapeutiques Importantes",
     subtitle: "Information réglementaire et professionnelle",
     disclaimers: {
@@ -56,10 +56,10 @@ export const HealthcareDisclaimer = ({
           <AlertTriangle className="w-5 h-5 text-amber-600 dark:text-amber-400 flex-shrink-0 mt-0.5" />
           <div>
             <p className="text-sm text-amber-800 dark:text-amber-200 font-medium mb-1">
-              {t.disclaimers.notMedicalAdvice.title}
+              {((t.disclaimers as Record<string, unknown>).notMedicalAdvice as Record<string, unknown>).title as React.ReactNode}
             </p>
             <p className="text-xs text-amber-700 dark:text-amber-300">
-              {t.disclaimers.notMedicalAdvice.description}
+              {((t.disclaimers as Record<string, unknown>).notMedicalAdvice as Record<string, unknown>).description as React.ReactNode}
             </p>
           </div>
         </div>
@@ -74,7 +74,7 @@ export const HealthcareDisclaimer = ({
           <Shield className="w-3 h-3 text-[rgb(var(--color-primary))]/60" />
           <span className="font-medium">Certification FFST • Assurance Professionnelle</span>
         </div>
-        <p>{t.disclaimers.notMedicalAdvice.description}</p>
+        <p>{((t.disclaimers as Record<string, unknown>).notMedicalAdvice as Record<string, unknown>).description as React.ReactNode}</p>
         <p>En cas d&apos;urgence médicale: 15 (SAMU) • Données protégées RGPD</p>
       </div>
     );
@@ -90,17 +90,17 @@ export const HealthcareDisclaimer = ({
         </div>
         <div>
           <h3 className="text-xl font-bold text-amber-900 dark:text-amber-100">
-            {t.title}
+            {t.title as React.ReactNode}
           </h3>
           <p className="text-sm text-amber-700 dark:text-amber-300">
-            {t.subtitle}
+            {t.subtitle as React.ReactNode}
           </p>
         </div>
       </div>
 
       {/* Disclaimers Grid */}
       <div className="grid md:grid-cols-2 gap-6 mb-8">
-        {Object.entries(t.disclaimers).map(([key, disclaimer]: [string, any]) => {
+        {Object.entries((t.disclaimers as Record<string, Record<string, unknown>>) || {}).map(([key, disclaimer]: [string, Record<string, unknown>]) => {
           const icons = {
             notMedicalAdvice: AlertTriangle,
             ffstCertification: Award,
@@ -127,10 +127,10 @@ export const HealthcareDisclaimer = ({
                 <Icon className={`w-5 h-5 ${colorClass} flex-shrink-0 mt-0.5`} />
                 <div>
                   <h4 className="font-semibold text-amber-900 dark:text-amber-100 mb-2">
-                    {disclaimer.title}
+                    {disclaimer.title as React.ReactNode}
                   </h4>
                   <p className="text-sm text-amber-800 dark:text-amber-200 leading-relaxed">
-                    {disclaimer.description}
+                    {disclaimer.description as React.ReactNode}
                   </p>
                 </div>
               </div>
@@ -144,16 +144,16 @@ export const HealthcareDisclaimer = ({
         <div className="flex items-center gap-3 mb-4">
           <Award className="w-6 h-6 text-blue-600 dark:text-blue-400" />
           <h4 className="text-lg font-semibold text-amber-900 dark:text-amber-100">
-            {t.credentials.title}
+            {(t.credentials as Record<string, unknown>).title as React.ReactNode}
           </h4>
         </div>
         
         <div className="grid md:grid-cols-2 gap-3">
-          {t.credentials.items.map((credential: string, index: number) => (
+          {((t.credentials as Record<string, unknown>).items as string[]).map((credential: string, index: number) => (
             <div key={index} className="flex items-start gap-2">
               <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
               <span className="text-sm text-amber-800 dark:text-amber-200">
-                {credential}
+                {credential as React.ReactNode}
               </span>
             </div>
           ))}
@@ -165,7 +165,7 @@ export const HealthcareDisclaimer = ({
         <div className="flex items-start gap-3">
           <Heart className="w-4 h-4 text-red-500 flex-shrink-0 mt-0.5" />
           <p className="text-sm text-amber-700 dark:text-amber-300 italic">
-            {t.contact}
+            {t.contact as React.ReactNode}
           </p>
         </div>
       </div>

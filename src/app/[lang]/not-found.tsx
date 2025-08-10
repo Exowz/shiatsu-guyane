@@ -2,9 +2,9 @@
 import Link from 'next/link';
 import { ArrowLeft, Home } from 'lucide-react';
 
-interface NotFoundProps {
-  params: { lang: string };
-}
+// interface NotFoundProps {
+//   params: { lang: string };
+// }
 
 export default function NotFound() {
   // Default to French if no lang param (this shouldn't happen in practice)

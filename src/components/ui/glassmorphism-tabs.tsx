@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
 import { Heart } from "lucide-react";
 import type { Dictionary } from '@/types/dictionary';
+import Image from 'next/image';
 
 type TabData = {
   title: string;
@@ -27,7 +28,6 @@ export const GlassmorphismTabs = ({
   activeTabClassName,
   tabClassName,
   contentClassName,
-  dictionary,
 }: GlassmorphismTabsProps) => {
   const [activeTab, setActiveTab] = useState<TabData>(tabs[0]);
 
@@ -108,7 +108,7 @@ export const GlassmorphismTabs = ({
 };
 
 // Helper function to create tab data from card data
-export const createTabsFromCards = (cards: any[], dictionary?: Dictionary) => {
+export const createTabsFromCards = (cards: Record<string, unknown>[], dictionary?: Dictionary) => {
   const getIconForCard = (index: number) => {
     const icons = [
       <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" key={index}>
@@ -135,60 +135,62 @@ export const createTabsFromCards = (cards: any[], dictionary?: Dictionary) => {
     return icons[index % icons.length];
   };
 
-  return cards?.map((card: any, index: number) => ({
-    title: card.title,
+  return cards?.map((card: Record<string, unknown>, index: number) => ({
+    title: card.title as string,
     value: `card-${index}`,
     icon: getIconForCard(index),
     content: (
       <div className="w-full h-[1500px] bg-background/95 backdrop-blur-md rounded-3xl border border-border/50 shadow-xl p-8 lg:p-12 flex flex-col">
         {/* Card image - Full size */}
-        {card.src && (
+        {(card.src && (
           <div className="w-full h-80 mb-8 rounded-2xl overflow-hidden shadow-lg flex-shrink-0">
-            <img
-              src={card.src}
-              alt={card.title}
+            <Image
+              src={card.src as string}
+              alt={card.title as string}
+              width={800}
+              height={600}
               className="w-full h-full object-cover object-center"
             />
           </div>
-        )}
+        )) as React.ReactNode}
 
         {/* Card header */}
         <div className="text-center mb-8 flex-shrink-0">
           <h3 className="text-3xl lg:text-4xl font-bold text-foreground mb-4">
-            {card.title}
+            {card.title as React.ReactNode}
           </h3>
           <p className="text-muted-foreground text-xl leading-relaxed max-w-4xl mx-auto">
-            {card.description}
+            {card.description as React.ReactNode}
           </p>
         </div>
 
         {/* Card content sections */}
         <div className="flex-grow">
-          {card.content && (
+          {(card.content && Array.isArray(card.content) && (
             <div className="grid gap-6 lg:gap-8">
-              {card.content.map((section: any, sectionIndex: number) => (
+              {(card.content as Record<string, unknown>[]).map((section: Record<string, unknown>, sectionIndex: number) => (
                 <div 
                   key={sectionIndex}
                   className="bg-muted/20 rounded-3xl p-6"
                 >
                   <h4 className="text-2xl font-bold text-foreground mb-4 border-b border-border/20 pb-3">
-                    {section.heading}
+                    {section.heading as React.ReactNode}
                   </h4>
                   <p className="text-muted-foreground text-lg leading-relaxed mb-4">
-                    {section.text}
+                    {section.text as React.ReactNode}
                   </p>
                   
                   {/* List section */}
-                  {section.list && (
+                  {(section.list && Array.isArray(section.list) && (
                     <div className="mt-6 bg-background/60 rounded-2xl p-4">
-                      {section.listTitle && (
+                      {(section.listTitle && (
                         <h5 className="text-xl font-bold text-foreground mb-4 flex items-center gap-3">
                           <div className="w-2 h-6 bg-gradient-to-b from-[rgb(var(--color-primary))] to-[rgb(var(--color-secondary))] rounded-full"></div>
-                          {section.listTitle}
+                          {section.listTitle as React.ReactNode}
                         </h5>
-                      )}
+                      )) as React.ReactNode}
                       <ul className="space-y-3">
-                        {section.list.map((item: string, itemIndex: number) => (
+                        {(section.list as string[]).map((item: string, itemIndex: number) => (
                           <li 
                             key={itemIndex}
                             className="flex items-start gap-4 text-foreground"
@@ -203,18 +205,18 @@ export const createTabsFromCards = (cards: any[], dictionary?: Dictionary) => {
                         ))}
                       </ul>
                     </div>
-                  )}
+                  )) as React.ReactNode}
                 </div>
               ))}
             </div>
-          )}
+          )) as React.ReactNode}
         </div>
 
         {/* Call to action - Fixed at bottom */}
         <div className="mt-8 text-center flex-shrink-0">
           <button className="inline-flex items-center gap-3 bg-gradient-to-r from-[rgb(var(--color-primary))] to-[rgb(var(--color-secondary))] text-white px-10 py-5 rounded-full font-bold text-lg hover:shadow-2xl transition-all duration-300 hover:transform hover:scale-105 shadow-lg">
             <Heart className="w-6 h-6" />
-            {(dictionary as any)?.pages?.pourQui?.learnMore || 'En savoir plus'}
+            {((dictionary as Dictionary | undefined)?.pages?.servicesPricing?.learnMore as React.ReactNode) || 'En savoir plus'}
           </button>
         </div>
       </div>

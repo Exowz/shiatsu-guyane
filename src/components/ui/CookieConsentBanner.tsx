@@ -8,7 +8,7 @@ import { Locale, Dictionary } from '@/types/dictionary';
 // Declare gtag global
 declare global {
   interface Window {
-    gtag: (command: string, targetId: string, config?: any) => void;
+    gtag: (command: string, targetId: string, config?: Record<string, unknown>) => void;
   }
 }
 
@@ -111,7 +111,7 @@ export const CookieConsentBanner = ({ dictionary, lang }: CookieConsentBannerPro
 
   if (!isVisible) return null;
 
-  const t = (dictionary.legal as any)?.cookieConsent || {
+  const t = (dictionary.legal as Record<string, unknown>)?.cookieConsent as Record<string, unknown> || {
     title: "Nous utilisons des cookies",
     description: "Nous utilisons des cookies pour améliorer votre expérience de navigation, analyser l'utilisation du site et personnaliser le contenu.",
     essentialCookies: {
@@ -156,7 +156,7 @@ export const CookieConsentBanner = ({ dictionary, lang }: CookieConsentBannerPro
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-[rgb(var(--color-text))] mb-1">
-                    {t.title}
+                    {t.title as React.ReactNode}
                   </h3>
                   <div className="flex items-center gap-2 text-sm text-[rgb(var(--color-text-secondary))]">
                     <Shield className="w-4 h-4" />
@@ -175,7 +175,7 @@ export const CookieConsentBanner = ({ dictionary, lang }: CookieConsentBannerPro
 
             {/* Description */}
             <p className="text-[rgb(var(--color-text-secondary))] mb-6 leading-relaxed">
-              {t.description}
+              {t.description as React.ReactNode}
             </p>
 
             {/* Cookie Details */}
@@ -187,26 +187,26 @@ export const CookieConsentBanner = ({ dictionary, lang }: CookieConsentBannerPro
                   {[
                     {
                       key: 'essential' as const,
-                      title: t.essentialCookies.title,
-                      description: t.essentialCookies.description,
+                      title: (t.essentialCookies as Record<string, unknown>).title,
+                      description: (t.essentialCookies as Record<string, unknown>).description,
                       required: true
                     },
                     {
                       key: 'analytics' as const,
-                      title: t.analyticsCookies.title,
-                      description: t.analyticsCookies.description,
+                      title: (t.analyticsCookies as Record<string, unknown>).title,
+                      description: (t.analyticsCookies as Record<string, unknown>).description,
                       required: false
                     },
                     {
                       key: 'performance' as const,
-                      title: t.performanceCookies.title,
-                      description: t.performanceCookies.description,
+                      title: (t.performanceCookies as Record<string, unknown>).title,
+                      description: (t.performanceCookies as Record<string, unknown>).description,
                       required: false
                     },
                     {
                       key: 'preferences' as const,
-                      title: t.preferencesCookies.title,
-                      description: t.preferencesCookies.description,
+                      title: (t.preferencesCookies as Record<string, unknown>).title,
+                      description: (t.preferencesCookies as Record<string, unknown>).description,
                       required: false
                     }
                   ].map((cookie) => (
@@ -217,7 +217,7 @@ export const CookieConsentBanner = ({ dictionary, lang }: CookieConsentBannerPro
                       <div className="flex-1">
                         <div className="flex items-center gap-2 mb-1">
                           <h5 className="font-medium text-[rgb(var(--color-text))]">
-                            {cookie.title}
+                            {cookie.title as React.ReactNode}
                           </h5>
                           {cookie.required && (
                             <span className="text-xs bg-[rgb(var(--color-secondary))]/20 text-[rgb(var(--color-secondary))] px-2 py-1 rounded-full font-medium">
@@ -226,7 +226,7 @@ export const CookieConsentBanner = ({ dictionary, lang }: CookieConsentBannerPro
                           )}
                         </div>
                         <p className="text-sm text-[rgb(var(--color-text-secondary))]">
-                          {cookie.description}
+                          {cookie.description as React.ReactNode}
                         </p>
                       </div>
                       
@@ -261,7 +261,7 @@ export const CookieConsentBanner = ({ dictionary, lang }: CookieConsentBannerPro
                 onClick={handleAcceptAll}
                 className="flex-1 bg-gradient-to-r from-[rgb(var(--color-primary))] to-[rgb(var(--color-secondary))] text-white px-6 py-3 rounded-xl font-semibold hover:shadow-lg transition-all duration-300 hover:scale-105"
               >
-                {t.acceptAll}
+                {t.acceptAll as React.ReactNode}
               </button>
               
               {showDetails ? (
@@ -269,7 +269,7 @@ export const CookieConsentBanner = ({ dictionary, lang }: CookieConsentBannerPro
                   onClick={handleAcceptSelected}
                   className="flex-1 bg-[rgb(var(--color-tertiary))] text-white px-6 py-3 rounded-xl font-semibold hover:bg-[rgb(var(--color-tertiary))]/80 transition-all duration-300"
                 >
-                  {t.acceptSelected}
+                  {t.acceptSelected as React.ReactNode}
                 </button>
               ) : (
                 <button
@@ -277,7 +277,7 @@ export const CookieConsentBanner = ({ dictionary, lang }: CookieConsentBannerPro
                   className="flex-1 flex items-center justify-center gap-2 bg-[rgb(var(--color-tertiary))] text-white px-6 py-3 rounded-xl font-semibold hover:bg-[rgb(var(--color-tertiary))]/80 transition-all duration-300"
                 >
                   <Settings className="w-4 h-4" />
-                  {t.customize}
+                  {t.customize as React.ReactNode}
                 </button>
               )}
               
@@ -285,19 +285,19 @@ export const CookieConsentBanner = ({ dictionary, lang }: CookieConsentBannerPro
                 onClick={handleRejectNonEssential}
                 className="flex-1 border border-[rgb(var(--color-text-secondary))]/30 text-[rgb(var(--color-text))] px-6 py-3 rounded-xl font-semibold hover:bg-[rgb(var(--color-text-secondary))]/10 transition-all duration-300"
               >
-                {t.rejectNonEssential}
+                {t.rejectNonEssential as React.ReactNode}
               </button>
             </div>
 
             {/* Footer */}
             <div className="mt-4 pt-4 border-t border-[rgb(var(--color-text-secondary))]/20 text-center">
               <p className="text-sm text-[rgb(var(--color-text-secondary))]">
-                {t.moreInfo}{' '}
+                {t.moreInfo as React.ReactNode}{' '}
                 <Link 
                   href={`/${lang}/politique-confidentialite`}
                   className="text-[rgb(var(--color-primary))] hover:text-[rgb(var(--color-secondary))] font-medium transition-colors"
                 >
-                  {t.privacyPolicy}
+                  {t.privacyPolicy as React.ReactNode}
                 </Link>
               </p>
             </div>

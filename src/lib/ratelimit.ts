@@ -6,7 +6,7 @@ export const ratelimit = new Ratelimit({
   redis: process.env.UPSTASH_REDIS_REST_URL ? 
     Redis.fromEnv() : 
     // Fallback to in-memory store for development
-    new Map() as any,
+    new Map() as unknown as ConstructorParameters<typeof Ratelimit>[0]['redis'],
   limiter: Ratelimit.slidingWindow(5, "60 s"),
   analytics: true,
   /**

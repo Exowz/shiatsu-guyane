@@ -1,11 +1,9 @@
 'use client';
 
-import Image from "next/image";
 import { Quote, Star, User, Calendar } from "lucide-react";
 import { formatDistanceToNow } from 'date-fns';
 import { fr, enUS, ptBR } from 'date-fns/locale';
 import type { Locale } from '@/lib/i18n-config';
-import type { Dictionary } from '@/types/dictionary';
 
 // Enhanced star rating component with natural colors
 const StarRating = ({ rating, source }: { rating: number; source?: string }) => {
@@ -41,7 +39,7 @@ export const ReviewCard = ({ review, lang }: { review: { author_name: string; ra
       const date = new Date(review.date);
       const locale = lang === 'fr' ? fr : lang === 'en' ? enUS : ptBR;
       timeDescription = formatDistanceToNow(date, { addSuffix: true, locale });
-    } catch (error) {
+    } catch {
       console.error("Invalid date for Resalib review:", review.date);
       timeDescription = "";
     }

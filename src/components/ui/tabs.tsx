@@ -7,7 +7,7 @@ import { User, Users, Heart, Star } from "lucide-react";
 type Tab = {
   title: string;
   value: string;
-  content?: string | React.ReactNode | any;
+  content?: string | React.ReactNode;
   icon?: React.ReactNode;
 };
 

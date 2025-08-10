@@ -5,6 +5,7 @@ import { cn } from "@/lib/utils";
 import { getDictionary } from '@/lib/dictionary';
 import { Locale } from '@/lib/i18n-config';
 import type { Dictionary } from '@/types/dictionary';
+import Image from 'next/image';
 
 interface PourQuiTabsProps {
   lang: Locale;
@@ -13,8 +14,8 @@ interface PourQuiTabsProps {
 
 export const PourQuiTabs = ({ lang, onHeightChange }: PourQuiTabsProps) => {
   const [dictionary, setDictionary] = useState<Dictionary | null>(null);
-  const [active, setActive] = useState<{ title: any; value: string } | null>(null);
-  const [tabs, setTabs] = useState<{ title: any; value: string; content: React.ReactNode }[]>([]);
+  const [active, setActive] = useState<{ title: React.ReactNode; value: string } | null>(null);
+  const [tabs, setTabs] = useState<{ title: React.ReactNode; value: string; content: React.ReactNode }[]>([]);
   const [hovering, setHovering] = useState(false);
   const contentRef = useRef<HTMLDivElement>(null);
   const measureRef = useRef<HTMLDivElement>(null);
@@ -56,62 +57,63 @@ export const PourQuiTabs = ({ lang, onHeightChange }: PourQuiTabsProps) => {
   }, [lang]);
 
   // Create tabs data from cards with mobile optimization
-  const createTabsFromCards = (cards: any[]) => {
-    return cards?.map((card: any, index: number) => ({
-      title: card.title,
+  const createTabsFromCards = (cards: unknown[]): { title: React.ReactNode; value: string; content: React.ReactNode }[] => {
+    return cards?.map((card: unknown, index: number) => {
+      const cardObj = card as Record<string, unknown>;
+      return {
+      title: (cardObj.title ?? '') as React.ReactNode,
       value: `card-${index}`,
       content: (
         <div 
           ref={index === 0 ? measureRef : null}
           className="w-full h-[1300px] sm:h-[1300px] md:h-[1300px] lg:h-[1300px] xl:h-[1500px] bg-background/95 backdrop-blur-lg rounded-2xl sm:rounded-3xl shadow-xl p-4 sm:p-6 md:p-8 lg:p-12 flex flex-col overflow-y-auto"
         >
-          {/* Mobile-optimized card image */}
-          {card.src && (
+          {(cardObj.src as string) && (
             <div className="w-full h-48 sm:h-56 md:h-64 lg:h-80 mb-6 sm:mb-8 md:mb-10 lg:mb-12 rounded-xl sm:rounded-2xl overflow-hidden shadow-lg">
-              <img
-                src={card.src}
-                alt={card.title}
+              <Image
+                src={cardObj.src as string}
+                alt={cardObj.title as string}
+                width={800}
+                height={600}
                 className="w-full h-full object-cover object-center"
               />
             </div>
           )}
 
-          {/* Mobile-responsive card header */}
           <div className="text-center mb-8 sm:mb-10 md:mb-12">
             <h3 className="text-2xl sm:text-3xl md:text-3xl lg:text-4xl font-bold text-foreground mb-4 sm:mb-6 leading-tight">
-              {card.title}
+              {cardObj.title as React.ReactNode}
             </h3>
             <p className="text-muted-foreground text-base sm:text-lg md:text-xl leading-relaxed max-w-4xl mx-auto px-2">
-              {card.description}
+              {cardObj.description as React.ReactNode}
             </p>
           </div>
 
           {/* Mobile-optimized card content sections */}
-          {card.content && (
+          {(cardObj.content as Record<string, unknown>[]) && (
             <div className="grid gap-6 sm:gap-8 lg:gap-12">
-              {card.content.map((section: any, sectionIndex: number) => (
+              {Array.isArray(cardObj.content) && (cardObj.content as Record<string, unknown>[]).map((section: Record<string, unknown>, sectionIndex: number) => (
                 <div 
                   key={sectionIndex}
                   className="bg-muted/20 rounded-2xl sm:rounded-3xl p-4 sm:p-6 md:p-8"
                 >
                   <h4 className="text-lg sm:text-xl md:text-2xl font-bold text-foreground mb-4 sm:mb-6 border-b border-border/20 pb-2 sm:pb-3">
-                    {section.heading}
+                    {section.heading as React.ReactNode}
                   </h4>
                   <p className="text-muted-foreground text-sm sm:text-base md:text-lg leading-relaxed mb-4 sm:mb-6">
-                    {section.text}
+                    {section.text as React.ReactNode}
                   </p>
                   
-                  {/* Mobile-optimized list section */}
-                  {section.list && (
+                  {(section.list as string[]) && (
                     <div className="mt-6 sm:mt-8 bg-background/60 rounded-xl sm:rounded-2xl p-4 sm:p-6">
-                      {section.listTitle && (
+                      {(section.listTitle as string) && (
                         <h5 className="text-base sm:text-lg md:text-xl font-bold text-foreground mb-4 sm:mb-6 flex items-center gap-2 sm:gap-3">
                           <div className="w-2 h-4 sm:h-6 bg-gradient-to-b from-[rgb(var(--color-primary))] to-[rgb(var(--color-secondary))] rounded-full"></div>
-                          {section.listTitle}
+                          {section.listTitle as React.ReactNode}
                         </h5>
                       )}
                       <ul className="space-y-3 sm:space-y-4">
-                        {section.list.map((item: string, itemIndex: number) => (
+                        {(section.list as string[]).map((item: string, itemIndex: number) => (
                           <li 
                             key={itemIndex}
                             className="flex items-start gap-3 sm:gap-4 text-foreground"
@@ -132,8 +134,8 @@ export const PourQuiTabs = ({ lang, onHeightChange }: PourQuiTabsProps) => {
             </div>
           )}
         </div>
-      )
-    })) || [];
+      ) as React.ReactNode
+    }}) || [];
   };
 
   // Original moveSelectedTabToTop function
@@ -148,7 +150,7 @@ export const PourQuiTabs = ({ lang, onHeightChange }: PourQuiTabsProps) => {
   };
 
   // Original isActive function
-  const isActive = (tab: any) => {
+  const isActive = (tab: { title: React.ReactNode; value: string; content: React.ReactNode }) => {
     return tab.value === tabs[0]?.value;
   };
 
@@ -176,9 +178,9 @@ export const PourQuiTabs = ({ lang, onHeightChange }: PourQuiTabsProps) => {
           "[perspective:1000px] relative"
         )}
       >
-        {allTabs.map((tab: any, idx: number) => (
+        {allTabs.map((tab: { title: React.ReactNode; value: string; content: React.ReactNode }, idx: number) => (
           <button
-            key={tab.title}
+            key={tab.value}
             onClick={() => moveSelectedTabToTop(idx)}
             onMouseEnter={() => setHovering(true)}
             onMouseLeave={() => setHovering(false)}
@@ -217,7 +219,7 @@ export const PourQuiTabs = ({ lang, onHeightChange }: PourQuiTabsProps) => {
       
       {/* Mobile-optimized content container */}
       <div ref={contentRef} className={cn("mt-16 sm:mt-24 md:mt-32 relative w-full h-full")}>
-        {tabs.map((tab: any, idx: number) => (
+        {tabs.map((tab: { title: React.ReactNode; value: string; content: React.ReactNode }, idx: number) => (
           <motion.div
             key={tab.value}
             layoutId={tab.value}

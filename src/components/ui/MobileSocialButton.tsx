@@ -1,8 +1,10 @@
+'use client';
+
 interface MobileSocialButtonProps {
   isOpen?: boolean;
   onToggle?: () => void;
   onClose?: () => void;
-}'use client';
+}
 
 import { motion, AnimatePresence } from "framer-motion";
 import { FiShare2 } from 'react-icons/fi';

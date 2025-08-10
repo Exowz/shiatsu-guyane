@@ -20,8 +20,6 @@ const dictionaries = {
 };
 
 export const getDictionary = cache(async (locale: Locale): Promise<Dictionary> => {
-  console.log("Requesting dictionary for locale:", locale);
-  
   const dictionary = dictionaries[locale] || dictionaries.fr;
   return Promise.resolve(dictionary as Dictionary);
 });

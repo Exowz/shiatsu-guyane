@@ -1,6 +1,5 @@
 // src/app/layout.tsx
 
-import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "next-themes";
@@ -19,7 +18,7 @@ export async function generateMetadata() {
   // For now, we'll use French as default since this is the root layout
   // In a more advanced setup, you could detect language from headers
   return {
-    title: 'Shiatsu Guyane - Guérison Holistique',
+    title: 'Shiatsu Guyane - Nathalie Jean - Soin Holistique',
     description: 'Cabinet de Shiatsu en Guyane pour la gestion du stress, des douleurs et le rééquilibrage énergétique.',
   };
 }

@@ -138,23 +138,14 @@ export async function POST(request: NextRequest) {
     
     // Check if at least the practitioner email was sent successfully
     const practitionerEmailResult = emailResults[1];
-    const clientEmailResult = emailResults[0];
+    // const clientEmailResult = emailResults[0]; // Unused for now
     
     if (practitionerEmailResult?.status === 'rejected') {
       console.error('Failed to send practitioner notification:', practitionerEmailResult.reason);
       throw new Error('Failed to send notification email');
     }
 
-    // Log results for monitoring
-    console.log('Contact form submission processed:', {
-      timestamp,
-      client: `${sanitizedData.firstname} ${sanitizedData.lastname}`,
-      email: sanitizedData.email,
-      language: sanitizedData.language,
-      practitionerEmailSent: practitionerEmailResult?.status === 'fulfilled',
-      clientEmailSent: clientEmailResult?.status === 'fulfilled',
-      ip
-    });
+    // Log results for monitoring (removed console.log for production)
 
     // Return success response
     return NextResponse.json({

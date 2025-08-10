@@ -2,7 +2,6 @@
 
 import { getDictionary } from '@/lib/dictionary';
 import { i18n, Locale } from '@/lib/i18n-config';
-import { Dictionary } from '@/types/dictionary';
 import { CtaSection } from '@/components/sections/CtaSection';
 import { Clock, Euro, Sparkles, Star, ArrowRight, Check, Award, Users, Target } from 'lucide-react';
 

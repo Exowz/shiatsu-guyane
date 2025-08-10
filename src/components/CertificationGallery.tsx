@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import Image from 'next/image';
 import { Award, Star, Users, Heart, Target, Sparkles, ImageIcon, X } from 'lucide-react';
 import type { Dictionary } from '@/types/dictionary';
@@ -17,19 +17,19 @@ function ImageModal({ onClose, certTitle, certOrg, certYear, allImages, currentI
 }) {
   const [currentImageIndex, setCurrentImageIndex] = useState(currentIndex);
 
-  const navigateImage = (direction: 'prev' | 'next') => {
+  const navigateImage = useCallback((direction: 'prev' | 'next') => {
     if (direction === 'prev') {
       setCurrentImageIndex(currentImageIndex > 0 ? currentImageIndex - 1 : allImages.length - 1);
     } else {
       setCurrentImageIndex(currentImageIndex < allImages.length - 1 ? currentImageIndex + 1 : 0);
     }
-  };
+  }, [currentImageIndex, allImages.length]);
 
-  const handleKeyPress = (e: KeyboardEvent) => {
+  const handleKeyPress = useCallback((e: KeyboardEvent) => {
     if (e.key === 'Escape') onClose();
     if (e.key === 'ArrowLeft') navigateImage('prev');
     if (e.key === 'ArrowRight') navigateImage('next');
-  };
+  }, [onClose, navigateImage]);
 
   useEffect(() => {
     document.addEventListener('keydown', handleKeyPress);
@@ -38,7 +38,7 @@ function ImageModal({ onClose, certTitle, certOrg, certYear, allImages, currentI
       document.removeEventListener('keydown', handleKeyPress);
       document.body.style.overflow = 'unset';
     };
-  }, [currentImageIndex]);
+  }, [currentImageIndex, handleKeyPress]);
 
   return (
     <div className="fixed inset-0 bg-black/80 backdrop-blur-sm flex items-center justify-center z-50 p-4">
@@ -138,7 +138,20 @@ function ImageModal({ onClose, certTitle, certOrg, certYear, allImages, currentI
 }
 
 // Client Component for Interactive Certification Card
-function InteractiveCertificationCard({ cert, dictionary }: { cert: { [key: string]: any }, dictionary: Dictionary }) {
+interface CertificationItem {
+  title: React.ReactNode;
+  organization: React.ReactNode;
+  year: React.ReactNode;
+  description?: React.ReactNode;
+  category?: React.ReactNode;
+  images: string[];
+  icon?: React.ReactNode;
+  gradient?: string;
+  details?: React.ReactNode;
+  [key: string]: unknown;
+}
+
+function InteractiveCertificationCard({ cert, dictionary }: { cert: CertificationItem, dictionary: Dictionary }) {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
   const [selectedImageIndex, setSelectedImageIndex] = useState(0);
 
@@ -221,9 +234,9 @@ function InteractiveCertificationCard({ cert, dictionary }: { cert: { [key: stri
       {selectedImage && (
         <ImageModal 
           onClose={() => setSelectedImage(null)}
-          certTitle={cert.title}
-          certOrg={cert.organization}
-          certYear={cert.year}
+          certTitle={String(cert.title)}
+          certOrg={String(cert.organization)}
+          certYear={String(cert.year)}
           allImages={cert.images}
           currentIndex={selectedImageIndex}
           dictionary={dictionary}

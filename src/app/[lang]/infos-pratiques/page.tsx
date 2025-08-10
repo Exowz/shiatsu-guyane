@@ -2,9 +2,8 @@
 
 import { getDictionary } from '@/lib/dictionary';
 import { i18n, Locale } from '@/lib/i18n-config';
-import { Dictionary } from '@/types/dictionary';
 import { CtaSection } from '@/components/sections/CtaSection';
-import { Check, Clock, MapPin, Shirt, Utensils, Info, ArrowRight, Navigation, Calendar, Heart } from 'lucide-react';
+import { Clock, MapPin, Shirt, Utensils, Info, ArrowRight, Navigation, Calendar, Heart } from 'lucide-react';
 
 export async function generateStaticParams() {
   return i18n.locales.map((locale) => ({

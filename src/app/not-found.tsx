@@ -10,7 +10,7 @@ export default function NotFound() {
           <h1 className="text-6xl font-bold text-primary mb-4">404</h1>
           <h2 className="text-2xl font-semibold text-foreground mb-2">Page non trouvée</h2>
           <p className="text-muted-foreground">
-            Désolé, la page que vous recherchez n'existe pas ou a été déplacée.
+            Désolé, la page que vous recherchez n&apos;existe pas ou a été déplacée.
           </p>
         </div>
         
@@ -20,7 +20,7 @@ export default function NotFound() {
             className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-lg font-medium hover:bg-primary/90 transition-colors"
           >
             <Home className="w-4 h-4" />
-            Retour à l'accueil
+            Retour à l&apos;accueil
           </Link>
           
           <button
@@ -33,7 +33,7 @@ export default function NotFound() {
         </div>
         
         <div className="mt-8 text-sm text-muted-foreground">
-          <p>Besoin d'aide ? <Link href="/fr/contact" className="text-primary hover:underline">Contactez-nous</Link></p>
+          <p>Besoin d&apos;aide ? <Link href="/fr/contact" className="text-primary hover:underline">Contactez-nous</Link></p>
         </div>
       </div>
     </div>
