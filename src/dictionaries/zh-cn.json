@@ -12,7 +12,13 @@
     "practitionerName": "圭亚那指压疗法",
     "heroTitle": "Nathalie JEAN",
     "heroSubtitle": "通过个性化的治疗方法，重新找回您的宁静。",
-    "scrollDown": "向下滚动"
+    "scrollDown": "向下滚动",
+    "credentials": {
+      "experience": "20年以上经验",
+      "startDate": "自2006年3月8日起",
+      "certification": "FFST联邦执照 FFST-2023-920938",
+      "sophrologist": "RNCP认证身心治疗师 n°1100"
+    }
   },
   "aboutIntro": {
     "heading": "欢迎，我是Nathalie JEAN",
@@ -144,6 +150,32 @@
         "rating": 5,
         "text": "热情的接待和亲切的倾听，从一开始就让人感到放心。第一次预约就感觉很好。非常感谢你，Nathalie！",
         "date": "2025-04-25"
+      }
+    ]
+  },
+  "officialRecognition": {
+    "title": "官方认证",
+    "description": "具有官方注册号码的认证执业者",
+    "certifications": [
+      {
+        "name": "法国传统指压联合会",
+        "number": "FFST-2023-920938",
+        "type": "联邦执照"
+      },
+      {
+        "name": "RNCP认证身心治疗师",
+        "number": "n°1100",
+        "type": "认证"
+      },
+      {
+        "name": "获批培训师",
+        "number": "03973228297",
+        "type": "培训师编号"
+      },
+      {
+        "name": "FFST教师类别",
+        "number": "4638-533",
+        "type": "教师编号"
       }
     ]
   },
@@ -325,6 +357,29 @@
       "heading": "疗程如何进行",
       "p1": "一次疗程通常持续1小时到1.5小时。它总是以一次讨论开始，以确定不平衡和紧张点。",
       "p2": "指压疗法是在穿着舒适、有弹性的衣服的情况下进行的，传统上是在地板上的蒲团上。疗程后，通常会感到深度放松、轻松，有时会感到轻微疲劳，这表明身体已经工作并释放了紧张。"
+    },
+    "philosophy": {
+      "heading": "气的哲学与能量循环",
+      "introduction": "我的实践基于对东方能量原理的深刻理解，经过20年临床经验和对三大创始学派的学习而丰富。",
+      "concepts": [
+        {
+          "title": "气 - 宇宙生命能量",
+          "description": "气（中文称Qi，日文称Ki）是激活一切生命的基本能量。在人体中，它沿着称为经络的通道循环，滋养每个器官、每个细胞。我的作用是检测阻塞、过量或能量空虚，并恢复和谐的循环。"
+        },
+        {
+          "title": "清气 - 生命能量的陪伴",
+          "description": "根据岸师父的教导，清气意味着'陪伴生命能量'。这种微妙的方法不强迫任何东西，而是倾听、感受，并引导能量向其自然平衡状态发展。这是一种存在和直觉发展的艺术。"
+        },
+        {
+          "title": "无为 - 通过不行动而行动",
+          "description": "道教基本原则：以最少的干预获得最大的效果。我的手成为倾听而非行动的工具。是您自己的能量引导治愈过程，我只是陪伴它。"
+        },
+        {
+          "title": "无心 - 无心之心",
+          "description": "没有任何期望、任何判断的意识状态。在疗程中，我进入这种冥想状态，允许与您的能量真正连接。正是在这种心理空虚中，治疗直觉才能充分表达。"
+        }
+      ],
+      "integration": "这些概念不仅仅是理论 - 它们在疗程的每一个瞬间都被体验和整合。经过20年的实践，它们已经成为我方法的实质，允许进行罕见真实性的陪伴。"
     }
   },
   "pourQuiPage": {
@@ -631,6 +686,31 @@
           "description": "治疗后安排一些安静的时间。多喝水以帮助身体排毒。"
         }
       ]
+    },
+    "contraindications": {
+      "heading": "重要医疗禁忌症",
+      "absolute": {
+        "title": "绝对禁忌症",
+        "items": [
+          "体温超过38°C",
+          "正在发展的急性感染",
+          "活跃期癌症（需要肿瘤科医生意见）",
+          "未稳定的严重心脏疾病",
+          "怀孕第一个月（0-3个月）",
+          "开放性伤口、近期烧伤"
+        ]
+      },
+      "relative": {
+        "title": "特殊注意事项",
+        "items": [
+          "抗凝血治疗（需调整压力）",
+          "严重骨质疏松症（仅温和技术）",
+          "未控制的高血压（监测血压）",
+          "严重精神疾病（需医疗同意）",
+          "近期植入物（起搏器、假体）",
+          "严重静脉曲张（避免相关区域）"
+        ]
+      }
     },
     "location": {
       "heading": "诊所",
@@ -1073,38 +1153,6 @@
         "discoverMyStory": "发现我的故事",
         "discoverSteps": "发现塑造我指压专长和热情的关键步骤。"
       }
-    }
-  },
-  "signupDemo": {
-    "title": "欢迎来到Aceternity",
-    "subtitle": "如果可以，请登录Aceternity，因为我们还没有登录流程",
-    "fields": {
-      "firstName": "名字",
-      "lastName": "姓氏",
-      "email": "邮箱地址",
-      "password": "密码",
-      "twitterPassword": "您的twitter密码"
-    },
-    "placeholders": {
-      "firstName": "John",
-      "lastName": "Doe",
-      "email": "john.doe@example.com",
-      "password": "••••••••"
-    },
-    "buttons": {
-      "signUp": "注册 →",
-      "github": "GitHub",
-      "google": "Google",
-      "onlyFans": "OnlyFans"
-    }
-  },
-  "uiDemo": {
-    "dropdown": {
-      "postActions": "帖子操作",
-      "edit": "编辑",
-      "duplicate": "复制",
-      "share": "分享",
-      "remove": "移除"
     }
   },
   "legal": {
