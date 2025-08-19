@@ -1,34 +1,69 @@
+'use client';
+
+import { useEffect, useState } from 'react';
 import { getDictionary } from '@/lib/dictionary';
-import { i18n, Locale } from '@/lib/i18n-config';
+import { Locale } from '@/lib/i18n-config';
+import type { Dictionary } from '@/types/dictionary';
 import Link from 'next/link';
 import { CtaSection } from '@/components/sections/CtaSection';
 import { PourQuiTabs } from '@/components/sections/PourQuiTabs'; 
 import { Users, Heart, Target, ArrowDown } from 'lucide-react';
+import { GardenBackground, SectionGarden, GardenDivider, FloatingBotanicals } from '@/components/garden';
 
-export async function generateStaticParams() {
-  return i18n.locales.map((locale) => ({
-    lang: locale,
-  }));
-}
+export default function PourQuiPage({ params }: { params: Promise<{ lang: Locale }> }) {
+  const [dictionary, setDictionary] = useState<Dictionary | null>(null);
+  const [lang, setLang] = useState<Locale | null>(null);
 
-export default async function PourQuiPage(props: { params: Promise<{ lang: Locale }> }) {
-  const { lang } = await props.params;
-  const dictionary = await getDictionary(lang);
+  useEffect(() => {
+    const fetchData = async () => {
+      const resolvedParams = await params;
+      setLang(resolvedParams.lang);
+      const dict = await getDictionary(resolvedParams.lang);
+      setDictionary(dict);
+    };
+    fetchData();
+  }, [params]);
+
+  // Loading state with garden theme
+  if (!dictionary || !lang) {
+    return (
+      <div className="min-h-screen bg-background flex justify-center items-center">
+        <div className="text-center">
+          <div className="relative">
+            <div className="w-16 h-16 rounded-full bg-gradient-to-r from-[rgb(var(--color-primary))] to-[rgb(var(--color-secondary))] animate-spin mx-auto mb-4">
+              <div className="w-12 h-12 rounded-full bg-background absolute top-2 left-2"></div>
+            </div>
+            <div className="absolute inset-0 w-16 h-16 rounded-full bg-[rgb(var(--color-primary))]/20 animate-ping mx-auto"></div>
+          </div>
+          <p className="text-[rgb(var(--color-text-secondary))] font-medium">Chargement...</p>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="bg-background text-foreground relative overflow-hidden min-h-screen">
-      {/* Mobile-optimized background elements */}
-      <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        {/* Maracuja gold glow - smaller on mobile */}
-        <div className="absolute top-1/4 right-1/6 w-48 sm:w-64 md:w-80 lg:w-96 h-48 sm:h-64 md:h-80 lg:h-96 bg-[rgb(var(--color-primary))]/6 rounded-full blur-2xl sm:blur-3xl animate-pulse"></div>
-        {/* Terracotta warmth - adjusted for mobile */}
-        <div className="absolute bottom-1/4 left-1/6 w-40 sm:w-56 md:w-72 lg:w-80 h-40 sm:h-56 md:h-72 lg:h-80 bg-[rgb(var(--color-secondary))]/5 rounded-full blur-2xl sm:blur-3xl animate-pulse delay-1000"></div>
-        {/* Sage green subtlety - responsive sizing */}
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-80 sm:w-96 md:w-[500px] lg:w-[700px] h-80 sm:h-96 md:h-[500px] lg:h-[700px] bg-gradient-to-r from-[rgb(var(--color-tertiary))]/3 to-[rgb(var(--color-primary))]/2 rounded-full blur-2xl sm:blur-3xl"></div>
-      </div>
+      {/* Target Audience Garden Background */}
+      <GardenBackground 
+        intensity="medium" 
+        wildlife={true} 
+        atmosphere={true} 
+        zIndex={1} 
+      />
+      
+      {/* Welcoming Garden Elements for All Audiences */}
+      <FloatingBotanicals 
+        density="medium" 
+        elements={['leaves', 'petals', 'seeds', 'particles']} 
+        wildlife={true}
+        zIndex={15}
+      />
 
-      {/* 1. Mobile-Enhanced Page Header */}
+      {/* Welcome Garden Header */}
       <section className="min-h-screen justify-center flex flex-col items-center py-12 sm:py-16 md:py-20 lg:py-32 relative bg-secondary/30 backdrop-blur-sm">
+        {/* Diverse Garden Canopy for All People */}
+        <SectionGarden theme="botanical" position="header" height="xl" zIndex={2} />
+        
         <div className="absolute inset-0 bg-gradient-to-br from-[rgb(var(--color-surface))]/40 to-transparent"></div>
         <div className="container mx-auto px-4 sm:px-6 pt-20 sm:pt-24 md:pt-32 pb-16 sm:pb-20 md:pb-24 text-center relative z-10">
           {/* Mobile-optimized hero badge */}
@@ -58,10 +93,17 @@ export default async function PourQuiPage(props: { params: Promise<{ lang: Local
             <ArrowDown className="w-3 h-3 sm:w-4 sm:h-4" />
           </div>
         </div>
+        
+        {/* Diverse Garden Foundation */}
+        <SectionGarden theme="grove" position="footer" height="lg" zIndex={2} />
       </section>
 
-      {/* 2. Mobile-Enhanced Introduction Section */}
+      {/* Garden Divider - Community Path */}
+      <GardenDivider type="flower" size="lg" zIndex={5} />
+
+      {/* Introduction Section with Forest Theme */}
       <main className="container mx-auto px-4 sm:px-6 py-12 sm:py-16 md:py-20 lg:py-32 relative z-10">
+        <SectionGarden theme="forest" position="background" height="md" zIndex={2} />
         {/* Mobile-optimized introduction section */}
         <div className="text-center">
           <div className="inline-flex items-center gap-2 bg-gradient-to-r from-[rgb(var(--color-tertiary))]/10 to-[rgb(var(--color-primary))]/10 backdrop-blur-sm px-3 sm:px-5 py-2 rounded-full text-[rgb(var(--color-tertiary))] font-semibold text-xs sm:text-sm mb-6 sm:mb-8 shadow-lg">
@@ -73,50 +115,56 @@ export default async function PourQuiPage(props: { params: Promise<{ lang: Local
             {dictionary.pages.pourQui.findIdealSupport}
           </h2>
           <p className="text-base sm:text-lg text-[rgb(var(--color-text-secondary))] max-w-3xl mx-auto leading-relaxed px-4">
-            {dictionary.pages.pourQui.personalizedConsultationSection?.description || "Chaque personne est unique, et votre parcours de bien-être doit l'être aussi. Découvrez comment nos services s'adaptent à vos besoins spécifiques."}
+            {dictionary.pages.pourQui.personalizedConsultationSection?.description || `Chaque personne est unique, et votre parcours de bien-être doit l’être aussi. Découvrez comment nos services s’adaptent à vos besoins spécifiques.`}
           </p>
         </div>
       </main>
 
-      {/* 3. Mobile-Optimized Tabs Section */}
-      <section className="mb-16 sm:mb-20 md:mb-28 relative">
-        <div className="container mx-auto px-2 sm:px-4 md:px-6 relative z-10">
+      {/* Garden Divider - Personalization Path */}
+      <GardenDivider type="vine" size="md" zIndex={5} />
+
+      {/* Tabs Section */}
+      <section className="mb-28">
+        <div className="container mx-auto px-6 relative z-10">
           <div className="relative">
             {/* Subtle background for tabs section */}
+            <div className="absolute inset-0 bg-gradient-to-br from-[rgb(var(--color-surface))]/20 to-transparent rounded-3xl"></div>
             
-            <div className="relative z-10 p-2 sm:p-4 lg:p-8">
+            <div className="relative z-10 p-4 lg:p-8">
               <PourQuiTabs lang={lang} />
             </div>
           </div>
         </div>
       </section>
 
-      {/* 4. Mobile-Enhanced Additional Support Section */}
-      <section className="mb-16 sm:mb-24 md:mb-32">
-        <div className="container mx-auto px-4 sm:px-6 md:px-8 lg:px-12 relative z-10">
+      {/* Spacer to account for tabs absolute positioning */}
+      <div className="h-[1500px]"></div>
+
+      {/* Additional Support Section */}
+      <section className="mb-32">
+        <div className="container mx-auto px-12 relative z-10">
           <div className="text-center">
-            <div className="bg-card/60 backdrop-blur-md rounded-2xl sm:rounded-3xl p-6 sm:p-8 md:p-10 lg:p-12 shadow-xl hover:shadow-2xl transition-all duration-500 relative">
-              <div className="absolute inset-0 bg-gradient-to-br from-[rgb(var(--color-primary))]/5 to-[rgb(var(--color-secondary))]/3 rounded-2xl sm:rounded-3xl"></div>
+            <div className="bg-card/60 backdrop-blur-md rounded-3xl p-12 shadow-xl hover:shadow-2xl transition-all duration-500">
+              <div className="absolute inset-0 bg-gradient-to-br from-[rgb(var(--color-primary))]/5 to-[rgb(var(--color-secondary))]/3 rounded-3xl"></div>
               
               <div className="relative z-10">
-                <div className="w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 bg-gradient-to-br from-[rgb(var(--color-primary))] to-[rgb(var(--color-secondary))] rounded-xl sm:rounded-2xl mx-auto mb-4 sm:mb-6 flex items-center justify-center shadow-lg">
-                  <Target className="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 text-white" />
+                <div className="w-16 h-16 bg-gradient-to-br from-[rgb(var(--color-primary))] to-[rgb(var(--color-secondary))] rounded-2xl mx-auto mb-6 flex items-center justify-center shadow-lg">
+                  <Target className="w-8 h-8 text-white" />
                 </div>
                 
-                <h3 className="text-xl sm:text-2xl font-bold text-card-foreground mb-3 sm:mb-4">
+                <h3 className="text-2xl font-bold text-card-foreground mb-4">
                   {dictionary.pages.pourQui.notFindProfile}
                 </h3>
-                <p className="text-[rgb(var(--color-text-secondary))] leading-relaxed mb-6 sm:mb-8 max-w-2xl mx-auto text-sm sm:text-base">
-                  {dictionary.pages.pourQui.personalizedConsultationSection?.description || "Chaque situation est particulière. Contactez-moi pour un accompagnement personnalisé qui répond exactement à vos besoins et objectifs."}
+                <p className="text-[rgb(var(--color-text-secondary))] leading-relaxed mb-8 max-w-2xl mx-auto">
+                  {`Chaque situation est particulière. Contactez-moi pour un accompagnement personnalisé qui répond exactement à vos besoins et objectifs.`}
                 </p>
                 
-                {/* Mobile-stacked buttons */}
-                <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
-                  <Link href={`/${lang}/contact`} className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-[rgb(var(--color-primary))] to-[rgb(var(--color-secondary))] text-white px-6 sm:px-8 py-3 rounded-full font-semibold hover:shadow-lg transition-all duration-300 hover:transform hover:scale-105 text-sm sm:text-base w-full sm:w-auto">
+                <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                  <Link href={`/${lang}/contact`} className="inline-flex items-center gap-2 bg-gradient-to-r from-[rgb(var(--color-primary))] to-[rgb(var(--color-secondary))] text-white px-8 py-3 rounded-full font-semibold hover:shadow-lg transition-all duration-300 hover:transform hover:scale-105">
                     <Heart className="w-4 h-4" />
                     {dictionary.pages.pourQui.personalizedConsultation}
                   </Link>
-                  <Link href={`/${lang}/contact`} className="inline-flex items-center justify-center gap-2 bg-card/80 backdrop-blur-sm text-card-foreground px-6 sm:px-8 py-3 rounded-full font-semibold hover:bg-card/90 transition-all duration-300 shadow-lg text-sm sm:text-base w-full sm:w-auto">
+                  <Link href={`/${lang}/contact`} className="inline-flex items-center gap-2 bg-card/80 backdrop-blur-sm text-card-foreground px-8 py-3 rounded-full font-semibold hover:bg-card/90 transition-all duration-300 shadow-lg">
                     <Users className="w-4 h-4" />
                     {dictionary.pages.pourQui.contactUs}
                   </Link>
@@ -127,7 +175,7 @@ export default async function PourQuiPage(props: { params: Promise<{ lang: Local
         </div>
       </section>
 
-      {/* 5. Final Call to Action Section */}
+      {/* CTA Section with Botanical Collection Theme */}
       <section className="relative bg-gradient-to-br from-secondary/20 via-[rgb(var(--color-surface))]/30 to-secondary/20 backdrop-blur-sm">
         <div className="absolute inset-0 bg-gradient-to-r from-[rgb(var(--color-primary))]/3 via-transparent to-[rgb(var(--color-tertiary))]/3"></div>
         <div className="relative z-10">

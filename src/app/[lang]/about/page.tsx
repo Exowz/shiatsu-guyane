@@ -1,5 +1,6 @@
 import { getDictionary } from '@/lib/dictionary';
 import { i18n, Locale } from '@/lib/i18n-config';
+import { GardenBackground, SectionGarden, GardenDivider, FloatingBotanicals } from '@/components/garden';
 
 export async function generateStaticParams() {
   return i18n.locales.map((locale) => ({
@@ -65,15 +66,27 @@ export default async function AboutPage(props: { params: Promise<{ lang: Locale 
 
   return (
     <div className="bg-background text-foreground relative overflow-hidden min-h-screen">
-      {/* Mobile-optimized background elements */}
-      <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute top-1/4 right-1/6 w-48 sm:w-64 md:w-80 lg:w-96 h-48 sm:h-64 md:h-80 lg:h-96 bg-[rgb(var(--color-primary))]/6 rounded-full blur-2xl sm:blur-3xl animate-pulse"></div>
-        <div className="absolute bottom-1/4 left-1/6 w-40 sm:w-56 md:w-72 lg:w-80 h-40 sm:h-56 md:h-72 lg:h-80 bg-[rgb(var(--color-secondary))]/5 rounded-full blur-2xl sm:blur-3xl animate-pulse delay-1000"></div>
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-80 sm:w-96 md:w-[500px] lg:w-[700px] h-80 sm:h-96 md:h-[500px] lg:h-[700px] bg-gradient-to-r from-[rgb(var(--color-tertiary))]/3 to-[rgb(var(--color-primary))]/2 rounded-full blur-2xl sm:blur-3xl"></div>
-      </div>
+      {/* Personal Sanctuary Garden Background */}
+      <GardenBackground 
+        intensity="medium" 
+        wildlife={true} 
+        atmosphere={true} 
+        zIndex={1} 
+      />
+      
+      {/* Ambient Botanical Elements for Personal Space */}
+      <FloatingBotanicals 
+        density="medium" 
+        elements={['leaves', 'petals', 'seeds', 'particles']} 
+        wildlife={true}
+        zIndex={15}
+      />
 
-      {/* Mobile-Enhanced Page Header */}
+      {/* Personal Sanctuary Header */}
       <section className="min-h-screen justify-center flex flex-col items-center py-12 sm:py-16 md:py-20 lg:py-32 relative bg-secondary/30 backdrop-blur-sm">
+        {/* Personal Grove Canopy */}
+        <SectionGarden theme="grove" position="header" height="xl" zIndex={2} />
+        
         <div className="absolute inset-0 bg-gradient-to-br from-[rgb(var(--color-surface))]/40 to-transparent"></div>
         <div className="container mx-auto px-4 sm:px-6 pt-20 sm:pt-24 md:pt-32 pb-16 sm:pb-20 md:pb-24 text-center relative z-10">
           {/* Mobile-optimized hero badge */}
@@ -119,12 +132,19 @@ export default async function AboutPage(props: { params: Promise<{ lang: Locale 
             <ArrowDown className="w-3 h-3 sm:w-4 sm:h-4" />
           </div>
         </div>
+        
+        {/* Peaceful Grove Foundation */}
+        <SectionGarden theme="botanical" position="footer" height="lg" zIndex={2} />
       </section>
+
+      {/* Garden Divider - Personal Journey Begins */}
+      <GardenDivider type="organic" size="lg" zIndex={5} />
 
       <main className="container mx-auto px-4 sm:px-6 py-12 sm:py-16 md:py-20 lg:py-32 space-y-16 sm:space-y-20 md:space-y-24 lg:space-y-32 relative z-10">
 
-        {/* Mobile-Enhanced Personal Introduction Section */}
-        <section className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 md:gap-16 items-center">
+        {/* Personal Introduction with Zen Garden Theme */}
+        <section className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 md:gap-16 items-center relative">
+          <SectionGarden theme="zen" position="background" height="lg" zIndex={2} />
           {/* Mobile-optimized image presentation */}
           <div className="relative group order-2 lg:order-1">
             {/* Layered decorative backgrounds - smaller on mobile */}
@@ -200,8 +220,12 @@ export default async function AboutPage(props: { params: Promise<{ lang: Locale 
           </div>
         </section>
 
-        {/* Mobile-Enhanced Timeline Section */}
-        <section className="pt-12 sm:pt-16 md:pt-20">
+        {/* Garden Divider - Journey Path */}
+        <GardenDivider type="branch" size="md" zIndex={5} />
+
+        {/* Timeline Section with Forest Theme */}
+        <section className="pt-12 sm:pt-16 md:pt-20 relative">
+          <SectionGarden theme="forest" position="background" height="xl" zIndex={2} />
           <div className="text-center mb-12 sm:mb-16 md:mb-20">
             <div className="inline-flex items-center gap-2 bg-gradient-to-r from-[rgb(var(--color-tertiary))]/10 to-[rgb(var(--color-primary))]/10 backdrop-blur-sm px-3 sm:px-4 md:px-5 py-2 rounded-full text-[rgb(var(--color-tertiary))] font-semibold text-xs sm:text-sm mb-6 sm:mb-8 shadow-lg">
               <Calendar className="w-3 h-3 sm:w-4 sm:h-4" />
@@ -218,8 +242,12 @@ export default async function AboutPage(props: { params: Promise<{ lang: Locale 
           <Timeline data={timelineData} />
         </section>
 
-        {/* Mobile-Enhanced Mission Statement Section */}
-        <section className="text-center py-12 sm:py-16 md:py-20">
+        {/* Garden Divider - Wisdom Path */}
+        <GardenDivider type="flower" size="lg" zIndex={5} />
+
+        {/* Mission Statement with Herb Garden Theme */}
+        <section className="text-center py-12 sm:py-16 md:py-20 relative">
+          <SectionGarden theme="herb" position="background" height="lg" zIndex={2} />
           <div className="bg-card/70 backdrop-blur-xl rounded-2xl sm:rounded-3xl p-6 sm:p-8 md:p-10 lg:p-12 xl:p-16 shadow-xl sm:shadow-2xl hover:shadow-2xl sm:hover:shadow-3xl transition-all duration-700 max-w-5xl mx-auto relative overflow-hidden border border-[rgb(var(--color-primary))]/10 group">
             {/* Enhanced background gradient */}
             <div className="absolute inset-0 bg-gradient-to-br from-[rgb(var(--color-primary))]/8 via-[rgb(var(--color-secondary))]/5 to-transparent rounded-2xl sm:rounded-3xl opacity-50 group-hover:opacity-70 transition-opacity duration-500"></div>
@@ -274,8 +302,12 @@ export default async function AboutPage(props: { params: Promise<{ lang: Locale 
           </div>
         </section>
 
-        {/* ENHANCED Certifications Section with Images */}
-        <section className="py-12 sm:py-16 md:py-20">
+        {/* Garden Divider - Achievement Path */}
+        <GardenDivider type="vine" size="md" zIndex={5} />
+
+        {/* Certifications Section with Botanical Collection Theme */}
+        <section className="py-12 sm:py-16 md:py-20 relative">
+          <SectionGarden theme="botanical" position="background" height="xl" zIndex={2} />
           <div className="text-center mb-12 sm:mb-16">
             <div className="inline-flex items-center gap-2 bg-gradient-to-r from-[rgb(var(--color-primary))]/10 to-[rgb(var(--color-secondary))]/10 backdrop-blur-sm px-3 sm:px-4 md:px-5 py-2 rounded-full text-[rgb(var(--color-primary))] font-semibold text-xs sm:text-sm mb-6 sm:mb-8 shadow-lg">
               <Award className="w-3 h-3 sm:w-4 sm:h-4" />
@@ -291,15 +323,68 @@ export default async function AboutPage(props: { params: Promise<{ lang: Locale 
           <CertificationGallery dictionary={dictionary} />
         </section>
 
+        {/* Garden Divider - Official Recognition Path */}
+        <GardenDivider type="root" size="md" zIndex={5} />
+
+        {/* Official Recognition Section */}
+        <section className="official-recognition py-12 sm:py-16 md:py-20 relative">
+          <SectionGarden theme="zen" position="background" height="lg" zIndex={2} />
+          <div className="text-center mb-12 sm:mb-16">
+            <div className="inline-flex items-center gap-2 bg-gradient-to-r from-[rgb(var(--color-tertiary))]/10 to-[rgb(var(--color-primary))]/10 backdrop-blur-sm px-3 sm:px-4 md:px-5 py-2 rounded-full text-[rgb(var(--color-tertiary))] font-semibold text-xs sm:text-sm mb-6 sm:mb-8 shadow-lg">
+              <Award className="w-3 h-3 sm:w-4 sm:h-4" />
+              Numéros Officiels
+            </div>
+            
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4 sm:mb-6 tracking-tight px-4">
+              {dictionary.officialRecognition?.title || 'Reconnaissances Officielles'}
+            </h2>
+            <p className="text-sm sm:text-base md:text-lg text-[rgb(var(--color-text-secondary))] max-w-3xl mx-auto leading-relaxed px-4">
+              {dictionary.officialRecognition?.description || 'Praticienne certifiée avec numéros d\'enregistrement officiels'}
+            </p>
+          </div>
+          
+          <div className="certifications-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 max-w-6xl mx-auto">
+            {dictionary.officialRecognition?.certifications?.map((cert: { name: string; number: string; type: string }, index: number) => (
+              <div key={index} className="certification-card bg-card/70 backdrop-blur-xl rounded-2xl p-6 sm:p-8 shadow-xl hover:shadow-2xl transition-all duration-500 hover:transform hover:scale-[1.02] border border-[rgb(var(--color-primary))]/20">
+                <div className="text-center space-y-4">
+                  <div className="w-14 h-14 sm:w-16 sm:h-16 bg-gradient-to-br from-[rgb(var(--color-primary))] to-[rgb(var(--color-secondary))] rounded-2xl mx-auto flex items-center justify-center shadow-lg">
+                    <Award className="w-7 h-7 sm:w-8 sm:h-8 text-white" />
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-lg text-card-foreground mb-2">{cert.name}</h4>
+                    <span className="cert-type text-sm text-[rgb(var(--color-text-secondary))] block mb-3">{cert.type}</span>
+                    <span className="cert-number text-base font-bold text-[rgb(var(--color-primary))] bg-[rgb(var(--color-primary))]/10 px-3 py-1 rounded-full">
+                      {cert.number}
+                    </span>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+
       </main>
 
-      {/* Enhanced CTA Section */}
+      {/* Garden Divider - Call to Action Path */}
+      <GardenDivider type="canopy" size="lg" inverted={true} zIndex={5} />
+
+      {/* CTA Section with Grove Theme */}
       <section className="relative bg-gradient-to-br from-secondary/20 via-[rgb(var(--color-surface))]/30 to-secondary/20 backdrop-blur-sm">
+        <SectionGarden theme="grove" position="background" height="lg" zIndex={2} />
         <div className="absolute inset-0 bg-gradient-to-r from-[rgb(var(--color-primary))]/3 via-transparent to-[rgb(var(--color-tertiary))]/3"></div>
         <div className="relative z-10">
           <CtaSection dictionary={dictionary} lang={lang} />
         </div>
+        <SectionGarden theme="canopy" position="footer" height="sm" zIndex={2} />
       </section>
+
+      {/* Additional Floating Elements for Personal Touch */}
+      <FloatingBotanicals 
+        density="light" 
+        elements={['particles', 'pollen']} 
+        bounds="bottom"
+        zIndex={12}
+      />
     </div>
   );
 }

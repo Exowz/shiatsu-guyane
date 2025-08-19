@@ -9,94 +9,100 @@
     "bookNow": "Pedir Cita"
   },
   "homepage": {
-    "practitionerName": "Shiatsu Guayana",
+    "practitionerName": "Nathalie JEAN",
     "heroTitle": "Nathalie JEAN",
-    "heroSubtitle": "Redescubre tu serenidad con un enfoque terapéutico personalizado.",
-    "scrollDown": "Desplázate hacia abajo"
+    "heroSubtitle": "Shiatsu: El Arte del Bienestar Holístico",
+    "scrollDown": "Descubrir mi enfoque",
+    "credentials": {
+      "experience": "Más de 20 años de experiencia",
+      "startDate": "Desde el 8 de marzo de 2006",
+      "certification": "Licencia Federal FFST-2023-920938",
+      "sophrologist": "Sofróloga Certificada RNCP n°1100"
+    }
   },
   "aboutIntro": {
     "heading": "Bienvenida, soy Nathalie JEAN",
-    "paragraph": "Apasionada por las terapias manuales y el equilibrio energético, mi misión es acompañarte en el camino hacia el bienestar. Utilizo un enfoque suave y atento para ayudarte a liberar tensiones y recuperar tu vitalidad.",
-    "cta": "Descubrir mi trayectoria"
+    "paragraph": "El arte del diagnóstico energético a través de la observación, la escucha, el interrogatorio y el tacto. Desde hace más de 20 años, utilizo estos cuatro pilares fundamentales para ofrecer un acompañamiento holístico auténtico. Mi práctica se nutre de tres escuelas maestras: la escuela Namikoshi por su rigor anatómico, la escuela Masunaga por su dimensión psicosomática, y la escuela Seiki por el acompañamiento de la energía vital. Cada sesión es un viaje hacia tu equilibrio interior, guiado por un viejo conocido sin prejuicios.",
+    "cta": "Descubrir mis 20 años de experiencia"
   },
   "benefitsSection": {
-    "heading": "Los Beneficios Clave del Shiatsu",
+    "heading": "Mi Práctica en 6 Tarjetas Fundamentales",
     "cards": [
       {
-        "title": "Estrés y Ansiedad",
-        "description": "Para calmar el sistema nervioso, reducir la carga mental y encontrar un estado de calma profundo y duradero."
+        "title": "Relajación Nerviosa (Namikoshi)",
+        "description": "Armonización del sistema nervioso mediante presiones anatómicas precisas. Técnicas validadas científicamente para reducir el cortisol y la adrenalina, y favorecer la liberación de endorfinas naturales."
       },
       {
-        "title": "Dolores Físicos",
-        "description": "Para aliviar eficazmente el dolor de espalda, las tensiones musculares, las migrañas y los dolores articulares."
+        "title": "Equilibrio Emocional (Masunaga)",
+        "description": "Enfoque psicosomático que integra meridianos extendidos y la teoría de los 5 elementos. Diagnóstico mediante palpación abdominal (Hara) para identificar desequilibrios emocionales profundos."
       },
       {
-        "title": "Equilibrio y Vitalidad",
-        "description": "Para mejorar el sueño, estimular la digestión y recargar el cuerpo con energía vital para un bienestar general."
+        "title": "Circulación del Ki (Seiki)",
+        "description": "Acompañamiento de la energía vital mediante un tacto minimalista y respiración sincronizada. Técnica Gyooki (respirar con las manos) para rearmonizar la sutil circulación energética."
       },
       {
-        "title": "Acompañamiento en la Maternidad",
-        "description": "Para apoyar a las mujeres durante el embarazo y el posparto, aliviando las dolencias comunes y promoviendo la recuperación."
+        "title": "Apoyo Perinatal Certificado",
+        "description": "Protocolos especializados para el embarazo (a partir de los 4 meses) y el posparto. Técnicas adaptadas para lumbalgias, edemas y preparación al parto. Certificación Ohashiatsu Advanced para maternidad."
       },
       {
-        "title": "Trastornos Digestivos",
-        "description": "Para armonizar las funciones digestivas, reducir la hinchazón y mejorar el tránsito de forma natural."
+        "title": "Regulación Digestiva (MTC)",
+        "description": "Estimulación de puntos de Reflexoterapia y meridianos de Bazo-Páncreas, Estómago e Intestinos según la Medicina Tradicional China. Técnicas manuales para trastornos funcionales digestivos."
       },
       {
-        "title": "Soporte Inmunitario",
-        "description": "Para fortalecer las defensas naturales del organismo, prevenir enfermedades estacionales y aumentar la resiliencia del cuerpo."
+        "title": "Refuerzo Inmunitario",
+        "description": "Activación de puntos de acupuntura clave (36E, 6Rt, 20VG) para estimular las defensas naturales. Métodos probados para aumentar la resistencia a las infecciones estacionales."
       }
     ],
-    "cta": "Saber más sobre los beneficios"
+    "cta": "Descubrir mis 20 años de práctica"
   },
   "whatIsShiatsuSection": {
-    "heading": "¿Qué es el Shiatsu?",
-    "paragraph": "El Shiatsu es una terapia manual de origen japonés que utiliza la presión de los dedos y las palmas en todo el cuerpo. Su objetivo es restablecer la circulación de la energía vital, el 'Qi', para aliviar dolencias, revitalizar el cuerpo y calmar la mente.",
-    "cta": "Saber más sobre el Shiatsu"
+    "heading": "El Shiatsu Reconocido por la OMS",
+    "paragraph": "Desde 1997, la Organización Mundial de la Salud (OMS) reconoce el Shiatsu como un 'método de cuidado no convencional digno de interés'. Esta auténtica terapia manual japonesa utiliza presiones rítmicas de los dedos y las palmas para reequilibrar la circulación del Ki (energía vital) en los meridianos. Mi formación approfondie en las tres escuelas fundadoras me permite adaptar cada sesión a tus necesidades específicas: la rigurosa anatomía de Namikoshi, el enfoque psicosomático de Masunaga y la finura energética del Seiki.",
+    "cta": "Descubrir las 3 escuelas de Shiatsu"
   },
   "whoIsItForSection": {
-    "heading": "Un Acompañamiento Para Todos",
+    "heading": "Un Enfoque Médico Complementario Para Todos",
     "testimonials": [
       {
-        "quote": "Para gestionar el estrés diario, mejorar el sueño y reencontrar un estado de bienestar general.",
+        "quote": "Atención especial a los trastornos cardiovasculares, la hipertensión arterial, la diabetes y los trastornos tiroideos. El Shiatsu complementa eficazmente los tratamientos médicos convencionales.",
         "name": "Adultos",
-        "designation": "Equilibrio y Vitalidad",
+        "designation": "Enfoque Médico Complementario",
         "src": "/images/audience-adults.jpg"
       },
       {
-        "quote": "Para mantener la flexibilidad de las articulaciones, aliviar el dolor crónico y preservar la movilidad.",
+        "quote": "Acompañamiento especializado para la artrosis, el reumatismo, la osteoporosis y los trastornos del equilibrio. Precauciones especiales para los tratamientos anticoagulantes.",
         "name": "Mayores",
-        "designation": "Movilidad y Confort",
+        "designation": "Geriatría y Medicina Suave",
         "src": "/images/audience-seniors.jpg"
       },
       {
-        "quote": "Para aliviar las molestias del embarazo (dolor de espalda, piernas pesadas) y prepararse serenamente para el parto.",
+        "quote": "Contraindicaciones formales en el 1er trimestre. A partir del 4º mes: alivio de lumbalgias, edemas y preparación al parto. Es obligatorio un consejo médico previo.",
         "name": "Embarazadas",
-        "designation": "Serenidad y Preparación",
+        "designation": "Protocolo Médico Estricto",
         "src": "/images/audience-pregnant.jpg"
       },
       {
-        "quote": "Para optimizar la recuperación, prevenir lesiones y mejorar el rendimiento físico y mental.",
+        "quote": "Protocolo precompetición y postesfuerzo. Atención a lesiones recientes, esguinces graves y fracturas. Coordinación con médicos deportivos y fisioterapeutas.",
         "name": "Deportistas",
-        "designation": "Rendimiento y Recuperación",
+        "designation": "Medicina Deportiva",
         "src": "/images/audience-athletes.jpg"
       },
       {
-        "quote": "Para ayudar a gestionar el estrés relacionado con los estudios, los exámenes y mejorar la concentración.",
+        "quote": "Enfoque adaptado para trastornos alimentarios, escoliosis, dolores de crecimiento. Atención especial a los estados depresivos y trastornos de ansiedad. Se recomienda el acompañamiento de los padres.",
         "name": "Adolescentes",
-        "designation": "Concentración y Confianza",
+        "designation": "Pediatría Especializada",
         "src": "/images/audience-teenagers.jpg"
       },
       {
-        "quote": "Para reducir el estrés laboral, prevenir el burnout y mejorar el bienestar de los empleados.",
+        "quote": "Prevención de Trastornos Musculoesqueléticos (TME), gestión del estrés profesional y del burnout. Intervenciones certificadas para la Calidad de Vida en el Trabajo (CVT).",
         "name": "Empresas",
-        "designation": "Bienestar en el Trabajo",
+        "designation": "Salud Laboral Certificada",
         "src": "/images/audience-companies.jpg"
       },
       {
-        "quote": "Para calmar el llanto, aliviar los cólicos y promover un sueño tranquilo desde los primeros meses.",
+        "quote": "Técnicas ultrasuaves para cólicos, trastornos del sueño y desarrollo psicomotor. Contraindicaciones: fiebre, infecciones, problemas cardíacos. Es obligatorio el consentimiento paterno por escrito.",
         "name": "Bebés",
-        "designation": "Dulzura y Calma",
+        "designation": "Pediatría Certificada",
         "src": "/images/audience-babies.jpg"
       }
     ],
@@ -130,7 +136,7 @@
       {
         "author_name": "Hélène M.",
         "rating": 5,
-        "text": "Excelente profesional, experimentada y muy atenta. ¡Bravo!",
+        "text": "Profesional experta, experimentada y muy atenta. ¡Bravo!",
         "date": "2025-07-01"
       },
       {
@@ -142,34 +148,60 @@
       {
         "author_name": "Virginie D.",
         "rating": 5,
-        "text": "Una cálida bienvenida y una escucha atenta, te sientes en confianza desde los primeros minutos. Un bienestar que se siente desde la primera cita. ¡Muchas gracias, Nathalie!",
+        "text": "Una cálida bienvenida y una escucha auténtica, te sientes en confianza desde los primeros minutos. Un bienestar que se siente desde la primera cita. ¡Muchas gracias, Nathalie!",
         "date": "2025-04-25"
       }
     ]
   },
   "ctaSection": {
-    "heading": "¿Lista para reencontrar tu bienestar?",
-    "subheading": "Reserva tu sesión de Shiatsu personalizada y comienza hoy tu viaje hacia la serenidad.",
+    "heading": "Como un Viejo Conocido Sin Prejuicios",
+    "subheading": "Después de 20 años de práctica, he aprendido a convertirme en esa presencia familiar y tranquilizadora que te acompaña sin restricciones hacia tu equilibrio interior. Cada sesión es un diálogo silencioso entre mis manos y tu energía vital.",
     "button": "Pedir Cita",
-    "badge": "Tu Viaje Comienza Aquí",
+    "badge": "20 Años de Acompañamiento Generoso",
     "trustElements": {
-      "personalizedConsultation": "Consulta personalizada",
-      "certifiedPractitioner": "Profesional certificada",
-      "kindApproach": "Enfoque amable"
+      "personalizedConsultation": "Diagnóstico energético personalizado (BO SHIN, MON SHIN)",
+      "certifiedPractitioner": "Dominio de las 3 escuelas: Namikoshi, Masunaga, Seiki",
+      "kindApproach": "Acompañamiento humano"
     },
     "bookingSection": {
-      "title": "Reserva Tu Sesión",
-      "description": "Pide tu cita directamente en línea y comienza tu camino hacia un bienestar duradero.",
-      "reassurance": "Reserva sencilla y segura"
+      "title": "Tu Primera Cita te Espera",
+      "description": "Comienza tu viaje hacia el equilibrio energético. Reserva directamente en línea en Resalib, una plataforma segura y simplificada.",
+      "reassurance": "Cita confirmada en un máximo de 24 horas"
     },
     "secondaryButtons": {
-      "question": "¿Tienes una pregunta?",
-      "pricing": "Ver las tarifas"
+      "question": "Hacer una pregunta",
+      "pricing": "Descubrir las tarifas"
     },
     "quote": {
-      "text": "Cada viaje hacia el bienestar comienza con un primer paso. Confía en tu intuición y regálate el momento de cuidado que mereces.",
-      "attribution": "— Nathalie Jean, Profesional de Shiatsu Certificada"
+      "text": "No curo a nadie. Simplemente te acompaño a redescubrir tu propia capacidad de autorregulación y equilibrio. Es tu energía la que guía, mis manos solo escuchan y acompañan.",
+      "attribution": "— Nathalie JEAN, 20 años de práctica auténtica de Shiatsu"
     }
+  },
+  "officialRecognition": {
+    "title": "Reconocimientos Oficiales",
+    "description": "Profesional certificada con números de registro oficiales",
+    "certifications": [
+      {
+        "name": "Federación Francesa de Shiatsu Tradicional",
+        "number": "FFST-2023-920938",
+        "type": "Licencia Federal"
+      },
+      {
+        "name": "Sofróloga Certificada RNCP",
+        "number": "n°1100",
+        "type": "Certificación"
+      },
+      {
+        "name": "Formadora Certificada",
+        "number": "03973228297",
+        "type": "N° de formadora"
+      },
+      {
+        "name": "Categoría de Profesora FFST",
+        "number": "4638-533",
+        "type": "N° de profesora"
+      }
+    ]
   },
   "shiatsuPage": {
     "title": "Shiatsu: Un Enfoque Detallado de la Terapia Manual Japonesa",
@@ -213,7 +245,7 @@
           "content": [
             {
               "heading": "Fundador e Historia",
-              "text": "Tokujiro Namikoshi (1905-2000) es universalmente reconocido como el padre del shiatsu moderno. Su enfoque revolucionario surgió de una experiencia personal: a los 7 años, descubrió empíricamente que la 'presión' era más beneficiosa que la fricción para aliviar el reumatismo de su madre. En 1955, su escuela obtuvo la licencia oficial del Ministerio de Salud japonés."
+              "text": "Tokujiro Namikoshi (1905-2000) es universalmente reconocido como el padre del shiatsu moderno. Su enfoque revolucionario surgió de una experiencia personal: a los 7 años, descubrió empíricamente que la 'presión' era más beneficiosa que la fricción para aliviar el reumatismo de su madre. La salud de su madre mejoró considerablemente y vivió hasta los 88 años."
             },
             {
               "heading": "Desarrollo Institucional",
@@ -320,6 +352,29 @@
           ]
         }
       ]
+    },
+    "philosophy": {
+      "heading": "Filosofía del Ki y Circulación Energética",
+      "introduction": "Mi práctica se basa en una comprensión profunda de los principios energéticos orientales, enriquecida por 20 años de experiencia clínica y el estudio de tres escuelas maestras.",
+      "concepts": [
+        {
+          "title": "El Ki - Energía Vital Universal",
+          "description": "El Ki (o Qi en chino) es la energía fundamental que anima toda vida. En el cuerpo humano, circula a lo largo de canales llamados meridianos, nutriendo cada órgano, cada célula. Mi papel es detectar bloqueos, excesos o vacíos energéticos y restaurar una circulación armoniosa."
+        },
+        {
+          "title": "Seiki - Acompañar la Energía",
+          "description": "Según la enseñanza del maestro Kishi, Seiki significa 'acompañar la energía vital'. Este enfoque sutil no fuerza nada sino que escucha, siente y guía la energía hacia su estado natural de equilibrio. Es un arte de presencia e intuición desarrollada."
+        },
+        {
+          "title": "Wei Wu Wei - Actuar por No-Actuar",
+          "description": "Principio taoísta fundamental: actuar con mínima intervención para máxima eficacia. Mis manos se convierten en instrumentos de escucha más que de acción. Es tu propia energía la que guía el proceso de curación, yo solo la acompaño."
+        },
+        {
+          "title": "Mushin - La Mente Sin Mente",
+          "description": "Estado de conciencia libre de toda expectativa, de todo juicio. Durante la sesión, entro en este estado meditativo que permite una conexión auténtica con tu energía. Es en este vacío mental donde la intuición terapéutica puede expresarse plenamente."
+        }
+      ],
+      "integration": "Estos conceptos no son solo teoría - son vividos e integrados en cada momento de la sesión. Después de 20 años de práctica, se han convertido en la sustancia misma de mi enfoque, permitiendo un acompañamiento de rara autenticidad."
     },
     "sessionFlow": {
       "heading": "Cómo se Desarrolla una Sesión",
@@ -515,6 +570,18 @@
         {
           "name": "Sesión para Niños / Bebés",
           "description": "Apoyo suave y adaptado para los más pequeños, desde bebés hasta adolescentes."
+        },
+        {
+          "name": "Moxibustión (Artemisa)",
+          "description": "Estimulación térmica de puntos de acupuntura mediante la combustión de artemisa. Una técnica tradicional para fortalecer la energía Yang y mejorar la circulación."
+        },
+        {
+          "name": "Masaje AMMA Sentado",
+          "description": "Masaje tradicional japonés en silla ergonómica. Ideal para entornos corporativos y personas con movilidad reducida. Sesiones de 20 a 30 minutos."
+        },
+        {
+          "name": "Shiatsu con Aceites Esenciales",
+          "description": "Una fusión única de Shiatsu tradicional y aromaterapia certificada. Selección personalizada de aceites según tu perfil energético y emocional."
         }
       ]
     },
@@ -554,7 +621,7 @@
             },
             {
               "name": "ESTIRAMIENTOS ZEN (Makko Ho)",
-              "description": "Ideal para restablecer el contacto con el cuerpo, combatir el estrés y relajarse sin esfuerzo. Cada postura, mantenida durante 6 respirações profundas, proporciona relajación y desapego."
+              "description": "Ideal para restablecer el contacto con el cuerpo, combatir el estrés y relajarse sin esfuerzo. Cada postura, mantenida durante 6 respiraciones profundas, proporciona relajación y desapego."
             },
             {
               "name": "Iniciación a la Relajación de las Manos",
@@ -599,36 +666,69 @@
     "title": "Información Práctica",
     "subtitle": "Todo lo que necesitas saber para preparar tu sesión y disfrutar plenamente de sus beneficios.",
     "sessionFlow": {
-      "heading": "Desarrollo de una Sesión Típica",
+      "heading": "Protocolo Tradicional en 4 Pasos",
       "steps": [
         {
-          "name": "La Conversación",
-          "description": "Comenzamos con un diálogo confidencial para entender tus expectativas y realizar un balance energético."
+          "name": "BO SHIN (Observación)",
+          "description": "Diagnóstico visual: postura, marcha, complexión, expresión. Observo tu constitución según los criterios de la Medicina Tradicional China para adaptar mi enfoque."
         },
         {
-          "name": "El Tratamiento de Shiatsu",
-          "description": "El tratamiento se realiza vestido, sobre un cómodo futón en el suelo. Aplico presiones y estiramientos en todo el cuerpo."
+          "name": "MON SHIN (Interrogatorio)",
+          "description": "Entrevista en profundidad sobre tu historial médico, tratamientos actuales, contraindicaciones. Evaluación de tu estado emocional y objetivos terapéuticos."
         },
         {
-          "name": "El Cierre",
-          "description": "Finalizamos con un breve diálogo sobre tus sensaciones y puedo ofrecerte consejos personalizados para tu día a día."
+          "name": "SETSU SHIN (Palpación y Tratamiento)",
+          "description": "Diagnóstico táctil mediante la palpación de los meridianos y el Hara (abdomen). Tratamiento de Shiatsu personalizado según tu perfil energético, integrando técnicas de las 3 escuelas."
+        },
+        {
+          "name": "BUN SHIN (Escucha y Consejo)",
+          "description": "Resumen posterior a la sesión y escucha de tus sensaciones. Consejos personalizados: automasaje, ejercicios de respiración (Do-In), estilo de vida según tu evaluación energética."
         }
       ]
     },
+    "contraindications": {
+      "heading": "Contraindicaciones Médicas Importantes",
+      "absolute": {
+        "title": "Contraindicaciones Absolutas",
+        "items": [
+          "Fiebre superior a 38°C",
+          "Infecciones agudas en evolución",
+          "Cánceres en fase activa (se requiere el consejo del oncólogo)",
+          "Trastornos cardíacos graves no estabilizados",
+          "Primer trimestre de embarazo (0-3 meses)",
+          "Heridas abiertas, quemaduras recientes"
+        ]
+      },
+      "relative": {
+        "title": "Precauciones Especiales",
+        "items": [
+          "Tratamientos anticoagulantes (ajuste de la presión)",
+          "Osteoporosis severa (solo técnicas suaves)",
+          "Hipertensión no controlada (monitorización de la tensión arterial)",
+          "Trastornos psiquiátricos graves (acuerdo médico)",
+          "Implantes recientes (marcapasos, prótesis)",
+          "Venas varicosas importantes (evitar las zonas afectadas)"
+        ]
+      }
+    },
     "recommendations": {
-      "heading": "¿Cómo Prepararse?",
+      "heading": "Preparación Óptima para tu Sesión",
       "points": [
         {
-          "name": "Vestimenta Cómoda",
-          "description": "Usa ropa suave y cómoda (pantalón de chándal, leggings, camiseta holgada) para permitir libertad de movimiento."
+          "name": "Vestimenta Tradicional Recomendada",
+          "description": "Ropa holgada y cómoda de fibras naturales (algodón, lino). Evita los sintéticos y las costuras prominentes que perturban la circulación energética. Sin joyas de metal."
         },
         {
-          "name": "Comida Ligera",
-          "description": "Evita comer una comida pesada justo antes de la sesión para mayor comodidad."
+          "name": "Protocolo Alimentario",
+          "description": "Ayuna al menos 2 horas antes de la sesión. Evita el alcohol, el café y los estimulantes 4 horas antes. Hidratación moderada (vejiga vacía para el diagnóstico abdominal)."
         },
         {
-          "name": "Después de la Sesión",
-          "description": "Planifica un tiempo de tranquilidad después del tratamiento. Hidrátate bien para ayudar a tu cuerpo a eliminar toxinas."
+          "name": "Postratamiento y Reacciones",
+          "description": "Descansa al menos 30 minutos después de la sesión. Hidratación abundante (1,5L en 24h). Posibles reacciones: fatiga, emociones, empeoramiento temporal (señal de liberación energética)."
+        },
+        {
+          "name": "Medicamentos y Tratamientos",
+          "description": "Infórmame de todos los tratamientos actuales. NUNCA interrumpas un tratamiento médico. El Shiatsu complementa pero no sustituye a la medicina convencional."
         }
       ]
     },
@@ -661,6 +761,11 @@
         "description": "Gracias por tu mensaje. Te responderemos lo antes posible.",
         "sendAnother": "Enviar otro mensaje"
       },
+      "error": {
+        "title": "Error de Envío",
+        "description": "Se ha producido un error al enviar tu mensaje.",
+        "tryAgain": "Intentar de Nuevo"
+      },
       "privacy": {
         "title": "Privacidad garantizada",
         "description": "Tu información personal está protegida y solo se utilizará para responderte. Respetamos tu privacidad y nunca compartimos tus datos."
@@ -680,7 +785,7 @@
         "benefits": {
           "freeConsultation": "Consulta gratuita de 15 minutos",
           "personalizedAdvice": "Asesoramiento personalizado según tus necesidades",
-          "kindApproach": "Enfoque amable y profesional"
+          "kindApproach": "Enfoque humano y profesional"
         },
         "otherContact": {
           "title": "Otras formas de contacto",
@@ -711,16 +816,16 @@
           "details": "Formación completa - Aromaterapia y Shiatsu"
         },
         "ohashiatsuAdvanced": {
-          "title": "Programa Avanzado Ohashiatsu®",
-          "organization": "The Ohashi Institute",
+          "title": "Programa Avanzado de Ohashiatsu®",
+          "organization": "El Instituto Ohashi",
           "year": "2008",
           "details": "Certificación internacional avanzada"
         },
         "ohashiatsuInstructor": {
-          "title": "Instructor Certificado Ohashiatsu®",
-          "organization": "The Ohashi Institute",
+          "title": "Instructor Certificado de Ohashiatsu®",
+          "organization": "El Instituto Ohashi",
           "year": "2012",
-          "details": "Habilitación para la enseñanza"
+          "details": "Cualificación para la enseñanza"
         },
         "seikiShiatsu": {
           "title": "Seiki Shiatsu",
@@ -729,7 +834,7 @@
           "details": "83h con el Maestro Tzvika Calisar"
         },
         "sophrologie": {
-          "title": "Sofrólogo Certificado",
+          "title": "Sofróloga Certificada",
           "organization": "Academia de Sofrología de París",
           "year": "2023",
           "details": "RNCP Nivel 5 - Código NSF 330p"
@@ -798,8 +903,8 @@
           "description": "Adaptado a tus necesidades"
         },
         "compassionateListening": {
-          "title": "Escucha compasiva",
-          "description": "Un acompañamiento humano"
+          "title": "Escucha auténtica",
+          "description": "Atención sincera a tus necesidades"
         }
       },
       "additionalCta": "Descubre mi trayectoria y mi pasión por el bienestar",
@@ -853,12 +958,13 @@
     },
     "footer": {
       "practitioner": {
-        "name": "Nathalie Jean",
-        "description": "Profesional de Shiatsu Certificada",
-        "longDescription": "Acompañamiento personalizado hacia un bienestar duradero gracias al arte tradicional japonés del Shiatsu. Un enfoque holístico que armoniza cuerpo, mente y energía vital.",
-        "certification": "Certificada FFST",
-        "experience": "+15 años de experiencia",
-        "membershipFFST": "Miembro de la Federación Francesa de Shiatsu Tradicional"
+        "name": "Nathalie JEAN",
+        "description": "Profesional de Shiatsu Certificada - +20 años de experiencia",
+        "longDescription": "Formada en 3 escuelas (Namikoshi, Masunaga, Seiki Shiatsu). Acompañamiento holístico desde el 8 de marzo de 2006 con el método tradicional BO SHIN, MON SHIN, BUN SHIN, SETSU SHIN.",
+        "certification": "Sofróloga Certificada RNCP n°1100",
+        "certification2": "Instructora Certificada de Ohashiatsu®",
+        "experience": "Desde el 8 de marzo de 2006",
+        "memberships": "Miembro de FFST, UFPMTC, UFPST"
       },
       "contact": {
         "title": "Contacto",
@@ -909,9 +1015,9 @@
       "wellbeingBadge": "Bienestar Auténtico",
       "discover": "Descubrir",
       "credentials": {
-        "certifiedInstructor": "Instructor Certificado",
-        "experience": "18+ años de experiencia",
-        "certifiedSophrologist": "Sofrólogo RNCP"
+        "certifiedInstructor": "Formadora Experta",
+        "experience": "+18 años de experiencia",
+        "certifiedSophrologist": "Sofróloga RNCP"
       }
     },
     "reviews": {
@@ -1003,35 +1109,55 @@
     "description": "Consulta de Shiatsu en Guayana para la gestión del estrés, el dolor y el reequilibrio energético."
   },
   "aboutPage": {
-    "title": "Sobre Nathalie JEAN",
-    "subtitle": "Mi trayectoria es una convergencia entre una pasión por las relaciones humanas y una profunda creencia en las capacidades de autosanación del cuerpo.",
+    "title": "Nathalie JEAN - 20 Años de Experiencia en Shiatsu",
+    "subtitle": "Desde mi primera certificación el 8 de marzo de 2006 hasta hoy, un camino dedicado al verdadero arte del Shiatsu tradicional japonés y al acompañamiento generoso de cada persona.",
     "intro": {
-      "heading": "Mi Filosofía",
-      "p1": "Creo firmemente que cada individuo posee en su interior los recursos necesarios para reencontrar su equilibrio. Mi papel es acompañarte con amabilidad, ser una facilitadora en tu camino hacia el bienestar.",
-      "p2": "Mi enfoque es holístico: considera a la persona en todas sus dimensiones – física, emocional y espiritual. Cada sesión es un espacio de escucha y respeto, totalmente personalizado para responder a tus necesidades únicas."
+      "heading": "Un momento que debe ser como un intercambio con un viejo conocido sin juicios ni prejuicios.",
+      "p1": "Después de 20 años de práctica, he desarrollado esta capacidad de convertirme en una presencia familiar y tranquilizadora para mis pacientes, libre de todo juicio. Mi enfoque se inspira en los maestros: el rigor científico de Namikoshi, la profundidad psicosomática de Masunaga y la finura energética del Seiki de Kishi.",
+      "p2": "Cada sesión es un diálogo silencioso entre mis manos y tu cuerpo, guiado por más de dos décadas de experiencia y aprendizaje continuo. No curo; acompaño tu propia capacidad de autorregulación hacia el equilibrio."
     },
     "timeline": {
-      "heading": "Trayectoria y Formaciones Clave",
+      "heading": "Mi Trayectoria Profesional - Más de 20 Años de Experiencia",
       "events": [
         {
-          "year": "2021",
-          "title": "Certificación en Shiatsu Tradicional",
-          "description": "Obtención de mi certificación tras 3 años de formación intensiva, marcando el inicio de mi práctica profesional."
+          "year": "2005",
+          "title": "Escuela André Nahum - Shiatsu según Namikoshi",
+          "description": "Formación en la escuela fundadora del Shiatsu moderno, basada en la anatomía occidental y las técnicas de presión desarrolladas por Tokujiro Namikoshi."
+        },
+        {
+          "year": "2006",
+          "title": "Inicio de la Práctica Profesional",
+          "description": "El 8 de marzo de 2006 marca el inicio de mi acompañamiento profesional. Desde esa fecha, acompaño a mis pacientes con la misma dedicación y placer."
+        },
+        {
+          "year": "2008",
+          "title": "CERTIFICADO DE OHASHIATSU - Certificación terapéutica",
+          "description": "Profundización con el enfoque Ohashiatsu, integrando una dimensión psicocorporal y energética para un acompañamiento más completo."
+        },
+        {
+          "year": "2009",
+          "title": "Profesora de Masajes de Bienestar - Spa 5 Mondes",
+          "description": "Experiencia docente en el Spa 5 Mondes, enriqueciendo mi práctica con la experiencia en un centro de bienestar de lujo."
+        },
+        {
+          "year": "2012",
+          "title": "Certificación de Instructora de Ohashiatsu",
+          "description": "Obtención de la certificación de instructora, lo que me permite transmitir las técnicas de Ohashiatsu y formar a otros profesionales."
         },
         {
           "year": "2022",
-          "title": "Especialización en Acompañamiento en la Maternidad",
-          "description": "Formación complementaria para acompañar a mujeres embarazadas y en posparto con técnicas de Shiatsu adaptadas."
+          "title": "Formación en SEIKI SHIATSU con Tzvika Calisar",
+          "description": "Inicio de la formación avanzada en el arte del Seiki Shiatsu, el enfoque más sutil del Shiatsu, basado en el acompañamiento de la energía vital primaria."
         },
         {
           "year": "2023",
-          "title": "Apertura del Consultorio en Remire-Montjoly",
-          "description": "Creación de un espacio dedicado al bienestar y la serenidad para recibir a mis clientes en Guayana."
+          "title": "Certificación de Sofrología RNCP",
+          "description": "Obtención de la certificación de Sofróloga RNCP n°1100, añadiendo una dimensión de relajación y gestión del estrés a mi práctica."
         },
         {
           "year": "2024",
-          "title": "Formación en Sofrología y Do-In",
-          "description": "Adición de nuevas competencias para ofrecer un acompañamiento aún más completo, incluyendo técnicas de relajación y automasaje."
+          "title": "Finalización de la Formación en Seiki Shiatsu",
+          "description": "Finalización de la formación completa de 83 horas en Seiki Shiatsu, dominando este enfoque energético avanzado para un acompañamiento aún más sutil."
         }
       ]
     },
@@ -1039,186 +1165,264 @@
       "badges": {
         "myJourney": "Mi Trayectoria",
         "myStory": "Mi Historia",
-        "professionalPath": "Camino Profesional",
+        "professionalPath": "Trayectoria Profesional",
         "recognitions": "Certificaciones y Reconocimientos"
       },
       "credentials": {
-        "ohashiatsuInstructor": "Instructor Certificado Ohashiatsu®",
-        "experience": "18+ años de experiencia",
-        "certifiedSophrologist": "Sofrólogo Certificado RNCP",
-        "practitionerTitle": "Profesional Certificada de Shiatsu"
+        "ohashiatsuInstructor": "Instructora Certificada de Ohashiatsu®",
+        "experience": "+20 años de experiencia",
+        "certifiedSophrologist": "Sofróloga Certificada RNCP n°1100",
+        "practitionerTitle": "Profesional de Shiatsu Certificada"
       },
       "values": {
-        "kindness": "Amabilidad",
-        "kindnessDesc": "Escucha profunda y respeto",
-        "excellence": "Excelencia",
-        "excellenceDesc": "Formación continua",
+        "kindness": "Generosidad",
+        "kindnessDesc": "Escucha y respeto profundos",
+        "excellence": "Experiencia",
+        "excellenceDesc": "Formación continua y dominio técnico",
         "humanApproach": "Enfoque Humano",
-        "humanApproachDesc": "Cada persona es única y merece atención personalizada",
+        "humanApproachDesc": "Cada persona es única y merece una atención personalizada",
         "durableResults": "Resultados Duraderos",
-        "durableResultsDesc": "Soluciones diseñadas para durar para un bienestar óptimo",
+        "durableResultsDesc": "Soluciones que perduran para un bienestar óptimo",
         "continuousInnovation": "Innovación Continua",
-        "continuousInnovationDesc": "Integración de las últimas técnicas para máxima eficacia"
+        "continuousInnovationDesc": "Integración de las últimas técnicas para una máxima eficacia"
       },
       "mission": {
         "title": "Mi Misión",
-        "quote": "Acompañar a cada persona hacia un bienestar duradero armonizando cuerpo, mente y energía vital. El Shiatsu no es solo una técnica, es un arte de vivir que transforma profundamente."
+        "quote": "Acompañar a cada persona hacia un bienestar duradero armonizando cuerpo, mente y energía vital. El Shiatsu no es solo una técnica; es un arte de vivir que transforma profundamente."
       },
       "certifications": {
-        "sectionTitle": "Excelencia Reconocida",
-        "sectionDesc": "Certificaciones y formaciones que garantizan la calidad de mis tratamientos"
+        "sectionTitle": "Experiencia Reconocida",
+        "sectionDesc": "Certificaciones y formaciones que garantizan la calidad de mis cuidados",
+        "heading": "Certificaciones y Reconocimientos",
+        "items": [
+          "Sofróloga Certificada RNCP n°1100",
+          "N° de formadora 03973228297",
+          "Licencia Federal FFST-2023-920938",
+          "N° de profesora de categoría 4638-533",
+          "Profesora de Masajes de Bienestar",
+          "Profesional de Masajes relacionados con los 5 elementos",
+          "Experiencia en el Spa 5 Mondes de 2008 a 2009"
+        ]
       },
       "navigation": {
         "discoverMyStory": "Descubre mi historia",
-        "discoverSteps": "Descubre los pasos clave que moldearon mi experiencia y pasión por el Shiatsu."
+        "discoverSteps": "Descubre los pasos clave que han dado forma a mi experiencia y mi pasión por el Shiatsu."
       }
-    }
-  },
-  "signupDemo": {
-    "title": "Bienvenido a Aceternity",
-    "subtitle": "Inicia sesión en Aceternity si puedes porque aún no tenemos un flujo de inicio de sesión",
-    "fields": {
-      "firstName": "Nombre",
-      "lastName": "Apellido",
-      "email": "Dirección de correo electrónico",
-      "password": "Contraseña",
-      "twitterPassword": "Tu contraseña de twitter"
-    },
-    "placeholders": {
-      "firstName": "Juan",
-      "lastName": "Pérez",
-      "email": "juan.perez@ejemplo.com",
-      "password": "••••••••"
-    },
-    "buttons": {
-      "signUp": "Registrarse →",
-      "github": "GitHub",
-      "google": "Google",
-      "onlyFans": "OnlyFans"
-    }
-  },
-  "uiDemo": {
-    "dropdown": {
-      "postActions": "Acciones de la publicación",
-      "edit": "Editar",
-      "duplicate": "Duplicar",
-      "share": "Compartir",
-      "remove": "Eliminar"
     }
   },
   "legal": {
     "privacyPolicy": {
-      "title": "Política de Privacidad",
-      "lastUpdated": "Última actualización: {{date}}",
-      "intro": "En Shiatsu Guayana, respetamos su privacidad y nos comprometemos a proteger sus datos personales. Esta política de privacidad explica cómo recopilamos, utilizamos y protegemos su información.",
+      "badge": "Política de Privacidad",
+      "title": "Protección de tus Datos Personales",
+      "subtitle": "Esta política explica cómo recopilamos, usamos y protegemos tus datos personales de acuerdo con el RGPD y la normativa francesa.",
+      "lastUpdated": "Última actualización: Enero de 2025",
+      "controller": {
+        "title": "Responsable del Tratamiento",
+        "name": "Nathalie JEAN - Profesional de Shiatsu",
+        "description": "Profesional certificada por la FFST, miembro de la Federación Francesa de Shiatsu Tradicional",
+        "contact": {
+          "email": "Correo electrónico de contacto",
+          "phone": "Teléfono"
+        }
+      },
       "dataCollection": {
-        "title": "Recopilación de Datos",
-        "description": "Recopilamos información que usted nos proporciona directamente cuando:",
-        "items": [
-          "Rellena formularios de contacto en nuestro sitio web",
-          "Solicita una cita o información sobre nuestros servicios",
-          "Se suscribe a nuestro boletín informativo",
-          "Interactúa con nosotros a través de redes sociales"
+        "title": "Datos Recopilados",
+        "personalData": {
+          "title": "Datos Personales (Formulario de Contacto)",
+          "types": [
+            "Nombre y apellido",
+            "Dirección de correo electrónico",
+            "Mensaje y solicitudes específicas",
+            "Preferencia de idioma",
+            "Fecha y hora del contacto"
+          ]
+        },
+        "automaticData": {
+          "title": "Datos Técnicos (Automáticos)",
+          "types": [
+            "Dirección IP (anonimizada después de 48h)",
+            "Tipo y versión del navegador",
+            "Sistema operativo",
+            "Páginas visitadas y duración",
+            "Referente de la visita"
+          ]
+        }
+      },
+      "legalBasis": {
+        "title": "Base Jurídica para el Tratamiento",
+        "basisLabel": "Base jurídica",
+        "purposes": [
+          {
+            "purpose": "Tramitación de solicitudes de contacto",
+            "basis": "Interés legítimo",
+            "description": "Para responder a tus preguntas y organizar citas terapéuticas"
+          },
+          {
+            "purpose": "Mejora de los servicios",
+            "basis": "Interés legítimo",
+            "description": "Para adaptar nuestros servicios a tus necesidades y mejorar la experiencia del usuario"
+          },
+          {
+            "purpose": "Cumplimiento normativo",
+            "basis": "Obligación legal",
+            "description": "Cumplimiento de las obligaciones de la FFST y de la normativa sanitaria"
+          },
+          {
+            "purpose": "Comunicaciones personalizadas",
+            "basis": "Consentimiento",
+            "description": "Envío de información sobre nuestros servicios (con opción de darse de baja)"
+          }
         ]
       },
-      "dataUsage": {
-        "title": "Uso de los Datos",
-        "description": "Utilizamos sus datos personales para:",
-        "items": [
-          "Responder a sus consultas y solicitudes de información",
-          "Programar y gestionar sus citas",
-          "Proporcionar los servicios de bienestar solicitados",
-          "Enviarle información relevante sobre nuestros servicios (con su consentimiento)",
-          "Mejorar nuestros servicios y la experiencia del usuario"
+      "yourRights": {
+        "title": "Tus Derechos RGPD",
+        "description": "De acuerdo con el RGPD, tienes los siguientes derechos sobre tus datos personales:",
+        "rights": [
+          {
+            "name": "Derecho de acceso",
+            "description": "Obtener una copia de los datos que te conciernen"
+          },
+          {
+            "name": "Derecho de rectificación",
+            "description": "Corregir datos inexactos o incompletos"
+          },
+          {
+            "name": "Derecho de supresión",
+            "description": "Solicitar la eliminación de tus datos"
+          },
+          {
+            "name": "Derecho de oposición",
+            "description": "Oponerte al tratamiento de tus datos"
+          },
+          {
+            "name": "Derecho a la portabilidad",
+            "description": "Recuperar tus datos en un formato estructurado"
+          },
+          {
+            "name": "Derecho de limitación",
+            "description": "Limitar el tratamiento de tus datos"
+          }
+        ],
+        "contact": {
+          "title": "Para ejercer tus derechos",
+          "description": "Contáctanos por correo electrónico o por teléfono. Se garantiza una respuesta en un plazo de 30 días."
+        }
+      },
+      "dataSecurity": {
+        "title": "Seguridad de los Datos",
+        "description": "Implementamos medidas técnicas y organizativas adecuadas para proteger tus datos:",
+        "measures": [
+          "Cifrado SSL/TLS para todas las comunicaciones",
+          "Alojamiento seguro con copia de seguridad automática",
+          "Acceso limitado a los datos según la necesidad de conocer",
+          "Supervisión y detección de incidentes de seguridad",
+          "Formación periódica sobre protección de datos",
+          "Auditoría de seguridad y actualizaciones del sistema"
         ]
       },
-      "dataProtection": {
-        "title": "Protección de Datos",
-        "description": "Implementamos medidas de seguridad técnicas y organizativas apropiadas para proteger sus datos personales contra el acceso no autorizado, la alteración, divulgación o destrucción."
-      },
-      "rights": {
-        "title": "Sus Derechos",
-        "description": "De acuerdo con el RGPD, usted tiene derecho a:",
-        "items": [
-          "Acceder a sus datos personales",
-          "Rectificar datos inexactos o incompletos",
-          "Solicitar la eliminación de sus datos",
-          "Oponerse al tratamiento de sus datos",
-          "Solicitar la portabilidad de sus datos"
+      "cookies": {
+        "title": "Política de Cookies",
+        "description": "Nuestro sitio utiliza cookies para mejorar tu experiencia de navegación:",
+        "duration": "Duración",
+        "types": [
+          {
+            "name": "Cookies Técnicas",
+            "description": "Necesarias para el funcionamiento del sitio (navegación, seguridad)",
+            "duration": "Sesión"
+          },
+          {
+            "name": "Cookies de Preferencia",
+            "description": "Recuerdan tus elecciones (idioma, tema claro/oscuro)",
+            "duration": "1 año"
+          },
+          {
+            "name": "Cookies Analíticas",
+            "description": "Entienden cómo se utiliza el sitio (páginas vistas, tiempo de permanencia)",
+            "duration": "2 años"
+          },
+          {
+            "name": "Cookies de Rendimiento",
+            "description": "Optimizan el rendimiento y los tiempos de carga",
+            "duration": "6 meses"
+          }
         ]
       },
       "contact": {
-        "title": "Contacto",
-        "description": "Para ejercer sus derechos o para cualquier pregunta relacionada con esta política de privacidad, póngase en contacto con nosotros:",
-        "email": "nathalie.jean@shiatsu-guyane.com",
-        "phone": "+594 (0)6 94 00 70 97"
+        "title": "Contáctanos",
+        "email": "Dirección de correo electrónico",
+        "phone": "Teléfono",
+        "cnil": {
+          "title": "Reclamación a la CNIL",
+          "description": "También puedes presentar una reclamación ante la CNIL si consideras que no se respetan tus derechos."
+        }
       }
     },
     "cookieConsent": {
-      "title": "Gestión de Cookies",
-      "message": "Utilizamos cookies para mejorar su experiencia de navegación y analizar el uso de nuestro sitio web. Al continuar navegando, acepta el uso de cookies.",
-      "acceptAll": "Aceptar todas",
-      "acceptNecessary": "Solo las necesarias",
-      "customize": "Personalizar",
-      "learnMore": "Saber más",
-      "cookieTypes": {
-        "necessary": {
-          "title": "Cookies Necesarias",
-          "description": "Estas cookies son esenciales para el funcionamiento del sitio web y no se pueden desactivar.",
-          "always": "Siempre activas"
-        },
-        "analytics": {
-          "title": "Cookies de Análisis",
-          "description": "Nos ayudan a comprender cómo los visitantes interactúan con nuestro sitio web recopilando información de forma anónima."
-        },
-        "marketing": {
-          "title": "Cookies de Marketing",
-          "description": "Se utilizan para mostrar anuncios relevantes y medir la eficacia de nuestras campañas publicitarias."
-        }
+      "title": "Utilizamos cookies 🍪",
+      "description": "Utilizamos cookies para mejorar tu experiencia de navegación, analizar el uso del sitio y ofrecerte contenido personalizado. Tu privacidad es importante para nosotros.",
+      "essentialCookies": {
+        "title": "Cookies esenciales",
+        "description": "Necesarias para el funcionamiento del sitio (navegación, seguridad, sesión)"
       },
-      "preferences": {
-        "title": "Preferencias de Cookies",
-        "description": "Puede elegir qué tipos de cookies permitir. Sus elecciones se aplicarán solo a este sitio web.",
-        "save": "Guardar Preferencias",
-        "acceptSelected": "Aceptar Seleccionadas"
-      }
+      "analyticsCookies": {
+        "title": "Cookies analíticas",
+        "description": "Nos ayudan a entender cómo utilizas nuestro sitio (páginas vistas, tiempo de permanencia)"
+      },
+      "performanceCookies": {
+        "title": "Cookies de rendimiento",
+        "description": "Optimizan el rendimiento y la velocidad de carga del sitio"
+      },
+      "preferencesCookies": {
+        "title": "Cookies de preferencias",
+        "description": "Recuerdan tus elecciones personales (idioma, tema, preferencias de visualización)"
+      },
+      "acceptAll": "Aceptar todo",
+      "acceptSelected": "Aceptar selección",
+      "rejectNonEssential": "Rechazar no esenciales",
+      "customize": "Personalizar",
+      "privacyPolicy": "Política de Privacidad",
+      "moreInfo": "Para más información, consulta nuestra"
     },
     "healthcareDisclaimer": {
-      "title": "Menciones Terapéuticas Importantes",
+      "title": "Avisos Terapéuticos Importantes",
       "subtitle": "Información reglamentaria y profesional obligatoria",
       "disclaimers": {
         "notMedicalAdvice": {
-          "title": "No-sustitución médica",
-          "description": "El Shiatsu es una práctica de bienestar que no sustituye un diagnóstico o tratamiento médico. En caso de problema de salud, consulte a su médico."
+          "title": "No es un sustituto médico",
+          "description": "El Shiatsu es una práctica de bienestar que no sustituye un diagnóstico o tratamiento médico. En caso de un problema de salud, consulta a tu médico."
         },
         "ffstCertification": {
-          "title": "Certificación FFST Oficial",
-          "description": "Profesional certificada FFST (500h+ de formación) según los estándares europeos. Miembro activa de la Federación Francesa de Shiatsu Tradicional."
+          "title": "Certificación Oficial de la FFST",
+          "description": "Profesional certificado por la FFST (formación de más de 500 horas) según las normas europeas. Miembro activo de la Federación Francesa de Shiatsu Tradicional."
         },
         "emergencyContact": {
-          "title": "Emergencias médicas",
-          "description": "En caso de emergencia vital, contacte inmediatamente al 15 (SAMU), al 18 (Bomberos) o diríjase a los servicios de urgencias hospitalarias."
+          "title": "Urgencias médicas",
+          "description": "En caso de una emergencia que ponga en peligro la vida, contacta inmediatamente con el 15 (SAMU), el 18 (Bomberos) o acude a los servicios de urgencias hospitalarias."
         },
         "dataProtection": {
-          "title": "Protección de datos de salud",
-          "description": "Toda su información personal y datos de salud están estrictamente protegidos de acuerdo con el RGPD y el secreto profesional."
+          "title": "Protección de datos sanitarios",
+          "description": "Toda tu información personal y datos sanitarios están estrictamente protegidos de acuerdo con el RGPD y el secreto profesional."
         }
       },
       "credentials": {
         "title": "Cualificaciones Profesionales Verificadas",
         "items": [
-          "✓ Certificada FFST (Federación Francesa de Shiatsu Tradicional)",
-          "✓ 500+ horas de formación teórica y práctica validadas",
+          "✓ Certificado por la FFST (Federación Francesa de Shiatsu Tradicional)",
+          "✓ Más de 500 horas de formación teórica y práctica validadas",
           "✓ Formación continua en anatomía, fisiología y energética",
-          "✓ Código de deontología FFST respetado y firmado",
+          "✓ Código deontológico de la FFST respetado y firmado",
           "✓ Seguro de responsabilidad civil profesional activo",
-          "✓ Miembro del registro profesional FFST (verificable)"
+          "✓ Miembro del registro profesional de la FFST (verificable)"
         ]
       },
-      "contact": "⚠️ Importante: Para cualquier cuestión sobre sus tratamientos médicos en curso, consulte a su médico o especialista."
+      "contact": "⚠️ Importante: Para cualquier pregunta sobre tus tratamientos médicos actuales, consulta a tu médico o especialista."
     }
   },
   "common": {
     "backToHome": "Volver al inicio"
+  },
+  "signature": {
+    "text": "Hecho con",
+    "by": "por Ewan"
   }
 }

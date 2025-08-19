@@ -76,15 +76,15 @@ export const HeroSection = ({ dictionary, lang }: { dictionary: Dictionary; lang
         <div className="flex flex-col sm:flex-row flex-wrap justify-center gap-3 sm:gap-4 md:gap-6 mt-8 sm:mt-12 text-xs sm:text-sm px-4">
           <div className="flex items-center justify-center gap-2 bg-white/10 backdrop-blur-md px-3 sm:px-4 py-2 rounded-full border border-white/20">
             <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-[rgb(var(--color-primary))] rounded-full flex-shrink-0"></div>
-            <span className="text-white/80 font-medium">{dictionary.components.hero.credentials.certifiedInstructor}</span>
+            <span className="text-white/80 font-medium">{dictionary.homepage.credentials?.experience || dictionary.components.hero.credentials.experience}</span>
           </div>
           <div className="flex items-center justify-center gap-2 bg-white/10 backdrop-blur-md px-3 sm:px-4 py-2 rounded-full border border-white/20">
             <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-[rgb(var(--color-secondary))] rounded-full flex-shrink-0"></div>
-            <span className="text-white/80 font-medium">{dictionary.components.hero.credentials.experience}</span>
+            <span className="text-white/80 font-medium">{dictionary.homepage.credentials?.certification || 'Licence Fédérale FFST-2023-920938'}</span>
           </div>
           <div className="flex items-center justify-center gap-2 bg-white/10 backdrop-blur-md px-3 sm:px-4 py-2 rounded-full border border-white/20">
             <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-[rgb(var(--color-tertiary))] rounded-full flex-shrink-0"></div>
-            <span className="text-white/80 font-medium">Sophrologue RNCP</span>
+            <span className="text-white/80 font-medium">{dictionary.homepage.credentials?.sophrologist || 'Sophrologue Certifiée n°1100'}</span>
           </div>
         </div>
       </div>
@@ -116,8 +116,9 @@ export const HeroSection = ({ dictionary, lang }: { dictionary: Dictionary; lang
         </div>
       </div>
 
-      {/* Mobile-optimized scroll indicator - positioned lower since no HeroActions on mobile */}
-      <div className="absolute bottom-8 sm:bottom-12 md:bottom-16 lg:bottom-24 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 sm:gap-3 z-30 animate-bounce">
+
+      {/* Mobile-only scroll indicator */}
+      <div className="absolute bottom-6 sm:bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 sm:gap-3 z-30 animate-bounce lg:hidden">
         <span className="text-xs text-white/70 font-medium tracking-wide">
           {dictionary.components.hero.discover}
         </span>

@@ -1,8 +1,9 @@
 // src/app/[lang]/layout.tsx
 
 import { Footer } from "@/components/layout/Footer";
-import { Navbar } from "@/components/layout/Navbar";
+import { Header } from "@/components/layout/Header";
 import { CookieConsentBanner } from "@/components/ui/CookieConsentBanner";
+import { Signature } from "@/components/ui/Signature";
 import { getDictionary } from "@/lib/dictionary";
 import { i18n, Locale } from "@/lib/i18n-config";
 
@@ -22,13 +23,14 @@ export default async function LangLayout(props: {
 
   return (
     <>
-      <Navbar key={lang} dictionary={dictionary} lang={lang} />
+      <Header key={lang} dictionary={dictionary} lang={lang} />
       
       <main className="flex-grow">
         {children}
       </main>
 
       <Footer dictionary={dictionary} lang={lang} />
+      <Signature dictionary={dictionary} />
       <CookieConsentBanner dictionary={dictionary} lang={lang} />
     </>
   );

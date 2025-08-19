@@ -1,5 +1,5 @@
 // Type definitions for dictionary structure
-export type Locale = "fr" | "en" | "es" | "pt-BR" | "zh-cn" | "hmn";
+export type Locale = "fr" | "en" | "es" | "pt-BR" | "zh-cn" | "hmn" | "zh-hk";
 
 export interface Dictionary {
   navbar: {
@@ -16,6 +16,12 @@ export interface Dictionary {
     heroTitle: string;
     heroSubtitle: string;
     scrollDown: string;
+    credentials?: {
+      experience: string;
+      startDate: string;
+      certification: string;
+      sophrologist: string;
+    };
   };
   aboutIntro: {
     heading: string;
@@ -429,8 +435,9 @@ export interface Dictionary {
         description: string;
         longDescription: string;
         certification: string;
+        certification2: string;
         experience: string;
-        membershipFFST: string;
+        memberships: string;
       };
       contact: {
         title: string;
@@ -620,6 +627,8 @@ export interface Dictionary {
       certifications: {
         sectionTitle: string;
         sectionDesc: string;
+        heading?: string;
+        items?: string[];
       };
       navigation: {
         discoverMyStory: string;
@@ -741,5 +750,18 @@ export interface Dictionary {
       close?: string;
       accept?: string;
     };
+  };
+  signature?: {
+    text: string;
+    by: string;
+  };
+  officialRecognition?: {
+    title: string;
+    description: string;
+    certifications: Array<{
+      name: string;
+      number: string;
+      type: string;
+    }>;
   };
 }

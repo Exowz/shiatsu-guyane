@@ -15,6 +15,7 @@ const languages = {
   es: { name: 'Español', flag: '🇪🇸', code: 'ES' },
   'zh-cn': { name: '简体中文', flag: '🇨🇳', code: 'CN'},
   hmn: { name: 'Hmong', flag: '🏳️', code: 'HMN'},
+  'zh-hk': { name: '繁體中文', flag: '🇭🇰', code: 'HK'},
 };
 
 interface MobileLanguageButtonProps {

@@ -4,6 +4,7 @@ import { getDictionary } from '@/lib/dictionary';
 import { i18n, Locale } from '@/lib/i18n-config';
 import { CtaSection } from '@/components/sections/CtaSection';
 import { Clock, Euro, Sparkles, Star, ArrowRight, Check, Award, Users, Target } from 'lucide-react';
+import { GardenBackground, SectionGarden, GardenDivider, FloatingBotanicals } from '@/components/garden';
 
 export async function generateStaticParams() {
   return i18n.locales.map((locale) => ({
@@ -18,18 +19,27 @@ export default async function PricingPage(props: { params: Promise<{ lang: Local
 
   return (
     <div className="bg-background text-foreground relative overflow-hidden min-h-screen">
-      {/* Sophisticated background elements using your natural palette */}
-      <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        {/* Maracuja gold glow */}
-        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-[rgb(var(--color-primary))]/8 rounded-full blur-3xl animate-pulse"></div>
-        {/* Terracotta warmth */}
-        <div className="absolute top-3/4 right-1/4 w-80 h-80 bg-[rgb(var(--color-secondary))]/6 rounded-full blur-3xl animate-pulse delay-1000"></div>
-        {/* Sage green subtlety */}
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-gradient-to-r from-[rgb(var(--color-tertiary))]/4 to-[rgb(var(--color-primary))]/3 rounded-full blur-3xl"></div>
-      </div>
+      {/* Healing Herbs Garden Background */}
+      <GardenBackground 
+        intensity="dense" 
+        wildlife={true} 
+        atmosphere={true} 
+        zIndex={1} 
+      />
+      
+      {/* Therapeutic Botanical Elements */}
+      <FloatingBotanicals 
+        density="dense" 
+        elements={['leaves', 'petals', 'seeds', 'pollen', 'particles']} 
+        wildlife={true}
+        zIndex={15}
+      />
 
-      {/* 1. Elegant Page Header */}
+      {/* Healing Garden Header */}
       <section className="min-h-screen justify-center flex flex-col items-center py-20 md:py-32 relative bg-secondary/30 backdrop-blur-sm">
+        {/* Herb Garden Canopy */}
+        <SectionGarden theme="herb" position="header" height="xl" zIndex={2} />
+        
         <div className="absolute inset-0 bg-gradient-to-br from-[rgb(var(--color-surface))]/50 to-transparent"></div>
         <div className="container mx-auto px-6 pt-32 pb-24 text-center relative z-10">
           <div className="inline-flex items-center gap-3 px-6 py-3 bg-card/80 backdrop-blur-md rounded-full mb-8 hover:bg-card/90 transition-all duration-300 shadow-lg hover:shadow-xl">
@@ -61,12 +71,19 @@ export default async function PricingPage(props: { params: Promise<{ lang: Local
             </div>
           </div>
         </div>
+        
+        {/* Herb Garden Foundation */}
+        <SectionGarden theme="botanical" position="footer" height="lg" zIndex={2} />
       </section>
+
+      {/* Garden Divider - Healing Path */}
+      <GardenDivider type="flower" size="lg" zIndex={5} />
 
       <main className="container mx-auto px-6 relative z-10">
 
-        {/* 2. Individual Sessions - Enhanced with Natural Colors */}
-        <section className="py-24 lg:py-32">
+        {/* Individual Sessions with Grove Theme */}
+        <section className="py-24 lg:py-32 relative">
+          <SectionGarden theme="grove" position="background" height="lg" zIndex={2} />
           <div className="text-center mb-20">
             <div className="inline-flex items-center gap-2 bg-gradient-to-r from-[rgb(var(--color-primary))]/10 to-[rgb(var(--color-secondary))]/10 backdrop-blur-sm px-5 py-2 rounded-full text-[rgb(var(--color-primary))] font-semibold text-sm mb-6 shadow-lg">
               <Users className="w-4 h-4" />
@@ -115,8 +132,12 @@ export default async function PricingPage(props: { params: Promise<{ lang: Local
           </div>
         </section>
 
-        {/* 3. Packages - Sophisticated Two-Column Layout */}
-        <section className="py-24 lg:py-32">
+        {/* Garden Divider - Wellness Path */}
+        <GardenDivider type="vine" size="md" zIndex={5} />
+
+        {/* Packages with Zen Garden Theme */}
+        <section className="py-24 lg:py-32 relative">
+          <SectionGarden theme="zen" position="background" height="xl" zIndex={2} />
           <div className="grid grid-cols-1 xl:grid-cols-5 gap-20 items-start">
             {/* Left column - Enhanced with natural styling */}
             <div className="xl:col-span-2 xl:sticky xl:top-24">
@@ -208,8 +229,12 @@ export default async function PricingPage(props: { params: Promise<{ lang: Local
           </div>
         </section>
 
-        {/* 4. Corporate Services - Premium Natural Design */}
-        <section className="py-24 lg:py-32">
+        {/* Garden Divider - Professional Path */}
+        <GardenDivider type="branch" size="lg" zIndex={5} />
+
+        {/* Corporate Services with Forest Theme */}
+        <section className="py-24 lg:py-32 relative">
+          <SectionGarden theme="forest" position="background" height="xl" zIndex={2} />
           <div className="text-center mb-24">
             <div className="inline-flex items-center gap-2 bg-gradient-to-r from-[rgb(var(--color-tertiary))]/10 to-[rgb(var(--color-primary))]/10 backdrop-blur-sm px-5 py-2 rounded-full text-[rgb(var(--color-tertiary))] font-semibold text-sm mb-6 shadow-lg">
               <Sparkles className="w-4 h-4" />
@@ -299,13 +324,26 @@ export default async function PricingPage(props: { params: Promise<{ lang: Local
         </section>
       </main>
 
-      {/* 5. Elegant CTA Section */}
+      {/* Garden Divider - Invitation Path */}
+      <GardenDivider type="canopy" size="md" inverted={true} zIndex={5} />
+
+      {/* CTA Section with Herb Garden Theme */}
       <div className="relative mt-24 bg-gradient-to-br from-secondary/20 via-[rgb(var(--color-surface))]/30 to-secondary/20 backdrop-blur-sm">
+        <SectionGarden theme="herb" position="background" height="lg" zIndex={2} />
         <div className="absolute inset-0 bg-gradient-to-r from-[rgb(var(--color-primary))]/3 via-transparent to-[rgb(var(--color-tertiary))]/3"></div>
         <div className="relative z-10">
           <CtaSection dictionary={dictionary} lang={lang} />
         </div>
+        <SectionGarden theme="canopy" position="footer" height="sm" zIndex={2} />
       </div>
+
+      {/* Additional Therapeutic Elements */}
+      <FloatingBotanicals 
+        density="medium" 
+        elements={['particles', 'pollen']} 
+        bounds="bottom"
+        zIndex={12}
+      />
     </div>
   );
 }

@@ -1,0 +1,1429 @@
+{
+  "navbar": {
+    "about": "關於",
+    "services": "服務價格",
+    "whoIsItFor": "適合對象",
+    "whatIsShiatsu": "什麼是指壓",
+    "practicalInfo": "實用資訊",
+    "contact": "聯絡",
+    "bookNow": "立即預約"
+  },
+  "homepage": {
+    "practitionerName": "Nathalie JEAN",
+    "heroTitle": "Nathalie JEAN",
+    "heroSubtitle": "認證指壓治療師及心理輔導師",
+    "scrollDown": "向下滾動探索",
+    "credentials": {
+      "experience": "20+ 年經驗",
+      "startDate": "自2006年開始執業",
+      "certification": "法國指壓聯盟認證 FFST-2023-920938",
+      "sophrologist": "心理輔導師認證 RNCP 第1100號"
+    }
+  },
+  "aboutIntro": {
+    "heading": "關於 Nathalie JEAN",
+    "paragraph": "我是一位擁有超過20年經驗的認證指壓治療師，專精於傳統日式指壓、增井流指壓及生機指壓流派。我的方法結合了深度肌肉放鬆、能量平衡和情緒調和，為每位客戶提供個人化的整體健康解決方案。",
+    "cta": "了解我的20年經驗"
+  },
+  "benefitsSection": {
+    "heading": "指壓治療的益處",
+    "cards": [
+      {
+        "title": "深度放鬆",
+        "description": "通過專業的手部技法釋放肌肉緊張，促進身心深度放鬆與恢復。"
+      },
+      {
+        "title": "緩解疼痛",
+        "description": "有效減輕慢性疼痛、頭痛、背痛及關節不適等問題。"
+      },
+      {
+        "title": "改善循環",
+        "description": "刺激血液和淋巴循環，促進新陳代謝和身體自然修復。"
+      },
+      {
+        "title": "壓力管理",
+        "description": "降低壓力荷爾蒙水平，改善睡眠品質和整體生活質量。"
+      },
+      {
+        "title": "增強免疫",
+        "description": "強化免疫系統功能，提高身體抵抗力和自癒能力。"
+      },
+      {
+        "title": "情緒平衡",
+        "description": "透過能量調節促進情緒穩定，減少焦慮和抑鬱情緒。"
+      }
+    ],
+    "cta": "體驗20年專業技術"
+  },
+  "whatIsShiatsuSection": {
+    "heading": "什麼是指壓治療？",
+    "paragraph": "指壓於1997年被世界衛生組織認可為替代醫學療法。這項源自日本的傳統治療技術，通過指壓、手掌按壓和伸展動作，沿著身體經絡施壓，旨在恢復能量平衡、緩解疼痛並促進身心整體健康。",
+    "cta": "探索這項古老技藝"
+  },
+  "whoIsItForSection": {
+    "heading": "適合哪些人接受指壓治療？",
+    "testimonials": [
+      {
+        "quote": "作為成年人，我發現指壓治療能有效緩解工作壓力和身體疲勞。",
+        "name": "成人",
+        "designation": "壓力管理",
+        "src": "/images/audience-adults.jpg"
+      },
+      {
+        "quote": "年長者特別受益於溫和的指壓手法，改善了我的關節靈活性。",
+        "name": "長者",
+        "designation": "關節保健",
+        "src": "/images/audience-seniors.jpg"
+      },
+      {
+        "quote": "懷孕期間的溫和指壓幫助我緩解了背痛和睡眠問題。",
+        "name": "孕婦",
+        "designation": "孕期保健",
+        "src": "/images/audience-pregnant.jpg"
+      },
+      {
+        "quote": "作為運動員，指壓治療幫助我更快恢復並預防運動傷害。",
+        "name": "運動員",
+        "designation": "運動恢復",
+        "src": "/images/audience-athletes.jpg"
+      },
+      {
+        "quote": "青少年也能從指壓中受益，特別是在管理學習壓力方面。",
+        "name": "青少年",
+        "designation": "學習壓力",
+        "src": "/images/audience-teenagers.jpg"
+      },
+      {
+        "quote": "企業員工通過指壓治療減少了職業相關的肌肉骨骼問題。",
+        "name": "企業",
+        "designation": "職業健康",
+        "src": "/images/audience-companies.jpg"
+      },
+      {
+        "quote": "嬰兒按摩結合指壓原理，促進健康成長和親子關係。",
+        "name": "嬰兒",
+        "designation": "嬰兒按摩",
+        "src": "/images/audience-babies.jpg"
+      }
+    ],
+    "cta": "找到適合您的療程"
+  },
+  "testimonialsSection": {
+    "heading": "客戶見證",
+    "googleHeading": "來自 Google 評價",
+    "resalibHeading": "Resalib 平台評價",
+    "summary": {
+      "satisfaction": "滿意度超過90%",
+      "googleLabel": "Google 評價",
+      "resalibLabel": "Resalib 評價",
+      "overallLabel": "整體評價",
+      "googleAverage": "4.8",
+      "resalibAverage": "4.9"
+    },
+    "staticReviews": [
+      {
+        "author_name": "Alex A.",
+        "rating": 5,
+        "text": "專業優秀！",
+        "date": "2025-07-05"
+      },
+      {
+        "author_name": "Camille R.",
+        "rating": 5,
+        "text": "我向 Nathalie 諮詢了兩年多的指壓治療！她很棒！我強烈推薦她的專業技能和人性化的方法。感謝 Nathalie！",
+        "date": "2025-07-05"
+      },
+      {
+        "author_name": "Hélène M.",
+        "rating": 5,
+        "text": "我強烈推薦她溫和而有效的方法。",
+        "date": "2025-07-01"
+      },
+      {
+        "author_name": "Nathalie é.",
+        "rating": 5,
+        "text": "優秀的治療師和善解人意的方法，我推薦她。",
+        "date": "2025-04-27"
+      },
+      {
+        "author_name": "Virginie D.",
+        "rating": 5,
+        "text": "超棒的體驗，10/10分，我百分百推薦 Nathalie！",
+        "date": "2025-04-25"
+      }
+    ]
+  },
+  "ctaSection": {
+    "heading": "準備開始您的健康之旅嗎？",
+    "subheading": "憑藉20年的經驗和溫和的方法，我致力於為每位客戶提供個人化的關懷和持久的效果。",
+    "button": "立即預約",
+    "badge": "20年專業經驗",
+    "trustElements": {
+      "personalizedConsultation": "個人化諮詢",
+      "certifiedPractitioner": "認證治療師專業方法",
+      "kindApproach": "溫和方法"
+    },
+    "bookingSection": {
+      "title": "預約您的療程",
+      "description": "通過安全的 Resalib 平台線上預約您的指壓療程。",
+      "reassurance": "24小時內確認"
+    },
+    "secondaryButtons": {
+      "question": "詢問問題",
+      "pricing": "查看價格"
+    },
+    "quote": {
+      "text": "我的使命是透過溫和而有效的方法引導您走向更好的健康狀態。",
+      "attribution": "— Nathalie JEAN，20年認證治療師"
+    }
+  },
+  "officialRecognition": {
+    "title": "官方認證",
+    "description": "所有認證均經過官方認可",
+    "certifications": [
+      {
+        "name": "法國指壓聯盟",
+        "number": "FFST-2023-920938",
+        "type": "聯盟認證"
+      },
+      {
+        "name": "RNCP 心理輔導師認證",
+        "number": "第1100號",
+        "type": "國家認證"
+      },
+      {
+        "name": "執業許可",
+        "number": "03973228297",
+        "type": "許可證號"
+      },
+      {
+        "name": "FFST 會員證",
+        "number": "4638-533",
+        "type": "會員證號"
+      }
+    ]
+  },
+  "shiatsuPage": {
+    "title": "認識指壓治療的奧秘",
+    "subtitle": "探索這項源自日本的古老治療藝術，它將帶給您身心靈的和諧平衡。",
+    "general": {
+      "definition": {
+        "heading": "定義解釋",
+        "p1": "指壓（Shiatsu）是一項起源於日本的徒手治療技術。它結合了按摩、指壓和拉伸動作，沿著身體的能量經絡進行治療，旨在恢復身體的自然平衡狀態。"
+      },
+      "history": {
+        "heading": "歷史沿革",
+        "p1": "現代指壓於20世紀初在日本發展，主要受到中國傳統醫學的影響。它由德治竹中（1919年生）和增井敏雄（1905-2000年）等先驅者發展，他們將古老的智慧與現代解剖學知識相結合。"
+      },
+      "principles": {
+        "heading": "基本原理",
+        "p1": "指壓基於氣（生命能量）在稱為經絡的特定通道中流動的概念。當這種能量流動受阻時，就會出現疾病。指壓的目標是恢復這種自然流動。"
+      },
+      "objectives": {
+        "heading": "治療目標",
+        "points": [
+          "恢復能量平衡",
+          "促進自然自癒能力",
+          "減輕疼痛和緊張",
+          "改善血液循環",
+          "增強免疫系統功能"
+        ]
+      },
+      "techniques": {
+        "heading": "治療技法",
+        "p1": "治療師使用手指、手掌和有時使用肘部，沿著14條主要經絡和365個穴位進行施壓。",
+        "p2": "每次施壓都經過精心計算，治療師根據客戶的需求調整壓力強度和持續時間。"
+      }
+    },
+    "schools": {
+      "heading": "主要指壓流派",
+      "items": [
+        {
+          "title": "增井流",
+          "description": "傳統指壓治療",
+          "src": "/images/school-namikoshi.png",
+          "content": [
+            {
+              "heading": "創始人介紹",
+              "text": "德治增井（1905-2000年）是現代指壓的先驅之一。他建立了第一個指壓學校，並於20世紀將這項技術系統化。增井的方法注重科學方法和解剖學精確性。"
+            },
+            {
+              "heading": "發展歷程",
+              "text": "1925年增井開設診所，隨後於1955年在日本成立了第一個指壓學院。他的教學方法迅速在國際間傳播。"
+            },
+            {
+              "heading": "治療特色",
+              "text": "增井流指壓專注於肌肉系統，使用解剖學精確的技術來釋放緊張。"
+            },
+            {
+              "heading": "適用症狀",
+              "text": "德治增井的方法特別有效於治療：",
+              "list": [
+                "肌肉緊張",
+                "關節僵硬",
+                "循環問題",
+                "頭痛",
+                "背痛",
+                "改善血液循環",
+                "壓力管理"
+              ]
+            },
+            {
+              "heading": "技法特點",
+              "text": "增井流的特點包括：",
+              "list": [
+                "重視解剖學精確性",
+                "使用365個穴位",
+                "治療師運用拇指"
+              ]
+            },
+            {
+              "heading": "哲學理念",
+              "text": "增井流相信身體具有自癒能力，指壓治療師的作用是促進這種自然過程。"
+            }
+          ]
+        },
+        {
+          "title": "禪指壓",
+          "description": "能量平衡療法",
+          "src": "/images/school-masunaga.png",
+          "content": [
+            {
+              "heading": "創始人背景",
+              "text": "增永靜人（1925-1981年），心理學家和指壓治療師，創立了禪指壓流派。增永在1960年代革新了指壓，整合了心理學方面。"
+            },
+            {
+              "heading": "核心理論",
+              "text": "禪指壓擴展了傳統經絡概念，發展出手足經絡延伸理論。",
+              "listTitle": "十二經絡",
+              "list": [
+                "肺經",
+                "大腸經",
+                "胃經",
+                "脾經",
+                "心經"
+              ]
+            },
+            {
+              "heading": "診斷方法",
+              "text": "增永發展了腹診法，通過觸診腹部來評估能量狀態並確定治療方案。",
+              "listTitle": "診斷要素",
+              "list": [
+                "腹部觸診",
+                "經絡評估",
+                "個人體質分析",
+                "整體健康狀況"
+              ]
+            },
+            {
+              "heading": "治療方法",
+              "text": "禪指壓使用更輕柔的觸碰和深度放鬆技巧，重視治療師與客戶間的連結。"
+            }
+          ]
+        },
+        {
+          "title": "生機指壓",
+          "description": "生命能量方法",
+          "src": "/images/school-seiki.png",
+          "content": [
+            {
+              "heading": "創始背景",
+              "text": "青木大輔（1949-2012年），曾跟隨增井和增永大師學習，後來發展出更具創新性的生機指壓法。"
+            },
+            {
+              "heading": "生機理念",
+              "text": "生機指壓專注於生命能量的自然運動和流動。",
+              "list": [
+                "尊重身體自然智慧",
+                "最小介入最大效果",
+                "深度靜心狀態"
+              ]
+            },
+            {
+              "heading": "治療特色",
+              "text": "生機指壓使用非常輕柔的觸碰，治療師進入冥想狀態。",
+              "list": [
+                "極其輕柔的觸碰技法",
+                "治療師的冥想狀態參與",
+                "個人直覺引導",
+                "強調品質勝於數量的治療理念"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "sessionFlow": {
+      "heading": "療程流程",
+      "p1": "每次療程持續約1小時至1.5小時，進行全面的健康評估。",
+      "p2": "首先進行詳細諮詢了解您的需求，然後是約80分鐘的指壓治療，最後進行療程總結建議。"
+    },
+    "philosophy": {
+      "heading": "東方哲學與健康",
+      "introduction": "指壓植根於東方哲學智慧，結合我20年的實踐經驗，為您提供全人治療。",
+      "concepts": [
+        {
+          "title": "氣 - 生命能量",
+          "description": "氣是生命的基本要素，它流動於全身。當氣的流動受阻或不平衡時，就會導致疾病和不適。指壓的目標是恢復氣的自然流動。"
+        },
+        {
+          "title": "經絡 - 能量通道",
+          "description": "經絡是氣在身體中流動的路徑。透過刺激特定穴位，我們可以影響整個經絡系統，促進健康和平衡。"
+        },
+        {
+          "title": "陰 - 陰性能量",
+          "description": "陰代表冷靜、接受性、內向的能量。健康需要陰陽平衡，過多或過少都會造成問題。"
+        },
+        {
+          "title": "陽 - 陽性能量",
+          "description": "陽代表活躍、溫暖、外向的能量。這兩種對立但互補的力量必須和諧共存才能維持健康。"
+        }
+      ],
+      "integration": "這些概念整合在一起 - 透過指壓我們可以平衡陰陽，疏通氣的流動，結合我20年的專業經驗，為您提供個人化的健康方案。"
+    }
+  },
+  "pourQuiPage": {
+    "title": "適合對象",
+    "subtitle": "指壓適合各年齡層的人群。每個療程都根據個人需求量身定制。",
+    "cards": [
+      {
+        "title": "企業",
+        "description": "職業健康與團隊福祉",
+        "src": "/images/audience-companies.jpg",
+        "content": [
+          {
+            "heading": "現況分析",
+            "text": "現代職場環境導致員工承受巨大壓力，24%的員工出現與工作相關的健康問題。指壓治療可以成為企業社會責任政策的一部分。"
+          },
+          {
+            "heading": "主要益處",
+            "list": [
+              "減少病假",
+              "預防肌肉骨骼疾病",
+              "提高工作效率",
+              "改善員工幸福感"
+            ]
+          },
+          {
+            "heading": "服務模式",
+            "list": [
+              "每節課15-20分鐘治療",
+              "到公司現場服務",
+              "每天可服務4-5名員工"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "成人",
+        "description": "日常壓力與健康管理",
+        "src": "/images/audience-adults.jpg",
+        "content": [
+          {
+            "heading": "生活挑戰",
+            "text": "成年人面臨工作壓力、家庭責任和健康挑戰的多重負擔。"
+          },
+          {
+            "heading": "指壓療效",
+            "list": [
+              "緩解慢性疼痛",
+              "改善睡眠品質",
+              "管理壓力和焦慮",
+              "增加能量水平"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "長者",
+        "description": "年齡相關健康維護",
+        "src": "/images/audience-seniors.jpg",
+        "content": [
+          {
+            "heading": "特殊需求",
+            "text": "長者需要特別溫和的治療方法，重視舒適度和安全性。"
+          },
+          {
+            "heading": "健康益處",
+            "list": [
+              "改善關節靈活性和活動度",
+              "增強循環和肌肉張力",
+              "減輕疼痛和不適",
+              "促進整體幸福感和放鬆"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "青少年",
+        "description": "成長期健康支持",
+        "src": "/images/audience-teenagers.jpg",
+        "content": [
+          {
+            "heading": "青春期特點",
+            "text": "青春期是身體和情緒發展的關鍵時期，指壓可以提供重要支持。"
+          },
+          {
+            "heading": "常見問題解決",
+            "list": [
+              "緩解學習壓力和焦慮",
+              "改善睡眠和注意力",
+              "減少運動後肌肉疲勞",
+              "增進整體身心健康"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "孕婦",
+        "description": "孕期健康護理",
+        "src": "/images/audience-pregnant.jpg",
+        "content": [
+          {
+            "heading": "孕期適應",
+            "text": "懷孕期間身體經歷巨大變化，孕期指壓可以提供安全有效的支持。"
+          },
+          {
+            "heading": "孕期益處",
+            "list": [
+              "緩解背痛和骨盆不適",
+              "減輕疼痛和肌肉緊張",
+              "改善血液循環",
+              "促進放鬆和更好的睡眠"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "嬰兒",
+        "description": "早期健康發展",
+        "src": "/images/audience-babies.jpg",
+        "content": [
+          {
+            "heading": "專門技法",
+            "text": "嬰兒指壓適用於5個月到20個月的幼兒，使用特別溫和的技術促進健康發展並加強親子關係。"
+          },
+          {
+            "heading": "嬰兒益處",
+            "list": [
+              "促進健康成長發育",
+              "改善睡眠模式和消化",
+              "加強親子關係",
+              "增強免疫系統功能"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "運動員",
+        "description": "運動表現最佳化",
+        "src": "/images/audience-athletes.jpg",
+        "content": [
+          {
+            "heading": "運動表現",
+            "text": "無論是業餘還是專業運動員，指壓都能幫助提升表現和預防運動傷害。"
+          },
+          {
+            "heading": "主要益處",
+            "list": [
+              "提高運動表現和耐力",
+              "加速傷後恢復",
+              "減少運動後肌肉疲勞",
+              "預防運動傷害"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "pricingPage": {
+    "title": "服務價格",
+    "subtitle": "透明公開的價格，為您提供最優質的個人化服務。",
+    "priceRange": "療程價格從75歐元到105歐元不等\n根據您的具體需求而定",
+    "individualSessions": {
+      "heading": "個人療程",
+      "sessions": [
+        {
+          "name": "傳統指壓",
+          "description": "經典全身療程，適合初學者"
+        },
+        {
+          "name": "禪指壓",
+          "description": "深度放鬆療程，注重能量平衡"
+        },
+        {
+          "name": "治療性指壓",
+          "description": "針對特定健康問題的專業治療"
+        },
+        {
+          "name": "椅上按摩",
+          "description": "短時間放鬆，適合辦公場所"
+        },
+        {
+          "name": "反射療法",
+          "description": "足部反射區治療，促進整體健康"
+        },
+        {
+          "name": "面部美容指壓",
+          "description": "結合美容和放鬆的面部療程"
+        },
+        {
+          "name": "孕婦及嬰兒指壓",
+          "description": "適合孕期女性和嬰幼兒的溫和療程"
+        },
+        {
+          "name": "心理輔導療程",
+          "description": "結合心理輔導技術，促進情緒平衡和壓力管理"
+        },
+        {
+          "name": "AMMA 椅上按摩",
+          "description": "坐式按摩療法，適合辦公室環境，療程約20-30分鐘"
+        },
+        {
+          "name": "拉伸療法",
+          "description": "專業拉伸指導，結合指壓技術，改善關節靈活性和肌肉張力"
+        }
+      ]
+    },
+    "packages": {
+      "heading": "套餐優惠",
+      "description": "選擇套餐享受更多優惠，為您的健康投資提供更好的價值。",
+      "items": [
+        {
+          "name": "5次療程套餐",
+          "price": "400歐元",
+          "description": "適合定期保健的選擇"
+        },
+        {
+          "name": "10次療程套餐",
+          "price": "775歐元",
+          "description": "長期健康管理最佳選擇"
+        },
+        {
+          "name": "企業套餐",
+          "price": "按需報價",
+          "description": "為企業員工量身定制的健康解決方案"
+        }
+      ]
+    },
+    "otherServices": {
+      "heading": "其他服務",
+      "intro": "除了個人療程，我還提供集體課程和工作坊，讓更多人受益於指壓的健康好處。",
+      "workshops": [
+        {
+          "title": "自我保健工作坊",
+          "price": "每人18.00歐元",
+          "duration": "約1小時1.5小時",
+          "items": [
+            {
+              "name": "DO-IN 自我按摩",
+              "description": "學習日式自我按摩技術 DO-IN，這些技術可以緩解日常疼痛和緊張。"
+            },
+            {
+              "name": "呼吸練習",
+              "description": "掌握正確的呼吸技巧，有助於緩解壓力並促進放鬆。"
+            },
+            {
+              "name": "壓力管理策略",
+              "description": "獲得壓力管理的實用技巧，幫助您在日常生活中保持平衡。"
+            }
+          ]
+        },
+        {
+          "title": "放鬆工作坊",
+          "price": "每人18.00歐元",
+          "duration": "約1小時1.5小時",
+          "items": [
+            {
+              "name": "冥想練習",
+              "description": "探索不同的冥想技巧，學習如何在日常生活中融入正念練習。"
+            },
+            {
+              "name": "漸進式肌肉放鬆",
+              "description": "學習系統性的肌肉放鬆技術，有效緩解身體緊張和壓力。"
+            },
+            {
+              "name": "視覺化練習",
+              "description": "通過引導想像和視覺化技術，達到深度放鬆的狀態。"
+            }
+          ]
+        },
+        {
+          "title": "健康工作坊",
+          "price": "每人15.00歐元",
+          "duration": "約1小時1.5小時",
+          "items": [
+            {
+              "name": "營養教育",
+              "description": "了解健康飲食的基本原則，學習如何通過營養支持整體健康。"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "practicalInfoPage": {
+    "title": "實用資訊",
+    "subtitle": "準備您的療程所需了解的重要資訊和建議。",
+    "sessionFlow": {
+      "heading": "療程流程安排",
+      "steps": [
+        {
+          "name": "預約確認",
+          "description": "透過電話或線上預約確認您的療程時間和具體需求。"
+        },
+        {
+          "name": "諮詢評估",
+          "description": "療程開始前進行詳細健康諮詢，了解您的身體狀況和治療目標。"
+        },
+        {
+          "name": "個人化治療",
+          "description": "根據評估結果進行個人化指壓治療，運用最適合您的技術和方法。"
+        },
+        {
+          "name": "後續建議",
+          "description": "療程結束後提供個人化建議，包括自我保健技巧和 DO-IN 練習指導。"
+        }
+      ]
+    },
+    "contraindications": {
+      "heading": "治療禁忌症",
+      "absolute": {
+        "title": "絕對禁忌",
+        "items": [
+          "發燒超過38°C",
+          "急性炎症期",
+          "嚴重心血管疾病發作期",
+          "傳染性疾病急性期",
+          "懷孕前3個月",
+          "骨折未癒合期"
+        ]
+      },
+      "relative": {
+        "title": "相對禁忌",
+        "items": [
+          "近期手術後恢復期",
+          "癌症治療期間",
+          "嚴重皮膚病變區域",
+          "關節急性發炎",
+          "服用抗凝血劑期間",
+          "精神狀態不穩定時"
+        ]
+      }
+    },
+    "recommendations": {
+      "heading": "療程前後建議",
+      "points": [
+        {
+          "name": "適當穿著",
+          "description": "穿著寬鬆舒適的衣物，便於治療師進行手法操作而不會限制活動。"
+        },
+        {
+          "name": "飲食安排",
+          "description": "療程前2小時避免大量進食，療程後30分鐘內避免冷飲。"
+        },
+        {
+          "name": "療程後休息",
+          "description": "療程後休息30分鐘，24小時內多喝水1.5升，避免劇烈運動。"
+        },
+        {
+          "name": "持續治療",
+          "description": "為獲得最佳效果，建議定期接受治療，並配合日常自我保健練習。"
+        }
+      ]
+    },
+    "location": {
+      "heading": "診所位置",
+      "address": "12 Clos des Hippocampes, 97354 Rémire-Montjoly, 法屬圭亞那",
+      "cta": "在 Google 地圖中查看"
+    }
+  },
+  "contactPage": {
+    "title": "聯絡我們",
+    "subtitle": "有任何問題或需要預約，歡迎與我聯繫。",
+    "labels": {
+      "firstname": "名字",
+      "lastname": "姓氏",
+      "email": "電子郵件",
+      "message": "留言內容"
+    },
+    "placeholders": {
+      "firstname": "Nathalie",
+      "lastname": "JEAN",
+      "email": "nathalie.jean@email.com",
+      "message": "描述您的需求..."
+    },
+    "button": "發送",
+    "form": {
+      "submitting": "發送中...",
+      "success": {
+        "title": "訊息已發送",
+        "description": "您的訊息已成功發送",
+        "sendAnother": "發送另一條訊息"
+      },
+      "error": {
+        "title": "發送失敗",
+        "description": "發送訊息時發生錯誤",
+        "tryAgain": "重試"
+      },
+      "privacy": {
+        "title": "隱私保護",
+        "description": "您的個人資訊將受到保護，僅用於回覆您的諮詢，符合GDPR規範。"
+      }
+    },
+    "enhanced": {
+      "badge": "快速聯絡",
+      "quickInfo": {
+        "rapidResponse": "快速回覆",
+        "personalizedExchange": "個人化交流",
+        "maxTime": "24小時內"
+      },
+      "leftColumn": {
+        "badge": "專業諮詢",
+        "title": "需要個人化建議嗎？",
+        "description": "歡迎詢問任何問題，我會在24小時內回覆您。",
+        "benefits": {
+          "freeConsultation": "15分鐘免費諮詢",
+          "personalizedAdvice": "個人化專業建議",
+          "kindApproach": "溫和人性化方法"
+        },
+        "otherContact": {
+          "title": "其他聯絡方式",
+          "phone": "+594 (0)6 94 00 70 97",
+          "email": "nathalie.jean@shiatsu-guyane.com",
+          "office": "親臨診所"
+        }
+      },
+      "rightColumn": {
+        "formTitle": "發送訊息",
+        "formSubtitle": "我會盡快回覆"
+      }
+    }
+  },
+  "components": {
+    "certificationGallery": {
+      "diplomaCount": {
+        "single": "證書",
+        "plural": "證書"
+      },
+      "viewAllButton": "查看所有證書 ({{count}})",
+      "zoomHint": "點擊放大",
+      "certifications": {
+        "shiatsuProfessionnel": {
+          "title": "專業證書",
+          "organization": "André Nahum 學院",
+          "year": "2006",
+          "details": "專業證書 - 指壓治療師"
+        },
+        "ohashiatsuAdvanced": {
+          "title": "高級 Ohashiatsu 認證",
+          "organization": "Ohashiatsu 學院",
+          "year": "2008",
+          "details": "高級認證"
+        },
+        "ohashiatsuInstructor": {
+          "title": "認證 Ohashiatsu 導師",
+          "organization": "Ohashiatsu 學院",
+          "year": "2012",
+          "details": "導師資格認證"
+        },
+        "seikiShiatsu": {
+          "title": "生機指壓",
+          "organization": "生機指壓協會",
+          "year": "2022-2024",
+          "details": "由 Tzvika Calisar 親自培訓"
+        },
+        "sophrologie": {
+          "title": "心理輔導師認證",
+          "organization": "心理輔導學院",
+          "year": "2023",
+          "details": "RNCP 5級 - NSF 第330p號"
+        },
+        "formationsSpecialisees": {
+          "title": "專業培訓",
+          "organization": "多個機構",
+          "year": "2022-2024",
+          "details": "持續專業發展"
+        }
+      }
+    },
+    "testimonials": {
+      "badge": "客戶見證",
+      "description": "真實客戶評價展現我們服務的品質",
+      "quickInfo": {
+        "verifiedReviews": "已驗證評價",
+        "satisfiedClients": "滿意客戶",
+        "authenticExperiences": "真實體驗"
+      },
+      "loading": "正在載入 Google 評價...",
+      "verifiedBadge": "已驗證評價",
+      "wellbeingMessage": "健康是最寶貴的財富",
+      "footerDescription": "這些見證反映了我們對每位客戶健康和福祉的承諾，以及我們溫和有效的治療方法。"
+    },
+    "benefits": {
+      "badge": "健康益處",
+      "quickInfo": {
+        "physicalWellbeing": "身體健康",
+        "emotionalBalance": "情緒平衡",
+        "vitalEnergy": "生命活力"
+      },
+      "description": "指壓提供多方面的健康益處，改善您的整體生活品質",
+      "ctaTitle": "體驗差異",
+      "ctaDescription": "發現古老智慧如何為現代生活帶來健康益處",
+      "traditionMessage": "傳承千年的東方智慧治療",
+      "cards": {
+        "vitality": {
+          "title": "活力",
+          "description": "恢復自然能量"
+        },
+        "relief": {
+          "title": "緩解",
+          "description": "減輕疼痛不適"
+        },
+        "balance": {
+          "title": "平衡",
+          "description": "身心靈和諧統一"
+        },
+        "prevention": {
+          "title": "預防",
+          "description": "維護長期健康"
+        }
+      }
+    },
+    "aboutIntro": {
+      "badge": "認證治療師",
+      "certifiedBadge": "官方認證治療師",
+      "experience": {
+        "years": "15+ 年",
+        "label": "經驗"
+      },
+      "qualities": {
+        "personalizedApproach": {
+          "title": "個人化方法",
+          "description": "量身定制療程"
+        },
+        "compassionateListening": {
+          "title": "用心聆聽",
+          "description": "專業同理心關懷"
+        }
+      },
+      "additionalCta": "了解我的專業背景",
+      "imageAlt": "Nathalie Jean 指壓治療師專業照片"
+    },
+    "whatIsShiatsu": {
+      "badge": "古老療法",
+      "qualities": {
+        "energeticBalance": {
+          "title": "能量平衡",
+          "description": "恢復自然和諧"
+        },
+        "holisticApproach": {
+          "title": "整體療法",
+          "description": "身心靈統一"
+        }
+      },
+      "tradition": "東方傳統智慧",
+      "shiatsuMeaning": {
+        "title": "指壓",
+        "description": "「手指」加「壓力」"
+      },
+      "vitalEnergy": "生命能量",
+      "imageAlt": "指壓治療師工作照"
+    },
+    "whoIsItFor": {
+      "badge": "適合對象",
+      "quickInfo": {
+        "allAges": "各年齡層",
+        "allNeeds": "各種需求",
+        "personalizedApproach": "個人化方法"
+      },
+      "description": "指壓適合每個人，無論年齡或特殊需求",
+      "findProfileTitle": "找到您的檔案",
+      "findProfileDescription": "發現指壓如何幫助像您這樣的人改善健康",
+      "uniqueMessage": "每個人都有獨特的健康需求",
+      "cards": {
+        "globalWellbeing": {
+          "title": "整體健康",
+          "description": "身心靈和諧"
+        },
+        "tailored": {
+          "title": "量身定制",
+          "description": "個人化療程"
+        },
+        "forEveryone": {
+          "title": "適合所有人",
+          "description": "無年齡限制"
+        }
+      }
+    },
+    "footer": {
+      "practitioner": {
+        "name": "Nathalie JEAN",
+        "description": "認證指壓治療師 - 20+ 年經驗",
+        "longDescription": "擁有增井流、禪指壓及生機指壓認證的專業治療師，自2006年開始執業，專注於整體健康療法。",
+        "certification": "心理輔導師認證 RNCP 第1100號",
+        "certification2": "聯盟認證 FFST-2023-920938",
+        "experience": "自2006年開始執業",
+        "memberships": "FFST、UFPMT、UFPST 會員"
+      },
+      "contact": {
+        "title": "聯絡方式",
+        "office": {
+          "title": "診所地址",
+          "address": "12 Clos des Hippocampes, 97354 Rémire-Montjoly, 法屬圭亞那",
+          "schedule": "週一至週五 9h-18h"
+        },
+        "email": {
+          "address": "nathalie.jean@shiatsu-guyane.com",
+          "responseTime": "24小時內回覆"
+        }
+      },
+      "schedule": {
+        "title": "營業時間",
+        "weekdays": {
+          "label": "週一 - 週五",
+          "hours": "9h00 - 18h00"
+        },
+        "saturday": {
+          "label": "週六",
+          "hours": "9h00 - 14h00"
+        },
+        "sunday": {
+          "label": "週日",
+          "hours": "休息"
+        }
+      },
+      "navigation": {
+        "title": "導航",
+        "home": "首頁"
+      },
+      "legal": {
+        "mentions": "法律聲明",
+        "privacy": "隱私政策",
+        "terms": "服務條款"
+      },
+      "backToTop": "回到頂部",
+      "copyright": "© 2025 Nathalie Jean - 指壓治療師保留所有權利"
+    },
+    "hero": {
+      "socialLabels": {
+        "whatsapp": "WhatsApp 聯絡",
+        "instagram": "Instagram 追蹤",
+        "facebook": "Facebook 粉絲頁"
+      },
+      "videoNotSupported": "您的瀏覽器不支援影片播放",
+      "wellbeingBadge": "健康福祉",
+      "discover": "探索",
+      "credentials": {
+        "certifiedInstructor": "認證導師",
+        "experience": "18+ 年經驗",
+        "certifiedSophrologist": "心理輔導師認證 RNCP"
+      }
+    },
+    "reviews": {
+      "verifiedReview": "已驗證評價"
+    },
+    "navbar": {
+      "socialLabels": {
+        "whatsapp": "WhatsApp",
+        "instagram": "Instagram",
+        "facebook": "Facebook"
+      }
+    }
+  },
+  "pages": {
+    "practicalInfo": {
+      "badge": "實用指南",
+      "quickNav": {
+        "flow": "療程流程",
+        "recommendations": "建議事項",
+        "location": "地點位置"
+      },
+      "sessionFlow": {
+        "badge": "療程流程",
+        "description": "了解每次療程的詳細安排和準備事項"
+      },
+      "recommendations": {
+        "badge": "重要建議",
+        "description": "療程前後的重要注意事項和最佳實踐建議"
+      },
+      "location": {
+        "badge": "地點位置",
+        "description": "診所地址",
+        "address": "地址"
+      }
+    },
+    "leShiatsu": {
+      "badge": "東方傳統療法",
+      "foundations": "基礎理論",
+      "philosophyPractice": "哲學與實踐",
+      "methodsTechniques": "方法與技術",
+      "schoolsTraditions": "流派與傳統",
+      "imageAlt": "指壓治療",
+      "schoolsDescription": "探索不同的指壓流派和傳統"
+    },
+    "pourQui": {
+      "badge": "個人化療程",
+      "loading": "載入中...",
+      "exploreBelow": "探索下方",
+      "personalizedProfiles": "個人化檔案",
+      "findIdealSupport": "找到理想的健康支持",
+      "notFindProfile": "找不到您的檔案？",
+      "personalizedConsultation": "個人化諮詢",
+      "contactUs": "聯絡我們",
+      "introDescription": "每個人都有獨特的健康需求，我為每位客戶提供量身定制的專業療程。",
+      "personalizedDescription": "如果您沒有找到完全符合您需求的檔案，請聯絡我進行個人化諮詢。",
+      "personalizedConsultationSection": {
+        "description": "如果您沒有找到完全符合您情況的檔案，請聯絡我。",
+        "title": "個人化諮詢",
+        "cta": "聯絡我們"
+      }
+    },
+    "servicesPricing": {
+      "badge": "服務與價格",
+      "quickInfo": {
+        "flexibleScheduling": "彈性預約時間",
+        "expertGuidance": "專業指導",
+        "personalizedApproach": "個人化方法"
+      },
+      "individualServices": "個人服務",
+      "valuePackages": "超值套餐",
+      "mostPopular": "最受歡迎",
+      "bestValue": "最佳價值",
+      "corporateSolutions": "企業解決方案",
+      "learnMore": "了解更多",
+      "packageBenefits": {
+        "flexibleScheduling": "彈性預約時間安排",
+        "priorityBooking": "優先預約",
+        "transferable": "可轉讓他人使用"
+      },
+      "getStarted": "開始",
+      "workshops": {
+        "description": "集體學習與實踐活動",
+        "priceLabel": "價格",
+        "durationLabel": "時長"
+      }
+    }
+  },
+  "metadata": {
+    "title": "指壓治療 - 整體健康",
+    "description": "法屬圭亞那的專業認證指壓治療師，促進身心平衡"
+  },
+  "aboutPage": {
+    "title": "Nathalie JEAN - 20年專業經驗",
+    "subtitle": "自2006年開始執業，我是一位認證的專業治療師，致力於東方傳統療法，專注於為每位客戶提供個人化健康方案。",
+    "intro": {
+      "heading": "我的使命：幫助您找到最佳健康狀態",
+      "p1": "憑藉20年的經驗，我致力於為每位客戶提供個人化的健康解決方案。我掌握增井流、禪指壓、生機指壓及心理輔導等多種技術。",
+      "p2": "我的使命是通過溫和而有效的方法，幫助您在日常生活中找到身心平衡。"
+    },
+    "timeline": {
+      "heading": "職業里程碑 - 20年經驗",
+      "events": [
+        {
+          "year": "2005",
+          "title": "André Nahum 學院 - 增井流",
+          "description": "在著名的學院開始學習專業指壓技術，掌握德治增井的經典方法。"
+        },
+        {
+          "year": "2006",
+          "title": "開始專業執業",
+          "description": "2006年開始專業執業，致力於為客戶提供高品質的指壓治療服務。"
+        },
+        {
+          "year": "2008",
+          "title": "Ohashiatsu 認證 - 高級認證",
+          "description": "取得 Ohashiatsu 高級認證，擴展了能量平衡和整體療法的技能。"
+        },
+        {
+          "year": "2009",
+          "title": "椅上按摩導師 - 5LSpa",
+          "description": "在 5LSpa 取得導師資格，能夠教授專業的椅上按摩技術。"
+        },
+        {
+          "year": "2012",
+          "title": "Ohashiatsu 導師認證",
+          "description": "成為導師認證，可以培訓其他 Ohashiatsu 方法的治療師。"
+        },
+        {
+          "year": "2022",
+          "title": "與 Tzvika Calisar 學習生機指壓",
+          "description": "深入學習生機指壓方法，這種方法注重生命能量的自然流動。"
+        },
+        {
+          "year": "2023",
+          "title": "RNCP 心理輔導認證",
+          "description": "取得心理輔導師認證 RNCP 第1100號，增加了心理健康和壓力管理的專業技能。"
+        },
+        {
+          "year": "2024",
+          "title": "完成生機指壓培訓",
+          "description": "完成與大師的培訓，現在能夠提供這種獨特而有效的整體療法。"
+        }
+      ]
+    },
+    "hardcodedStrings": {
+      "badges": {
+        "myJourney": "我的經歷",
+        "myStory": "我的故事",
+        "professionalPath": "職業道路",
+        "recognitions": "認證資歷"
+      },
+      "credentials": {
+        "ohashiatsuInstructor": "認證 Ohashiatsu 導師",
+        "experience": "20+ 年經驗",
+        "certifiedSophrologist": "心理輔導師認證 RNCP 第1100號",
+        "practitionerTitle": "認證指壓治療師"
+      },
+      "values": {
+        "kindness": "善心",
+        "kindnessDesc": "用心聆聽與關懷",
+        "excellence": "卓越",
+        "excellenceDesc": "追求專業技術",
+        "humanApproach": "人性化方法",
+        "humanApproachDesc": "每個人都值得個人化關注",
+        "durableResults": "持久效果",
+        "durableResultsDesc": "長期健康改善而非短暫緩解",
+        "continuousInnovation": "持續創新",
+        "continuousInnovationDesc": "不斷學習新技術和改進方法"
+      },
+      "mission": {
+        "title": "使命",
+        "quote": "我的目標是透過溫和有效的方法引導每個人走向更好的健康狀態。"
+      },
+      "certifications": {
+        "sectionTitle": "專業認證",
+        "sectionDesc": "經官方認可的專業資格認證",
+        "heading": "認證資歷",
+        "items": [
+          "心理輔導師認證 RNCP 第1100號",
+          "執業許可證 03973228297",
+          "聯盟認證 FFST-2023-920938",
+          "會員證號 4638-533",
+          "椅上按摩導師",
+          "整體療法治療師",
+          "2008年至2009年 5LSpa 培訓"
+        ]
+      },
+      "navigation": {
+        "discoverMyStory": "了解我的故事",
+        "discoverSteps": "探索關鍵里程碑的詳細步驟"
+      }
+    }
+  },
+  "legal": {
+    "privacyPolicy": {
+      "badge": "隱私政策",
+      "title": "個人資料保護",
+      "subtitle": "我們承諾保護您的隱私，遵循GDPR規範處理和保護您的個人資料",
+      "lastUpdated": "最後更新：2025年1月",
+      "controller": {
+        "title": "資料控制者",
+        "name": "Nathalie JEAN - 指壓治療師",
+        "description": "FFST認證治療師，法國指壓聯盟",
+        "contact": {
+          "email": "聯絡電子郵件",
+          "phone": "電話"
+        }
+      },
+      "dataCollection": {
+        "title": "收集的資料",
+        "personalData": {
+          "title": "個人資料（聯絡表單）",
+          "types": [
+            "姓名",
+            "電子郵件地址",
+            "留言內容和療程需求",
+            "電話號碼",
+            "聯絡偏好和療程歷史"
+          ]
+        },
+        "automaticData": {
+          "title": "自動收集的資料",
+          "types": [
+            "IP地址（48小時後匿名處理）",
+            "瀏覽器和裝置資訊",
+            "網站使用統計",
+            "網頁瀏覽歷史",
+            "網站停留時間"
+          ]
+        }
+      },
+      "legalBasis": {
+        "title": "處理法律依據",
+        "basisLabel": "法律依據",
+        "purposes": [
+          {
+            "purpose": "處理聯絡請求",
+            "basis": "同意",
+            "description": "回應您的問題和療程預約"
+          },
+          {
+            "purpose": "客戶管理",
+            "basis": "同意",
+            "description": "個人化療程和客戶記錄管理"
+          },
+          {
+            "purpose": "法律合規",
+            "basis": "法律義務",
+            "description": "遵守FFST和相關醫療法規"
+          },
+          {
+            "purpose": "網站改善",
+            "basis": "合法利益",
+            "description": "匿名統計分析改善用戶體驗"
+          }
+        ]
+      },
+      "yourRights": {
+        "title": "您的權利（GDPR）",
+        "description": "根據GDPR規範，您對您的個人資料享有以下權利：",
+        "rights": [
+          {
+            "name": "查閱權",
+            "description": "取得我們持有的您的個人資料副本"
+          },
+          {
+            "name": "更正權",
+            "description": "更正不準確或過時的資料"
+          },
+          {
+            "name": "刪除權",
+            "description": "要求刪除您的個人資料"
+          },
+          {
+            "name": "限制權",
+            "description": "限制處理您的個人資料"
+          },
+          {
+            "name": "資料可攜權",
+            "description": "以結構化格式接收您的資料"
+          },
+          {
+            "name": "反對權",
+            "description": "反對處理您的個人資料"
+          }
+        ],
+        "contact": {
+          "title": "行使權利",
+          "description": "請透過電子郵件或電話聯絡我們，我們將在30天內回覆"
+        }
+      },
+      "dataSecurity": {
+        "title": "資料安全",
+        "description": "我們實施多項技術和組織措施來保護您的資料",
+        "measures": [
+          "所有資料傳輸均使用SSL/TLS加密",
+          "定期安全更新和監控",
+          "嚴格的資料存取控制和個人資料查閱權限",
+          "安全的備份和恢復程序",
+          "資料保護影響評估",
+          "安全事件應急處理程序"
+        ]
+      },
+      "cookies": {
+        "title": "Cookie政策",
+        "description": "我們使用cookie來改善您的瀏覽體驗",
+        "duration": "保存期限",
+        "types": [
+          {
+            "name": "必要Cookie",
+            "description": "確保網站基本功能正常運作",
+            "duration": "瀏覽期間"
+          },
+          {
+            "name": "偏好Cookie",
+            "description": "記住您的設定和偏好選擇",
+            "duration": "1年"
+          },
+          {
+            "name": "分析Cookie",
+            "description": "幫助我們了解網站使用和改善用戶體驗",
+            "duration": "2年"
+          },
+          {
+            "name": "性能Cookie",
+            "description": "監控網站性能和載入時間",
+            "duration": "6個月"
+          }
+        ]
+      },
+      "contact": {
+        "title": "聯絡方式",
+        "email": "電子郵件地址",
+        "phone": "電話",
+        "cnil": {
+          "title": "向CNIL投訴",
+          "description": "如果您認為您的權利沒有得到尊重，您有權向CNIL（法國資訊自由委員會）投訴"
+        }
+      }
+    },
+    "cookieConsent": {
+      "title": "使用cookie通知",
+      "description": "我們使用cookie來改善您的瀏覽體驗、個人化內容和分析我們的流量。",
+      "essentialCookies": {
+        "title": "必要cookie",
+        "description": "確保網站基本功能瀏覽期間"
+      },
+      "analyticsCookies": {
+        "title": "分析cookie",
+        "description": "幫助我們了解網站使用和改善用戶體驗"
+      },
+      "performanceCookies": {
+        "title": "性能cookie",
+        "description": "監控網站性能和載入時間"
+      },
+      "preferencesCookies": {
+        "title": "偏好cookie",
+        "description": "記住您的設定和偏好選擇"
+      },
+      "acceptAll": "接受全部",
+      "acceptSelected": "接受所選",
+      "rejectNonEssential": "拒絕非必要",
+      "customize": "自定義",
+      "privacyPolicy": "隱私政策",
+      "moreInfo": "更多資訊"
+    },
+    "healthcareDisclaimer": {
+      "title": "醫療聲明",
+      "subtitle": "重要法律和專業資訊",
+      "disclaimers": {
+        "notMedicalAdvice": {
+          "title": "非醫療建議",
+          "description": "本網站提供的資訊不構成醫療建議，不能替代專業醫療諮詢或治療。"
+        },
+        "ffstCertification": {
+          "title": "FFST專業認證",
+          "description": "我是經過認證的FFST治療師，擁有500小時的專業培訓和法國指壓聯盟認證。"
+        },
+        "emergencyContact": {
+          "title": "緊急情況",
+          "description": "如有緊急情況，請聯絡15（SAMU）、18（消防）或您的家庭醫生。"
+        },
+        "dataProtection": {
+          "title": "健康資料保護",
+          "description": "所有健康相關資料均按照GDPR規範和醫療保密規定嚴格保護。"
+        }
+      },
+      "credentials": {
+        "title": "已驗證專業資格",
+        "items": [
+          "經FFST認證的法國指壓聯盟治療師",
+          "擁有500小時已驗證專業培訓",
+          "持續專業發展和技能更新",
+          "遵循FFST職業道德規範",
+          "定期參與專業培訓",
+          "FFST專業責任保險已投保"
+        ]
+      },
+      "contact": "如有任何疑問關於我的資格或療程適宜性，請隨時聯絡我"
+    }
+  },
+  "common": {
+    "backToHome": "返回首頁"
+  },
+  "signature": {
+    "text": "由以下人員製作",
+    "by": "Ewan"
+  }
+}

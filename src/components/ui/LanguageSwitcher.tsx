@@ -14,6 +14,7 @@ const languages = {
   es: { name: 'Español', flag: '🇪🇸', code: 'ES', region: 'España' },
   'zh-cn': { name: '简体中文', flag: '🇨🇳', code: 'CN', region: '中国'},
   hmn: { name: 'Hmong', flag: '🏳️', code: 'HMN', region: 'Global'},
+  'zh-hk': { name: '繁體中文', flag: '🇭🇰', code: 'HK', region: '香港'},
 };
 
 // Enhanced animation variants with proper TypeScript types
@@ -232,10 +233,10 @@ export const LanguageSwitcher = ({ lang, lightMode = false }: LanguageSwitcherPr
             exit="closed"
             variants={dropdownVariants}
             style={{ 
-              originY: "bottom",
+              originY: "top",
               translateX: "-50%",
             }}
-            className="absolute bottom-[120%] left-[50%] w-72 sm:w-80 overflow-hidden z-50"
+            className="absolute top-[120%] left-[50%] w-72 sm:w-80 overflow-hidden z-50"
             role="listbox"
             aria-label="Available languages"
           >

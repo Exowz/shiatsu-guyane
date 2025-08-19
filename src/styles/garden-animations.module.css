@@ -1,0 +1,659 @@
+/* Garden Background Animations - CSS Module for Server Component Compatibility */
+
+/* Floating Leaf Animations */
+.floatSlow {
+  animation: floatSlow 18s ease-in-out infinite;
+}
+
+.floatGentle {
+  animation: floatGentle 15s ease-in-out infinite;
+}
+
+.floatDelicate {
+  animation: floatDelicate 22s ease-in-out infinite;
+}
+
+.swayLeft {
+  animation: swayLeft 12s ease-in-out infinite;
+}
+
+.swayRight {
+  animation: swayRight 14s ease-in-out infinite;
+}
+
+.breathe {
+  animation: breathe 8s ease-in-out infinite;
+}
+
+.driftUpward {
+  animation: driftUpward 20s ease-in-out infinite;
+}
+
+.gentleRotate {
+  animation: gentleRotate 25s linear infinite;
+}
+
+/* Branch and Vine Animations */
+.branchSway {
+  animation: branchSway 16s ease-in-out infinite;
+  transform-origin: bottom center;
+}
+
+.vineCurl {
+  animation: vineCurl 20s ease-in-out infinite;
+}
+
+.stemGrow {
+  animation: stemGrow 24s ease-in-out infinite;
+}
+
+/* Botanical Elements */
+.budBloom {
+  animation: budBloom 10s ease-in-out infinite;
+}
+
+.petalDance {
+  animation: petalDance 13s ease-in-out infinite;
+}
+
+.grassWave {
+  animation: grassWave 8s ease-in-out infinite;
+}
+
+/* Keyframe Definitions */
+
+@keyframes floatSlow {
+  0%, 100% { 
+    transform: translateY(0px) translateX(0px) rotate(0deg); 
+    opacity: 0.6;
+  }
+  25% { 
+    transform: translateY(-12px) translateX(3px) rotate(2deg); 
+    opacity: 0.7;
+  }
+  50% { 
+    transform: translateY(-20px) translateX(-2px) rotate(0deg); 
+    opacity: 0.8;
+  }
+  75% { 
+    transform: translateY(-8px) translateX(4px) rotate(-2deg); 
+    opacity: 0.7;
+  }
+}
+
+@keyframes floatGentle {
+  0%, 100% { 
+    transform: translateY(0px) rotate(0deg) scale(1); 
+    opacity: 0.5;
+  }
+  33% { 
+    transform: translateY(-8px) rotate(1deg) scale(1.02); 
+    opacity: 0.6;
+  }
+  66% { 
+    transform: translateY(-15px) rotate(-1deg) scale(0.98); 
+    opacity: 0.7;
+  }
+}
+
+@keyframes floatDelicate {
+  0%, 100% { 
+    transform: translateY(0px) translateX(0px) rotate(0deg); 
+    opacity: 0.4;
+  }
+  20% { 
+    transform: translateY(-5px) translateX(2px) rotate(1deg); 
+    opacity: 0.5;
+  }
+  40% { 
+    transform: translateY(-10px) translateX(-1px) rotate(0deg); 
+    opacity: 0.6;
+  }
+  60% { 
+    transform: translateY(-8px) translateX(3px) rotate(-1deg); 
+    opacity: 0.5;
+  }
+  80% { 
+    transform: translateY(-3px) translateX(1px) rotate(0.5deg); 
+    opacity: 0.4;
+  }
+}
+
+@keyframes swayLeft {
+  0%, 100% { 
+    transform: rotate(0deg) translateX(0px); 
+  }
+  50% { 
+    transform: rotate(-3deg) translateX(-5px); 
+  }
+}
+
+@keyframes swayRight {
+  0%, 100% { 
+    transform: rotate(0deg) translateX(0px); 
+  }
+  50% { 
+    transform: rotate(3deg) translateX(5px); 
+  }
+}
+
+@keyframes breathe {
+  0%, 100% { 
+    transform: scale(1); 
+    opacity: 0.3;
+  }
+  50% { 
+    transform: scale(1.05); 
+    opacity: 0.5;
+  }
+}
+
+@keyframes driftUpward {
+  0%, 100% { 
+    transform: translateY(0px) translateX(0px) rotate(0deg); 
+  }
+  25% { 
+    transform: translateY(-15px) translateX(-3px) rotate(2deg); 
+  }
+  50% { 
+    transform: translateY(-25px) translateX(2px) rotate(0deg); 
+  }
+  75% { 
+    transform: translateY(-18px) translateX(4px) rotate(-1deg); 
+  }
+}
+
+@keyframes gentleRotate {
+  0% { 
+    transform: rotate(0deg); 
+  }
+  100% { 
+    transform: rotate(360deg); 
+  }
+}
+
+@keyframes branchSway {
+  0%, 100% { 
+    transform: rotate(0deg) translateY(0px); 
+  }
+  25% { 
+    transform: rotate(2deg) translateY(-2px); 
+  }
+  50% { 
+    transform: rotate(0deg) translateY(-3px); 
+  }
+  75% { 
+    transform: rotate(-2deg) translateY(-1px); 
+  }
+}
+
+@keyframes vineCurl {
+  0%, 100% { 
+    transform: scaleX(1) scaleY(1) rotate(0deg); 
+  }
+  33% { 
+    transform: scaleX(1.02) scaleY(0.98) rotate(1deg); 
+  }
+  66% { 
+    transform: scaleX(0.98) scaleY(1.02) rotate(-1deg); 
+  }
+}
+
+@keyframes stemGrow {
+  0%, 100% { 
+    transform: scaleY(1) translateY(0px); 
+  }
+  50% { 
+    transform: scaleY(1.1) translateY(-2px); 
+  }
+}
+
+@keyframes budBloom {
+  0%, 100% { 
+    transform: scale(1) rotate(0deg); 
+    opacity: 0.6;
+  }
+  30% { 
+    transform: scale(1.1) rotate(2deg); 
+    opacity: 0.8;
+  }
+  70% { 
+    transform: scale(1.05) rotate(-1deg); 
+    opacity: 0.7;
+  }
+}
+
+@keyframes petalDance {
+  0%, 100% { 
+    transform: translateY(0px) rotate(0deg); 
+    opacity: 0.4;
+  }
+  25% { 
+    transform: translateY(-3px) rotate(5deg); 
+    opacity: 0.6;
+  }
+  50% { 
+    transform: translateY(-5px) rotate(0deg); 
+    opacity: 0.5;
+  }
+  75% { 
+    transform: translateY(-2px) rotate(-5deg); 
+    opacity: 0.6;
+  }
+}
+
+@keyframes grassWave {
+  0%, 100% { 
+    transform: rotate(0deg) scaleY(1); 
+  }
+  25% { 
+    transform: rotate(2deg) scaleY(1.05); 
+  }
+  50% { 
+    transform: rotate(0deg) scaleY(1.02); 
+  }
+  75% { 
+    transform: rotate(-2deg) scaleY(1.03); 
+  }
+}
+
+/* Layered Depth Classes */
+.backgroundLayer {
+  opacity: 0.2;
+  z-index: 1;
+}
+
+.midgroundLayer {
+  opacity: 0.4;
+  z-index: 2;
+}
+
+.foregroundLayer {
+  opacity: 0.6;
+  z-index: 3;
+}
+
+/* Advanced Forest Ecosystem Animations */
+.canopySway {
+  animation: canopySway 20s ease-in-out infinite;
+}
+
+.branchWave {
+  animation: branchWave 18s ease-in-out infinite;
+}
+
+.leafRustle {
+  animation: leafRustle 8s ease-in-out infinite;
+}
+
+.petalFloat {
+  animation: petalFloat 25s linear infinite;
+}
+
+.birdFly {
+  animation: birdFly 30s linear infinite;
+}
+
+.butterflyDance {
+  animation: butterflyDance 15s ease-in-out infinite;
+}
+
+.shadowShift {
+  animation: shadowShift 40s ease-in-out infinite;
+}
+
+.sunbeamFilter {
+  animation: sunbeamFilter 35s ease-in-out infinite;
+}
+
+.mossGrow {
+  animation: mossGrow 22s ease-in-out infinite;
+}
+
+.trunkSway {
+  animation: trunkSway 25s ease-in-out infinite;
+}
+
+/* New Garden Ecosystem Animations */
+.flowerBloom {
+  animation: flowerBloom 12s ease-in-out infinite;
+}
+
+.dewdropShimmer {
+  animation: dewdropShimmer 6s ease-in-out infinite;
+}
+
+.vineGrow {
+  animation: vineGrow 18s ease-in-out infinite;
+}
+
+.rootPulse {
+  animation: rootPulse 10s ease-in-out infinite;
+}
+
+.fernSway {
+  animation: fernSway 14s ease-in-out infinite;
+}
+
+.berryBob {
+  animation: berryBob 8s ease-in-out infinite;
+}
+
+.pathShimmer {
+  animation: pathShimmer 20s linear infinite;
+}
+
+.treeRustle {
+  animation: treeRustle 16s ease-in-out infinite;
+}
+
+/* Enhanced Garden Keyframes */
+
+@keyframes flowerBloom {
+  0%, 100% { 
+    transform: scale(1) rotate(0deg); 
+    opacity: 0.6;
+  }
+  25% { 
+    transform: scale(1.1) rotate(2deg); 
+    opacity: 0.8;
+  }
+  50% { 
+    transform: scale(1.15) rotate(0deg); 
+    opacity: 0.9;
+  }
+  75% { 
+    transform: scale(1.05) rotate(-1deg); 
+    opacity: 0.7;
+  }
+}
+
+@keyframes dewdropShimmer {
+  0%, 100% { 
+    opacity: 0.3; 
+    transform: scale(1);
+  }
+  50% { 
+    opacity: 0.8; 
+    transform: scale(1.2);
+  }
+}
+
+@keyframes vineGrow {
+  0%, 100% { 
+    transform: scaleY(1) scaleX(1) rotate(0deg); 
+    opacity: 0.4;
+  }
+  25% { 
+    transform: scaleY(1.05) scaleX(0.98) rotate(1deg); 
+    opacity: 0.6;
+  }
+  50% { 
+    transform: scaleY(1.1) scaleX(0.95) rotate(0deg); 
+    opacity: 0.7;
+  }
+  75% { 
+    transform: scaleY(1.03) scaleX(1.02) rotate(-1deg); 
+    opacity: 0.5;
+  }
+}
+
+@keyframes rootPulse {
+  0%, 100% { 
+    opacity: 0.2; 
+    transform: scaleX(1);
+  }
+  50% { 
+    opacity: 0.4; 
+    transform: scaleX(1.05);
+  }
+}
+
+@keyframes fernSway {
+  0%, 100% { 
+    transform: rotate(0deg) translateX(0px); 
+    opacity: 0.5;
+  }
+  25% { 
+    transform: rotate(2deg) translateX(2px); 
+    opacity: 0.6;
+  }
+  50% { 
+    transform: rotate(0deg) translateX(0px); 
+    opacity: 0.7;
+  }
+  75% { 
+    transform: rotate(-2deg) translateX(-2px); 
+    opacity: 0.6;
+  }
+}
+
+@keyframes berryBob {
+  0%, 100% { 
+    transform: translateY(0px) rotate(0deg); 
+  }
+  25% { 
+    transform: translateY(-2px) rotate(1deg); 
+  }
+  75% { 
+    transform: translateY(-1px) rotate(-1deg); 
+  }
+}
+
+@keyframes pathShimmer {
+  0%, 100% { 
+    opacity: 0.1; 
+  }
+  50% { 
+    opacity: 0.3; 
+  }
+}
+
+@keyframes treeRustle {
+  0%, 100% { 
+    transform: translateY(0px) rotate(0deg); 
+    opacity: 0.15;
+  }
+  25% { 
+    transform: translateY(-3px) rotate(1deg); 
+    opacity: 0.2;
+  }
+  50% { 
+    transform: translateY(-5px) rotate(0deg); 
+    opacity: 0.25;
+  }
+  75% { 
+    transform: translateY(-2px) rotate(-1deg); 
+    opacity: 0.18;
+  }
+}
+
+/* Advanced Forest Keyframes */
+
+@keyframes canopySway {
+  0%, 100% { 
+    transform: rotate(0deg) translateY(0px); 
+    opacity: 0.12;
+  }
+  25% { 
+    transform: rotate(1deg) translateY(-2px); 
+    opacity: 0.15;
+  }
+  50% { 
+    transform: rotate(0deg) translateY(-4px); 
+    opacity: 0.18;
+  }
+  75% { 
+    transform: rotate(-1deg) translateY(-2px); 
+    opacity: 0.14;
+  }
+}
+
+@keyframes branchWave {
+  0%, 100% { 
+    transform: rotate(0deg) scaleY(1); 
+    transform-origin: bottom center;
+  }
+  33% { 
+    transform: rotate(2deg) scaleY(1.02); 
+    transform-origin: bottom center;
+  }
+  66% { 
+    transform: rotate(-1.5deg) scaleY(0.98); 
+    transform-origin: bottom center;
+  }
+}
+
+@keyframes leafRustle {
+  0%, 100% { 
+    transform: rotate(0deg) translateX(0px); 
+    opacity: 0.6;
+  }
+  20% { 
+    transform: rotate(3deg) translateX(1px); 
+    opacity: 0.7;
+  }
+  40% { 
+    transform: rotate(-2deg) translateX(-1px); 
+    opacity: 0.8;
+  }
+  60% { 
+    transform: rotate(1deg) translateX(0.5px); 
+    opacity: 0.7;
+  }
+  80% { 
+    transform: rotate(-1deg) translateX(-0.5px); 
+    opacity: 0.6;
+  }
+}
+
+@keyframes petalFloat {
+  0% { 
+    transform: translateY(0px) translateX(0px) rotate(0deg); 
+    opacity: 0.8;
+  }
+  25% { 
+    transform: translateY(-50px) translateX(10px) rotate(90deg); 
+    opacity: 0.6;
+  }
+  50% { 
+    transform: translateY(-100px) translateX(-5px) rotate(180deg); 
+    opacity: 0.4;
+  }
+  75% { 
+    transform: translateY(-150px) translateX(15px) rotate(270deg); 
+    opacity: 0.2;
+  }
+  100% { 
+    transform: translateY(-200px) translateX(0px) rotate(360deg); 
+    opacity: 0;
+  }
+}
+
+@keyframes birdFly {
+  0% { 
+    transform: translateX(-50px) translateY(0px); 
+    opacity: 0;
+  }
+  10% { 
+    opacity: 0.4;
+  }
+  50% { 
+    transform: translateX(50vw) translateY(-20px); 
+    opacity: 0.6;
+  }
+  90% { 
+    opacity: 0.4;
+  }
+  100% { 
+    transform: translateX(calc(100vw + 50px)) translateY(-10px); 
+    opacity: 0;
+  }
+}
+
+@keyframes butterflyDance {
+  0%, 100% { 
+    transform: translateX(0px) translateY(0px); 
+    opacity: 0.5;
+  }
+  25% { 
+    transform: translateX(15px) translateY(-10px); 
+    opacity: 0.7;
+  }
+  50% { 
+    transform: translateX(5px) translateY(-20px); 
+    opacity: 0.8;
+  }
+  75% { 
+    transform: translateX(-10px) translateY(-15px); 
+    opacity: 0.6;
+  }
+}
+
+@keyframes shadowShift {
+  0%, 100% { 
+    opacity: 0.1; 
+    transform: skewX(0deg);
+  }
+  50% { 
+    opacity: 0.05; 
+    transform: skewX(2deg);
+  }
+}
+
+@keyframes sunbeamFilter {
+  0%, 100% { 
+    opacity: 0.03; 
+  }
+  25% { 
+    opacity: 0.08; 
+  }
+  50% { 
+    opacity: 0.05; 
+  }
+  75% { 
+    opacity: 0.07; 
+  }
+}
+
+@keyframes mossGrow {
+  0%, 100% { 
+    transform: scale(1); 
+    opacity: 0.2;
+  }
+  50% { 
+    transform: scale(1.05); 
+    opacity: 0.3;
+  }
+}
+
+@keyframes trunkSway {
+  0%, 100% { 
+    transform: rotate(0deg); 
+    transform-origin: bottom center;
+  }
+  25% { 
+    transform: rotate(0.5deg); 
+    transform-origin: bottom center;
+  }
+  50% { 
+    transform: rotate(0deg); 
+    transform-origin: bottom center;
+  }
+  75% { 
+    transform: rotate(-0.5deg); 
+    transform-origin: bottom center;
+  }
+}
+
+/* Timing Variations */
+.delay1 { animation-delay: 1s; }
+.delay2 { animation-delay: 2s; }
+.delay3 { animation-delay: 3s; }
+.delay4 { animation-delay: 4s; }
+.delay5 { animation-delay: 5s; }
+.delay6 { animation-delay: 6s; }
+.delay7 { animation-delay: 7s; }
+.delay8 { animation-delay: 8s; }
+.delay9 { animation-delay: 9s; }
+.delay10 { animation-delay: 10s; }

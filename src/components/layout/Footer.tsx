@@ -52,12 +52,16 @@ export const Footer = ({ dictionary, lang }: FooterProps) => {
                   <span className="text-sm font-medium text-[rgb(var(--color-text-secondary))]">{dictionary.components.footer.practitioner.certification}</span>
                 </div>
                 <div className="flex items-center gap-2 bg-card/50 backdrop-blur-sm px-4 py-2 rounded-full shadow-lg">
-                  <Star className="w-4 h-4 text-[rgb(var(--color-primary))]" />
-                  <span className="text-sm font-medium text-[rgb(var(--color-text-secondary))]">{dictionary.components.footer.practitioner.certification}</span>
+                  <Star className="w-4 h-4 text-[rgb(var(--color-tertiary))]" />
+                  <span className="text-sm font-medium text-[rgb(var(--color-text-secondary))]">{dictionary.components.footer.practitioner.certification2}</span>
                 </div>
                 <div className="flex items-center gap-2 bg-card/50 backdrop-blur-sm px-4 py-2 rounded-full shadow-lg">
                   <Heart className="w-4 h-4 text-[rgb(var(--color-secondary))]" />
                   <span className="text-sm font-medium text-[rgb(var(--color-text-secondary))]">{dictionary.components.footer.practitioner.experience}</span>
+                </div>
+                <div className="flex items-center gap-2 bg-card/50 backdrop-blur-sm px-4 py-2 rounded-full shadow-lg">
+                  <Leaf className="w-4 h-4 text-[rgb(var(--color-primary))]" />
+                  <span className="text-sm font-medium text-[rgb(var(--color-text-secondary))]">{dictionary.components.footer.practitioner.memberships}</span>
                 </div>
               </div>
             </div>
@@ -202,7 +206,7 @@ export const Footer = ({ dictionary, lang }: FooterProps) => {
                   {dictionary.components.footer.copyright}
                 </p>
                 <p className="text-[rgb(var(--color-text-secondary))] text-xs mt-1">
-                  {dictionary.components.footer.practitioner.membershipFFST}
+                  {dictionary.components.footer.practitioner.memberships}
                 </p>
               </div>
 

@@ -9,6 +9,7 @@ import ptBRDict from '@/dictionaries/pt-BR.json';
 import esDict from '@/dictionaries/es.json';
 import zhCnDict from '@/dictionaries/zh-cn.json';
 import hmnDict from '@/dictionaries/hmn.json';
+import zhHkDict from '@/dictionaries/zh-hk.json';
 
 const dictionaries = {
   en: enDict,
@@ -17,9 +18,10 @@ const dictionaries = {
   es: esDict,
   'zh-cn': zhCnDict,
   hmn: hmnDict,
+  'zh-hk': zhHkDict,
 };
 
 export const getDictionary = cache(async (locale: Locale): Promise<Dictionary> => {
   const dictionary = dictionaries[locale] || dictionaries.fr;
-  return Promise.resolve(dictionary as Dictionary);
+  return Promise.resolve(dictionary as unknown as Dictionary);
 });

@@ -3,7 +3,7 @@
 import { Button } from '@/components/ui/button';
 import { IoLogoWhatsapp, IoLogoInstagram, IoLogoFacebook } from "react-icons/io";
 import { ModeToggle } from '@/components/ui/mode-toggle';
-import { LanguageSwitcher } from '@/components/ui/LanguageSwitcher';
+import { ArrowDown } from 'lucide-react';
 import { motion } from 'framer-motion';
 import type { Locale } from '@/lib/i18n-config';
 import type { Dictionary } from '@/types/dictionary';
@@ -105,7 +105,7 @@ interface HeroActionsProps {
   dictionary: Dictionary;
 }
 
-export const HeroActions = ({ lang, dictionary }: HeroActionsProps) => {
+export const HeroActions = ({ dictionary }: HeroActionsProps) => {
   return (
     <motion.div 
       className="absolute bottom-0 left-0 w-full px-4 sm:px-6 md:px-8 lg:px-10 py-6 sm:py-8"
@@ -166,35 +166,27 @@ export const HeroActions = ({ lang, dictionary }: HeroActionsProps) => {
               </motion.div>
             );
           })}
-          
-          {/* Social section label for accessibility */}
-          <div className="hidden sm:block ml-3 text-white/60 text-xs font-medium">
-            Follow
-          </div>
         </motion.div>
 
-        {/* 2. ENHANCED LANGUAGE SWITCHER (responsive center positioning) */}
+        {/* 2. ENHANCED SCROLL INDICATOR (responsive center positioning) */}
         <motion.div 
-          className="order-1 sm:order-2 sm:absolute sm:left-1/2 sm:-translate-x-1/2"
+          className="order-1 sm:order-2 sm:absolute sm:left-1/2 sm:-translate-x-1/2 flex flex-col items-center gap-2 sm:gap-3 animate-bounce"
           variants={itemVariants}
         >
-          <div className="relative">
-            {/* Subtle background glow */}
-            <div className="absolute inset-0 bg-white/5 rounded-2xl blur-xl"></div>
-            <LanguageSwitcher lang={lang} lightMode={false} />
+          <span className="text-xs text-white/70 font-medium tracking-wide">
+            {dictionary.components.hero.discover}
+          </span>
+          <div className="w-5 h-8 sm:w-6 sm:h-10 border-2 border-white/40 rounded-full flex justify-center">
+            <div className="w-0.5 sm:w-1 h-2 sm:h-3 bg-white/60 rounded-full mt-1.5 sm:mt-2 animate-pulse"></div>
           </div>
+          <ArrowDown className="w-3 h-3 sm:w-4 sm:h-4 text-white/60" />
         </motion.div>
 
         {/* 3. ENHANCED MODE TOGGLE (responsive right positioning) */}
         <motion.div 
           className="flex items-center gap-3 order-3"
           variants={itemVariants}
-        >
-          {/* Mode section label */}
-          <div className="hidden sm:block text-white/60 text-xs font-medium">
-            Theme
-          </div>
-          
+        > 
           <div className="relative">
             {/* Subtle background glow */}
             <div className="absolute inset-0 bg-white/5 rounded-2xl blur-xl"></div>

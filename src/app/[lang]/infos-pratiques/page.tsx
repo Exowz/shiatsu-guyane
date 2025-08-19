@@ -4,6 +4,7 @@ import { getDictionary } from '@/lib/dictionary';
 import { i18n, Locale } from '@/lib/i18n-config';
 import { CtaSection } from '@/components/sections/CtaSection';
 import { Clock, MapPin, Shirt, Utensils, Info, ArrowRight, Navigation, Calendar, Heart } from 'lucide-react';
+import { GardenBackground, SectionGarden, GardenDivider, FloatingBotanicals } from '@/components/garden';
 
 export async function generateStaticParams() {
   return i18n.locales.map((locale) => ({
@@ -20,18 +21,27 @@ export default async function PracticalInfoPage(props: { params: Promise<{ lang:
 
   return (
     <div className="bg-background text-foreground relative overflow-hidden min-h-screen">
-      {/* Sophisticated background elements using natural palette */}
-      <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        {/* Gentle information flow */}
-        <div className="absolute top-1/5 right-1/5 w-96 h-96 bg-[rgb(var(--color-primary))]/6 rounded-full blur-3xl animate-pulse"></div>
-        {/* Practical warmth */}
-        <div className="absolute bottom-1/3 left-1/5 w-80 h-80 bg-[rgb(var(--color-secondary))]/5 rounded-full blur-3xl animate-pulse delay-1000"></div>
-        {/* Helpful guidance */}
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-gradient-to-r from-[rgb(var(--color-tertiary))]/4 to-[rgb(var(--color-primary))]/3 rounded-full blur-3xl"></div>
-      </div>
+      {/* Information Garden Background */}
+      <GardenBackground 
+        intensity="light" 
+        wildlife={true} 
+        atmosphere={true} 
+        zIndex={1} 
+      />
+      
+      {/* Helpful Guidance Botanical Elements */}
+      <FloatingBotanicals 
+        density="light" 
+        elements={['leaves', 'particles', 'pollen']} 
+        wildlife={true}
+        zIndex={15}
+      />
 
-      {/* 1. Enhanced Page Header */}
+      {/* Information Garden Header */}
       <section className="min-h-screen justify-center flex flex-col items-center py-20 md:py-32 relative bg-secondary/30 backdrop-blur-sm">
+        {/* Practical Herb Garden Theme */}
+        <SectionGarden theme="herb" position="header" height="xl" zIndex={2} />
+        
         <div className="absolute inset-0 bg-gradient-to-br from-[rgb(var(--color-surface))]/40 to-transparent"></div>
         <div className="container mx-auto px-6 pt-32 pb-24 text-center relative z-10">
           {/* Practical info badge */}
@@ -68,7 +78,13 @@ export default async function PracticalInfoPage(props: { params: Promise<{ lang:
             </div>
           </div>
         </div>
+        
+        {/* Practical Garden Foundation */}
+        <SectionGarden theme="zen" position="footer" height="lg" zIndex={2} />
       </section>
+
+      {/* Garden Divider - Information Path */}
+      <GardenDivider type="organic" size="lg" zIndex={5} />
 
       <main className="container mx-auto px-6 py-20 lg:py-32 space-y-24 relative z-10">
 

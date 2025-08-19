@@ -1365,5 +1365,9 @@
   },
   "common": {
     "backToHome": "返回首页"
+  },
+  "signature": {
+    "text": "由以下人员制作",
+    "by": "Ewan"
   }
 }

@@ -6,6 +6,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { cn } from '@/lib/utils';
 import { Send, User, Mail, MessageSquare, CheckCircle, AlertCircle, Loader2 } from 'lucide-react';
 import { useState } from 'react';
+import { FloatingBotanicals } from '@/components/garden';
 
 interface ContactFormProps {
   dictionary: {
@@ -136,7 +137,17 @@ export function ContactForm({ dictionary: t, language = 'fr' }: ContactFormProps
   }
 
   return (
-    <div>
+    <div className="relative">
+      {/* Subtle Garden Elements Around Form */}
+      <FloatingBotanicals 
+        density="light" 
+        elements={['particles', 'pollen']} 
+        wildlife={false}
+        bounds="full"
+        zIndex={5}
+        className="opacity-60"
+      />
+      
       {/* Error display */}
       {error && (
         <div className="mb-6 p-4 bg-red-50 border border-red-200 rounded-xl">
@@ -274,8 +285,11 @@ export function ContactForm({ dictionary: t, language = 'fr' }: ContactFormProps
         </div>
       </form>
 
-      {/* Privacy notice */}
-      <div className="mt-8 p-6 bg-card/40 backdrop-blur-sm rounded-2xl">
+      {/* Privacy notice with garden border accent */}
+      <div className="mt-8 p-6 bg-card/40 backdrop-blur-sm rounded-2xl relative overflow-hidden">
+        {/* Subtle botanical border */}
+        <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-[rgb(var(--color-tertiary))]/20 to-transparent"></div>
+        <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-[rgb(var(--color-tertiary))]/20 to-transparent"></div>
         <div className="flex items-start gap-3">
           <div className="w-6 h-6 rounded-full bg-[rgb(var(--color-tertiary))]/20 flex items-center justify-center flex-shrink-0 mt-0.5">
             <CheckCircle className="w-4 h-4 text-[rgb(var(--color-tertiary))]" />

@@ -1,5 +1,6 @@
 import { getDictionary } from '@/lib/dictionary';
 import { i18n, Locale } from '@/lib/i18n-config';
+import { GardenBackground, SectionGarden, GardenDivider, FloatingBotanicals } from '@/components/garden';
 
 export async function generateStaticParams() {
   return i18n.locales.map((locale) => ({
@@ -16,18 +17,27 @@ export default async function ContactPage(props: { params: Promise<{ lang: Local
   
   return (
     <div className="bg-background text-foreground relative overflow-hidden min-h-screen">
-      {/* Sophisticated background elements using natural palette */}
-      <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        {/* Warm connection glow */}
-        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-[rgb(var(--color-primary))]/8 rounded-full blur-3xl animate-pulse"></div>
-        {/* Communication warmth */}
-        <div className="absolute bottom-1/3 right-1/4 w-80 h-80 bg-[rgb(var(--color-secondary))]/6 rounded-full blur-3xl animate-pulse delay-1000"></div>
-        {/* Peaceful dialogue */}
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-gradient-to-r from-[rgb(var(--color-tertiary))]/4 to-[rgb(var(--color-primary))]/3 rounded-full blur-3xl"></div>
-      </div>
+      {/* Garden Gate Background - Creating Welcoming Sanctuary Entrance */}
+      <GardenBackground 
+        intensity="dense" 
+        wildlife={true} 
+        atmosphere={true} 
+        zIndex={1} 
+      />
+      
+      {/* Welcoming Garden Elements */}
+      <FloatingBotanicals 
+        density="dense" 
+        elements={['leaves', 'petals', 'seeds', 'pollen']} 
+        wildlife={true}
+        zIndex={15}
+      />
 
-      {/* Enhanced Header Section */}
+      {/* Enhanced Header Section with Garden Gate Theme */}
       <section className="min-h-screen justify-center flex flex-col items-center py-20 md:py-32 relative bg-secondary/30 backdrop-blur-sm">
+        {/* Garden Gate Canopy */}
+        <SectionGarden theme="canopy" position="header" height="xl" zIndex={2} />
+        
         <div className="absolute inset-0 bg-gradient-to-br from-[rgb(var(--color-surface))]/40 to-transparent"></div>
         <div className="container mx-auto px-6 pt-32 pb-24 text-center relative z-10">
           {/* Contact badge */}
@@ -64,10 +74,18 @@ export default async function ContactPage(props: { params: Promise<{ lang: Local
             </div>
           </div>
         </div>
+        
+        {/* Garden Gate Foundation */}
+        <SectionGarden theme="grove" position="footer" height="lg" zIndex={2} />
       </section>
 
-      {/* Enhanced Main Content */}
+      {/* Garden Divider - Entrance Threshold */}
+      <GardenDivider type="flower" size="lg" zIndex={5} />
+
+      {/* Enhanced Main Content with Garden Sanctuary */}
       <main className="relative z-10 py-20 lg:py-32">
+        {/* Zen Garden Theme for Contact Form Area */}
+        <SectionGarden theme="zen" position="background" height="xl" zIndex={2} />
         <div className="container mx-auto px-6">
           <div className="grid grid-cols-1 lg:grid-cols-5 gap-16 max-w-7xl mx-auto">
             
@@ -142,7 +160,21 @@ export default async function ContactPage(props: { params: Promise<{ lang: Local
             </div>
           </div>
         </div>
+        
+        {/* Peaceful Garden Footer */}
+        <SectionGarden theme="botanical" position="footer" height="md" zIndex={2} />
       </main>
+
+      {/* Garden Divider - Peaceful Departure */}
+      <GardenDivider type="root" size="sm" zIndex={5} />
+
+      {/* Additional Atmospheric Elements */}
+      <FloatingBotanicals 
+        density="light" 
+        elements={['particles', 'pollen']} 
+        bounds="bottom"
+        zIndex={12}
+      />
     </div>
   );
 }
