@@ -1,8 +1,81 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Shiatsu Guyane
 
-## Getting Started
+A professional website for a Shiatsu therapy practice in French Guiana, built with Next.js.
 
-First, run the development server:
+## 🌿 About
+
+Shiatsu Guyane is a modern, responsive website showcasing Shiatsu therapy services in French Guiana. The site provides information about Shiatsu treatments, practitioner details, booking options, and wellness resources for clients seeking holistic health solutions.
+
+## ✨ Features
+
+- **Service Information**: Detailed descriptions of Shiatsu treatments and benefits
+- **Practitioner Profile**: About the therapist, qualifications, and experience
+- **Booking System**: Easy appointment scheduling
+- **Contact Information**: Multiple ways to reach the practice
+- **Blog/Resources**: Wellness tips and Shiatsu education
+- **Responsive Design**: Optimized for all devices
+- **Multilingual Support**: French primary language with potential English support
+- **SEO Optimized**: Better visibility for local searches
+- **Fast Performance**: Optimized with Next.js 14
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 14 (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS / CSS Modules
+- **Font**: Geist Font Family
+- **Deployment**: Vercel
+- **Form Handling**: Contact and booking forms
+- **SEO**: Next.js metadata API
+
+## 📋 Prerequisites
+
+- Node.js 18+
+- npm / yarn / pnpm / bun
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Exowz/shiatsu-guyane.git
+cd shiatsu-guyane
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+# or
+bun install
+```
+
+### 3. Environment Variables (Optional)
+
+Create a `.env.local` file for configuration:
+
+```env
+# Email service for contact forms
+SMTP_HOST=your-smtp-host
+SMTP_PORT=587
+SMTP_USER=your-email@example.com
+SMTP_PASSWORD=your-password
+
+# Booking system integration (if applicable)
+BOOKING_API_KEY=your-booking-api-key
+
+# Google Maps API (for location)
+NEXT_PUBLIC_GOOGLE_MAPS_API_KEY=your-maps-api-key
+
+# Analytics (optional)
+NEXT_PUBLIC_GA_ID=your-google-analytics-id
+```
+
+### 4. Run the Development Server
 
 ```bash
 npm run dev
@@ -14,23 +87,183 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the website.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📁 Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+shiatsu-guyane/
+├── app/                    # Next.js App Router
+│   ├── about/             # About page
+│   ├── services/          # Services/treatments page
+│   ├── booking/           # Appointment booking
+│   ├── blog/              # Wellness blog
+│   ├── contact/           # Contact page
+│   ├── layout.tsx         # Root layout
+│   └── page.tsx           # Home page
+├── components/            # React components
+│   ├── ui/               # Reusable UI components
+│   ├── forms/            # Contact and booking forms
+│   ├── navigation/       # Header and footer
+│   └── sections/         # Page sections
+├── lib/                  # Utility functions
+│   ├── api.ts            # API calls
+│   └── utils.ts          # Helper functions
+├── public/               # Static assets
+│   ├── images/          # Photos and illustrations
+│   └── icons/           # SVG icons
+├── styles/              # Global styles
+└── content/             # Content data (services, testimonials)
+```
 
-## Learn More
+## 🎨 Key Sections
 
-To learn more about Next.js, take a look at the following resources:
+### Home Page
+- Hero section with practice introduction
+- Overview of Shiatsu benefits
+- Call-to-action for booking
+- Testimonials
+- Contact information
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Services
+- Detailed treatment descriptions
+- Session duration and pricing
+- Benefits of each service
+- Treatment process explanation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### About
+- Practitioner biography
+- Qualifications and certifications
+- Philosophy and approach
+- Practice location and hours
 
-## Deploy on Vercel
+### Booking
+- Online appointment scheduling
+- Calendar availability
+- Contact form
+- Location and directions
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Blog/Resources
+- Wellness articles
+- Shiatsu education
+- Self-care tips
+- News and updates
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🌐 Customization
+
+### Content Updates
+Edit the content files in `/content` or directly in page components.
+
+### Styling
+Customize colors, fonts, and layouts in:
+- `tailwind.config.ts` - Tailwind configuration
+- `app/globals.css` - Global styles
+- Component-specific styles
+
+### Images
+Replace images in `/public/images` with your own practice photos.
+
+## 📱 Responsive Design
+
+The website is fully responsive and optimized for:
+- Desktop (1920px+)
+- Laptop (1024px - 1919px)
+- Tablet (768px - 1023px)
+- Mobile (320px - 767px)
+
+## 🔍 SEO Optimization
+
+- Semantic HTML structure
+- Meta tags and Open Graph
+- Structured data for local business
+- Optimized images with alt text
+- Fast loading times
+- Mobile-friendly design
+
+## 📚 Learn More
+
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Next.js App Router](https://nextjs.org/docs/app)
+- [Tailwind CSS](https://tailwindcss.com/docs)
+- [TypeScript](https://www.typescriptlang.org/docs)
+
+## 🚢 Deployment
+
+### Deploy on Vercel
+
+The easiest deployment method:
+
+1. Push code to GitHub
+2. Import to [Vercel](https://vercel.com/new)
+3. Add environment variables (if any)
+4. Deploy!
+
+```bash
+# Or using Vercel CLI
+npm install -g vercel
+vercel
+```
+
+### Custom Domain
+
+1. Add your domain in Vercel dashboard
+2. Update DNS records
+3. Enable HTTPS
+
+## 🧪 Testing
+
+```bash
+# Run linting
+npm run lint
+
+# Build for production
+npm run build
+
+# Start production server
+npm start
+```
+
+## 📈 Analytics & Monitoring
+
+Consider adding:
+- Google Analytics for visitor tracking
+- Google Search Console for SEO monitoring
+- Performance monitoring tools
+
+## 🔒 Security
+
+- Regular dependency updates
+- Secure form handling
+- HTTPS enabled
+- Privacy policy compliance
+
+## 🤝 Contributing
+
+For bug reports or feature requests, please open an issue.
+
+## 👤 Author
+
+**Exowz**
+- GitHub: [@Exowz](https://github.com/Exowz)
+
+## 📄 License
+
+This project is proprietary. All rights reserved.
+
+## 📞 Contact
+
+For questions about the website or Shiatsu services:
+- Visit: [Website URL]
+- Email: contact@shiatsu-guyane.com
+- Phone: [Practice phone number]
+- Location: French Guiana
+
+## 🙏 Acknowledgments
+
+- Built with Next.js and React
+- Hosted on Vercel
+- Design inspired by wellness and holistic health aesthetics
+
+---
+
+*Promoting wellness and balance through Shiatsu therapy* 🌿✨
