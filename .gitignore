@@ -217,9 +217,40 @@ Icon?
 # PROJECT SPECIFIC
 # ==========================================
 
-# Claude AI assistant files (keep CLAUDE.md but ignore others)
+# Claude AI assistant files
 .claude/
 claude-cache/
+CLAUDE.md
+
+# Development documentation (keep only README.md)
+CONTACT_FORM_SETUP.md
+ENV_SETUP.md
+QUICK_START_TESTING.md
+TESTING_STRATEGY.md
+*_SETUP.md
+*_GUIDE.md
+
+# Testing files and directories
+__tests__/
+e2e/
+*.test.js
+*.test.jsx
+*.test.ts
+*.test.tsx
+*.spec.js
+*.spec.jsx
+*.spec.ts
+*.spec.tsx
+
+# Testing configuration
+jest.config.*
+jest.setup.*
+playwright.config.*
+.lighthouserc.*
+
+# Load testing
+load-test*.js
+load-test*.ts
 
 # Local development
 /local/
