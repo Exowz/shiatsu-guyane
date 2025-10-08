@@ -253,9 +253,9 @@ This project is proprietary. All rights reserved.
 ## 📞 Contact
 
 For questions about the website or Shiatsu services:
-- Visit: [Website URL]
+- Visit: https://www.shiatsu-guyane.com/fr
 - Email: contact@shiatsu-guyane.com
-- Phone: [Practice phone number]
+- Phone: +594 (0) 6 94 00 70 97
 - Location: French Guiana
 
 ## 🙏 Acknowledgments
