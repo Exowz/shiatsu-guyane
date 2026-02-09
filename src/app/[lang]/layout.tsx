@@ -15,9 +15,10 @@ export async function generateStaticParams() {
 
 export default async function LangLayout(props: {
   children: React.ReactNode;
-  params: Promise<{ lang: Locale }>;
+  params: Promise<{ lang: string }>;
 }) {
-  const { lang } = await props.params;
+  const { lang: rawLang } = await props.params;
+  const lang = rawLang as Locale;
   const { children } = props;
   const dictionary = await getDictionary(lang);
 
