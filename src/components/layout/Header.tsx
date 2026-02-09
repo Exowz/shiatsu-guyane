@@ -1,4 +1,5 @@
 'use client';
+
 import { useState, useEffect } from 'react';
 import { AnimatePresence, motion, Variants } from 'framer-motion';
 import { usePathname } from 'next/navigation';

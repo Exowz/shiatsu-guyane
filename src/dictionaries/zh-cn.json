@@ -122,34 +122,34 @@
     },
     "staticReviews": [
       {
-        "author_name": "Alex A.",
+        "author_name": "Anne-Marie A.",
         "rating": 5,
-        "text": "一试便知。",
-        "date": "2025-07-05"
+        "text": "我感受到了一位真正专业人士的手法。按摩虽然有些疼痛，但我正需要这样的治疗，这是一年来我第一次睡了一整夜——整整7个小时——醒来时疼痛也减轻了许多。谢谢你，Nathalie。",
+        "date": "2026-01-31"
       },
       {
-        "author_name": "Camille R.",
+        "author_name": "Kenny C.",
         "rating": 5,
-        "text": "我找Nathalie做指压按摩快两年了，我强烈推荐她。她的经验是毋庸置疑的，但她的个性也会让你想再来！这是一次美好的相遇，每次疗程后都感觉更好。谢谢你，Nathalie！",
-        "date": "2025-07-05"
+        "text": "一位经验丰富的专业人士！她懂得营造信任的氛围，确保高质量的疗程。我推荐她！",
+        "date": "2026-01-30"
       },
       {
-        "author_name": "Hélène M.",
+        "author_name": "Sully P.",
         "rating": 5,
-        "text": "优秀的从业者，经验丰富，非常细心。太棒了！",
-        "date": "2025-07-01"
+        "text": "我强烈推荐。Nathalie非常专业，完全精通她的领域。一段美好的放松时光，之后感觉轻松了许多。我很快会再来。",
+        "date": "2026-01-23"
       },
       {
-        "author_name": "Nathalie É.",
+        "author_name": "Francoise A.",
         "rating": 5,
-        "text": "非常有活力，效率高，善于倾听，建议也很好，我推荐她。",
-        "date": "2025-04-27"
+        "text": "第一次体验非常好。我感觉很舒适，被倾听。一位非常专业的从业者。",
+        "date": "2026-01-22"
       },
       {
-        "author_name": "Virginie D.",
+        "author_name": "Viviane L.",
         "rating": 5,
-        "text": "热情的接待和亲切的倾听，从一开始就让人感到放心。第一次预约就感觉很好。非常感谢你，Nathalie！",
-        "date": "2025-04-25"
+        "text": "非常感谢Nathalie用她细心的双手照顾我的身体、情绪和心理，帮助我应对糖尿病和睡眠问题带来的不适。对她的关怀深表感激。",
+        "date": "2026-01-19"
       }
     ]
   },
@@ -180,7 +180,7 @@
     ]
   },
   "ctaSection": {
-    "heading": "准备好重获健康了吗？",
+    "heading": "您的平衡，我的承诺",
     "subheading": "立即预订您的个性化指压按摩疗程，开始您的宁静之旅。",
     "button": "预约",
     "badge": "您的旅程从这里开始",
@@ -983,8 +983,7 @@
     "hero": {
       "socialLabels": {
         "whatsapp": "在WhatsApp上联系",
-        "instagram": "在Instagram上关注",
-        "facebook": "在Facebook上关注"
+        "instagram": "在Instagram上关注"
       },
       "videoNotSupported": "您的浏览器不支持视频。",
       "wellbeingBadge": "真正的健康",
@@ -1001,8 +1000,7 @@
     "navbar": {
       "socialLabels": {
         "whatsapp": "WhatsApp",
-        "instagram": "Instagram",
-        "facebook": "Facebook"
+        "instagram": "Instagram"
       }
     }
   },

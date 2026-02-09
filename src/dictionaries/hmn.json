@@ -116,39 +116,39 @@
     },
     "staticReviews": [
       {
-        "author_name": "Alex A.",
+        "author_name": "Anne-Marie A.",
         "rating": 5,
-        "text": "Sim nws yog hlub nws.",
-        "date": "2025-07-05"
+        "text": "Kuv hnov tau tias yog ib tug kws kho mob tiag tiag. Cov kev zaws mob tab sis kuv xav tau qhov ntawd, thiab yog thawj zaug hauv ib xyoos uas kuv pw tau ib hmos tag — 7 teev — thiab thaum sawv los mob tsawg dua ntau. Ua tsaug, Nathalie.",
+        "date": "2026-01-31"
       },
       {
-        "author_name": "Camille R.",
+        "author_name": "Kenny C.",
         "rating": 5,
-        "text": "Kuv tau mus ntsib Nathalie rau Shiatsu kev kho mob yuav luag 2 xyoos thiab kuv pom zoo rau nws. Nws qhov kev paub dhau los yog qhov tseeb tab sis nws tus kheej yog qhov yuav ua rau koj rov qab los! Ib qho kev sib ntsib zoo thiab kev noj qab haus huv zoo tom qab tawm ntawm kev kho mob. Ua tsaug Nathalie!",
-        "date": "2025-07-05"
+        "text": "Ib tug kws kho mob muaj kev paub dhau los ntau! Nws paub tsim ib qho kev ntseeg siab uas ua rau kev kho mob muaj zoo. Kuv pom zoo rau nws!",
+        "date": "2026-01-30"
       },
       {
-        "author_name": "Hélène M.",
+        "author_name": "Sully P.",
         "rating": 5,
-        "text": "Tus kws kho mob zoo, muaj kev paub dhau los thiab mloog zoo. Zoo heev!",
-        "date": "2025-07-01"
+        "text": "Kuv pom zoo heev. Nathalie yog ib tug kws kho mob zoo heev thiab paub txog nws txoj hauj lwm zoo. Ib lub sij hawm so zoo, thiab tom qab ntawd hnov zoo dua ntau. Kuv yuav rov qab mus sai sai.",
+        "date": "2026-01-23"
       },
       {
-        "author_name": "Nathalie É.",
+        "author_name": "Francoise A.",
         "rating": 5,
-        "text": "Muaj zog, ua tau zoo, mloog zoo thiab muab tswv yim zoo, kuv pom zoo rau nws.",
-        "date": "2025-04-27"
+        "text": "Thawj zaug kev paub zoo heev. Kuv hnov tau zoo, raug mloog. Ib tug kws kho mob muaj peev xwm zoo heev.",
+        "date": "2026-01-22"
       },
       {
-        "author_name": "Virginie D.",
+        "author_name": "Viviane L.",
         "rating": 5,
-        "text": "Ib qho kev tos txais sov siab thiab mloog zoo, koj xav tias muaj kev ntseeg siab txij li thawj feeb. Ib qho kev noj qab haus huv zoo los ntawm thawj zaug mus ntsib. Ua tsaug ntau Nathalie!",
-        "date": "2025-04-25"
+        "text": "Ua tsaug ntau rau Nathalie rau nws txhais tes saib xyuas kuv lub cev, lub siab, thiab lub hlwb, pab kuv tiv thaiv cov teeb meem ntawm kuv tus mob ntshav qab zib thiab kev pw tsaug zog. Zoo siab heev rau nws kev saib xyuas.",
+        "date": "2026-01-19"
       }
     ]
   },
   "ctaSection": {
-    "heading": "Npaj siab rov qab los rau koj txoj kev noj qab nyob zoo?",
+    "heading": "Koj Txoj Kev Sib Npaug, Kuv Txoj Kev Cog Lus",
     "subheading": "Book koj tus kheej Shiatsu kev kho mob thiab pib koj txoj kev mus rau kev thaj yeeb hnub no.",
     "button": "Book ib lub sij hawm",
     "badge": "Koj Txoj Kev Mus Pib Ntawm No",
@@ -903,8 +903,7 @@
     "hero": {
       "socialLabels": {
         "whatsapp": "Hu rau WhatsApp",
-        "instagram": "Ua raws li Instagram",
-        "facebook": "Ua raws li Facebook"
+        "instagram": "Ua raws li Instagram"
       },
       "videoNotSupported": "Koj lub browser tsis txhawb cov yeeb yaj kiab.",
       "wellbeingBadge": "Kev Noj Qab Haus Huv Tiag Tiag",
@@ -921,8 +920,7 @@
     "navbar": {
       "socialLabels": {
         "whatsapp": "WhatsApp",
-        "instagram": "Instagram",
-        "facebook": "Facebook"
+        "instagram": "Instagram"
       }
     }
   },

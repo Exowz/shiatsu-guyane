@@ -482,7 +482,6 @@ export interface Dictionary {
       socialLabels: {
         whatsapp: string;
         instagram: string;
-        facebook: string;
       };
       videoNotSupported: string;
       wellbeingBadge: string;
@@ -500,7 +499,6 @@ export interface Dictionary {
       socialLabels: {
         whatsapp: string;
         instagram: string;
-        facebook: string;
       };
     };
   };
