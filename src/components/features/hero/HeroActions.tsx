@@ -1,7 +1,7 @@
 'use client';
 
 import { Button } from '@/components/ui/button';
-import { IoLogoWhatsapp, IoLogoInstagram, IoLogoFacebook } from "react-icons/io";
+import { IoLogoWhatsapp, IoLogoInstagram } from "react-icons/io";
 import { ModeToggle } from '@/components/ui/mode-toggle';
 import { ArrowDown } from 'lucide-react';
 import { motion } from 'framer-motion';
@@ -84,19 +84,11 @@ const socialLinks = [
   },
   {
     name: 'Instagram',
-    url: 'https://instagram.com/your-profile',
+    url: 'https://www.instagram.com/nathalie.jean.547/',
     icon: IoLogoInstagram,
     gradient: 'from-pink-500 to-purple-600',
     shadow: 'shadow-pink-500/30',
     hoverShadow: 'hover:shadow-pink-500/50'
-  },
-  {
-    name: 'Facebook',
-    url: 'https://facebook.com/your-page',
-    icon: IoLogoFacebook,
-    gradient: 'from-blue-500 to-blue-600',
-    shadow: 'shadow-blue-500/30',
-    hoverShadow: 'hover:shadow-blue-500/50'
   }
 ];
 
@@ -155,7 +147,6 @@ export const HeroActions = ({ dictionary }: HeroActionsProps) => {
                     <span className="sr-only">
                       {social.name.toLowerCase() === 'whatsapp' ? dictionary.components?.hero?.socialLabels?.whatsapp :
                        social.name.toLowerCase() === 'instagram' ? dictionary.components?.hero?.socialLabels?.instagram :
-                       social.name.toLowerCase() === 'facebook' ? dictionary.components?.hero?.socialLabels?.facebook :
                        social.name}
                     </span>
                     

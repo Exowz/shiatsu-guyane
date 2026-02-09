@@ -1,12 +1,14 @@
 // src/app/api/reviews/route.ts
 import { NextRequest, NextResponse } from "next/server";
 
+const CACHE_DURATION_MS = 24 * 60 * 60 * 1000; // 24 hours
+const cache = new Map<string, { data: unknown; timestamp: number }>();
+
 export async function GET(request: NextRequest) {
   const apiKey = process.env.GOOGLE_API_KEY;
   const placeId = process.env.GOOGLE_PLACE_ID;
 
-  // 1. Read the 'lang' parameter from the incoming request URL (e.g., /api/reviews?lang=fr)
-  const lang = request.nextUrl.searchParams.get('lang') || 'fr'; // Default to French if not provided
+  const lang = request.nextUrl.searchParams.get('lang') || 'fr';
 
   if (!apiKey || !placeId) {
     return NextResponse.json(
@@ -15,7 +17,14 @@ export async function GET(request: NextRequest) {
     );
   }
 
-  // 2. Add the language parameter to the Google API URL
+  // Return cached response if still valid
+  const cached = cache.get(lang);
+  if (cached && Date.now() - cached.timestamp < CACHE_DURATION_MS) {
+    return NextResponse.json(cached.data, {
+      headers: { "X-Cache": "HIT" },
+    });
+  }
+
   const url = `https://maps.googleapis.com/maps/api/place/details/json?place_id=${placeId}&fields=reviews&language=${lang}&key=${apiKey}`;
 
   try {
@@ -30,7 +39,12 @@ export async function GET(request: NextRequest) {
       );
     }
 
-    return NextResponse.json(data.result);
+    // Cache the successful response
+    cache.set(lang, { data: data.result, timestamp: Date.now() });
+
+    return NextResponse.json(data.result, {
+      headers: { "X-Cache": "MISS" },
+    });
 
   } catch (error) {
     console.error("Internal Server Error:", error);

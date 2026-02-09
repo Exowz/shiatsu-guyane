@@ -122,39 +122,39 @@
     },
     "staticReviews": [
       {
-        "author_name": "Alex A.",
+        "author_name": "Anne-Marie A.",
         "rating": 5,
-        "text": "專業優秀！",
-        "date": "2025-07-05"
+        "text": "我感受到了一位真正專業人士的手法。按摩雖然有些疼痛，但我正需要這樣的治療，這是一年來我第一次睡了一整夜——整整7個小時——醒來時疼痛也減輕了許多。謝謝你，Nathalie。",
+        "date": "2026-01-31"
       },
       {
-        "author_name": "Camille R.",
+        "author_name": "Kenny C.",
         "rating": 5,
-        "text": "我向 Nathalie 諮詢了兩年多的指壓治療！她很棒！我強烈推薦她的專業技能和人性化的方法。感謝 Nathalie！",
-        "date": "2025-07-05"
+        "text": "一位經驗豐富的專業人士！她懂得營造信任的氛圍，確保高質量的療程。我推薦她！",
+        "date": "2026-01-30"
       },
       {
-        "author_name": "Hélène M.",
+        "author_name": "Sully P.",
         "rating": 5,
-        "text": "我強烈推薦她溫和而有效的方法。",
-        "date": "2025-07-01"
+        "text": "我強烈推薦。Nathalie非常專業，完全精通她的領域。一段美好的放鬆時光，之後感覺輕鬆了許多。我很快會再來。",
+        "date": "2026-01-23"
       },
       {
-        "author_name": "Nathalie é.",
+        "author_name": "Francoise A.",
         "rating": 5,
-        "text": "優秀的治療師和善解人意的方法，我推薦她。",
-        "date": "2025-04-27"
+        "text": "第一次體驗非常好。我感覺很舒適，被傾聽。一位非常專業的從業者。",
+        "date": "2026-01-22"
       },
       {
-        "author_name": "Virginie D.",
+        "author_name": "Viviane L.",
         "rating": 5,
-        "text": "超棒的體驗，10/10分，我百分百推薦 Nathalie！",
-        "date": "2025-04-25"
+        "text": "非常感謝Nathalie用她細心的雙手照顧我的身體、情緒和心理，幫助我應對糖尿病和睡眠問題帶來的不適。對她的關懷深表感激。",
+        "date": "2026-01-19"
       }
     ]
   },
   "ctaSection": {
-    "heading": "準備開始您的健康之旅嗎？",
+    "heading": "您的平衡，我的承諾",
     "subheading": "憑藉20年的經驗和溫和的方法，我致力於為每位客戶提供個人化的關懷和持久的效果。",
     "button": "立即預約",
     "badge": "20年專業經驗",
@@ -1008,8 +1008,7 @@
     "hero": {
       "socialLabels": {
         "whatsapp": "WhatsApp 聯絡",
-        "instagram": "Instagram 追蹤",
-        "facebook": "Facebook 粉絲頁"
+        "instagram": "Instagram 追蹤"
       },
       "videoNotSupported": "您的瀏覽器不支援影片播放",
       "wellbeingBadge": "健康福祉",
@@ -1026,8 +1025,7 @@
     "navbar": {
       "socialLabels": {
         "whatsapp": "WhatsApp",
-        "instagram": "Instagram",
-        "facebook": "Facebook"
+        "instagram": "Instagram"
       }
     }
   },

@@ -122,39 +122,39 @@
     },
     "staticReviews": [
       {
-        "author_name": "Alex A.",
+        "author_name": "Anne-Marie A.",
         "rating": 5,
-        "text": "To try it is to love it.",
-        "date": "2025-07-05"
+        "text": "I felt the work of a true professional. The massages were painful but I needed that, and it's the first time in a year that I've had a full night's sleep — 7 hours — and much less pain upon waking. Thank you, Nathalie.",
+        "date": "2026-01-31"
       },
       {
-        "author_name": "Camille R.",
+        "author_name": "Kenny C.",
         "rating": 5,
-        "text": "I saw Nathalie for Shiatsu sessions for almost 2 years and I warmly recommend her. Her experience is undeniable, but it's also her personality that will make you come back! A wonderful encounter and a definite sense of well-being after leaving the sessions. Thank you, Nathalie!",
-        "date": "2025-07-05"
+        "text": "A professional with great experience! She knows how to create a climate of trust that allows for a quality session. I recommend her!",
+        "date": "2026-01-30"
       },
       {
-        "author_name": "Hélène M.",
+        "author_name": "Sully P.",
         "rating": 5,
-        "text": "Expert practitioner, experienced and very attentive. Bravo!",
-        "date": "2025-07-01"
+        "text": "I highly recommend her. Nathalie is very professional and totally masters her field. A wonderful moment of pause, and a much more relieved feeling afterward. I'll be going back very soon.",
+        "date": "2026-01-23"
       },
       {
-        "author_name": "Nathalie É.",
+        "author_name": "Francoise A.",
         "rating": 5,
-        "text": "Very dynamic, effective, attentive, and gives great advice. I recommend her.",
-        "date": "2025-04-27"
+        "text": "First experience was very positive. I felt very comfortable, listened to. A very competent practitioner.",
+        "date": "2026-01-22"
       },
       {
-        "author_name": "Virginie D.",
+        "author_name": "Viviane L.",
         "rating": 5,
-        "text": "A warm welcome and authentic listening, you feel confident from the very first minutes. A sense of well-being felt from the first appointment. Thank you so much, Nathalie!",
-        "date": "2025-04-25"
+        "text": "A big thank you to Nathalie for her caring hands in maintaining my body, morale, and mind, helping me cope with the discomforts of my diabetes and sleep issues. So grateful for her care.",
+        "date": "2026-01-19"
       }
     ]
   },
   "ctaSection": {
-    "heading": "Like an Old Acquaintance Without Judgment",
+    "heading": "Your Balance, My Commitment",
     "subheading": "After 20 years of practice, I have learned to become that familiar and reassuring presence that accompanies you without constraint towards your inner balance. Each session is a silent dialogue between my hands and your vital energy.",
     "button": "Book an appointment",
     "badge": "20 Years of Generous Support",
@@ -1008,8 +1008,7 @@
     "hero": {
       "socialLabels": {
         "whatsapp": "Contact on WhatsApp",
-        "instagram": "Follow on Instagram",
-        "facebook": "Follow on Facebook"
+        "instagram": "Follow on Instagram"
       },
       "videoNotSupported": "Your browser does not support videos.",
       "wellbeingBadge": "Authentic Well-being",
@@ -1026,8 +1025,7 @@
     "navbar": {
       "socialLabels": {
         "whatsapp": "WhatsApp",
-        "instagram": "Instagram",
-        "facebook": "Facebook"
+        "instagram": "Instagram"
       }
     }
   },

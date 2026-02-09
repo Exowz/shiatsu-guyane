@@ -10,6 +10,7 @@ Shiatsu Guyane is a modern, responsive website showcasing Shiatsu therapy servic
 
 - **Service Information**: Detailed descriptions of Shiatsu treatments and benefits
 - **Practitioner Profile**: About the therapist, qualifications, and experience
+- **Booking System**: Easy appointment scheduling
 - **Contact Information**: Multiple ways to reach the practice
 - **Blog/Resources**: Wellness tips and Shiatsu education
 - **Responsive Design**: Optimized for all devices
@@ -19,7 +20,7 @@ Shiatsu Guyane is a modern, responsive website showcasing Shiatsu therapy servic
 
 ## 🛠️ Tech Stack
 
-- **Framework**: Next.js 15 (App Router)
+- **Framework**: Next.js 14 (App Router)
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS / CSS Modules
 - **Font**: Geist Font Family
@@ -136,6 +137,12 @@ shiatsu-guyane/
 - Philosophy and approach
 - Practice location and hours
 
+### Booking
+- Online appointment scheduling
+- Calendar availability
+- Contact form
+- Location and directions
+
 ### Blog/Resources
 - Wellness articles
 - Shiatsu education
@@ -246,9 +253,9 @@ This project is proprietary. All rights reserved.
 ## 📞 Contact
 
 For questions about the website or Shiatsu services:
-- Visit: https://www.shiatsu-guyane.com/fr
+- Visit: [Website URL]
 - Email: contact@shiatsu-guyane.com
-- Phone: +594 (0) 6 94 00 70 97
+- Phone: [Practice phone number]
 - Location: French Guiana
 
 ## 🙏 Acknowledgments

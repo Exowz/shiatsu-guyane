@@ -122,39 +122,39 @@
     },
     "staticReviews": [
       {
-        "author_name": "Alex A.",
+        "author_name": "Anne-Marie A.",
         "rating": 5,
-        "text": "Experimentar é se apaixonar.",
-        "date": "2025-07-05"
+        "text": "Senti o trabalho de uma verdadeira profissional. As massagens doíam, mas eu precisava disso, e é a primeira vez em um ano que durmo uma noite inteira — 7 horas — e com muito menos dor ao acordar. Obrigada, Nathalie.",
+        "date": "2026-01-31"
       },
       {
-        "author_name": "Camille R.",
+        "author_name": "Kenny C.",
         "rating": 5,
-        "text": "Fiz sessões de Shiatsu com a Nathalie por quase 2 anos e a recomendo fortemente. Sua experiência é inegável, mas é também sua personalidade que fará você voltar! Um belo encontro e um bem-estar certo ao sair das sessões. Obrigada, Nathalie!",
-        "date": "2025-07-05"
+        "text": "Uma profissional com grande experiência! Ela sabe criar um clima de confiança que permite uma sessão de qualidade. Eu a recomendo!",
+        "date": "2026-01-30"
       },
       {
-        "author_name": "Hélène M.",
+        "author_name": "Sully P.",
         "rating": 5,
-        "text": "Excelente profissional, experiente e muito atenciosa. Bravo!",
-        "date": "2025-07-01"
+        "text": "Recomendo fortemente. Nathalie é muito profissional e domina totalmente sua área. Um ótimo momento de pausa, e uma sensação muito mais aliviada depois. Voltarei muito em breve.",
+        "date": "2026-01-23"
       },
       {
-        "author_name": "Nathalie É.",
+        "author_name": "Francoise A.",
         "rating": 5,
-        "text": "Muito dinâmica, eficaz, atenciosa e com ótimos conselhos, eu a recomendo.",
-        "date": "2025-04-27"
+        "text": "Primeira experiência muito positiva. Me senti muito à vontade, ouvida. Uma profissional muito competente.",
+        "date": "2026-01-22"
       },
       {
-        "author_name": "Virginie D.",
+        "author_name": "Viviane L.",
         "rating": 5,
-        "text": "Uma recepção calorosa e uma escuta atenta, nos sentimos em confiança desde os primeiros minutos. Um bem-estar sentido desde a primeira consulta. Muito obrigada, Nathalie!",
-        "date": "2025-04-25"
+        "text": "Muito obrigada à Nathalie por suas mãos cuidadosas na manutenção do meu corpo, moral e mente, me ajudando a lidar com os desconfortos do meu diabetes e problemas de sono. Muito grata pelos seus cuidados.",
+        "date": "2026-01-19"
       }
     ]
   },
   "ctaSection": {
-    "heading": "Como um Velho Conhecido, Sem Julgamentos",
+    "heading": "Seu Equilíbrio, Meu Compromisso",
     "subheading": "Após 20 anos de prática, aprendi a me tornar essa presença familiar e reconfortante que o acompanha sem restrições em direção ao seu equilíbrio interior. Cada sessão é um diálogo silencioso entre minhas mãos e sua energia vital.",
     "button": "Agendar uma consulta",
     "badge": "20 Anos de Acompanhamento Generoso",
@@ -1013,8 +1013,7 @@
     "hero": {
       "socialLabels": {
         "whatsapp": "Contactar pelo WhatsApp",
-        "instagram": "Seguir no Instagram",
-        "facebook": "Seguir no Facebook"
+        "instagram": "Seguir no Instagram"
       },
       "videoNotSupported": "O seu navegador não suporta vídeos.",
       "wellbeingBadge": "Bem-estar Autêntico",
@@ -1031,8 +1030,7 @@
     "navbar": {
       "socialLabels": {
         "whatsapp": "WhatsApp",
-        "instagram": "Instagram",
-        "facebook": "Facebook"
+        "instagram": "Instagram"
       }
     }
   },

@@ -2,7 +2,7 @@
 
 import { motion, AnimatePresence } from "framer-motion";
 import { FiShare2 } from 'react-icons/fi';
-import { IoLogoWhatsapp, IoLogoInstagram, IoLogoFacebook } from 'react-icons/io';
+import { IoLogoWhatsapp, IoLogoInstagram } from 'react-icons/io';
 
 interface NavbarSocialButtonProps {
   isScrolled: boolean;
@@ -70,17 +70,10 @@ const socialLinks = [
   },
   {
     name: 'Instagram',
-    url: 'https://instagram.com/your-profile',
+    url: 'https://www.instagram.com/nathalie.jean.547/',
     icon: IoLogoInstagram,
     color: 'from-pink-500 to-purple-600',
     hoverColor: 'hover:from-pink-600 hover:to-purple-700'
-  },
-  {
-    name: 'Facebook',
-    url: 'https://facebook.com/your-page',
-    icon: IoLogoFacebook,
-    color: 'from-blue-500 to-blue-600',
-    hoverColor: 'hover:from-blue-600 hover:to-blue-700'
   }
 ];
 
