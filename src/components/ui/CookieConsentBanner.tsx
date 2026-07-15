@@ -58,6 +58,7 @@ export const CookieConsentBanner = ({ dictionary, lang }: CookieConsentBannerPro
     localStorage.setItem('cookie-consent', 'accepted');
     localStorage.setItem('cookie-preferences', JSON.stringify(allAccepted));
     localStorage.setItem('cookie-consent-date', new Date().toISOString());
+    window.dispatchEvent(new Event('cookie-consent-changed'));
     
     setIsVisible(false);
     // Trigger analytics initialization if accepted
@@ -73,6 +74,7 @@ export const CookieConsentBanner = ({ dictionary, lang }: CookieConsentBannerPro
     localStorage.setItem('cookie-consent', 'customized');
     localStorage.setItem('cookie-preferences', JSON.stringify(cookiePreferences));
     localStorage.setItem('cookie-consent-date', new Date().toISOString());
+    window.dispatchEvent(new Event('cookie-consent-changed'));
     
     setIsVisible(false);
     // Update consent based on selections
@@ -96,6 +98,7 @@ export const CookieConsentBanner = ({ dictionary, lang }: CookieConsentBannerPro
     localStorage.setItem('cookie-consent', 'rejected');
     localStorage.setItem('cookie-preferences', JSON.stringify(essentialOnly));
     localStorage.setItem('cookie-consent-date', new Date().toISOString());
+    window.dispatchEvent(new Event('cookie-consent-changed'));
     
     setIsVisible(false);
   };
