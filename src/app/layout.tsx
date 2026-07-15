@@ -1,10 +1,10 @@
 // src/app/layout.tsx
 
-import Script from "next/script";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "next-themes";
 import { SITE_CONFIG } from "@/lib/constants";
+import { UmamiAnalytics } from "@/components/analytics/UmamiAnalytics";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -34,14 +34,6 @@ export default function RootLayout({
   return (
     // This file ONLY contains the main html and body tags
     <html lang="fr" suppressHydrationWarning>
-      <head>
-        <Script
-          defer
-          src="https://analytics.shiatsu-guyane.com/script.js"
-          data-website-id="be253ce8-b074-47a9-8a6b-fbe38cdf3c07"
-          strategy="afterInteractive"
-        />
-      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col min-h-screen`}
       >
@@ -53,6 +45,8 @@ export default function RootLayout({
         >
           {children}
         </ThemeProvider>
+        {/* Analytics loads only after the visitor grants consent. */}
+        <UmamiAnalytics />
       </body>
     </html>
   );

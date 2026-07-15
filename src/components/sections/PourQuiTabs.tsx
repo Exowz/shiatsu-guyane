@@ -56,8 +56,10 @@ export const PourQuiTabs = ({ lang, onHeightChange }: PourQuiTabsProps) => {
     fetchDictionary();
   }, [lang]);
 
-  // Create tabs data from cards with mobile optimization
-  const createTabsFromCards = (cards: unknown[]): { title: React.ReactNode; value: string; content: React.ReactNode }[] => {
+  // Create tabs data from cards with mobile optimization.
+  // Declared as a hoisted function so the effects above can reference it
+  // without a temporal-dead-zone access.
+  function createTabsFromCards(cards: unknown[]): { title: React.ReactNode; value: string; content: React.ReactNode }[] {
     return cards?.map((card: unknown, index: number) => {
       const cardObj = card as Record<string, unknown>;
       return {
@@ -136,7 +138,7 @@ export const PourQuiTabs = ({ lang, onHeightChange }: PourQuiTabsProps) => {
         </div>
       ) as React.ReactNode
     }}) || [];
-  };
+  }
 
   // Original moveSelectedTabToTop function
   const moveSelectedTabToTop = (idx: number) => {
