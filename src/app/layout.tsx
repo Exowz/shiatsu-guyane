@@ -4,6 +4,7 @@ import Script from "next/script";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "next-themes";
+import { SITE_CONFIG } from "@/lib/constants";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -19,6 +20,7 @@ export async function generateMetadata() {
   // For now, we'll use French as default since this is the root layout
   // In a more advanced setup, you could detect language from headers
   return {
+    metadataBase: new URL(SITE_CONFIG.url),
     title: 'Shiatsu Guyane - Nathalie Jean - Soin Holistique',
     description: 'Cabinet de Shiatsu en Guyane pour la gestion du stress, des douleurs et le rééquilibrage énergétique.',
   };
