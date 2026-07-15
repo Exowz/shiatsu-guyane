@@ -24,6 +24,14 @@ export default async function LangLayout(props: {
 
   return (
     <>
+      {/* Root <html> lives in the top-level layout (which also wraps the
+          non-localized not-found/redirect routes), so set the document
+          language for the active locale here. Runs before paint. */}
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `document.documentElement.lang=${JSON.stringify(lang)}`,
+        }}
+      />
       <Header key={lang} dictionary={dictionary} lang={lang} />
       
       <main className="flex-grow">
